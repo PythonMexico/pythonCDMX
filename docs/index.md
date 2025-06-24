@@ -1,5 +1,9 @@
 # Python CDMX <i class="fab fa-python"></i>
 
+<div align="center" style="font-size: 1.5em; margin: 2em 0;">
+  <b>¡Vine por el código, me quedé por la comunidad!</b>
+</div>
+
 <img src="images/logo.png" alt="Python CDMX Logo" style="height: 60px; display: block; margin: 20px auto; text-align: center;">
 
 <div class="hero-section">
@@ -67,11 +71,18 @@ Nuestros meetups incluyen:
 
 ¿Tienes algo interesante que compartir con la comunidad? ¡Nos encantaría escucharte!
 
+Ahora puedes proponer tu charla o postularte como ponente de manera sencilla:
+
+- Si tienes una **idea de charla** o quieres postularte, abre un [issue usando la plantilla "💡 Propuesta de Charla"](https://github.com/PythonMexico/pythonCDMX/issues/new?assignees=&labels=propuesta%2Ccharla%2Cneeds-triage&template=propuesta_charla.md&title=%5BPROPUESTA%5D+).
+- Si tu charla ya está **confirmada y agendada**, usa la plantilla ["Publicar evento en la página"](https://github.com/PythonMexico/pythonCDMX/issues/new?assignees=&labels=meetup%2Ccontent%2Cneeds-triage&template=publicar_evento_pagina.md&title=%5BMEETUP%5D+) para que aparezca en el sitio.
+
 | <i class="fas fa-check-circle"></i> **Requisitos** | <i class="fas fa-envelope"></i> **Contacto** |
 |:---|:---|
 | <i class="fab fa-python"></i> Conocimiento de Python (cualquier nivel) | <i class="fab fa-telegram"></i> [Telegram](https://t.me/PythonCDMX) |
 | <i class="fas fa-heart"></i> Ganas de compartir y aprender | <i class="fab fa-github"></i> [GitHub Issues](https://github.com/PythonMexico/pythonCDMX/issues) |
-| <i class="fas fa-clock"></i> 20-30 minutos de presentación | |
+| <i class="fas fa-clock"></i> 20-40 minutos de presentación | |
+
+> No necesitas tener todos los detalles desde el inicio. ¡La comunidad te ayuda a pulir tu propuesta!
 
 ---
 

@@ -18,7 +18,7 @@ def create_meetup_file(json_file):
 
     # Crear directorio
     year = data["id"][:4]
-    output_dir = f"docs/meetups/{year}"
+    output_dir = f"../docs/meetups/{year}"
     os.makedirs(output_dir, exist_ok=True)
 
     # Generar archivo

@@ -1,283 +1,118 @@
-# Acerca de Python CDMX 🐍
+# <i class="fab fa-python"></i> Acerca de Python CDMX
 
-## 🎯 Nuestra Misión
-
-Python CDMX es una comunidad apasionada de desarrolladores Python en la Ciudad de México. Nos reunimos mensualmente para compartir conocimiento, experiencias y aprender juntos sobre el lenguaje de programación Python y tecnologías relacionadas.
-
-### Objetivos
-
-- **Conectar desarrolladores** Python de diferentes niveles y experiencias
-- **Compartir conocimiento** a través de charlas técnicas y talleres
-- **Promover mejores prácticas** en el desarrollo con Python
-- **Fomentar la colaboración** y el networking entre miembros
-- **Contribuir al ecosistema** Python en México
-
----
-
-## 📅 Historia de la Comunidad
-
-### 2023 - El Inicio
-- **5 meetups** realizados
-- **Temas principales:** GitOps, Python History, Jupyter, AWS AI
-- **Ponentes destacados:** Gustavo Vera, Carlos Reyes, David Sol
-
-### 2024 - Crecimiento
-- **12 meetups** completados
-- **Temas principales:** AI, Web Development, DevOps, Data Science
-- **Ponentes destacados:** Gustavo Vera, David Sol, Alejandro López
-
-### 2025 - Expansión
-- **6 meetups** programados
-- **Temas principales:** AI, Open Source, Web Development
-- **Eventos especiales:** Colaboración con UNAM
-
----
-
-## 🏢 Lugares de Eventos
-
-### Wizeline México
-**Dirección:** Torre Diana, Piso 32, CDMX
-**Horario:** 18:30 - 21:00
-**Networking:** Incluido en cada evento
-
-### UNAM Facultad de Ciencias
-**Dirección:** Anfiteatro Alfredo Barrera
-**Horario:** 16:00 - 19:00
-**Eventos:** Especiales y colaboraciones
-
----
-
-## 👥 Organizadores
-
-<div class="organizers">
-
-### David Sol
-**Rol:** Organizador Principal
-**Especialidad:** DevOps, Cloud, Python
-**Empresa:** Wizeline
-**GitHub:** [@SolDavidCloud](https://github.com/SolDavidCloud)
-
-### Gustavo Vera
-**Rol:** Organizador y Ponente Frecuente
-**Especialidad:** Python, Web Development, AI
-**Charlas:** 4+ presentaciones
-**GitHub:** [@gvera](https://github.com/gvera)
-
-### Alejandro López
-**Rol:** Organizador y Ponente
-**Especialidad:** Web Development, APIs
-**Charlas:** 2+ presentaciones
-**GitHub:** [@CoffeeQ29kZQo](https://github.com/CoffeeQ29kZQo)
-
+<div align="center">
+  <img src="images/logo.png" alt="Python CDMX Logo" style="height: 80px; margin-bottom: 10px;">
 </div>
 
+**#PythonCDMX** es un grupo de personas interesadas en aprender y compartir su conocimiento sobre el lenguaje de programación Python. El objetivo es estar en contacto con más gente interesada en innovación y tecnología.
+
 ---
 
-## 📊 Estadísticas de la Comunidad
+## <i class="fas fa-history"></i> Historia y evolución
 
-<div class="community-stats">
+### <i class="fas fa-rocket"></i> Los inicios (2023)
+La comunidad Python CDMX surgió de la necesidad de crear un espacio dedicado específicamente a Python en la Ciudad de México. Con nuestro primer meetup en septiembre de 2023, comenzamos un viaje que nos ha llevado a convertirnos en una de las comunidades técnicas más activas de la capital.
 
-### Participación
-- **Total meetups:** 23+ (2023-2025)
-- **Ponentes únicos:** 15+
-- **Asistentes promedio:** 30-50 por meetup
-- **Videos disponibles:** 20+
+### <i class="fas fa-chart-line"></i> Crecimiento (2024-2025)
+Durante este período consolidamos nuestro formato de eventos mensuales, establecimos colaboraciones clave con empresas e instituciones académicas, y ampliamos nuestro alcance tanto en número de asistentes como en diversidad de temas cubiertos.
 
-### Temas Más Populares
-1. **AI & Machine Learning** - 8 charlas
-2. **Web Development** - 6 charlas
-3. **DevOps & Cloud** - 5 charlas
-4. **Data Science** - 4 charlas
-5. **Open Source** - 4 charlas
+---
 
-### Ponentes Más Activos
-1. **Gustavo Vera** - 4 charlas
-2. **David Sol** - 3 charlas
-3. **Alejandro López** - 2 charlas
-4. **Carlos Reyes** - 2 charlas
+## <i class="fas fa-gem"></i> Filosofía y valores
 
+### <i class="fas fa-users"></i> Inclusividad
+Creemos que el conocimiento debe ser accesible para todos. No importa si eres un principiante absoluto o un desarrollador senior, hay un lugar para ti en nuestra comunidad.
+
+### <i class="fas fa-lightbulb"></i> Aprendizaje colaborativo
+Fomentamos un ambiente donde las preguntas son bienvenidas, los errores son oportunidades de aprendizaje, y todos tienen algo valioso que aportar.
+
+### <i class="fas fa-flask"></i> Innovación responsable
+Exploramos las últimas tendencias y tecnologías, pero siempre con un enfoque práctico y responsable hacia el desarrollo de software.
+
+---
+
+## <i class="fas fa-user-friends"></i> Equipo organizador
+
+### <i class="fas fa-user-tie"></i> Coordinadores principales
+Nuestro equipo está formado por desarrolladores Python con experiencia en la industria y pasión por la educación y el crecimiento de la comunidad tecnológica en México.
+
+### <i class="fas fa-hands-helping"></i> Voluntarios y colaboradores
+La comunidad crece gracias al apoyo de voluntarios que ayudan con logística, contenido, promoción y documentación de eventos.
+
+---
+
+## <i class="fas fa-bolt"></i> Impacto en la comunidad
+
+### <i class="fas fa-briefcase"></i> Desarrollo profesional
+Muchos miembros han encontrado nuevas oportunidades laborales, han mejorado sus habilidades técnicas, o han iniciado proyectos propios gracias a las conexiones hechas en la comunidad.
+
+### <i class="fas fa-code-branch"></i> Contribución al ecosistema
+La comunidad ha generado proyectos open source, ha contribuido a la documentación en español de Python, y ha servido como plataforma para que desarrolladores mexicanos compartan su trabajo con una audiencia más amplia.
+
+---
+
+## <i class="fas fa-users-cog"></i> Formas de participar
+
+### <i class="fas fa-user"></i> Para asistentes
+- Asiste a meetups mensuales
+- Participa en discusiones en Telegram
+- Haz networking con otros desarrolladores
+- Accede a recursos educativos compartidos
+
+### <i class="fas fa-chalkboard-teacher"></i> Para ponentes
+- Propón charlas técnicas sobre Python
+- Comparte experiencias profesionales
+- Presenta proyectos open source
+- Facilita talleres prácticos
+
+### <i class="fas fa-hands-helping"></i> Para colaboradores
+- Ayuda con logística de eventos
+- Contribuye a la documentación
+- Apoya en promoción y redes sociales
+- Mentoriza a nuevos miembros
+
+---
+
+## <i class="fas fa-link"></i> Contacto y recursos
+
+### <i class="fab fa-telegram"></i> Canales principales
+- [Telegram](https://t.me/PythonCDMX) — Comunidad diaria activa
+- [Meetup](https://www.meetup.com/python-mexico) — Registro de eventos
+- [GitHub](https://github.com/python-cdmx) — Proyectos y código
+- [YouTube](https://www.youtube.com/@PythonMexico) — Archivo de charlas
+
+### <i class="fas fa-building"></i> Para organizadores
+Si representas una empresa o institución interesada en colaborar, o si quieres proponer una charla, contáctanos a través de nuestros canales oficiales.
+
+---
+
+## <i class="fas fa-users"></i> Nuestra Cultura
+
+En Python CDMX creemos que la comunidad la hacemos todos. Nos esforzamos por crear un ambiente seguro, divertido y colaborativo donde cada voz cuenta.
+
+- Nos reunimos el segundo martes de cada mes.
+- Fomentamos la participación, el respeto y la colaboración.
+- ¡Ayudamos a mantener los espacios limpios y ordenados!
+- Reconocemos y agradecemos a nuestros sponsors y sedes, como Wizeline y Clara.
+- Colaboramos activamente con empresas (como Wizeline México), instituciones académicas (como la UNAM Facultad de Ciencias) y otras comunidades tecnológicas.
+
+---
+
+## <i class="fas fa-network-wired"></i> Comunidades Amigas
+
+Participamos en el ecosistema más amplio de comunidades tecnológicas en México, colaborando en eventos conjuntos y compartiendo recursos con:
+
+- RustMX
+- LIDSOL
+- AWS User Group Ajolotes en la Nube
+- PyTalavera
+- Sudo FCiencias
+- GitTogether CDMX
+- Fedora México
+- PyLadies Cuernavaca
+
+---
+
+<div align="center">
+  <b>Python CDMX — Construyendo el futuro con Python, una línea de código a la vez.</b>
 </div>
-
----
-
-## 🎤 Formato de los Meetups
-
-### Estructura Típica
-- **18:00 - 18:30** Registro y Networking
-- **18:30 - 18:45** Bienvenida y Presentaciones
-- **18:45 - 19:30** Charla Principal (20-30 min)
-- **19:30 - 20:00** Q&A y Discusión
-- **20:00 - 21:00** Networking y Socialización
-
-### Tipos de Contenido
-- **Charlas técnicas** sobre Python y tecnologías relacionadas
-- **Talleres prácticos** con ejemplos de código real
-- **Lightning talks** de 5-10 minutos
-- **Panel de discusión** sobre temas de interés
-- **Show & Tell** de proyectos personales
-
----
-
-## 🤝 Colaboraciones
-
-### Wizeline México
-- **Hospedaje** de meetups regulares
-- **Apoyo logístico** y técnico
-- **Networking** con profesionales de la industria
-
-### UNAM Facultad de Ciencias
-- **Eventos especiales** en colaboración
-- **Alcance** a estudiantes universitarios
-- **Recursos académicos** y espacios
-
-### Otras Comunidades
-- **Sudo Ciencias** - Eventos conjuntos
-- **Python México** - Red nacional
-- **GDG México** - Colaboraciones técnicas
-
----
-
-## 🎯 Valores de la Comunidad
-
-### Inclusividad
-- **Todos los niveles** son bienvenidos (principiantes a expertos)
-- **Diversidad** de perspectivas y experiencias
-- **Ambiente seguro** y respetuoso
-
-### Aprendizaje Continuo
-- **Compartir conocimiento** es fundamental
-- **Preguntas** siempre son bienvenidas
-- **Experimentación** y exploración de nuevas tecnologías
-
-### Colaboración
-- **Proyectos conjuntos** entre miembros
-- **Mentoría** y apoyo mutuo
-- **Contribución** al ecosistema Python
-
----
-
-## 📱 Canales de Comunicación
-
-<div class="communication-channels">
-
-### Telegram
-**Grupo principal:** [@PythonCDMX](https://t.me/PythonCDMX)
-**Actividad:** Diaria
-**Contenido:** Anuncios, preguntas, recursos
-
-### Meetup
-**Página oficial:** [Python Mexico](https://www.meetup.com/python-mexico)
-**Eventos:** Registro y RSVP
-**Historial:** Todos los meetups pasados
-
-### YouTube
-**Canal:** [@PythonMexico](https://www.youtube.com/@PythonMexico)
-**Contenido:** Transmisiones en vivo y grabaciones
-**Frecuencia:** Mensual
-
-### GitHub
-**Organización:** [python-cdmx](https://github.com/python-cdmx)
-**Proyectos:** Código, recursos, documentación
-
-</div>
-
----
-
-## 🎁 Cómo Contribuir
-
-### Dar una Charla
-¿Tienes algo interesante que compartir? ¡Nos encantaría escucharte!
-
-**Proceso:**
-1. Contacta con nosotros por [Telegram](https://t.me/PythonCDMX)
-2. Propones tu tema y descripción
-3. Coordinamos fecha y detalles
-4. ¡Presentas tu charla!
-
-**Requisitos:**
-- Conocimiento de Python (cualquier nivel)
-- Ganas de compartir y aprender
-- 20-30 minutos de presentación
-- Opcional: slides o demo
-
-### Organizar Eventos
-- **Ayudar con logística** de meetups
-- **Coordinar ponentes** y temas
-- **Promover eventos** en redes sociales
-- **Documentar** charlas y recursos
-
-### Contribuir al Sitio Web
-- **Mejorar documentación** de meetups
-- **Agregar funcionalidades** al sitio
-- **Traducir contenido** si es necesario
-- **Reportar bugs** o sugerir mejoras
-
----
-
-## 📚 Recursos de la Comunidad
-
-### Documentación
-- **Este sitio web** - Documentación completa de meetups
-- **Slides y código** - Recursos compartidos por ponentes
-- **Guías y tutoriales** - Contenido educativo
-
-### Proyectos
-- **Repositorios** de código de ejemplo
-- **Templates** para presentaciones
-- **Herramientas** desarrolladas por la comunidad
-
-### Redes
-- **LinkedIn** - Conexiones profesionales
-- **Twitter** - Noticias y actualizaciones
-- **Discord** - Chat en tiempo real (futuro)
-
----
-
-## 🏆 Reconocimientos
-
-### Ponentes Destacados
-- **Gustavo Vera** - Mayor número de charlas
-- **David Sol** - Organización y contenido técnico
-- **Alejandro López** - Web development y APIs
-
-### Eventos Especiales
-- **Colaboración UNAM** - Abril 2025
-- **Primera charla en inglés** - Julio 2024
-- **Evento híbrido** - Noviembre 2024
-
----
-
-## 🔮 Visión de Futuro
-
-### Metas 2025-2026
-- **Expandir audiencia** a más desarrolladores
-- **Colaboraciones** con universidades
-- **Eventos especializados** (AI, Web, Data)
-- **Hackathons** y competencias
-
-### Metas a Largo Plazo
-- **Conferencia anual** Python CDMX
-- **Capítulos** en otras ciudades
-- **Programa de mentoría** formal
-- **Contribución** a proyectos open source
-
----
-
-## 📞 Contacto
-
-### Organizadores
-- **Telegram:** [@PythonCDMX](https://t.me/PythonCDMX)
-- **Email:** pythoncdmx@gmail.com
-- **GitHub:** [python-cdmx](https://github.com/python-cdmx)
-
-### Para Empresas
-¿Te interesa patrocinar o colaborar con la comunidad?
-
-- **Hospedar meetups** en tus oficinas
-- **Proporcionar ponentes** técnicos
-- **Patrocinar eventos** especiales
-- **Ofrecer oportunidades** de empleo
-
----
-
-*Última actualización: {{ git_revision_date_localized }}*

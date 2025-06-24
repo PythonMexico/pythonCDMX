@@ -1,8 +1,8 @@
-# Guía de Contribución 🤝
+# Guía de Contribución
 
 ¡Gracias por tu interés en contribuir a Python CDMX Charlas! Este documento te ayudará a entender cómo puedes participar en el proyecto.
 
-## 📋 Tabla de Contenidos
+## Tabla de Contenidos
 
 - [Cómo Contribuir](#cómo-contribuir)
 - [Reportar Issues](#reportar-issues)
@@ -10,25 +10,26 @@
 - [Estándares de Código](#estándares-de-código)
 - [Agregar Meetups](#agregar-meetups)
 - [Configuración del Entorno](#configuración-del-entorno)
+- [Plantillas para Propuestas y Publicación de Meetups](#plantillas-para-propuestas-y-publicación-de-meetups)
 
-## 🚀 Cómo Contribuir
+## Cómo Contribuir
 
 ### Tipos de Contribuciones
 
-- 🐛 **Reportar bugs** - Ayúdanos a encontrar y arreglar problemas
-- 💡 **Sugerir mejoras** - Propón nuevas características o mejoras
-- 📝 **Mejorar documentación** - Ayuda a que la documentación sea más clara
-- 🎨 **Mejorar el diseño** - Sugiere mejoras visuales o de UX
-- 🔧 **Arreglar bugs** - Implementa soluciones para problemas conocidos
-- ✨ **Nuevas características** - Desarrolla nuevas funcionalidades
+- Reportar bugs o problemas
+- Sugerir mejoras o nuevas funcionalidades
+- Mejorar la documentación
+- Mejorar el diseño o la experiencia de usuario
+- Arreglar bugs existentes
+- Desarrollar nuevas características
 
-## 🐛 Reportar Issues
+## Reportar Issues
 
 ### Antes de Reportar
 
-1. **Busca en issues existentes** - Es posible que tu problema ya haya sido reportado
-2. **Verifica la documentación** - Asegúrate de que no sea un problema de configuración
-3. **Prueba en la última versión** - Confirma que el problema persiste en `main`
+1. Busca en issues existentes para evitar duplicados.
+2. Verifica la documentación para asegurarte de que no sea un problema de configuración.
+3. Prueba en la última versión de la rama `main`.
 
 ### Cómo Reportar
 
@@ -39,35 +40,35 @@
 
 ### Información Requerida
 
-Para **bugs**:
+Para bugs:
 - Descripción clara del problema
-- Pasos para reproducir
+- Pasos para reproducirlo
 - Comportamiento esperado vs actual
 - Capturas de pantalla (si aplica)
 - Información del sistema (OS, navegador, etc.)
 
-Para **mejoras**:
+Para mejoras:
 - Descripción de la funcionalidad deseada
 - Casos de uso
 - Alternativas consideradas
 
-## 🔄 Pull Requests
+## Pull Requests
 
 ### Antes de Enviar un PR
 
-1. **Fork el repositorio**
-2. **Crea una rama** para tu feature/fix
-3. **Haz tus cambios** siguiendo los estándares
-4. **Prueba localmente** antes de enviar
-5. **Actualiza la documentación** si es necesario
+1. Haz fork del repositorio
+2. Crea una rama para tu feature o fix
+3. Realiza tus cambios siguiendo los estándares
+4. Prueba localmente antes de enviar
+5. Actualiza la documentación si es necesario
 
 ### Proceso de PR
 
-1. **Crea el PR** con una descripción clara
-2. **Usa las plantillas** disponibles
-3. **Vincula issues** relacionados
-4. **Responde a feedback** rápidamente
-5. **Mantén el PR actualizado** con `main`
+1. Crea el PR con una descripción clara
+2. Usa las plantillas disponibles
+3. Vincula issues relacionados
+4. Responde a feedback de los revisores
+5. Mantén el PR actualizado con `main`
 
 ### Estructura del PR
 
@@ -91,28 +92,28 @@ Breve descripción de los cambios
 ## Capturas de Pantalla (si aplica)
 ```
 
-## 📏 Estándares de Código
+## Estándares de Código
 
 ### Python
 
-- **PEP 8** - Sigue las convenciones de estilo
-- **Type hints** - Usa anotaciones de tipo cuando sea posible
-- **Docstrings** - Documenta funciones y clases
-- **Nombres descriptivos** - Usa nombres claros para variables y funciones
+- Sigue PEP 8 para estilo de código
+- Usa type hints cuando sea posible
+- Documenta funciones y clases con docstrings
+- Usa nombres descriptivos para variables y funciones
 
 ### Markdown
 
-- **Encabezados consistentes** - Usa `#` para títulos principales
-- **Listas ordenadas** - Para pasos secuenciales
-- **Listas no ordenadas** - Para elementos sin orden específico
-- **Enlaces descriptivos** - Usa texto descriptivo para enlaces
-- **Imágenes con alt text** - Siempre incluye texto alternativo
+- Usa encabezados consistentes
+- Listas ordenadas para pasos secuenciales
+- Listas no ordenadas para elementos sin orden específico
+- Usa enlaces descriptivos
+- Incluye texto alternativo en imágenes
 
 ### Git
 
-- **Commits atómicos** - Un cambio lógico por commit
-- **Mensajes descriptivos** - Usa el formato convencional
-- **Ramas descriptivas** - Nombra las ramas claramente
+- Commits atómicos: un cambio lógico por commit
+- Mensajes descriptivos y claros
+- Ramas descriptivas y relacionadas con el cambio
 
 ### Ejemplo de Mensaje de Commit
 
@@ -127,64 +128,11 @@ feat: agregar página de meetup enero 2025
 Closes #123
 ```
 
-## 📅 Agregar Meetups
+## Agregar Meetups
 
 ### Estructura del Archivo
 
-Crea archivos en `docs/meetups/YYYY/mes-YYYY.md`:
-
-```markdown
----
-title: "Título de la Charla"
-date: 2025-01-15
-time: "18:30 - 21:00"
-location: "Wizeline México"
-address: "Torre Diana, Piso 32, CDMX"
-speaker: "Nombre del Ponente"
-speaker_bio: "Breve biografía del ponente"
-speaker_company: "Empresa del ponente"
-speaker_twitter: "@usuario"
-speaker_github: "usuario"
-speaker_linkedin: "usuario"
-topics: ["Python", "Web Development", "AI"]
-difficulty: "Intermedio"
-language: "Español"
-slides: "https://slides.com/usuario/charla"
-video: "https://youtube.com/watch?v=VIDEO_ID"
-code: "https://github.com/usuario/repo"
-meetup_url: "https://meetup.com/python-mexico/events/123"
-registration_required: true
-max_attendees: 50
----
-
-## Descripción
-
-Descripción detallada de la charla...
-
-## Temas a Cubrir
-
-- Tema 1
-- Tema 2
-- Tema 3
-
-## Requisitos Previos
-
-- Conocimiento básico de Python
-- Familiaridad con conceptos de web
-
-## Material Adicional
-
-- [Enlace 1](url)
-- [Enlace 2](url)
-
-## Galería
-
-![Foto del evento](ruta/a/la/imagen.jpg)
-
-## Agradecimientos
-
-Agradecimientos especiales a...
-```
+Crea archivos en `docs/meetups/YYYY/mes-YYYY.md` siguiendo la plantilla y metadatos recomendados. Incluye título, fecha, horario, lugar, ponente, temas, dificultad, idioma y enlaces relevantes (slides, video, código, etc.).
 
 ### Metadatos Requeridos
 
@@ -193,25 +141,16 @@ Agradecimientos especiales a...
 - `time` - Horario del evento
 - `location` - Lugar del evento
 - `speaker` - Nombre del ponente
-- `topics` - Lista de temas (array)
+- `topics` - Lista de temas
 - `difficulty` - Principiante/Intermedio/Avanzado
 - `language` - Idioma de la charla
 
 ### Metadatos Opcionales
 
-- `speaker_bio` - Biografía del ponente
-- `speaker_company` - Empresa del ponente
-- `speaker_twitter` - Twitter del ponente
-- `speaker_github` - GitHub del ponente
-- `speaker_linkedin` - LinkedIn del ponente
-- `slides` - Enlace a presentación
-- `video` - Enlace a video
-- `code` - Enlace a código
-- `meetup_url` - Enlace al evento en Meetup
-- `registration_required` - Si requiere registro
-- `max_attendees` - Máximo de asistentes
+- `speaker_bio`, `speaker_company`, `speaker_twitter`, `speaker_github`, `speaker_linkedin`
+- `slides`, `video`, `code`, `meetup_url`, `registration_required`, `max_attendees`
 
-## 🛠️ Configuración del Entorno
+## Configuración del Entorno
 
 ### Prerrequisitos
 
@@ -253,39 +192,48 @@ mkdocs build --strict
 rm -rf site/
 ```
 
-## 🎯 Áreas de Contribución
+## Áreas de Contribución
 
 ### Prioridad Alta
 
-- [ ] Mejorar búsqueda de meetups
-- [ ] Agregar filtros por tema/dificultad
-- [ ] Optimizar rendimiento del sitio
-- [ ] Mejorar accesibilidad
+- Mejorar búsqueda de meetups
+- Agregar filtros por tema/dificultad
+- Optimizar rendimiento del sitio
+- Mejorar accesibilidad
 
 ### Prioridad Media
 
-- [ ] Agregar estadísticas de la comunidad
-- [ ] Implementar sistema de comentarios
-- [ ] Crear API para meetups
-- [ ] Agregar notificaciones por email
+- Agregar estadísticas de la comunidad
+- Implementar sistema de comentarios
+- Crear API para meetups
+- Agregar notificaciones por email
 
 ### Prioridad Baja
 
-- [ ] Agregar más temas visuales
-- [ ] Implementar sistema de badges
-- [ ] Crear app móvil
-- [ ] Agregar integración con redes sociales
+- Agregar más temas visuales
+- Implementar sistema de badges
+- Crear app móvil
+- Agregar integración con redes sociales
 
-## 📞 Contacto
+## Contacto
 
-- **Telegram:** [@PythonCDMX](https://t.me/PythonCDMX)
-- **Email:** info@pythoncdmx.org
-- **Meetup:** [Python México](https://www.meetup.com/python-mexico)
+- Telegram: https://t.me/PythonCDMX
+- Email: info@pythoncdmx.org
+- Meetup: https://www.meetup.com/python-mexico
 
-## 🙏 Agradecimientos
+## Agradecimientos
 
-Gracias a todos los contribuidores que hacen posible este proyecto. Cada contribución, sin importar su tamaño, es valiosa para la comunidad Python CDMX.
+Gracias a todas las personas que contribuyen a este proyecto. Cada aporte es valioso para la comunidad Python CDMX.
 
 ---
 
-*Esta guía está inspirada en las mejores prácticas de proyectos open source. ¡Gracias por contribuir! 🐍*
+*Esta guía está inspirada en las mejores prácticas de proyectos open source. ¡Gracias por contribuir!*
+
+## Plantillas para Propuestas y Publicación de Meetups
+
+Para facilitar la colaboración y la publicación de eventos, el repositorio cuenta con dos plantillas de issues:
+
+- **Propuesta de Charla:** Para sugerir ideas, temas o postularse como ponente, sin requerir fecha ni lugar. Puedes usar la plantilla "💡 Propuesta de Charla" al crear un nuevo issue.
+- **Publicar evento en la página:** Para documentar un meetup ya confirmado y publicarlo en el sitio web. Usa la plantilla "Publicar evento en la página" cuando tengas todos los detalles del evento.
+
+Al crear un nuevo issue en GitHub, selecciona la plantilla que corresponda según el estado de tu propuesta o evento.
