@@ -23,10 +23,30 @@
         "twitter": null
       },
       "tech_stack": [
-        "Python",
-        "UV",
-        "pip",
-        "venv"
+        {
+          "name": "Python",
+          "description": "Lenguaje de programación",
+          "icon": "<i class=\"fab fa-python\"></i>",
+          "color": "#3776AB"
+        },
+        {
+          "name": "UV",
+          "description": "Gestor de paquetes y entornos virtuales",
+          "icon": "<i class=\"fas fa-bolt\"></i>",
+          "color": "#FF6B35"
+        },
+        {
+          "name": "pip",
+          "description": "Gestor de paquetes de Python",
+          "icon": "<i class=\"fas fa-download\"></i>",
+          "color": "#FFD43B"
+        },
+        {
+          "name": "venv",
+          "description": "Entornos virtuales de Python",
+          "icon": "<i class=\"fas fa-layer-group\"></i>",
+          "color": "#28A745"
+        }
       ],
       "duration": "50 minutos"
     }
