@@ -1,0 +1,46 @@
+{
+  "id": "202507-julio",
+  "event_month_year": "Julio 2025",
+  "event_title": "Cómo preparar una ambiente de desarrollo con Python desde zero",
+  "event_subtitle": "",
+  "event_date": "Martes 08 de Julio, 2025",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Clara",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202507-pythoncdmx.png",
+  "talks": [
+    {
+      "title": "Cómo preparar una ambiente de desarrollo con Python desde zero",
+      "description": "¿Tienes esa gran idea, pero no sabes cómo organizar tu ambiente virtual, tu código y todas las herramientas de desarrollo?\n\n- ¿Debes usar UV para el ambiente virtual?\n- ¿Tu código debe estar en el directorio raíz o en la carpeta /src?\n- ¿Dónde poner los archivos de pruebas?\n- ¿Cómo configurar el linter, el formatter, la herramienta de Static Application Security Testing (SAST)? ¿Cuál utilizar?\n- ¿Los archivos de configuración del IDE deben estar en el repositorio?\n- ¿Vale la pena configurar pre-commit?\n- Y lo más controvertido de todo: ¿Tabulador o espacios?\n\nVen a platicar de estas y otras mejores prácticas con nosotros.",
+      "conclusion": "Nota: Basado en la página \"Modern Good Practices for Python Development\" de Stuart Ellis. Igual hay que preguntarle si se anima a darla él.",
+      "speaker": {
+        "name": "David Sol",
+        "title": "SRE Engineer",
+        "bio": "SRE Engineer en Wizeline con experiencia en contenedores y desarrollo Python.",
+        "photo": "/images/ponentes/202507-PythonCDMX-david-sol.png",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        "Python",
+        "UV",
+        "pip",
+        "venv"
+      ],
+      "duration": "50 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "hSaZXuY30zI",
+    "youtube_url": "https://www.youtube.com/watch?v=hSaZXuY30zI"
+  },
+  "tags": [
+    {"name": "Python", "icon": "<i class=\"fab fa-python\"></i>", "color": "#007bff"},
+    {"name": "Software Libre", "icon": "<i class=\"fas fa-unlock\"></i>", "color": "#28a745"},
+    {"name": "Desarrollo", "icon": "<i class=\"fas fa-code\"></i>", "color": "#17a2b8"},
+    {"name": "Herramientas", "icon": "<i class=\"fas fa-tools\"></i>", "color": "#6f42c1"},
+    {"name": "Buenas Prácticas", "icon": "<i class=\"fas fa-star\"></i>", "color": "#ffc107"},
+    {"name": "DevOps", "icon": "<i class=\"fas fa-server\"></i>", "color": "#dc3545"}
+  ]
+}
