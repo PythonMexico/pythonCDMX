@@ -1,0 +1,64 @@
+version: '3.8'
+
+services:
+  # Servicio principal de desarrollo
+  python-cdmx-charlas:
+    build: .
+    container_name: python-cdmx-charlas-dev
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - /app/site  # Excluir directorio de build
+    environment:
+      - PYTHONPATH=/app
+      - MKDOCS_DEV_ADDR=0.0.0.0:8000
+    command: mkdocs serve --dev-addr=0.0.0.0:8000 --livereload
+    restart: unless-stopped
+    networks:
+      - python-cdmx-network
+
+  # Servicio de producción (build estático)
+  python-cdmx-charlas-prod:
+    build: .
+    container_name: python-cdmx-charlas-prod
+    ports:
+      - "8080:80"
+    volumes:
+      - ./site:/usr/share/nginx/html:ro
+    environment:
+      - NODE_ENV=production
+    command: >
+      sh -c "
+        mkdocs build &&
+        nginx -g 'daemon off;'
+      "
+    depends_on:
+      - python-cdmx-charlas
+    networks:
+      - python-cdmx-network
+
+  # Servicio de nginx para producción
+  nginx:
+    image: nginx:alpine
+    container_name: python-cdmx-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./site:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - python-cdmx-charlas-prod
+    networks:
+      - python-cdmx-network
+    profiles:
+      - production
+
+networks:
+  python-cdmx-network:
+    driver: bridge
+
+volumes:
+  site-data:

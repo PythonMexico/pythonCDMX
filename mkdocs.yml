@@ -1,0 +1,159 @@
+site_name: Python CDMX
+site_description: Comunidad de desarrolladores Python en la Ciudad de México
+site_author: Python CDMX Community
+site_url: https://python-cdmx.github.io
+
+# Repository
+repo_name: python-cdmx/python-cdmx-charlas
+repo_url: https://github.com/python-cdmx/python-cdmx-charlas
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2025 Python CDMX
+
+# Theme configuration
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/favicon.ico
+
+  # Custom colors based on logo
+  palette:
+    # Light mode
+    - scheme: default
+      primary: green
+      accent: red
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: green
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+
+  # Custom CSS
+  custom_dir: docs/css/
+
+  # Features
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.instant.result
+    - navigation.instant.suggest
+    - navigation.instant.tracking
+    - navigation.instant.worker
+    - navigation.managing
+    - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+# Navigation
+nav:
+  - Inicio: index.md
+  - Meetups:
+    - General: meetups/index.md
+    - 2025: meetups/2025/index.md
+    - 2024: meetups/2024/index.md
+    - 2023: meetups/2023/index.md
+  - Temas y Tecnologías: tags.md
+  - Acerca de: about.md
+
+# Plugins
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - minify:
+      minify_html: true
+  - tags
+
+# Social links
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/python-cdmx
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/PythonCDMX
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/PythonMexico
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@PythonMexico
+    - icon: fontawesome/brands/meetup
+      link: https://www.meetup.com/python-mexico
+
+# SEO
+extra_css:
+  - css/custom.css
+
+# Markdown extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Validation
+validation:
+  nav:
+    omitted_files: ignore
+  not_found: warn
