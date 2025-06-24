@@ -109,6 +109,10 @@ extra:
       link: https://www.youtube.com/@PythonMexico
     - icon: fontawesome/brands/meetup
       link: https://www.meetup.com/python-mexico
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/pythoncdmx/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/groups/13126454/
 
 # SEO
 extra_css:
@@ -131,6 +135,7 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
