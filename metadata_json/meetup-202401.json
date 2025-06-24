@@ -1,0 +1,66 @@
+{
+  "id": "202401-enero",
+  "event_month_year": "Enero 2024",
+  "event_title": "Ambientes virtuales con venv, pyenv y poetry",
+  "event_subtitle": "Gestión de ambientes virtuales en Python",
+  "event_date": "Martes 16 de Enero, 2024",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202401-pythoncdmx.jpg",
+  "talks": [
+    {
+      "title": "Ambientes virtuales con venv, pyenv conda y poetry",
+      "description": "En esta charla, exploraremos diferentes herramientas y enfoques para crear y gestionar ambientes virtuales en Python. Discutiremos sobre las ventajas de utilizar herramientas como venv, pyenv, conda y poetry para la creación y gestión de ambientes virtuales. ¡Únete a esta charla para descubrir las mejores prácticas y optimizar tus proyectos Python con ambientes virtuales eficientes y flexibles!",
+      "conclusion": "Los ambientes virtuales son fundamentales para el desarrollo Python profesional y la gestión de dependencias.",
+      "speaker": {
+        "name": "David Sol",
+        "title": "SRE Engineer",
+        "bio": "SRE Engineer en Wizeline con experiencia en gestión de ambientes y desarrollo Python.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "venv",
+          "description": "Ambientes virtuales",
+          "icon": "🐍",
+          "color": "#3776AB"
+        },
+        {
+          "name": "pyenv",
+          "description": "Gestión de versiones",
+          "icon": "📦",
+          "color": "#28a745"
+        },
+        {
+          "name": "conda",
+          "description": "Gestión de paquetes",
+          "icon": "🐍",
+          "color": "#44A833"
+        },
+        {
+          "name": "poetry",
+          "description": "Gestión de dependencias",
+          "icon": "📚",
+          "color": "#60A5FA"
+        }
+      ],
+      "duration": "60 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "placeholder",
+    "youtube_url": "https://www.youtube.com/watch?v=placeholder"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "venv", "icon": "🐍", "color": "#3776AB"},
+    {"name": "pyenv", "icon": "📦", "color": "#28a745"},
+    {"name": "conda", "icon": "🐍", "color": "#44A833"},
+    {"name": "poetry", "icon": "📚", "color": "#60A5FA"},
+    {"name": "Development", "icon": "💻", "color": "#6c757d"}
+  ]
+}

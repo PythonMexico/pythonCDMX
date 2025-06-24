@@ -1,0 +1,95 @@
+{
+  "id": "202409-septiembre",
+  "event_month_year": "Septiembre 2024",
+  "event_title": "Representaciones Fonéticas / Rich & Textual",
+  "event_subtitle": "Dos charlas sobre fonética y interfaces de consola",
+  "event_date": "Martes 10 de Septiembre, 2024",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202409-pythoncdmx.jpg",
+  "talks": [
+    {
+      "title": "chit-chat: Representaciones fonéticas con python",
+      "description": "¿Te has preguntado que estudia la fonética? ¿Que significan los simbolitos del International Phonetic Alphabet (IPA)? Y más importante; ¿Cómo manipular estos tipos de datos para crear aplicaciones con python? En esta charla desarrollaremos aplicaciones simples usando datasets con texto en representación fonética y aplicando conceptos sobre fonética en un nivel introductorio. Ahora si que, pasa la voz 🗣️. Objetivo: Los asistentes entenderán los principios básicos de fonología y que es un alfabeto fonético, Obtención y manipulación de datasets disponibles en GitHub https://github.com/open-dict-data/ipa-dict, Aplicar estos datos para resolver tareas específicas.",
+      "conclusion": "La fonética y el procesamiento de lenguaje natural abren nuevas posibilidades para aplicaciones Python.",
+      "speaker": {
+        "name": "Diego Barriga",
+        "title": "MLOps Engineer",
+        "bio": "Diego Barriga, Ingeniero en computación por la UNAM, trabajo con NLP y lenguas indígenas mexicanas. Es parte de Laboratorio de Investigación y Desarrollo de Software Libre, Comunidad Elotl y actualmente desempeña un puesto como MLOps en Mercado Libre. Promotor de la cultura libre, la privacidad, neovim y de andar en bicicleta sin frenos :)",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "NLP",
+          "description": "Procesamiento de lenguaje",
+          "icon": "📝",
+          "color": "#007bff"
+        },
+        {
+          "name": "IPA",
+          "description": "Alfabeto fonético",
+          "icon": "🔤",
+          "color": "#28a745"
+        },
+        {
+          "name": "Phonetics",
+          "description": "Fonética",
+          "icon": "🗣️",
+          "color": "#ffc107"
+        }
+      ],
+      "duration": "45 minutos"
+    },
+    {
+      "title": "Rich y Textual: Haz tus aplicaciones en la consola visualmente atractivas",
+      "description": "Python nos ayuda a hacer excelentes aplicaciones que se ejecutan en la consola. Y además estas pueden ser atractivas visualmente, y tener interfaces de usuario de primer nivel. Vamos a hablar de dos librerías que te ayudan a ello, Rich y Textual. https://github.com/Textualize/rich https://textual.textualize.io",
+      "conclusion": "Rich y Textual permiten crear aplicaciones de consola modernas y atractivas con Python.",
+      "speaker": {
+        "name": "David Sol",
+        "title": "SRE Engineer",
+        "bio": "David Sol también estudió en la UNAM, así como sus padres, tíos, hermano, primos, hijos e incluso su conejo (historia real). Le gustan los juegos de Rol de tablero, las películas, los comics y los libros. Actualmente labora como SRE en Wizeline, y cree que el cómputo de nube es genial, así como Python.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "Rich",
+          "description": "Librería de consola",
+          "icon": "🎨",
+          "color": "#FF6B6B"
+        },
+        {
+          "name": "Textual",
+          "description": "Framework TUI",
+          "icon": "🖥️",
+          "color": "#4ECDC4"
+        },
+        {
+          "name": "Console Apps",
+          "description": "Aplicaciones de consola",
+          "icon": "💻",
+          "color": "#6c757d"
+        }
+      ],
+      "duration": "45 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "Pq5ryqP95X0",
+    "youtube_url": "https://www.youtube.com/watch?v=Pq5ryqP95X0"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "NLP", "icon": "📝", "color": "#007bff"},
+    {"name": "Phonetics", "icon": "🗣️", "color": "#ffc107"},
+    {"name": "Rich", "icon": "🎨", "color": "#FF6B6B"},
+    {"name": "Textual", "icon": "🖥️", "color": "#4ECDC4"},
+    {"name": "Console Apps", "icon": "💻", "color": "#6c757d"}
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "202410-octubre",
+  "event_month_year": "Octubre 2024",
+  "event_title": "Una ida y una vuelta: Cómo iniciar en el opensource",
+  "event_subtitle": "Guía práctica para contribuir al software libre",
+  "event_date": "Martes 8 de Octubre, 2024",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202410-pythoncdmx.jpg",
+  "talks": [
+    {
+      "title": "Una ida y una vuelta: Cómo iniciar en el opensource",
+      "description": "Alex Callejas es Services Content Architect de Red Hat, con base en la Ciudad de México y colaborador de diferentes comunidades OpenSource en Latinoamérica (como SysArmyMx o Fedora México). Con más de 20 años de experiencia como Sysadmin, tiene gran experiencia en hardening de infraestructura y automatización. Entusiasta del código abierto, apoya a la comunidad compartiendo sus conocimientos en diferentes eventos de acceso público y universidades. Autor del libro Fedora Linux Administration de la editorial Packt (https://packt.link/Alex). Geek by nature, Linux by choice, Fedora of course.",
+      "conclusion": "Contribuir al open source es una excelente manera de crecer profesionalmente y dar de vuelta a la comunidad.",
+      "speaker": {
+        "name": "Alex Callejas",
+        "title": "Services Content Architect",
+        "bio": "Alex Callejas es Services Content Architect de Red Hat, con base en la Ciudad de México y colaborador de diferentes comunidades OpenSource en Latinoamérica (como SysArmyMx o Fedora México). Con más de 20 años de experiencia como Sysadmin, tiene gran experiencia en hardening de infraestructura y automatización. Entusiasta del código abierto, apoya a la comunidad compartiendo sus conocimientos en diferentes eventos de acceso público y universidades. Autor del libro Fedora Linux Administration de la editorial Packt.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "Open Source",
+          "description": "Software libre",
+          "icon": "🔓",
+          "color": "#28a745"
+        },
+        {
+          "name": "Red Hat",
+          "description": "Empresa de software",
+          "icon": "🔴",
+          "color": "#EE0000"
+        },
+        {
+          "name": "Linux",
+          "description": "Sistema operativo",
+          "icon": "🐧",
+          "color": "#FCC624"
+        },
+        {
+          "name": "Fedora",
+          "description": "Distribución Linux",
+          "icon": "🎩",
+          "color": "#294172"
+        }
+      ],
+      "duration": "60 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "U3I5fVrnq-g",
+    "youtube_url": "https://www.youtube.com/watch?v=U3I5fVrnq-g"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "Open Source", "icon": "🔓", "color": "#28a745"},
+    {"name": "Linux", "icon": "🐧", "color": "#FCC624"},
+    {"name": "Red Hat", "icon": "🔴", "color": "#EE0000"},
+    {"name": "Fedora", "icon": "🎩", "color": "#294172"},
+    {"name": "Community", "icon": "👥", "color": "#17a2b8"}
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "202407-julio",
+  "event_month_year": "Julio 2024",
+  "event_title": "¡Doble Charla! Python sin GIL / Esquemas ETL",
+  "event_subtitle": "Dos charlas sobre el futuro de Python y ETL",
+  "event_date": "Martes 9 de Julio, 2024",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202407-pythoncdmx.jpg",
+  "talks": [
+    {
+      "title": "El futuro de Python sin GIL",
+      "description": "La charla se enfocará en explorar el Global Interpreter Lock (GIL) en Python impide la ejecución simultánea de múltiples hilos, limitando el rendimiento en sistemas multicore. Exploraremos su funcionamiento actual, los problemas que causa y las soluciones futuras propuestas por Python. ¡Nuestra primer charla en Inglés!",
+      "conclusion": "La eliminación del GIL representa un cambio fundamental en el futuro de Python para aplicaciones concurrentes.",
+      "speaker": {
+        "name": "Konstantin Spirin",
+        "title": "Python Core Developer",
+        "bio": "Desarrollador del core de Python con experiencia en optimización y concurrencia.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "GIL",
+          "description": "Global Interpreter Lock",
+          "icon": "🔒",
+          "color": "#dc3545"
+        },
+        {
+          "name": "Concurrency",
+          "description": "Concurrencia",
+          "icon": "⚡",
+          "color": "#007bff"
+        },
+        {
+          "name": "Performance",
+          "description": "Rendimiento",
+          "icon": "🚀",
+          "color": "#28a745"
+        }
+      ],
+      "duration": "45 minutos"
+    },
+    {
+      "title": "Python y los esquemas ETLs",
+      "description": "Ideal para profesionales y aficionados que buscan profundizar en técnicas avanzadas, herramientas y mejores prácticas en el manejo y análisis de datos con Python. Esta charla posee un repositorio abierto con un ejemplo base que va dirigido a todo público.",
+      "conclusion": "Los esquemas ETL son fundamentales para el procesamiento y análisis de datos a gran escala.",
+      "speaker": {
+        "name": "Hugo Ramirez",
+        "title": "Data Engineer",
+        "bio": "Especialista en ingeniería de datos y procesamiento ETL con Python.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "ETL",
+          "description": "Extract, Transform, Load",
+          "icon": "🔄",
+          "color": "#007bff"
+        },
+        {
+          "name": "Data Processing",
+          "description": "Procesamiento de datos",
+          "icon": "📊",
+          "color": "#28a745"
+        },
+        {
+          "name": "Big Data",
+          "description": "Datos masivos",
+          "icon": "💾",
+          "color": "#ffc107"
+        }
+      ],
+      "duration": "45 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "o9AGel1P_qU",
+    "youtube_url": "https://www.youtube.com/watch?v=o9AGel1P_qU"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "GIL", "icon": "🔒", "color": "#dc3545"},
+    {"name": "Concurrency", "icon": "⚡", "color": "#007bff"},
+    {"name": "ETL", "icon": "🔄", "color": "#28a745"},
+    {"name": "Data Processing", "icon": "📊", "color": "#ffc107"},
+    {"name": "Performance", "icon": "🚀", "color": "#6f42c1"}
+  ]
+}

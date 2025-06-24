@@ -1,0 +1,60 @@
+{
+  "id": "202404-abril",
+  "event_month_year": "Abril 2024",
+  "event_title": "Desarrollo en Python usando Contenedores",
+  "event_subtitle": "Los ambientes virtuales son cosa del pasado",
+  "event_date": "Martes 16 de Abril, 2024",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202404-pythoncdmx.jpg",
+  "talks": [
+    {
+      "title": "Los ambientes virtuales son cosa del pasado: Desarrollo en Python usando Contenedores",
+      "description": "Seguimos revisando las alternativas que tenemos para el desarrollo en Python. La última vez hablamos de Ambientes Virtuales, y ahora lo haremos utilizando contenedores.",
+      "conclusion": "Los contenedores ofrecen una alternativa moderna y eficiente a los ambientes virtuales tradicionales.",
+      "speaker": {
+        "name": "David Sol",
+        "title": "SRE Engineer",
+        "bio": "SRE Engineer en Wizeline con experiencia en contenedores y desarrollo Python.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "Docker",
+          "description": "Contenedores",
+          "icon": "🐳",
+          "color": "#2496ED"
+        },
+        {
+          "name": "Containers",
+          "description": "Tecnología de contenedores",
+          "icon": "📦",
+          "color": "#007bff"
+        },
+        {
+          "name": "DevOps",
+          "description": "Desarrollo y operaciones",
+          "icon": "⚙️",
+          "color": "#28a745"
+        }
+      ],
+      "duration": "60 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "emJYJhFe0l8",
+    "youtube_url": "https://www.youtube.com/watch?v=emJYJhFe0l8"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "Docker", "icon": "🐳", "color": "#2496ED"},
+    {"name": "Containers", "icon": "📦", "color": "#007bff"},
+    {"name": "DevOps", "icon": "⚙️", "color": "#28a745"},
+    {"name": "Development", "icon": "💻", "color": "#6c757d"},
+    {"name": "Cloud Native", "icon": "☁️", "color": "#87CEEB"}
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "202403-marzo",
+  "event_month_year": "Marzo 2024",
+  "event_title": "Desarrollo de API REST con Flask",
+  "event_subtitle": "Dominando la elegancia y la eficiencia",
+  "event_date": "Martes 12 de Marzo, 2024",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202403-pythoncdmx.jpg",
+  "talks": [
+    {
+      "title": "Desarrollo de API REST con Flask en Python: Dominando la elegancia y la eficiencia",
+      "description": "La charla se enfocará en explorar los principios fundamentales y las mejores prácticas para el desarrollo de APIs REST utilizando Flask, un framework web ligero y versátil en Python.",
+      "conclusion": "Flask proporciona una base sólida y elegante para desarrollar APIs REST eficientes.",
+      "speaker": {
+        "name": "Alejandro López",
+        "title": "Python Developer",
+        "bio": "Desarrollador Python con experiencia en desarrollo de APIs y frameworks web.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "Flask",
+          "description": "Framework web",
+          "icon": "🌶️",
+          "color": "#000000"
+        },
+        {
+          "name": "REST API",
+          "description": "API REST",
+          "icon": "🔗",
+          "color": "#007bff"
+        },
+        {
+          "name": "Web Development",
+          "description": "Desarrollo web",
+          "icon": "🌐",
+          "color": "#28a745"
+        }
+      ],
+      "duration": "60 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "MMHaIrZ1ISw",
+    "youtube_url": "https://www.youtube.com/watch?v=MMHaIrZ1ISw"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "Flask", "icon": "🌶️", "color": "#000000"},
+    {"name": "REST API", "icon": "🔗", "color": "#007bff"},
+    {"name": "Web Development", "icon": "🌐", "color": "#28a745"},
+    {"name": "Backend", "icon": "⚙️", "color": "#6c757d"},
+    {"name": "Microservices", "icon": "🔧", "color": "#ffc107"}
+  ]
+}

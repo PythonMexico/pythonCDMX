@@ -1,0 +1,66 @@
+{
+  "id": "202402-febrero",
+  "event_month_year": "Febrero 2024",
+  "event_title": "Del Código al Clic: Transforma Ideas en Interfaces",
+  "event_subtitle": "Interfaces visuales con Python",
+  "event_date": "Martes 13 de Febrero, 2024",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202402-pythoncdmx.jpg",
+  "talks": [
+    {
+      "title": "Del Código al Clic: Transforma Ideas en Interfaces con Python",
+      "description": "Descubre cómo convertir ideas en interfaces visuales con Python, explorando Kivy, Flet y QT.",
+      "conclusion": "Python ofrece múltiples opciones para crear interfaces gráficas modernas y atractivas.",
+      "speaker": {
+        "name": "Gustavo Vera",
+        "title": "Python Developer",
+        "bio": "Desarrollador Python con experiencia en interfaces gráficas y desarrollo de aplicaciones de escritorio.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "Kivy",
+          "description": "Framework GUI",
+          "icon": "📱",
+          "color": "#1FAC64"
+        },
+        {
+          "name": "Flet",
+          "description": "Framework UI",
+          "icon": "🎨",
+          "color": "#FF6B6B"
+        },
+        {
+          "name": "Qt",
+          "description": "Framework GUI",
+          "icon": "🖥️",
+          "color": "#41CD52"
+        },
+        {
+          "name": "GUI",
+          "description": "Interfaces gráficas",
+          "icon": "🖼️",
+          "color": "#007bff"
+        }
+      ],
+      "duration": "60 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "placeholder",
+    "youtube_url": "https://www.youtube.com/watch?v=placeholder"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "Kivy", "icon": "📱", "color": "#1FAC64"},
+    {"name": "Flet", "icon": "🎨", "color": "#FF6B6B"},
+    {"name": "Qt", "icon": "🖥️", "color": "#41CD52"},
+    {"name": "GUI", "icon": "🖼️", "color": "#007bff"},
+    {"name": "Desktop Apps", "icon": "💻", "color": "#6c757d"}
+  ]
+}

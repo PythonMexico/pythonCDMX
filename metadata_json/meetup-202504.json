@@ -1,0 +1,66 @@
+{
+  "id": "202504-abril",
+  "event_month_year": "Abril 2025",
+  "event_title": "Kubernetes y IA",
+  "event_subtitle": "Desplegando modelos de IA en Kubernetes",
+  "event_date": "Martes 8 de Abril, 2025",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202504-pythoncdmx.jpg",
+  "talks": [
+    {
+      "title": "El para qué cosa de Quien: Kubernetes y AI",
+      "description": "En esta sesión veremos un RoadMap de herramientas que nos permiten desplegar modelos de AI, MLOps y aplicaciones de inteligencia artificial en un cluster de Kubernetes. El propósito es identificar los frameworks de AI y los casos de uso en los que podemos utilizarlos para empezar a crear nuestros modelos, entrenarlos, automatizarlos y obtener métricas. Algunas de las herramientas que veremos son: KubeFlow, KServe, TensorFlow, OpenVino, Jupyter, MLflow, Qdrant.",
+      "conclusion": "Kubernetes proporciona una plataforma robusta para desplegar y gestionar aplicaciones de IA a escala.",
+      "speaker": {
+        "name": "Carlos Reyes",
+        "title": "DevOps Engineer",
+        "bio": "Especialista en Kubernetes y MLOps con experiencia en despliegue de aplicaciones de IA.",
+        "photo": "/images/ponentes/202504-PythonCDMX-carlos-reyes.png",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "Kubernetes",
+          "description": "Orquestación de contenedores",
+          "icon": "☸️",
+          "color": "#326CE5"
+        },
+        {
+          "name": "KubeFlow",
+          "description": "MLOps platform",
+          "icon": "🤖",
+          "color": "#FF6B6B"
+        },
+        {
+          "name": "TensorFlow",
+          "description": "Machine Learning",
+          "icon": "🧠",
+          "color": "#FF6F00"
+        },
+        {
+          "name": "MLflow",
+          "description": "ML lifecycle",
+          "icon": "📊",
+          "color": "#019733"
+        }
+      ],
+      "duration": "60 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "ebeqlVkhKNs",
+    "youtube_url": "https://www.youtube.com/watch?v=ebeqlVkhKNs"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "Kubernetes", "icon": "☸️", "color": "#326CE5"},
+    {"name": "AI", "icon": "🤖", "color": "#FF6B6B"},
+    {"name": "MLOps", "icon": "⚙️", "color": "#6f42c1"},
+    {"name": "TensorFlow", "icon": "🧠", "color": "#FF6F00"},
+    {"name": "Cloud Native", "icon": "☁️", "color": "#87CEEB"}
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "202309-septiembre",
+  "event_month_year": "Septiembre 2023",
+  "event_title": "Utilizando Servicios AI de AWS y Metaprogramación en Python",
+  "event_subtitle": "Dos charlas sobre IA en la nube y metaprogramación",
+  "event_date": "Martes 12 de Septiembre, 2023",
+  "event_time": "18:00 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202309-pythoncdmx.jpg",
+  "talks": [
+    {
+      "title": "Utilizando Servicios Administrados de AI de AWS con Python y Boto3",
+      "description": "¿Qué tan difícil puede ser traducir un texto? ¿Crear una transcripción a partir de un fragmento de sonido? ¿Identificar los objetos en una imagen? ¿Sintetizar voz? Con los servicios administrados de Inteligencia Artificial de AWS, Python y Boto3, ¡es sencillo! En esta charla que nos compartirá David Sol veremos el código real, para darnos cuenta de lo fácil que es.",
+      "conclusion": "AWS proporciona servicios de IA accesibles que permiten integrar inteligencia artificial en aplicaciones Python de manera sencilla.",
+      "speaker": {
+        "name": "David Sol",
+        "title": "SRE Engineer",
+        "bio": "SRE Engineer en Wizeline con experiencia en servicios cloud de AWS y desarrollo Python.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "AWS",
+          "description": "Servicios cloud",
+          "icon": "☁️",
+          "color": "#FF9900"
+        },
+        {
+          "name": "Boto3",
+          "description": "SDK de AWS",
+          "icon": "🐍",
+          "color": "#3776AB"
+        },
+        {
+          "name": "AI Services",
+          "description": "Servicios de IA",
+          "icon": "🤖",
+          "color": "#007bff"
+        },
+        {
+          "name": "Machine Learning",
+          "description": "Aprendizaje automático",
+          "icon": "🧠",
+          "color": "#28a745"
+        }
+      ],
+      "duration": "45 minutos"
+    },
+    {
+      "title": "Metaprogramación en Python",
+      "description": "Explora las técnicas avanzadas de metaprogramación en Python para crear código más dinámico y flexible.",
+      "conclusion": "La metaprogramación permite crear código más elegante y reutilizable en Python.",
+      "speaker": {
+        "name": "Gustavo Vera",
+        "title": "Python Developer",
+        "bio": "Desarrollador Python con experiencia en técnicas avanzadas de programación y metaprogramación.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "Metaprogramming",
+          "description": "Metaprogramación",
+          "icon": "🔧",
+          "color": "#ffc107"
+        },
+        {
+          "name": "Decorators",
+          "description": "Decoradores",
+          "icon": "🎨",
+          "color": "#007bff"
+        },
+        {
+          "name": "Advanced Python",
+          "description": "Python avanzado",
+          "icon": "🐍",
+          "color": "#3776AB"
+        }
+      ],
+      "duration": "45 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "YNcqrukgQQY",
+    "youtube_url": "https://www.youtube.com/watch?v=YNcqrukgQQY"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "AWS", "icon": "☁️", "color": "#FF9900"},
+    {"name": "AI Services", "icon": "🤖", "color": "#007bff"},
+    {"name": "Metaprogramming", "icon": "🔧", "color": "#ffc107"},
+    {"name": "Boto3", "icon": "🐍", "color": "#3776AB"},
+    {"name": "Cloud", "icon": "☁️", "color": "#87CEEB"}
+  ]
+}

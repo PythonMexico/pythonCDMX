@@ -1,0 +1,95 @@
+{
+  "id": "202502-febrero",
+  "event_month_year": "Febrero 2025",
+  "event_title": "Embeddings / Advent of Code",
+  "event_subtitle": "Dos charlas sobre NLP y programación competitiva",
+  "event_date": "Martes 11 de Febrero, 2025",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202502-pythoncdmx.png",
+  "talks": [
+    {
+      "title": "Lecciones del Advent of Code 2024",
+      "description": "El Advent of Code es un reto de programación con desafíos diarios durante diciembre, diseñado para ejercitar la capacidad de resolución de problemas y el pensamiento algorítmico. En esta charla, compartiré mi experiencia participando en la edición 2024, usando Python para resolver los desafíos. Discutiré las lecciones que me dejó esta experiencia y reflexionaré sobre cómo este reto no solo me permitió profundizar en conocimientos técnicos, sino que también se convirtió en un valioso ejercicio de constancia y adaptación, aspectos fundamentales para cualquier desarrollador.",
+      "conclusion": "El Advent of Code es una excelente manera de mejorar habilidades de programación y resolución de problemas.",
+      "speaker": {
+        "name": "Manuel Rábade",
+        "title": "Ingeniero en Computación",
+        "bio": "Ingeniero en Computación y apasionado por el desarrollo de tecnología. Profesionalmente se dedica a la ingeniería de software y dirección de equipos. Disfruta explorar temas técnicos y participar en comunidades alrededor de la tecnología.",
+        "photo": "/images/ponentes/202502-PythonCDMX-manuel-rabade.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "Python",
+          "description": "Lenguaje principal",
+          "icon": "🐍",
+          "color": "#3776AB"
+        },
+        {
+          "name": "Algorithms",
+          "description": "Algoritmos",
+          "icon": "🧮",
+          "color": "#28a745"
+        },
+        {
+          "name": "Problem Solving",
+          "description": "Resolución de problemas",
+          "icon": "💡",
+          "color": "#ffc107"
+        }
+      ],
+      "duration": "45 minutos"
+    },
+    {
+      "title": "Embeddings - El lenguaje como las máquinas entienden el lenguaje humano",
+      "description": "¿Alguna vez te has preguntado cómo las máquinas entienden el lenguaje humano? En este charla desentrañamos el misterio de los embeddings, una técnica clave en el NLP. Prepárate para: Descubrir qué son los embeddings: Exploraremos cómo se transforman las palabras y frases en vectores numéricos que capturan su significado. Comprender su utilidad: Analizaremos cómo los embeddings permiten a las máquinas realizar tareas como la búsqueda semántica, la traducción automática y el análisis de sentimientos. Explorar casos de uso reales: Desde sistemas de recomendación hasta chatbots inteligentes, veremos cómo los embeddings están revolucionando la tecnología. Adentrarnos en las diferentes aproximaciones para obtener embeddings: Desglosaremos métodos como One Hot Encoding, Co-Ocurrence Matrix y el poderoso Word2Vec. Profundizar en Word2Vec: Descifraremos su funcionamiento y cómo logra capturar relaciones semánticas entre palabras. Muchos ejemplos con Python",
+      "conclusion": "Los embeddings son fundamentales para que las máquinas comprendan y procesen el lenguaje humano de manera efectiva.",
+      "speaker": {
+        "name": "Juan Guillermo Gómez",
+        "title": "Líder Técnico",
+        "bio": "Juan Guillermo fundó GDG Cali y co-organiza varios eventos globales y locales con Google Developer Groups. Ha estado involucrado en tecnología y programación de software durante los últimos 20 años. Actualmente, es líder técnico en WordBox. Juan es GDE (Google Developer Expert) en Firebase, IA/ML, GCP y Kotlin. Tiene una licenciatura en Ingeniería de Sistemas y una maestría en Ingeniería de Software de la Universidad San Buenaventura Cali.",
+        "photo": "/images/ponentes/202502-PythonCDMX-juan-gomez.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "NLP",
+          "description": "Natural Language Processing",
+          "icon": "📝",
+          "color": "#007bff"
+        },
+        {
+          "name": "Word2Vec",
+          "description": "Word embeddings",
+          "icon": "🔤",
+          "color": "#28a745"
+        },
+        {
+          "name": "Machine Learning",
+          "description": "Aprendizaje automático",
+          "icon": "🤖",
+          "color": "#ffc107"
+        }
+      ],
+      "duration": "45 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "fBPcHm2y4w4",
+    "youtube_url": "https://www.youtube.com/watch?v=fBPcHm2y4w4"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "NLP", "icon": "📝", "color": "#007bff"},
+    {"name": "Embeddings", "icon": "🔤", "color": "#28a745"},
+    {"name": "Advent of Code", "icon": "🧮", "color": "#ffc107"},
+    {"name": "Machine Learning", "icon": "🤖", "color": "#6f42c1"},
+    {"name": "Word2Vec", "icon": "📊", "color": "#17a2b8"}
+  ]
+}

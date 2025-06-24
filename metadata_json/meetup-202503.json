@@ -1,0 +1,95 @@
+{
+  "id": "202503-marzo",
+  "event_month_year": "Marzo 2025",
+  "event_title": "Agentes de IA / PySide6",
+  "event_subtitle": "Dos charlas sobre IA y interfaces gráficas",
+  "event_date": "Martes 11 de Marzo, 2025",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202503-pythoncdmx.jpg",
+  "talks": [
+    {
+      "title": "Mi Primer Agente de Inteligencia Artificial con Python",
+      "description": "Introducción práctica al desarrollo de agentes de IA usando Python, enfocada en implementaciones con LangGraph y herramientas open source. Los participantes aprenderán conceptos fundamentales de LLMs y cómo crear agentes inteligentes que puedan realizar tareas autónomas.",
+      "conclusion": "Los agentes de IA representan el futuro del desarrollo de aplicaciones inteligentes y autónomas.",
+      "speaker": {
+        "name": "Erik Rivera",
+        "title": "AI Engineer",
+        "bio": "Especialista en desarrollo de agentes de IA y machine learning con experiencia en LangGraph y LLMs.",
+        "photo": "/images/ponentes/202503-PythonCDMX-erick-rivera.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "LangGraph",
+          "description": "Framework para agentes",
+          "icon": "🤖",
+          "color": "#007bff"
+        },
+        {
+          "name": "LLMs",
+          "description": "Large Language Models",
+          "icon": "🧠",
+          "color": "#28a745"
+        },
+        {
+          "name": "OpenAI",
+          "description": "API de IA",
+          "icon": "🔮",
+          "color": "#10a37f"
+        }
+      ],
+      "duration": "45 minutos"
+    },
+    {
+      "title": "Interfaces gráficas con PySide6",
+      "description": "¿Ya te cansaste de la consola? ¿Quieres hacer una aplicación con interfaz gráfica fuera del navegador, cómo en los buenos tiempos? Sí, lo puedes hacer con Python, con facilidad, elegancia y desempeño. PySide6 es la librería oficial para utilizar QT desde Python. Sí, utiliza Python. Sí, es fácil de aprender y utilizar. Sí, corre en Linux, MacOS e incluso en Windows. ¡Ven a conocerla!",
+      "conclusion": "PySide6 permite crear aplicaciones de escritorio profesionales con Python de manera sencilla y eficiente.",
+      "speaker": {
+        "name": "David Sol",
+        "title": "SRE Engineer",
+        "bio": "David Sol creció en el siglo XX, y en su infancia sus padres le dejaban salir a la calle, sin supervisión, a jugar con quién encontrara y a lo que pudiera, con la única condición de que regresara para dormir. Una bicicleta bastaba para recorrer toda su colonia, sin importar carros, perros o baches. Tomaba agua de mangueras de vecinos, y comía lo que encontrara en sus aventuras. Sufrió cortadas, quemaduras, moretones y un hueso roto, los cuales trató a base de tierra fresca, agua y un par de curitas. Tuvo una infancia feliz. Actualmente labora como SRE en Wizeline.",
+        "photo": "/images/ponentes/202503-PythonCDMX-david-sol.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "PySide6",
+          "description": "Qt para Python",
+          "icon": "🖥️",
+          "color": "#41CD52"
+        },
+        {
+          "name": "Qt",
+          "description": "Framework GUI",
+          "icon": "🎨",
+          "color": "#41CD52"
+        },
+        {
+          "name": "Desktop Apps",
+          "description": "Aplicaciones de escritorio",
+          "icon": "💻",
+          "color": "#6c757d"
+        }
+      ],
+      "duration": "45 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "ebeqlVkhKNs",
+    "youtube_url": "https://www.youtube.com/watch?v=ebeqlVkhKNs"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "AI", "icon": "🤖", "color": "#007bff"},
+    {"name": "PySide6", "icon": "🖥️", "color": "#41CD52"},
+    {"name": "GUI", "icon": "🎨", "color": "#ffc107"},
+    {"name": "LangGraph", "icon": "🧠", "color": "#28a745"},
+    {"name": "Desktop Apps", "icon": "💻", "color": "#6c757d"}
+  ]
+}

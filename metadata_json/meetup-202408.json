@@ -1,0 +1,95 @@
+{
+  "id": "202408-agosto",
+  "event_month_year": "Agosto 2024",
+  "event_title": "Protocolos en Python / Convertirse en Contribuidor Open Source",
+  "event_subtitle": "Dos charlas sobre tipado estático y contribución open source",
+  "event_date": "Martes 13 de Agosto, 2024",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202408-pythoncdmx.jpg",
+  "talks": [
+    {
+      "title": "Protocolos en Python: El poder del tipado estático avanzado",
+      "description": "Descubre cómo los Protocolos en Python pueden transformar tu código, haciéndolo más flexible y robusto. Explora desde conceptos básicos hasta aplicaciones avanzadas en esta plática única.",
+      "conclusion": "Los Protocolos en Python ofrecen una forma poderosa de implementar tipado estático avanzado.",
+      "speaker": {
+        "name": "Gustavo Vera",
+        "title": "Python Developer",
+        "bio": "Desarrollador Python con experiencia en tipado estático y mejores prácticas de desarrollo.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "Protocols",
+          "description": "Tipado estático",
+          "icon": "📋",
+          "color": "#007bff"
+        },
+        {
+          "name": "Type Hints",
+          "description": "Anotaciones de tipo",
+          "icon": "🏷️",
+          "color": "#28a745"
+        },
+        {
+          "name": "Static Typing",
+          "description": "Tipado estático",
+          "icon": "🔍",
+          "color": "#ffc107"
+        }
+      ],
+      "duration": "45 minutos"
+    },
+    {
+      "title": "Guía Práctica para Convertirse en Contribuidor de Open Source en 10 Años (o más)",
+      "description": "En una era donde todo mundo buscamos la satisfacción y los resultados inmediatos, compartiré mi camino de 10 años en el ecosistema de Ruby en el que me he convertido de usuario del lenguaje a contribuidor frecuente en una empresa con más de 1,000 millones de descargas de bibliotecas de Ruby. Los días son largos, pero los años son cortos y, si 10 años no son suficientes para convertirte en contribuidor de Open Source, siempre puedes tomar un año más y repetir el proceso.",
+      "conclusion": "Contribuir al open source es un viaje de largo plazo que requiere paciencia y dedicación.",
+      "speaker": {
+        "name": "Fer Perales",
+        "title": "Open Source Contributor",
+        "bio": "Contribuidor activo al ecosistema de Ruby con más de 10 años de experiencia en open source.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "Open Source",
+          "description": "Software libre",
+          "icon": "🔓",
+          "color": "#28a745"
+        },
+        {
+          "name": "Ruby",
+          "description": "Lenguaje de programación",
+          "icon": "💎",
+          "color": "#CC342D"
+        },
+        {
+          "name": "Community",
+          "description": "Comunidad",
+          "icon": "👥",
+          "color": "#17a2b8"
+        }
+      ],
+      "duration": "45 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "97NmGheUxmE",
+    "youtube_url": "https://www.youtube.com/watch?v=97NmGheUxmE"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "Protocols", "icon": "📋", "color": "#007bff"},
+    {"name": "Type Hints", "icon": "🏷️", "color": "#28a745"},
+    {"name": "Open Source", "icon": "🔓", "color": "#28a745"},
+    {"name": "Ruby", "icon": "💎", "color": "#CC342D"},
+    {"name": "Community", "icon": "👥", "color": "#17a2b8"}
+  ]
+}

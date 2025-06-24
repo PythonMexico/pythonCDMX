@@ -1,0 +1,95 @@
+{
+  "id": "202504-unam",
+  "event_month_year": "Abril 2025",
+  "event_title": "¡Extra! Sudo Ciencias en la UNAM",
+  "event_subtitle": "Evento especial con Sudo Ciencias",
+  "event_date": "Viernes 25 de Abril, 2025",
+  "event_time": "16:00 - 19:00",
+  "event_location": "Anfiteatro Alfredo Barrera, Facultad de Ciencias, UNAM",
+  "event_rsvp_link": "https://lu.ma/asib6frc",
+  "event_banner_image": "/images/meetup/202504-pythoncdmx-unam.jpg",
+  "talks": [
+    {
+      "title": "portafolio.py: Como hacer un portafolio web sin saber diseño web",
+      "description": "Si no presentamos nuestro trabajo, ¿Cómo van a saber lo buenos que somos? Ven a aprender como hacer tu portafolio en línea.",
+      "conclusion": "Aprende a crear un portafolio web profesional usando Python sin necesidad de conocimientos avanzados de diseño.",
+      "speaker": {
+        "name": "Daniel Paredes",
+        "title": "Desarrollador Web",
+        "bio": "Especialista en desarrollo web y creación de portafolios profesionales.",
+        "photo": "/images/ponentes/202504-PythonCDMX-Daniel-Paredes.png",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "Python",
+          "description": "Lenguaje principal",
+          "icon": "🐍",
+          "color": "#3776AB"
+        },
+        {
+          "name": "Web Development",
+          "description": "Desarrollo web",
+          "icon": "🌐",
+          "color": "#28a745"
+        },
+        {
+          "name": "Portfolio",
+          "description": "Portafolio personal",
+          "icon": "📄",
+          "color": "#ffc107"
+        }
+      ],
+      "duration": "30 minutos"
+    },
+    {
+      "title": "Programar en tiempos del Vibe-Coding",
+      "description": "¿Es verdad que con la AI todo va a cambiar? ¿Qué es eso del vibe coding? Esta charla será muy importante para tu futuro.",
+      "conclusion": "Explora las nuevas tendencias en programación y cómo la IA está transformando el desarrollo de software.",
+      "speaker": {
+        "name": "Charly Roman",
+        "title": "Desarrollador y Educador",
+        "bio": "Experto en nuevas tecnologías y tendencias de programación.",
+        "photo": "/images/ponentes/202504-PythonCDMX-Charly-Roman.png",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "AI",
+          "description": "Inteligencia Artificial",
+          "icon": "🤖",
+          "color": "#007bff"
+        },
+        {
+          "name": "Vibe-Coding",
+          "description": "Nuevas tendencias",
+          "icon": "⚡",
+          "color": "#ff6b6b"
+        },
+        {
+          "name": "Future Tech",
+          "description": "Tecnologías futuras",
+          "icon": "🚀",
+          "color": "#6f42c1"
+        }
+      ],
+      "duration": "30 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "J_Sggoh1uSY",
+    "youtube_url": "https://www.youtube.com/watch?v=J_Sggoh1uSY"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "UNAM", "icon": "🎓", "color": "#dc3545"},
+    {"name": "Web Development", "icon": "🌐", "color": "#28a745"},
+    {"name": "AI", "icon": "🤖", "color": "#007bff"},
+    {"name": "Portfolio", "icon": "📄", "color": "#ffc107"},
+    {"name": "Sudo Ciencias", "icon": "🔬", "color": "#17a2b8"}
+  ]
+}

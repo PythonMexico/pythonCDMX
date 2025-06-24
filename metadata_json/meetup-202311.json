@@ -1,0 +1,95 @@
+{
+  "id": "202311-noviembre",
+  "event_month_year": "Noviembre 2023",
+  "event_title": "GitOps 101 / Python: La Forja de un Lenguaje",
+  "event_subtitle": "Dos charlas sobre GitOps y construcción de lenguajes",
+  "event_date": "Martes 14 de Noviembre, 2023",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202311-pythoncdmx.jpg",
+  "talks": [
+    {
+      "title": "GitOps 101. Primeros pasos para desplegar aplicaciones en Kubernetes",
+      "description": "En esta charla se mostrará los conceptos de GitOps y Cloud Native que nos permitirán conocer las estrategias de despliegue en Kubernetes.",
+      "conclusion": "GitOps proporciona una metodología robusta para el despliegue y gestión de aplicaciones en Kubernetes.",
+      "speaker": {
+        "name": "Carlos Reyes",
+        "title": "DevOps Engineer",
+        "bio": "Especialista en GitOps y Kubernetes con experiencia en despliegue de aplicaciones cloud native.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "GitOps",
+          "description": "Metodología de despliegue",
+          "icon": "🔄",
+          "color": "#007bff"
+        },
+        {
+          "name": "Kubernetes",
+          "description": "Orquestación de contenedores",
+          "icon": "☸️",
+          "color": "#326CE5"
+        },
+        {
+          "name": "Cloud Native",
+          "description": "Aplicaciones nativas en la nube",
+          "icon": "☁️",
+          "color": "#87CEEB"
+        }
+      ],
+      "duration": "45 minutos"
+    },
+    {
+      "title": "Python: La Forja de un Lenguaje",
+      "description": "Explora la construcción de un lenguaje con Python, desde los pilares teóricos hasta un sorprendente guiño a la sintaxis financiera.",
+      "conclusion": "Construir un lenguaje de programación es una excelente manera de entender los fundamentos de la computación.",
+      "speaker": {
+        "name": "Gustavo Vera",
+        "title": "Python Developer",
+        "bio": "Desarrollador Python con experiencia en compiladores y construcción de lenguajes de programación.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "Compilers",
+          "description": "Compiladores",
+          "icon": "⚙️",
+          "color": "#6c757d"
+        },
+        {
+          "name": "Language Design",
+          "description": "Diseño de lenguajes",
+          "icon": "🔧",
+          "color": "#ffc107"
+        },
+        {
+          "name": "Parsing",
+          "description": "Análisis sintáctico",
+          "icon": "📝",
+          "color": "#28a745"
+        }
+      ],
+      "duration": "45 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "GxBpandei-w",
+    "youtube_url": "https://www.youtube.com/watch?v=GxBpandei-w"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "GitOps", "icon": "🔄", "color": "#007bff"},
+    {"name": "Kubernetes", "icon": "☸️", "color": "#326CE5"},
+    {"name": "Compilers", "icon": "⚙️", "color": "#6c757d"},
+    {"name": "Language Design", "icon": "🔧", "color": "#ffc107"},
+    {"name": "Cloud Native", "icon": "☁️", "color": "#87CEEB"}
+  ]
+}

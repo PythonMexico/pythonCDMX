@@ -1,0 +1,60 @@
+{
+  "id": "202405-mayo",
+  "event_month_year": "Mayo 2024",
+  "event_title": "Pydantic: Validaciones de datos con Type Hints",
+  "event_subtitle": "Validación de datos con Pydantic",
+  "event_date": "Martes 14 de Mayo, 2024",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202405-pythoncdmx.jpg",
+  "talks": [
+    {
+      "title": "Pydantic: Validaciones de Datos con Type Hints",
+      "description": "Pydantic se ha vuelto uno de los módulos más populares de Python, permitiéndonos validar datos de una forma poderosa, simple, rápida y extensible. Funciona con nuestros Linters e IDEs utilizando solo Python.",
+      "conclusion": "Pydantic es una herramienta esencial para la validación de datos en aplicaciones Python modernas.",
+      "speaker": {
+        "name": "Charly Román",
+        "title": "Python Developer",
+        "bio": "Desarrollador Python con experiencia en validación de datos y mejores prácticas de desarrollo.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "Pydantic",
+          "description": "Validación de datos",
+          "icon": "✅",
+          "color": "#E92063"
+        },
+        {
+          "name": "Type Hints",
+          "description": "Anotaciones de tipo",
+          "icon": "🏷️",
+          "color": "#28a745"
+        },
+        {
+          "name": "Data Validation",
+          "description": "Validación de datos",
+          "icon": "🔍",
+          "color": "#007bff"
+        }
+      ],
+      "duration": "60 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "acpwiu_sfjk",
+    "youtube_url": "https://www.youtube.com/watch?v=acpwiu_sfjk"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "Pydantic", "icon": "✅", "color": "#E92063"},
+    {"name": "Type Hints", "icon": "🏷️", "color": "#28a745"},
+    {"name": "Data Validation", "icon": "🔍", "color": "#007bff"},
+    {"name": "FastAPI", "icon": "⚡", "color": "#009688"},
+    {"name": "Best Practices", "icon": "✨", "color": "#ffc107"}
+  ]
+}

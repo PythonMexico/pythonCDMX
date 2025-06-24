@@ -1,0 +1,101 @@
+{
+  "id": "202501-enero",
+  "event_month_year": "Enero 2025",
+  "event_title": "Crea extensiones para LibreOffice / PCI DSS en Python",
+  "event_subtitle": "Dos charlas sobre LibreOffice y seguridad",
+  "event_date": "Martes 14 de Enero, 2025",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202501-pythoncdmx.png",
+  "talks": [
+    {
+      "title": "Creando extensiones para LibreOffice, con Python",
+      "description": "Aprende a potenciar LibreOffice creando extensiones personalizadas con Python. Descubre las herramientas y técnicas para desarrollar complementos que automaticen tareas y añadan nuevas funcionalidades.",
+      "conclusion": "Python permite extender LibreOffice de manera poderosa y flexible para automatizar tareas complejas.",
+      "speaker": {
+        "name": "elMau (Mauricio B.)",
+        "title": "Desarrollador LibreOffice",
+        "bio": "Especialista en desarrollo de extensiones para LibreOffice y automatización de oficina.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "LibreOffice",
+          "description": "Suite de oficina",
+          "icon": "📄",
+          "color": "#18A303"
+        },
+        {
+          "name": "Python",
+          "description": "Lenguaje de scripting",
+          "icon": "🐍",
+          "color": "#3776AB"
+        },
+        {
+          "name": "Automation",
+          "description": "Automatización",
+          "icon": "⚙️",
+          "color": "#6c757d"
+        }
+      ],
+      "duration": "45 minutos"
+    },
+    {
+      "title": "Seguridad y cumplimiento de Python: Garantizar el cumplimiento de PCI DSS en un entorno Python",
+      "description": "Platicaremos de alinear las aplicaciones Python con los requisitos de PCI, garantizando controles de seguridad y la preparación para el cumplimiento de la normativa en el manejo de datos. Platicaremos de prácticas de codificación segura, metodologías de cifrado, controles de acceso y otros controles. Tópicos: Introducción básica a PCI, Codificación segura en Python, Cifrado de datos en tránsito y en reposo, incluyendo alternativas de tokenización de datos, Docker images como método para usar código inmutable, Controles de acceso orientados a AWS, Bitácoras seguras de cambios y de información de ejecución.",
+      "conclusion": "La seguridad y el cumplimiento normativo son fundamentales en aplicaciones Python que manejan datos sensibles.",
+      "speaker": {
+        "name": "Mauro Parra",
+        "title": "Security Engineer",
+        "bio": "Especialista en seguridad informática y cumplimiento normativo con experiencia en PCI DSS y aplicaciones Python.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "PCI DSS",
+          "description": "Estándar de seguridad",
+          "icon": "🔒",
+          "color": "#dc3545"
+        },
+        {
+          "name": "Security",
+          "description": "Seguridad informática",
+          "icon": "🛡️",
+          "color": "#28a745"
+        },
+        {
+          "name": "Docker",
+          "description": "Contenedores",
+          "icon": "🐳",
+          "color": "#2496ED"
+        },
+        {
+          "name": "AWS",
+          "description": "Cloud security",
+          "icon": "☁️",
+          "color": "#FF9900"
+        }
+      ],
+      "duration": "45 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "gOjfq41I8XY",
+    "youtube_url": "https://www.youtube.com/watch?v=gOjfq41I8XY"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "LibreOffice", "icon": "📄", "color": "#18A303"},
+    {"name": "Security", "icon": "🔒", "color": "#dc3545"},
+    {"name": "PCI DSS", "icon": "🛡️", "color": "#28a745"},
+    {"name": "Automation", "icon": "⚙️", "color": "#6c757d"},
+    {"name": "Docker", "icon": "🐳", "color": "#2496ED"}
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "202411-noviembre",
+  "event_month_year": "Noviembre 2024",
+  "event_title": "Evita Anti-patrones en Python / ¿Qué y por qué ChatGPT?",
+  "event_subtitle": "Dos charlas sobre buenas prácticas y ChatGPT",
+  "event_date": "Martes 12 de Noviembre, 2024",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202411-pythoncdmx.jpg",
+  "talks": [
+    {
+      "title": "Mejora tu código: Evita anti-patrones en Python",
+      "description": "Descubre cómo escribir código Python más limpio y eficiente evitando los anti-patrones más comunes. Mejora tus habilidades y aprende a hacerlo de forma 'pythonic'.",
+      "conclusion": "Evitar anti-patrones es fundamental para escribir código Python mantenible y eficiente.",
+      "speaker": {
+        "name": "Alejandro Lopez",
+        "title": "Python Developer",
+        "bio": "Desarrollador Python con experiencia en buenas prácticas y código limpio.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "Python",
+          "description": "Lenguaje principal",
+          "icon": "🐍",
+          "color": "#3776AB"
+        },
+        {
+          "name": "Best Practices",
+          "description": "Buenas prácticas",
+          "icon": "✨",
+          "color": "#28a745"
+        },
+        {
+          "name": "Code Quality",
+          "description": "Calidad de código",
+          "icon": "🔍",
+          "color": "#ffc107"
+        }
+      ],
+      "duration": "45 minutos"
+    },
+    {
+      "title": "Exactamente qué y (sobre todo) por qué ChatGPT",
+      "description": "ChatGPT es una herramienta poderosa diseñada para mejorar la interacción humano-máquina en tareas cotidianas, creativas y técnicas, gracias a su capacidad para comprender y generar lenguaje natural. La combinación de la arquitectura Transformer, el preentrenamiento masivo y el ajuste fino lo convierte en una opción versátil y accesible para múltiples usos. Además, su continua evolución a través del feedback y la investigación lo posiciona como una de las IA más avanzadas en la actualidad. La pregunta más importante es por qué, en esta charla gracias a Python entenderemos más sobre ChatGPT.",
+      "conclusion": "Comprender el funcionamiento interno de ChatGPT es clave para aprovechar su potencial en aplicaciones Python.",
+      "speaker": {
+        "name": "Hugo Ramírez",
+        "title": "AI Researcher",
+        "bio": "Investigador en inteligencia artificial con experiencia en modelos de lenguaje y aplicaciones de IA.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "ChatGPT",
+          "description": "Modelo de lenguaje",
+          "icon": "🤖",
+          "color": "#10a37f"
+        },
+        {
+          "name": "Transformer",
+          "description": "Arquitectura neural",
+          "icon": "🧠",
+          "color": "#007bff"
+        },
+        {
+          "name": "NLP",
+          "description": "Procesamiento de lenguaje",
+          "icon": "📝",
+          "color": "#28a745"
+        }
+      ],
+      "duration": "45 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "01V35jpDou0",
+    "youtube_url": "https://www.youtube.com/watch?v=01V35jpDou0"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "Best Practices", "icon": "✨", "color": "#28a745"},
+    {"name": "ChatGPT", "icon": "🤖", "color": "#10a37f"},
+    {"name": "Code Quality", "icon": "🔍", "color": "#ffc107"},
+    {"name": "AI", "icon": "🧠", "color": "#007bff"},
+    {"name": "NLP", "icon": "📝", "color": "#6f42c1"}
+  ]
+}

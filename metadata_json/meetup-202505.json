@@ -1,0 +1,59 @@
+{
+  "id": "202505-mayo",
+  "event_month_year": "Mayo 2025",
+  "event_title": "Publicando un paquete en PyPI",
+  "event_subtitle": "Construyendo y publicando paquetes Python",
+  "event_date": "Martes 13 de Mayo, 2025",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202505-pythoncdmx.png",
+  "talks": [
+    {
+      "title": "Construyendo un paquete en Python y Publicándolo en PyPI",
+      "description": "Tienes una gran idea, y estás listo para llevarla al público. ¿Cómo empezar? Eres un genio programando python. ¿Pero cómo haces para llevar tu código para que otros puedan usarlo? Algunos tips para: Configurar tu proyecto, Construir un paquete, Abrir una cuenta en PyPI, Publicar tu proyecto, Documentar tu proyecto, Consideraciones para compartir tu código.",
+      "conclusion": "Aprende las mejores prácticas para compartir tu código Python con la comunidad a través de PyPI.",
+      "speaker": {
+        "name": "Javier Novoa",
+        "title": "Ingeniero en Sistemas Computacionales",
+        "bio": "Ingeniero en Sistemas Computacionales con Maestría en Ciencias de la Computación. A lo largo de su carrera ha ido desde el desarrollo de software como consultor al liderazgo de equipos de tecnología. Lleva 15 años desarrollando en Python. Actualmente es líder de Performance y DevOps en el sector microfinanciero. Le encanta compartir conocimiento y todo lo que involucre conocer, hacer y compartir Software libre.",
+        "photo": "/images/ponentes/202505-PythonCDMX-javier-novoa.png",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "PyPI",
+          "description": "Python Package Index",
+          "icon": "📦",
+          "color": "#FFD43B"
+        },
+        {
+          "name": "setuptools",
+          "description": "Herramientas de empaquetado",
+          "icon": "🔧",
+          "color": "#3776AB"
+        },
+        {
+          "name": "twine",
+          "description": "Subida de paquetes",
+          "icon": "📤",
+          "color": "#28a745"
+        }
+      ],
+      "duration": "60 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "1nHTVEOSRlg",
+    "youtube_url": "https://www.youtube.com/watch?v=1nHTVEOSRlg"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "PyPI", "icon": "📦", "color": "#FFD43B"},
+    {"name": "Packaging", "icon": "📦", "color": "#28a745"},
+    {"name": "Open Source", "icon": "🔓", "color": "#fd7e14"},
+    {"name": "DevOps", "icon": "⚙️", "color": "#6f42c1"}
+  ]
+}

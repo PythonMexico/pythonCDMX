@@ -1,0 +1,66 @@
+{
+  "id": "202310-octubre",
+  "event_month_year": "Octubre 2023",
+  "event_title": "¡De Jupyter a Web en Minutos!",
+  "event_subtitle": "Redefiniendo el Análisis Local con Python",
+  "event_date": "Martes 17 de Octubre, 2023",
+  "event_time": "19:00 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202310-pythoncdmx.jpg",
+  "talks": [
+    {
+      "title": "Redefiniendo el Análisis Local con Python: ¡De Jupyter a Web en Minutos!",
+      "description": "Descubre cómo aprovechar al máximo el potente hardware de tu laptop para realizar análisis de datos avanzados de forma eficiente, todo desde la comodidad de un Jupyter Notebook. Pero eso no es todo: aprenderás cómo convertir tu análisis en un servicio web interactivo en cuestión de minutos. No es magia, es Python. ¡Únete y redefine lo que creías posible en análisis de datos local!",
+      "conclusion": "Python permite transformar análisis de datos locales en servicios web interactivos de manera rápida y eficiente.",
+      "speaker": {
+        "name": "Gustavo Vera",
+        "title": "Python Developer",
+        "bio": "Desarrollador Python con experiencia en análisis de datos y desarrollo web.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "Jupyter",
+          "description": "Notebooks interactivos",
+          "icon": "📓",
+          "color": "#F37626"
+        },
+        {
+          "name": "Web Development",
+          "description": "Desarrollo web",
+          "icon": "🌐",
+          "color": "#28a745"
+        },
+        {
+          "name": "Data Analysis",
+          "description": "Análisis de datos",
+          "icon": "📊",
+          "color": "#007bff"
+        },
+        {
+          "name": "Local Development",
+          "description": "Desarrollo local",
+          "icon": "💻",
+          "color": "#6c757d"
+        }
+      ],
+      "duration": "60 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "vhlPmOgrvUA",
+    "youtube_url": "https://www.youtube.com/watch?v=vhlPmOgrvUA"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "Jupyter", "icon": "📓", "color": "#F37626"},
+    {"name": "Web Development", "icon": "🌐", "color": "#28a745"},
+    {"name": "Data Analysis", "icon": "📊", "color": "#007bff"},
+    {"name": "Local Development", "icon": "💻", "color": "#6c757d"},
+    {"name": "Interactive", "icon": "🎯", "color": "#ffc107"}
+  ]
+}

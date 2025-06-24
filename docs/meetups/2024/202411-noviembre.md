@@ -1,0 +1,240 @@
+---
+title: "Evita Anti-patrones en Python / ¿Qué y por qué ChatGPT?"
+tags:
+
+  - Python
+
+  - Best Practices
+
+  - ChatGPT
+
+  - Code Quality
+
+  - AI
+
+  - NLP
+
+---
+
+# Meetup #PythonCDMX🐍 - 12 2024
+
+<div class="event-highlight" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem; border-radius: 16px; margin: 2rem 0; text-align: center; box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);">
+    <h2 style="margin: 0 0 1rem 0; font-size: 2.5rem;"> Evita Anti-patrones en Python / ¿Qué y por qué ChatGPT?</h2>
+    <p style="font-size: 1.2rem; margin: 0; opacity: 0.9;">Dos charlas sobre buenas prácticas y ChatGPT</p>
+</div>
+
+<div class="meetup-header" style="text-align: center; margin-bottom: 2rem;">
+    <img src="/images/meetup/202411-pythoncdmx.jpg" alt="Banner del evento" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+</div>
+
+
+
+## Información del Evento
+
+<div class="event-details" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+    <div class="detail-card" style="background: #f8f9fa; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #28a745; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <h3 style="margin: 0 0 0.5rem 0; color: #28a745;">📅 Fecha</h3>
+        <p style="margin: 0; font-size: 1.1rem; font-weight: 600;">Martes 12 de Noviembre, 2024</p>
+    </div>
+    <div class="detail-card" style="background: #f8f9fa; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #007bff; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <h3 style="margin: 0 0 0.5rem 0; color: #007bff;">🕒 Hora</h3>
+        <p style="margin: 0; font-size: 1.1rem; font-weight: 600;">18:30 - 21:00</p>
+    </div>
+    <div class="detail-card" style="background: #f8f9fa; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #dc3545; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <h3 style="margin: 0 0 0.5rem 0; color: #dc3545;">📍 Lugar</h3>
+        <p style="margin: 0; font-size: 1.1rem; font-weight: 600;">Wizeline México, Torre Diana</p>
+    </div>
+    <div class="detail-card" style="background: linear-gradient(135deg, #28a745 0%, #20c997 100%); color: white; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #28a745; box-shadow: 0 4px 16px rgba(40, 167, 69, 0.3);">
+        <h3 style="margin: 0 0 0.5rem 0; color: white;">🎉 ¡GRATIS!</h3>
+        <p style="margin: 0; font-size: 1.1rem; font-weight: 600;">Entrada completamente gratuita</p>
+    </div>
+    <div class="detail-card" style="background: #f8f9fa; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #ffc107; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <h3 style="margin: 0 0 0.5rem 0; color: #ffc107;">🎫 RSVP</h3>
+        <p style="margin: 0; font-size: 1.1rem; font-weight: 600;"><a href="https://www.meetup.com/python-mexico/" style="color: #ffc107; text-decoration: none;">¡Regístrate aquí!</a></p>
+    </div>
+</div>
+
+---
+
+## Charlas y Ponentes
+
+
+<div class="talk-section" style="margin: 3rem 0; border: 2px solid #e9ecef; border-radius: 16px; overflow: hidden;">
+    <div class="talk-header" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1.5rem; text-align: center;">
+        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.8rem;">🚀 Mejora tu código: Evita anti-patrones en Python</h3>
+        <p style="margin: 0; opacity: 0.9;">⏱️ 45 minutos</p>
+    </div>
+
+    <div class="speaker-section" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 2rem; display: flex; align-items: center; gap: 2rem;">
+        <div class="speaker-photo" style="flex-shrink: 0;">
+            <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Alejandro Lopez" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid white; box-shadow: 0 4px 16px rgba(0,0,0,0.2); object-fit: cover;">
+        </div>
+        <div class="speaker-info">
+            <h4 style="margin: 0 0 0.5rem 0; font-size: 1.5rem; color: #333;">Alejandro Lopez</h4>
+            <p style="margin: 0 0 1rem 0; font-size: 1rem; color: #666;">Python Developer</p>
+            <p style="margin: 0 0 1rem 0; line-height: 1.6; color: #555;">Desarrollador Python con experiencia en buenas prácticas y código limpio.</p>
+            <div class="speaker-links">
+                
+                
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="talk-description" style="background: white; padding: 2rem; border-left: 6px solid #28a745;">
+        <p style="line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem; color: #333;">Descubre cómo escribir código Python más limpio y eficiente evitando los anti-patrones más comunes. Mejora tus habilidades y aprende a hacerlo de forma 'pythonic'.</p>
+
+        
+        <div class="tech-stack" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
+            
+            <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #3776AB;">
+                <h5 style="margin: 0 0 0.5rem 0; color: #3776AB; font-size: 1rem;">🐍 Python</h5>
+                <p style="margin: 0; font-size: 0.85rem; color: #666;">Lenguaje principal</p>
+            </div>
+            
+            <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #28a745;">
+                <h5 style="margin: 0 0 0.5rem 0; color: #28a745; font-size: 1rem;">✨ Best Practices</h5>
+                <p style="margin: 0; font-size: 0.85rem; color: #666;">Buenas prácticas</p>
+            </div>
+            
+            <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #ffc107;">
+                <h5 style="margin: 0 0 0.5rem 0; color: #ffc107; font-size: 1rem;">🔍 Code Quality</h5>
+                <p style="margin: 0; font-size: 0.85rem; color: #666;">Calidad de código</p>
+            </div>
+            
+        </div>
+        
+
+        <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem; color: #333; font-style: italic;">Evitar anti-patrones es fundamental para escribir código Python mantenible y eficiente.</p>
+    </div>
+</div>
+
+<div class="talk-section" style="margin: 3rem 0; border: 2px solid #e9ecef; border-radius: 16px; overflow: hidden;">
+    <div class="talk-header" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1.5rem; text-align: center;">
+        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.8rem;">🚀 Exactamente qué y (sobre todo) por qué ChatGPT</h3>
+        <p style="margin: 0; opacity: 0.9;">⏱️ 45 minutos</p>
+    </div>
+
+    <div class="speaker-section" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 2rem; display: flex; align-items: center; gap: 2rem;">
+        <div class="speaker-photo" style="flex-shrink: 0;">
+            <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Hugo Ramírez" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid white; box-shadow: 0 4px 16px rgba(0,0,0,0.2); object-fit: cover;">
+        </div>
+        <div class="speaker-info">
+            <h4 style="margin: 0 0 0.5rem 0; font-size: 1.5rem; color: #333;">Hugo Ramírez</h4>
+            <p style="margin: 0 0 1rem 0; font-size: 1rem; color: #666;">AI Researcher</p>
+            <p style="margin: 0 0 1rem 0; line-height: 1.6; color: #555;">Investigador en inteligencia artificial con experiencia en modelos de lenguaje y aplicaciones de IA.</p>
+            <div class="speaker-links">
+                
+                
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="talk-description" style="background: white; padding: 2rem; border-left: 6px solid #28a745;">
+        <p style="line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem; color: #333;">ChatGPT es una herramienta poderosa diseñada para mejorar la interacción humano-máquina en tareas cotidianas, creativas y técnicas, gracias a su capacidad para comprender y generar lenguaje natural. La combinación de la arquitectura Transformer, el preentrenamiento masivo y el ajuste fino lo convierte en una opción versátil y accesible para múltiples usos. Además, su continua evolución a través del feedback y la investigación lo posiciona como una de las IA más avanzadas en la actualidad. La pregunta más importante es por qué, en esta charla gracias a Python entenderemos más sobre ChatGPT.</p>
+
+        
+        <div class="tech-stack" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
+            
+            <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #10a37f;">
+                <h5 style="margin: 0 0 0.5rem 0; color: #10a37f; font-size: 1rem;">🤖 ChatGPT</h5>
+                <p style="margin: 0; font-size: 0.85rem; color: #666;">Modelo de lenguaje</p>
+            </div>
+            
+            <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #007bff;">
+                <h5 style="margin: 0 0 0.5rem 0; color: #007bff; font-size: 1rem;">🧠 Transformer</h5>
+                <p style="margin: 0; font-size: 0.85rem; color: #666;">Arquitectura neural</p>
+            </div>
+            
+            <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #28a745;">
+                <h5 style="margin: 0 0 0.5rem 0; color: #28a745; font-size: 1rem;">📝 NLP</h5>
+                <p style="margin: 0; font-size: 0.85rem; color: #666;">Procesamiento de lenguaje</p>
+            </div>
+            
+        </div>
+        
+
+        <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem; color: #333; font-style: italic;">Comprender el funcionamiento interno de ChatGPT es clave para aprovechar su potencial en aplicaciones Python.</p>
+    </div>
+</div>
+
+
+---
+
+
+## Video del Meetup
+<div class="video-section" style="text-align: center; margin: 2rem 0;">
+    <div style="background: #f8f9fa; padding: 2rem; border-radius: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.1);">
+        <h3 style="margin: 0 0 1rem 0; color: #dc3545;">📺 ¡Mira las charlas completas!</h3>
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; margin-bottom: 1rem;">
+            <iframe
+                src="https://www.youtube.com/embed/01V35jpDou0"
+                title="Meetup PythonCDMX 12 2024"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px;"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <a href="https://www.youtube.com/watch?v=01V35jpDou0" style="background: #dc3545; color: white; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600; display: inline-block; transition: all 0.3s ease;">🎬 Ver en YouTube</a>
+    </div>
+</div>
+---
+
+
+## Temas y Tecnologías
+<div class="tags-section" style="margin: 2rem 0;">
+    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+        
+        <a href="/tags/python/" style="background: #3776AB; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">🐍 Python</a>
+        
+        <a href="/tags/best-practices/" style="background: #28a745; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">✨ Best Practices</a>
+        
+        <a href="/tags/chatgpt/" style="background: #10a37f; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">🤖 ChatGPT</a>
+        
+        <a href="/tags/code-quality/" style="background: #ffc107; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">🔍 Code Quality</a>
+        
+        <a href="/tags/ai/" style="background: #007bff; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">🧠 AI</a>
+        
+        <a href="/tags/nlp/" style="background: #6f42c1; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">📝 NLP</a>
+        
+    </div>
+</div>
+
+---
+
+## Networking
+<div class="networking-section" style="background: linear-gradient(135deg, #28a745 0%, #20c997 100%); color: white; padding: 2rem; border-radius: 16px; margin: 2rem 0; text-align: center; box-shadow: 0 8px 32px rgba(40, 167, 69, 0.3);">
+    <h3 style="margin: 0 0 1rem 0; font-size: 1.5rem;">💬 ¡Conecta con la comunidad!</h3>
+    <p style="margin: 0; font-size: 1.1rem; line-height: 1.6;">
+        Después de las charlas habrá un tiempo de networking donde podrás platicar con programadores de diferentes niveles e intereses.
+        ¡Es la oportunidad perfecta para hacer conexiones profesionales y aprender de otros desarrolladores!
+    </p>
+</div>
+
+---
+
+## Enlaces de la Comunidad
+<div class="community-links" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
+    <a href="https://t.me/PythonCDMX" style="background: #0088cc; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        📱 Telegram
+    </a>
+    <a href="https://www.meetup.com/python-mexico" style="background: #e51937; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        📅 Meetup
+    </a>
+    <a href="https://www.youtube.com/@PythonMexico" style="background: #ff0000; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        🎥 YouTube
+    </a>
+    <a href="https://github.com/python-cdmx" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        💻 GitHub
+    </a>
+</div>
+
+---
+
+<div style="text-align: center; margin-top: 3rem; padding: 2rem; background: #f8f9fa; border-radius: 12px;">
+    <p style="margin: 0; color: #6c757d; font-style: italic;">
+        *Última actualización: Generado automáticamente*
+    </p>
+</div>

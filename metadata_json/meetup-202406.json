@@ -1,0 +1,66 @@
+{
+  "id": "202406-junio",
+  "event_month_year": "Junio 2024",
+  "event_title": "Matemáticas y Python: Ciencia Detrás de la Regresión Lineal",
+  "event_subtitle": "Fundamentos matemáticos de la regresión lineal",
+  "event_date": "Martes 11 de Junio, 2024",
+  "event_time": "18:30 - 21:00",
+  "event_location": "Wizeline México, Torre Diana",
+  "event_rsvp_link": "https://www.meetup.com/python-mexico/",
+  "event_banner_image": "/images/meetup/202406-pythoncdmx.jpg",
+  "talks": [
+    {
+      "title": "Matemáticas y Python: La Ciencia Detrás de la Regresión Lineal",
+      "description": "Adéntrate en el mundo de la regresión lineal con un enfoque práctico en Python. Desde los principios matemáticos hasta la implementación con librerías de Python, esta charla te guiará por cada paso necesario para utilizar regresión lineal en la predicción de datos. Ideal para quienes desean combinar teoría y práctica en el análisis de datos.",
+      "conclusion": "La regresión lineal es la base fundamental para entender algoritmos de machine learning más complejos.",
+      "speaker": {
+        "name": "Geovanni Zepeda Martínez",
+        "title": "Data Scientist",
+        "bio": "Especialista en análisis de datos y machine learning con experiencia en implementación de algoritmos estadísticos.",
+        "photo": "/images/ponentes/ponentePythonCDMX.jpg",
+        "linkedin": null,
+        "github": null,
+        "twitter": null
+      },
+      "tech_stack": [
+        {
+          "name": "Linear Regression",
+          "description": "Regresión lineal",
+          "icon": "📈",
+          "color": "#007bff"
+        },
+        {
+          "name": "Mathematics",
+          "description": "Matemáticas",
+          "icon": "🧮",
+          "color": "#28a745"
+        },
+        {
+          "name": "Statistics",
+          "description": "Estadística",
+          "icon": "📊",
+          "color": "#ffc107"
+        },
+        {
+          "name": "NumPy",
+          "description": "Computación numérica",
+          "icon": "🔢",
+          "color": "#4DABCF"
+        }
+      ],
+      "duration": "60 minutos"
+    }
+  ],
+  "video": {
+    "youtube_id": "BmSI2IgHG_c",
+    "youtube_url": "https://www.youtube.com/watch?v=BmSI2IgHG_c"
+  },
+  "tags": [
+    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
+    {"name": "Linear Regression", "icon": "📈", "color": "#007bff"},
+    {"name": "Mathematics", "icon": "🧮", "color": "#28a745"},
+    {"name": "Statistics", "icon": "📊", "color": "#ffc107"},
+    {"name": "Machine Learning", "icon": "🤖", "color": "#6f42c1"},
+    {"name": "NumPy", "icon": "🔢", "color": "#4DABCF"}
+  ]
+}
