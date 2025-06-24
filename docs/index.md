@@ -1,4 +1,6 @@
-# Python CDMX 🐍
+# Python CDMX <i class="fab fa-python"></i>
+
+<img src="images/logo.png" alt="Python CDMX Logo" style="height: 60px; display: block; margin: 20px auto; text-align: center;">
 
 <div class="hero-section">
   <h2>Comunidad Python en la Ciudad de México</h2>
@@ -7,55 +9,45 @@
 
 <div class="stats-grid">
   <div class="stat-card">
-    <h3>3+ Años</h3>
+    <h3><i class="fas fa-calendar-alt"></i> 3+ Años</h3>
     <p><b>de actividad</b></p>
   </div>
   <div class="stat-card">
-    <h3>50+ Charlas</h3>
+    <h3><i class="fas fa-microphone"></i> 50+ Charlas</h3>
     <p><b>realizadas</b></p>
   </div>
   <div class="stat-card">
-    <h3>1000+ Miembros</h3>
+    <h3><i class="fas fa-users"></i> 1000+ Miembros</h3>
     <p><b>en la comunidad</b></p>
   </div>
 </div>
 
 ---
 
-## 🎯 Nuestra Misión
+## <i class="fas fa-users"></i> ¿Quiénes Somos?
 
-Somos una comunidad apasionada de desarrolladores Python en la Ciudad de México. Nos reunimos mensualmente para compartir conocimiento, experiencias y aprender juntos.
+**#PythonCDMX** es un grupo de personas interesadas en aprender y compartir su conocimiento sobre el lenguaje de programación Python. El objetivo es estar en contacto con más gente interesada en innovación y tecnología.
 
 Nuestros meetups incluyen:
 
-- **Charlas técnicas** sobre Python y tecnologías relacionadas
-- **Talleres prácticos** con ejemplos de código real
-- **Networking** con otros desarrolladores de la comunidad
-- **Discusiones** sobre mejores prácticas y tendencias
+- <i class="fas fa-graduation-cap"></i> **Charlas técnicas** sobre Python y tecnologías relacionadas
+- <i class="fas fa-laptop-code"></i> **Talleres prácticos** con ejemplos de código real
+- <i class="fas fa-handshake"></i> **Networking** con otros desarrolladores de la comunidad
+- <i class="fas fa-comments"></i> **Discusiones** sobre mejores prácticas y tendencias
 
 ---
 
-## 📅 Próximos Meetups
+## <i class="fas fa-calendar-alt"></i> Próximos Meetups
 
-<div class="upcoming-meetups">
+### [Ver Meetups 2025](meetups/2025/index.md)
 
-### [Junio 2025 - Usando Python y software libre para crear nuevas herramientas](meetups/2025/junio-2025.md)
+<i class="fas fa-calendar"></i> **Descubre nuestros próximos eventos y las charlas más recientes.**
 
-**Fecha:** Martes 10 de Junio, 18:30
-**Lugar:** Wizeline México
-**Ponente:** Carlos Cesar Caballero
-
-Una presentación sobre cómo combinar herramientas de software libre utilizando Python como lenguaje integrador para desarrollar soluciones funcionales y accesibles.
-
-[Ver detalles →](meetups/2025/junio-2025.md)
-
-</div>
+[![Meetups 2025](images/meetup/202506-pythoncdmx.png)](meetups/2025/index.md)
 
 ---
 
-## 🚀 Únete a Nuestra Comunidad
-
-<div class="community-links">
+## <i class="fas fa-plus-circle"></i> Únete a Nuestra Comunidad
 
 [![Telegram](https://img.shields.io/badge/Telegram-PythonCDMX-0088cc?style=for-the-badge&logo=telegram)](https://t.me/PythonCDMX)
 
@@ -65,93 +57,22 @@ Una presentación sobre cómo combinar herramientas de software libre utilizando
 
 [![GitHub](https://img.shields.io/badge/GitHub-PythonCDMX-181717?style=for-the-badge&logo=github)](https://github.com/python-cdmx)
 
-</div>
+[![Instagram](https://img.shields.io/badge/Instagram-PythonCDMX-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/pythoncdmx/)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-PythonCDMX-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/groups/13126454/)
 
 ---
 
-## 📊 Estadísticas de la Comunidad
-
-<div class="community-stats">
-
-### Meetups por Año
-
-- **2025:** 6 meetups (en curso)
-
-- **2024:** 12 meetups completados
-
-- **2023:** 5 meetups completados
-
-### Temas Más Populares
-
-- **Machine Learning & AI** - 8 charlas
-- **Web Development** - 6 charlas
-- **DevOps & Cloud** - 5 charlas
-- **Data Science** - 4 charlas
-- **Open Source** - 4 charlas
-
-### Ponentes Destacados
-
-- **Gustavo Vera** - 4 charlas
-- **David Sol** - 3 charlas
-- **Alejandro López** - 2 charlas
-
-</div>
-
----
-
-## 🎨 Características del Sitio
-
-<div class="features-grid">
-
-<div class="feature-card">
-
-### 🔍 Búsqueda Avanzada
-
-Encuentra rápidamente charlas por tema, ponente o contenido.
-
-</div>
-
-<div class="feature-card">
-
-### 📱 Responsive Design
-
-Accede desde cualquier dispositivo con una experiencia optimizada.
-
-</div>
-
-<div class="feature-card">
-
-### 🎯 Navegación Intuitiva
-
-Organizado por años y temas para fácil acceso.
-
-</div>
-
-<div class="feature-card">
-
-### 📊 Estadísticas en Tiempo Real
-
-Mantente al día con las métricas de la comunidad.
-
-</div>
-
-</div>
-
----
-
-## 🤝 ¿Quieres Dar una Charla?
+## <i class="fas fa-microphone"></i> ¿Quieres Dar una Charla?
 
 ¿Tienes algo interesante que compartir con la comunidad? ¡Nos encantaría escucharte!
 
-**Requisitos:**
-- Conocimiento de Python (cualquier nivel)
-- Ganas de compartir y aprender
-- 20-30 minutos de presentación
-
-**Contacto:**
-- [Telegram](https://t.me/PythonCDMX)
-- [GitHub Issues](https://github.com/python-cdmx/python-cdmx-charlas/issues)
+| <i class="fas fa-check-circle"></i> **Requisitos** | <i class="fas fa-envelope"></i> **Contacto** |
+|:---|:---|
+| <i class="fab fa-python"></i> Conocimiento de Python (cualquier nivel) | <i class="fab fa-telegram"></i> [Telegram](https://t.me/PythonCDMX) |
+| <i class="fas fa-heart"></i> Ganas de compartir y aprender | <i class="fab fa-github"></i> [GitHub Issues](https://github.com/python-cdmx/python-cdmx-charlas/issues) |
+| <i class="fas fa-clock"></i> 20-30 minutos de presentación | |
 
 ---
 
-*Última actualización: {{ git_revision_date_localized }}*
+*<i class="fas fa-clock"></i> Última actualización: {{ git_revision_date_localized }}*
