@@ -387,7 +387,7 @@ https://www.youtube.com/@PythonMexico/streams
 Telegram: https://t.me/pythonCDMX
 Twitter: https://twitter.com/PythonMexico
 Meetup: https://www.meetup.com/python-mexico
-Github: https://github.com/PythonMexico/python-cdmx-charlas/issues
+Github: https://github.com/PythonMexico/pythonCDMX/issues
 
 # 202408 - PythonCDMX Ago 2024 - Protocolos en Python/Convertirse en Contribuidor Open Source
 Detalles
@@ -422,7 +422,7 @@ https://www.youtube.com/@PythonMexico/streams
 Telegram: https://t.me/pythonCDMX
 Twitter: https://twitter.com/PythonMexico
 Meetup: https://www.meetup.com/python-mexico
-Github: https://github.com/PythonMexico/python-cdmx-charlas/issues
+Github: https://github.com/PythonMexico/pythonCDMX/issues
 
 # 202407 - PythonCDMX Jul 2024 - ¡Doble Charla! Python sin GIL / Esquemas ETL
 Detalles
@@ -458,7 +458,7 @@ https://www.youtube.com/@PythonMexico/streams
 Telegram: https://t.me/pythonCDMX
 Twitter: https://twitter.com/PythonMexico
 Meetup: https://www.meetup.com/python-mexico
-Github: https://github.com/PythonMexico/python-cdmx-charlas/issues
+Github: https://github.com/PythonMexico/pythonCDMX/issues
 
 # 202406 - PythonCDMX Jun 2024 - Matemáticas y Python: Ciencia Detrás de la Regresión Lineal
 Detalles
@@ -486,7 +486,7 @@ https://www.youtube.com/@PythonMexico/streams
 Telegram: https://t.me/pythonCDMX
 Twitter: https://twitter.com/PythonMexico
 Meetup: https://www.meetup.com/python-mexico
-Github: https://github.com/PythonMexico/python-cdmx-charlas/issues
+Github: https://github.com/PythonMexico/pythonCDMX/issues
 
 # 202405 - PythonCDMX May 2024 - Pydantic: Validaciones de datos con Type Hints
 Detalles
@@ -513,7 +513,7 @@ https://www.youtube.com/@PythonMexico/streams
 Telegram: https://t.me/pythonCDMX
 Twitter: https://twitter.com/PythonMexico
 Meetup: https://www.meetup.com/python-mexico
-Github: https://github.com/PythonMexico/python-cdmx-charlas/issues
+Github: https://github.com/PythonMexico/pythonCDMX/issues
 # 202404 - PythonCDMX Abr 2024 - Desarrollo en Python usando Contenedores
 Detalles
 
@@ -540,7 +540,7 @@ Telegram: https://t.me/pythonCDMX
 Twitter: https://twitter.com/PythonMexico
 
 Meetup: https://www.meetup.com/es-ES/python-mexico/
-Github: https://github.com/PythonMexico/python-cdmx-charlas/issues
+Github: https://github.com/PythonMexico/pythonCDMX/issues
 
 # 202403 - PythonCDMX Mar 2024 - Desarrollo de API REST con FLASK.
 Detalles
@@ -568,7 +568,7 @@ Telegram: https://t.me/pythonCDMX
 Twitter: https://twitter.com/PythonMexico
 
 Meetup: https://www.meetup.com/es-ES/python-mexico/
-Github: https://github.com/PythonMexico/python-cdmx-charlas/issues
+Github: https://github.com/PythonMexico/pythonCDMX/issues
 
 
 # 202402 - PythonCDMX Feb 2024 - Del Código al Clic: Transforma Ideas en Interfaces
@@ -597,7 +597,7 @@ Telegram: https://t.me/pythonCDMX
 Twitter: https://twitter.com/PythonMexico
 
 Meetup: https://www.meetup.com/es-ES/python-mexico/
-Github: https://github.com/PythonMexico/python-cdmx-charlas/issues
+Github: https://github.com/PythonMexico/pythonCDMX/issues
 
 
 # 202401 - PythonCDMX Ene 2024 - Ambientes virtuales con venv, pyenv y poetry
@@ -630,7 +630,7 @@ Telegram: https://t.me/pythonCDMX
 Twitter: https://twitter.com/PythonMexico
 
 Meetup: https://www.meetup.com/es-ES/python-mexico/
-Github: https://github.com/PythonMexico/python-cdmx-charlas/issues
+Github: https://github.com/PythonMexico/pythonCDMX/issues
 
 
 

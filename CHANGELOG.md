@@ -191,4 +191,4 @@ Al hacer cambios al proyecto, actualiza esta sección siguiendo el formato estab
 
 *Este changelog documenta la evolución del sitio web de Python CDMX Charlas desde su concepción hasta la versión actual.*
 
-**Repositorio:** https://github.com/PythonMexico/python-cdmx-page
+**Repositorio:** https://github.com/PythonMexico/pythonCDMX

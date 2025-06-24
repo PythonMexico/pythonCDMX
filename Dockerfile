@@ -52,4 +52,4 @@ CMD ["mkdocs", "serve", "--dev-addr=0.0.0.0:8000"]
 LABEL maintainer="Python CDMX <info@pythoncdmx.org>" \
       description="Sitio web oficial de Python CDMX Charlas" \
       version="1.0.0" \
-      org.opencontainers.image.source="https://github.com/PythonMexico/python-cdmx-page"
+      org.opencontainers.image.source="https://github.com/PythonMexico/pythonCDMX"

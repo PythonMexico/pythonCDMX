@@ -2,9 +2,9 @@ version: '3.8'
 
 services:
   # Servicio principal de desarrollo
-  python-cdmx-charlas:
+  pythonCDMX:
     build: .
-    container_name: python-cdmx-charlas-dev
+    container_name: pythonCDMX-dev
     ports:
       - "8000:8000"
     volumes:
@@ -19,9 +19,9 @@ services:
       - python-cdmx-network
 
   # Servicio de producción (build estático)
-  python-cdmx-charlas-prod:
+  pythonCDMX-prod:
     build: .
-    container_name: python-cdmx-charlas-prod
+    container_name: pythonCDMX-prod
     ports:
       - "8080:80"
     volumes:
@@ -34,7 +34,7 @@ services:
         nginx -g 'daemon off;'
       "
     depends_on:
-      - python-cdmx-charlas
+      - pythonCDMX
     networks:
       - python-cdmx-network
 
@@ -50,7 +50,7 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
       - ./ssl:/etc/nginx/ssl:ro
     depends_on:
-      - python-cdmx-charlas-prod
+      - pythonCDMX-prod
     networks:
       - python-cdmx-network
     profiles:

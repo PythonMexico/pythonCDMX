@@ -70,7 +70,7 @@ Nuestros meetups incluyen:
 | <i class="fas fa-check-circle"></i> **Requisitos** | <i class="fas fa-envelope"></i> **Contacto** |
 |:---|:---|
 | <i class="fab fa-python"></i> Conocimiento de Python (cualquier nivel) | <i class="fab fa-telegram"></i> [Telegram](https://t.me/PythonCDMX) |
-| <i class="fas fa-heart"></i> Ganas de compartir y aprender | <i class="fab fa-github"></i> [GitHub Issues](https://github.com/python-cdmx/python-cdmx-charlas/issues) |
+| <i class="fas fa-heart"></i> Ganas de compartir y aprender | <i class="fab fa-github"></i> [GitHub Issues](https://github.com/PythonMexico/pythonCDMX/issues) |
 | <i class="fas fa-clock"></i> 20-30 minutos de presentación | |
 
 ---

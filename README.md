@@ -15,7 +15,7 @@ Sitio web oficial de la comunidad Python CDMX, construido con MkDocs y Material 
 ## 🏗️ Estructura del Proyecto
 
 ```
-python-cdmx-charlas/
+pythonCDMX/
 ├── docs/                          # Documentación MkDocs
 │   ├── css/                       # Estilos personalizados
 │   │   └── custom.css
@@ -53,8 +53,8 @@ python-cdmx-charlas/
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/PythonMexico/python-cdmx-page.git
-   cd python-cdmx-page
+   git clone https://github.com/PythonMexico/pythonCDMX.git
+   cd pythonCDMX
    ```
 
 2. **Instalar dependencias**
@@ -153,7 +153,7 @@ rsync -av site/ user@server:/path/to/web/root/
 
 ### Reportar Issues
 
-1. Ve a [Issues](https://github.com/PythonMexico/python-cdmx-page/issues)
+1. Ve a [Issues](https://github.com/PythonMexico/pythonCDMX/issues)
 2. Crea un nuevo issue
 3. Describe el problema o sugerencia
 

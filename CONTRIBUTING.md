@@ -32,7 +32,7 @@
 
 ### Cómo Reportar
 
-1. Ve a la pestaña [Issues](https://github.com/PythonMexico/python-cdmx-page/issues)
+1. Ve a la pestaña [Issues](https://github.com/PythonMexico/pythonCDMX/issues)
 2. Haz clic en "New Issue"
 3. Selecciona la plantilla apropiada
 4. Completa toda la información requerida
@@ -223,8 +223,8 @@ Agradecimientos especiales a...
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/PythonMexico/python-cdmx-page.git
-cd python-cdmx-page
+git clone https://github.com/PythonMexico/pythonCDMX.git
+cd pythonCDMX
 
 # Crear entorno virtual
 python -m venv .venv
