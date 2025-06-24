@@ -70,6 +70,12 @@ theme:
     - search.suggest
     - toc.follow
 
+  # FontAwesome configuration
+  icon:
+    repo: fontawesome/brands/github
+    edit: fontawesome/solid/pen-to-square
+    view: fontawesome/solid/eye
+
 # Navigation
 nav:
   - Inicio: index.md
