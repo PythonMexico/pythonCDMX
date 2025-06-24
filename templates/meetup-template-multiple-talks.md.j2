@@ -14,8 +14,8 @@ tags:
 </div>
 
 <div class="meetup-header" style="text-align: center; margin-bottom: 2rem;">
-    <img src="../../{{ event_banner_image | replace('/images/', 'images/') }}" alt="Banner del evento" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
-</div>
+    <img src="/../../{{ event_banner_image | replace('/images/', 'images/') }}" alt="Banner del evento" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+    </div>
 
 
 
@@ -57,7 +57,7 @@ tags:
 
     <div class="speaker-section" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 2rem; display: flex; align-items: center; gap: 2rem;">
         <div class="speaker-photo" style="flex-shrink: 0;">
-            <img src="../../{{ talk.speaker.photo | replace('/images/', 'images/') }}" alt="{{ talk.speaker.name }}" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid white; box-shadow: 0 4px 16px rgba(0,0,0,0.2); object-fit: cover;">
+            <img src="/../../{{ talk.speaker.photo | replace('/images/', 'images/') }}" alt="{{ talk.speaker.name }}" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid white; box-shadow: 0 4px 16px rgba(0,0,0,0.2); object-fit: cover;">
         </div>
         <div class="speaker-info">
             <h4 style="margin: 0 0 0.5rem 0; font-size: 1.5rem; color: #333;">{{ talk.speaker.name }}</h4>
