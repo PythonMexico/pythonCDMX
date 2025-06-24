@@ -26,25 +26,25 @@
         {
           "name": "Kubernetes",
           "description": "Orquestación de contenedores",
-          "icon": "☸️",
+          "icon": "<i class=\"fab fa-docker\"></i>",
           "color": "#326CE5"
         },
         {
           "name": "KubeFlow",
           "description": "MLOps platform",
-          "icon": "🤖",
+          "icon": "<i class=\"fas fa-robot\"></i>",
           "color": "#FF6B6B"
         },
         {
           "name": "TensorFlow",
           "description": "Machine Learning",
-          "icon": "🧠",
+          "icon": "<i class=\"fas fa-brain\"></i>",
           "color": "#FF6F00"
         },
         {
           "name": "MLflow",
           "description": "ML lifecycle",
-          "icon": "📊",
+          "icon": "<i class=\"fas fa-chart-bar\"></i>",
           "color": "#019733"
         }
       ],
@@ -56,11 +56,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=ebeqlVkhKNs"
   },
   "tags": [
-    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
-    {"name": "Kubernetes", "icon": "☸️", "color": "#326CE5"},
-    {"name": "AI", "icon": "🤖", "color": "#FF6B6B"},
-    {"name": "MLOps", "icon": "⚙️", "color": "#6f42c1"},
-    {"name": "TensorFlow", "icon": "🧠", "color": "#FF6F00"},
-    {"name": "Cloud Native", "icon": "☁️", "color": "#87CEEB"}
+    {"name": "Python", "icon": "<i class=\"fab fa-python\"></i>", "color": "#3776AB"},
+    {"name": "Kubernetes", "icon": "<i class=\"fab fa-docker\"></i>", "color": "#326CE5"},
+    {"name": "AI", "icon": "<i class=\"fas fa-robot\"></i>", "color": "#FF6B6B"},
+    {"name": "MLOps", "icon": "<i class=\"fas fa-cog\"></i>", "color": "#6f42c1"},
+    {"name": "TensorFlow", "icon": "<i class=\"fas fa-brain\"></i>", "color": "#FF6F00"},
+    {"name": "Cloud Native", "icon": "<i class=\"fas fa-cloud\"></i>", "color": "#87CEEB"}
   ]
 }

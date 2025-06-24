@@ -26,19 +26,19 @@
         {
           "name": "Flask",
           "description": "Framework web",
-          "icon": "🌶️",
+          "icon": "<i class=\"fas fa-code\"></i>",
           "color": "#000000"
         },
         {
           "name": "REST API",
           "description": "API REST",
-          "icon": "🔗",
+          "icon": "<i class=\"fas fa-server\"></i>",
           "color": "#007bff"
         },
         {
           "name": "Web Development",
           "description": "Desarrollo web",
-          "icon": "🌐",
+          "icon": "<i class=\"fas fa-globe\"></i>",
           "color": "#28a745"
         }
       ],
@@ -50,11 +50,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=MMHaIrZ1ISw"
   },
   "tags": [
-    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
-    {"name": "Flask", "icon": "🌶️", "color": "#000000"},
-    {"name": "REST API", "icon": "🔗", "color": "#007bff"},
-    {"name": "Web Development", "icon": "🌐", "color": "#28a745"},
-    {"name": "Backend", "icon": "⚙️", "color": "#6c757d"},
-    {"name": "Microservices", "icon": "🔧", "color": "#ffc107"}
+    {"name": "Python", "icon": "<i class=\"fab fa-python\"></i>", "color": "#3776AB"},
+    {"name": "Flask", "icon": "<i class=\"fas fa-code\"></i>", "color": "#000000"},
+    {"name": "REST API", "icon": "<i class=\"fas fa-server\"></i>", "color": "#007bff"},
+    {"name": "Web Development", "icon": "<i class=\"fas fa-globe\"></i>", "color": "#28a745"},
+    {"name": "Backend", "icon": "<i class=\"fas fa-cog\"></i>", "color": "#6c757d"},
+    {"name": "Microservices", "icon": "<i class=\"fas fa-wrench\"></i>", "color": "#ffc107"}
   ]
 }

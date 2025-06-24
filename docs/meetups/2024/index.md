@@ -1,85 +1,252 @@
 # Meetups 2024
 
-En 2024, PythonCDMX consolidó su posición como una de las comunidades más activas de Python en México. Durante este año, exploramos temas diversos que van desde desarrollo web hasta inteligencia artificial y contribución al código abierto.
+En 2024, PythonCDMX continuó creciendo y fortaleciendo la comunidad de Python en la Ciudad de México. Aquí encontrarás todos los meetups realizados durante este año.
 
-## Meetups del 2024
+---
 
-### [Enero 2024 - Ambientes virtuales con venv, pyenv y poetry](/meetups/2024/202401-enero/)
+## [Evita Anti-patrones en Python / ¿Qué y por qué ChatGPT?](202411-noviembre.md)
 
-**Fecha:** 16 de Enero, 2024
-**Tema:** Ambientes virtuales con venv, pyenv conda y poetry
+!!! success "Meetup #PythonCDMX Noviembre 2024 - Doble Charla"
 
-### [Febrero 2024 - Del Código al Clic: Transforma Ideas en Interfaces](/meetups/2024/202402-febrero/)
+    **🎤 Ponente 1:** Alejandro Lopez
 
-**Fecha:** 13 de Febrero, 2024
-**Tema:** Del Código al Clic: Transforma Ideas en Interfaces con Python
+    *Mejora tu código: Evita anti-patrones en Python*
 
-### [Marzo 2024 - Desarrollo de API REST con FLASK](/meetups/2024/202403-marzo/)
+    **🎤 Ponente 2:** Hugo Ramírez
 
-**Fecha:** 12 de Marzo, 2024
-**Tema:** Desarrollo de API REST con Flask en Python: Dominando la elegancia y la eficiencia
+    *Exactamente qué y (sobre todo) por qué ChatGPT*
 
-### [Abril 2024 - Desarrollo en Python usando Contenedores](/meetups/2024/202404-abril/)
+    **🗓️ Fecha:** Martes 12 de Noviembre, 18:30
 
-**Fecha:** 16 de Abril, 2024
-**Tema:** Los ambientes virtuales son cosa del pasado: Desarrollo en Python usando Contenedores
+    **📍 Lugar:** Wizeline México
 
-### [Mayo 2024 - Pydantic: Validaciones de datos con Type Hints](/meetups/2024/202405-mayo/)
+    **RSVP:** https://www.meetup.com/python-mexico/
 
-**Fecha:** 14 de Mayo, 2024
-**Tema:** Pydantic: Validaciones de Datos con Type Hints
+[![Noviembre 2024](../../images/meetup/202411-pythoncdmx.jpg)](202411-noviembre.md)
 
-### [Junio 2024 - Matemáticas y Python: Ciencia Detrás de la Regresión Lineal](/meetups/2024/202406-junio/)
+[Ver detalles →](202411-noviembre.md)
 
-**Fecha:** 11 de Junio, 2024
-**Tema:** Matemáticas y Python: La Ciencia Detrás de la Regresión Lineal
+---
 
-### [Julio 2024 - ¡Doble Charla! Python sin GIL / Esquemas ETL](/meetups/2024/202407-julio/)
+## [Contribuir a Open Source](202410-octubre.md)
 
-**Fecha:** 9 de Julio, 2024
-**Temas:**
-- El futuro de Python sin GIL
-- Python y los esquemas ETLs
+!!! info "Meetup #PythonCDMX Octubre 2024"
 
-### [Agosto 2024 - Protocolos en Python/Convertirse en Contribuidor Open Source](/meetups/2024/202408-agosto/)
+    **🎤 Ponente:** Alex Callejas
 
-**Fecha:** 13 de Agosto, 2024
-**Temas:**
-- Protocolos en Python: El poder del tipado estático avanzado
-- Guía Práctica para Convertirse en Contribuidor de Open Source en 10 Años (o más)
+    **🗓️ Fecha:** Martes 8 de Octubre, 18:30
 
-### [Septiembre 2024 - Representaciones Fonéticas / Rich & Textual](/meetups/2024/202409-septiembre/)
+    **📍 Lugar:** Wizeline México
 
-**Fecha:** 10 de Septiembre, 2024
-**Temas:**
-- chit-chat: Representaciones fonéticas con python
-- Rich y Textual: Haz tus aplicaciones en la consola visualmente atractivas
+    **RSVP:** https://www.meetup.com/python-mexico/
 
-### [Octubre 2024 - Una ida y una vuelta. Cómo iniciar en el opensource](/meetups/2024/202410-octubre/)
+[![Octubre 2024](../../images/meetup/202410-pythoncdmx.jpg)](202410-octubre.md)
 
-**Fecha:** 8 de Octubre, 2024
-**Tema:** Una ida y una vuelta: Cómo iniciar en el opensource
+[Ver detalles →](202410-octubre.md)
 
-### [Noviembre 2024 - Evita Anti-patrones en python / ¿Qué y por qué ChatGPT?](/meetups/2024/202411-noviembre/)
+---
 
-**Fecha:** 12 de Noviembre, 2024
-**Temas:**
-- Mejora tu código: Evita anti-patrones en Python
-- Exactamente qué y (sobre todo) por qué ChatGPT
+## [Protocolos en Python](202409-septiembre.md)
+
+!!! success "Meetup #PythonCDMX Septiembre 2024 - Doble Charla"
+
+    **🎤 Ponente 1:** Diego Barriga
+
+    *Protocolos en Python*
+
+    **🎤 Ponente 2:** David Sol
+
+    *Guía Open Source*
+
+    **🗓️ Fecha:** Martes 10 de Septiembre, 18:30
+
+    **📍 Lugar:** Wizeline México
+
+    **RSVP:** https://www.meetup.com/python-mexico/
+
+[![Septiembre 2024](../../images/meetup/202409-pythoncdmx.jpg)](202409-septiembre.md)
+
+[Ver detalles →](202409-septiembre.md)
+
+---
+
+## [ETLs con Python](202408-agosto.md)
+
+!!! success "Meetup #PythonCDMX Agosto 2024 - Doble Charla"
+
+    **🎤 Ponente 1:** Gustavo Vera
+
+    *ETLs con Python*
+
+    **🎤 Ponente 2:** Fer Perales
+
+    *GIL: Global Interpreter Lock*
+
+    **🗓️ Fecha:** Martes 13 de Agosto, 18:30
+
+    **📍 Lugar:** Wizeline México
+
+    **RSVP:** https://www.meetup.com/python-mexico/
+
+[![Agosto 2024](../../images/meetup/202408-pythoncdmx.jpg)](202408-agosto.md)
+
+[Ver detalles →](202408-agosto.md)
+
+---
+
+## [Regresión Lineal](202407-julio.md)
+
+!!! success "Meetup #PythonCDMX Julio 2024 - Doble Charla"
+
+    **🎤 Ponente 1:** Konstantin Spirin
+
+    *Regresión Lineal*
+
+    **🎤 Ponente 2:** Hugo Ramirez
+
+    *Fonética con Python*
+
+    **🗓️ Fecha:** Martes 9 de Julio, 18:30
+
+    **📍 Lugar:** Wizeline México
+
+    **RSVP:** https://www.meetup.com/python-mexico/
+
+[![Julio 2024](../../images/meetup/202407-pythoncdmx.jpg)](202407-julio.md)
+
+[Ver detalles →](202407-julio.md)
+
+---
+
+## [Regresión Lineal](202406-junio.md)
+
+!!! info "Meetup #PythonCDMX Junio 2024"
+
+    **🎤 Ponente:** Geovanni Zepeda Martínez
+
+    **🗓️ Fecha:** Martes 11 de Junio, 18:30
+
+    **📍 Lugar:** Wizeline México
+
+    **RSVP:** https://www.meetup.com/python-mexico/
+
+[![Junio 2024](../../images/meetup/202406-pythoncdmx.jpg)](202406-junio.md)
+
+[Ver detalles →](202406-junio.md)
+
+---
+
+## [Pydantic](202405-mayo.md)
+
+!!! info "Meetup #PythonCDMX Mayo 2024"
+
+    **🎤 Ponente:** Charly Román
+
+    **🗓️ Fecha:** Martes 14 de Mayo, 18:30
+
+    **📍 Lugar:** Wizeline México
+
+    **RSVP:** https://www.meetup.com/python-mexico/
+
+[![Mayo 2024](../../images/meetup/202405-pythoncdmx.jpg)](202405-mayo.md)
+
+[Ver detalles →](202405-mayo.md)
+
+---
+
+## [Contenedores](202404-abril.md)
+
+!!! info "Meetup #PythonCDMX Abril 2024"
+
+    **🎤 Ponente:** David Sol
+
+    **🗓️ Fecha:** Martes 9 de Abril, 18:30
+
+    **📍 Lugar:** Wizeline México
+
+    **RSVP:** https://www.meetup.com/python-mexico/
+
+[![Abril 2024](../../images/meetup/202404-pythoncdmx.jpg)](202404-abril.md)
+
+[Ver detalles →](202404-abril.md)
+
+---
+
+## [Flask APIs](202403-marzo.md)
+
+!!! info "Meetup #PythonCDMX Marzo 2024"
+
+    **🎤 Ponente:** Alejandro López
+
+    **🗓️ Fecha:** Martes 12 de Marzo, 18:30
+
+    **📍 Lugar:** Wizeline México
+
+    **RSVP:** https://www.meetup.com/python-mexico/
+
+[![Marzo 2024](../../images/meetup/202403-pythoncdmx.jpg)](202403-marzo.md)
+
+[Ver detalles →](202403-marzo.md)
+
+---
+
+## [Entornos Virtuales](202402-febrero.md)
+
+!!! info "Meetup #PythonCDMX Febrero 2024"
+
+    **🎤 Ponente:** Gustavo Vera
+
+    **🗓️ Fecha:** Martes 13 de Febrero, 18:30
+
+    **📍 Lugar:** Wizeline México
+
+    **RSVP:** https://www.meetup.com/python-mexico/
+
+[![Febrero 2024](../../images/meetup/202402-pythoncdmx.jpg)](202402-febrero.md)
+
+[Ver detalles →](202402-febrero.md)
+
+---
+
+## [PyPI](202401-enero.md)
+
+!!! info "Meetup #PythonCDMX Enero 2024"
+
+    **🎤 Ponente:** David Sol
+
+    **🗓️ Fecha:** Martes 9 de Enero, 18:30
+
+    **📍 Lugar:** Wizeline México
+
+    **RSVP:** https://www.meetup.com/python-mexico/
+
+[![Enero 2024](../../images/meetup/202401-pythoncdmx.jpg)](202401-enero.md)
+
+[Ver detalles →](202401-enero.md)
 
 ---
 
 ## Estadísticas 2024
 
-- **Total de meetups:** 11
-- **Total de charlas:** 15
-- **Ponentes únicos:** 12+
-- **Temas principales:** Desarrollo Web, DevOps, Inteligencia Artificial, Análisis de Datos, Open Source, Interfaces de Usuario
+- **Total meetups:** 11 realizados
+- **Ponentes:** 10 ponentes diferentes
+- **Temas principales:** AI, Web Development, DevOps, Data Science, Open Source
+
+**Ponentes Destacados:**
+
+- Gustavo Vera (3 charlas)
+- David Sol (3 charlas)
+- Alejandro López (2 charlas)
 
 ---
 
-## Enlaces útiles
+## Enlaces Útiles
 
-- [Meetups 2023](/meetups/2023/)
-- [Meetups 2025](/meetups/2025/)
-- [Página principal](/)
+- [Telegram](https://t.me/PythonCDMX)
+- [Meetup](https://www.meetup.com/python-mexico)
+- [YouTube](https://www.youtube.com/@PythonMexico)
+- [GitHub](https://github.com/python-cdmx)
+
+---
+
+*Última actualización: {{ git_revision_date_localized }}*

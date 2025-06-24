@@ -26,25 +26,25 @@
         {
           "name": "Linear Regression",
           "description": "Regresión lineal",
-          "icon": "📈",
+          "icon": "<i class=\"fas fa-chart-line\"></i>",
           "color": "#007bff"
         },
         {
           "name": "Mathematics",
           "description": "Matemáticas",
-          "icon": "🧮",
+          "icon": "<i class=\"fas fa-calculator\"></i>",
           "color": "#28a745"
         },
         {
           "name": "Statistics",
           "description": "Estadística",
-          "icon": "📊",
+          "icon": "<i class=\"fas fa-chart-bar\"></i>",
           "color": "#ffc107"
         },
         {
           "name": "NumPy",
           "description": "Computación numérica",
-          "icon": "🔢",
+          "icon": "<i class=\"fas fa-hashtag\"></i>",
           "color": "#4DABCF"
         }
       ],
@@ -56,11 +56,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=BmSI2IgHG_c"
   },
   "tags": [
-    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
-    {"name": "Linear Regression", "icon": "📈", "color": "#007bff"},
-    {"name": "Mathematics", "icon": "🧮", "color": "#28a745"},
-    {"name": "Statistics", "icon": "📊", "color": "#ffc107"},
-    {"name": "Machine Learning", "icon": "🤖", "color": "#6f42c1"},
-    {"name": "NumPy", "icon": "🔢", "color": "#4DABCF"}
+    {"name": "Python", "icon": "<i class=\"fab fa-python\"></i>", "color": "#3776AB"},
+    {"name": "Linear Regression", "icon": "<i class=\"fas fa-chart-line\"></i>", "color": "#007bff"},
+    {"name": "Mathematics", "icon": "<i class=\"fas fa-calculator\"></i>", "color": "#28a745"},
+    {"name": "Statistics", "icon": "<i class=\"fas fa-chart-bar\"></i>", "color": "#ffc107"},
+    {"name": "Machine Learning", "icon": "<i class=\"fas fa-robot\"></i>", "color": "#6f42c1"},
+    {"name": "NumPy", "icon": "<i class=\"fas fa-hashtag\"></i>", "color": "#4DABCF"}
   ]
 }

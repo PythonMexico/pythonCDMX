@@ -26,25 +26,25 @@
         {
           "name": "venv",
           "description": "Ambientes virtuales",
-          "icon": "🐍",
+          "icon": "<i class=\"fab fa-python\"></i>",
           "color": "#3776AB"
         },
         {
           "name": "pyenv",
           "description": "Gestión de versiones",
-          "icon": "📦",
+          "icon": "<i class=\"fas fa-box\"></i>",
           "color": "#28a745"
         },
         {
           "name": "conda",
           "description": "Gestión de paquetes",
-          "icon": "🐍",
+          "icon": "<i class=\"fab fa-python\"></i>",
           "color": "#44A833"
         },
         {
           "name": "poetry",
           "description": "Gestión de dependencias",
-          "icon": "📚",
+          "icon": "<i class=\"fas fa-book\"></i>",
           "color": "#60A5FA"
         }
       ],
@@ -56,11 +56,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=placeholder"
   },
   "tags": [
-    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
-    {"name": "venv", "icon": "🐍", "color": "#3776AB"},
-    {"name": "pyenv", "icon": "📦", "color": "#28a745"},
-    {"name": "conda", "icon": "🐍", "color": "#44A833"},
-    {"name": "poetry", "icon": "📚", "color": "#60A5FA"},
-    {"name": "Development", "icon": "💻", "color": "#6c757d"}
+    {"name": "Python", "icon": "<i class=\"fab fa-python\"></i>", "color": "#3776AB"},
+    {"name": "venv", "icon": "<i class=\"fab fa-python\"></i>", "color": "#3776AB"},
+    {"name": "pyenv", "icon": "<i class=\"fas fa-box\"></i>", "color": "#28a745"},
+    {"name": "conda", "icon": "<i class=\"fab fa-python\"></i>", "color": "#44A833"},
+    {"name": "poetry", "icon": "<i class=\"fas fa-book\"></i>", "color": "#60A5FA"},
+    {"name": "Development", "icon": "<i class=\"fas fa-laptop-code\"></i>", "color": "#6c757d"}
   ]
 }

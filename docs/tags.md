@@ -9,48 +9,48 @@ Explora nuestros meetups por temas y tecnologías. Haz clic en cualquier tag par
 ## 🔍 Búsqueda por Categorías
 
 ### 🐍 Python Core
-- [Python](tags/python/) - Charlas sobre el lenguaje Python
-- [Best Practices](tags/best-practices/) - Mejores prácticas de desarrollo
-- [Code Quality](tags/code-quality/) - Calidad de código y testing
+- [Python](#python) - Charlas sobre el lenguaje Python
+- [Best Practices](#best-practices) - Mejores prácticas de desarrollo
+- [Code Quality](#code-quality) - Calidad de código y testing
 
 ### 🤖 Inteligencia Artificial
-- [AI](tags/ai/) - Inteligencia Artificial y Machine Learning
-- [ChatGPT](tags/chatgpt/) - LLMs y ChatGPT
-- [Embeddings](tags/embeddings/) - Embeddings y vectores
-- [NLP](tags/nlp/) - Procesamiento de Lenguaje Natural
+- [AI](#ai) - Inteligencia Artificial y Machine Learning
+- [ChatGPT](#chatgpt) - LLMs y ChatGPT
+- [Embeddings](#embeddings) - Embeddings y vectores
+- [NLP](#nlp) - Procesamiento de Lenguaje Natural
 
 ### 🌐 Desarrollo Web
-- [Web Development](tags/web-development/) - Desarrollo web con Python
-- [Flask](tags/flask/) - Framework Flask
-- [APIs](tags/apis/) - Desarrollo de APIs
-- [Pydantic](tags/pydantic/) - Validación de datos
+- [Web Development](#web-development) - Desarrollo web con Python
+- [Flask](#flask) - Framework Flask
+- [APIs](#apis) - Desarrollo de APIs
+- [Pydantic](#pydantic) - Validación de datos
 
 ### ☁️ DevOps y Cloud
-- [DevOps](tags/devops/) - DevOps y automatización
-- [Kubernetes](tags/kubernetes/) - Orquestación de contenedores
-- [Docker](tags/docker/) - Contenedores
-- [GitOps](tags/gitops/) - GitOps y CI/CD
+- [DevOps](#devops) - DevOps y automatización
+- [Kubernetes](#kubernetes) - Orquestación de contenedores
+- [Docker](#docker) - Contenedores
+- [GitOps](#gitops) - GitOps y CI/CD
 
 ### 📊 Data Science
-- [Data Science](tags/data-science/) - Ciencia de datos
-- [ETLs](tags/etls/) - Extracción, Transformación y Carga
-- [Jupyter](tags/jupyter/) - Jupyter notebooks
-- [Regresión](tags/regresión/) - Análisis estadístico
+- [Data Science](#data-science) - Ciencia de datos
+- [ETLs](#etls) - Extracción, Transformación y Carga
+- [Jupyter](#jupyter) - Jupyter notebooks
+- [Regresión](#regresión) - Análisis estadístico
 
 ### 🔓 Open Source
-- [Open Source](tags/open-source/) - Software libre
-- [Contribuir](tags/contribuir/) - Contribuir a proyectos open source
-- [Software Libre](tags/software-libre/) - Software libre y comunidad
+- [Open Source](#open-source) - Software libre
+- [Contribuir](#contribuir) - Contribuir a proyectos open source
+- [Software Libre](#software-libre) - Software libre y comunidad
 
 ### 🎨 Interfaces y UX
-- [GUI](tags/gui/) - Interfaces gráficas
-- [PySide6](tags/pyside6/) - Framework GUI
-- [Desktop Apps](tags/desktop-apps/) - Aplicaciones de escritorio
+- [GUI](#gui) - Interfaces gráficas
+- [PySide6](#pyside6) - Framework GUI
+- [Desktop Apps](#desktop-apps) - Aplicaciones de escritorio
 
 ### 🔒 Seguridad
-- [Security](tags/security/) - Seguridad informática
-- [PCI DSS](tags/pci-dss/) - Estándares de seguridad
-- [Automation](tags/automation/) - Automatización de seguridad
+- [Security](#security) - Seguridad informática
+- [PCI DSS](#pci-dss) - Estándares de seguridad
+- [Automation](#automation) - Automatización de seguridad
 
 ---
 

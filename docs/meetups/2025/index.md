@@ -16,7 +16,7 @@ Este año continuamos con nuestra misión de conectar desarrolladores Python en 
 
     **RSVP:** https://www.meetup.com/python-mexico/
 
-[![Junio 2025](/images/meetup/202506-pythoncdmx.png)](202506-junio.md)
+[![Junio 2025](../../images/meetup/202506-pythoncdmx.png)](202506-junio.md)
 
 [Ver detalles →](202506-junio.md)
 
@@ -34,7 +34,7 @@ Este año continuamos con nuestra misión de conectar desarrolladores Python en 
 
     **RSVP:** https://www.meetup.com/python-mexico/
 
-[![Mayo 2025](/images/meetup/202505-pythoncdmx.png)](202505-mayo.md)
+[![Mayo 2025](../../images/meetup/202505-pythoncdmx.png)](202505-mayo.md)
 
 [Ver detalles →](202505-mayo.md)
 
@@ -54,7 +54,7 @@ Este año continuamos con nuestra misión de conectar desarrolladores Python en 
 
     **RSVP:** https://www.meetup.com/python-mexico/
 
-[![Abril 2025 Extra](/images/meetup/202504-pythoncdmx-unam.jpg)](202504-abril.md)
+[![Abril 2025 Extra](../../images/meetup/202504-pythoncdmx-unam.jpg)](202504-abril.md)
 
 [Ver detalles →](202504-abril.md)
 
@@ -72,7 +72,7 @@ Este año continuamos con nuestra misión de conectar desarrolladores Python en 
 
     **RSVP:** https://www.meetup.com/python-mexico/
 
-[![Abril 2025](/images/meetup/202504-pythoncdmx.jpg)](202504-abril.md)
+[![Abril 2025](../../images/meetup/202504-pythoncdmx.jpg)](202504-abril.md)
 
 [Ver detalles →](202504-abril.md)
 
@@ -92,7 +92,7 @@ Este año continuamos con nuestra misión de conectar desarrolladores Python en 
 
     **RSVP:** https://www.meetup.com/python-mexico/
 
-[![Marzo 2025](/images/meetup/202503-pythoncdmx.jpg)](202503-marzo.md)
+[![Marzo 2025](../../images/meetup/202503-pythoncdmx.jpg)](202503-marzo.md)
 
 [Ver detalles →](202503-marzo.md)
 
@@ -112,7 +112,7 @@ Este año continuamos con nuestra misión de conectar desarrolladores Python en 
 
     **RSVP:** https://www.meetup.com/python-mexico/
 
-[![Febrero 2025](/images/meetup/202502-pythoncdmx.png)](202502-febrero.md)
+[![Febrero 2025](../../images/meetup/202502-pythoncdmx.png)](202502-febrero.md)
 
 [Ver detalles →](202502-febrero.md)
 
@@ -136,7 +136,7 @@ Este año continuamos con nuestra misión de conectar desarrolladores Python en 
 
     **RSVP:** https://www.meetup.com/python-mexico/
 
-[![Enero 2025](/images/meetup/202501-pythoncdmx.png)](202501-enero.md)
+[![Enero 2025](../../images/meetup/202501-pythoncdmx.png)](202501-enero.md)
 
 [Ver detalles →](202501-enero.md)
 

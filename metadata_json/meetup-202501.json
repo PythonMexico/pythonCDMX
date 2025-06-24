@@ -26,19 +26,19 @@
         {
           "name": "LibreOffice",
           "description": "Suite de oficina",
-          "icon": "📄",
+          "icon": "<i class=\"fas fa-file-alt\"></i>",
           "color": "#18A303"
         },
         {
           "name": "Python",
           "description": "Lenguaje de scripting",
-          "icon": "🐍",
+          "icon": "<i class=\"fab fa-python\"></i>",
           "color": "#3776AB"
         },
         {
           "name": "Automation",
           "description": "Automatización",
-          "icon": "⚙️",
+          "icon": "<i class=\"fas fa-cog\"></i>",
           "color": "#6c757d"
         }
       ],
@@ -61,25 +61,25 @@
         {
           "name": "PCI DSS",
           "description": "Estándar de seguridad",
-          "icon": "🔒",
+          "icon": "<i class=\"fas fa-lock\"></i>",
           "color": "#dc3545"
         },
         {
           "name": "Security",
           "description": "Seguridad informática",
-          "icon": "🛡️",
+          "icon": "<i class=\"fas fa-shield-alt\"></i>",
           "color": "#28a745"
         },
         {
           "name": "Docker",
           "description": "Contenedores",
-          "icon": "🐳",
+          "icon": "<i class=\"fab fa-docker\"></i>",
           "color": "#2496ED"
         },
         {
           "name": "AWS",
           "description": "Cloud security",
-          "icon": "☁️",
+          "icon": "<i class=\"fab fa-aws\"></i>",
           "color": "#FF9900"
         }
       ],
@@ -91,11 +91,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=gOjfq41I8XY"
   },
   "tags": [
-    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
-    {"name": "LibreOffice", "icon": "📄", "color": "#18A303"},
-    {"name": "Security", "icon": "🔒", "color": "#dc3545"},
-    {"name": "PCI DSS", "icon": "🛡️", "color": "#28a745"},
-    {"name": "Automation", "icon": "⚙️", "color": "#6c757d"},
-    {"name": "Docker", "icon": "🐳", "color": "#2496ED"}
+    {"name": "Python", "icon": "<i class=\"fab fa-python\"></i>", "color": "#3776AB"},
+    {"name": "LibreOffice", "icon": "<i class=\"fas fa-file-alt\"></i>", "color": "#18A303"},
+    {"name": "Security", "icon": "<i class=\"fas fa-lock\"></i>", "color": "#dc3545"},
+    {"name": "PCI DSS", "icon": "<i class=\"fas fa-shield-alt\"></i>", "color": "#28a745"},
+    {"name": "Automation", "icon": "<i class=\"fas fa-cog\"></i>", "color": "#6c757d"},
+    {"name": "Docker", "icon": "<i class=\"fab fa-docker\"></i>", "color": "#2496ED"}
   ]
 }

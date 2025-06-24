@@ -26,25 +26,25 @@
         {
           "name": "Open Source",
           "description": "Software libre",
-          "icon": "🔓",
+          "icon": "<i class=\"fas fa-unlock\"></i>",
           "color": "#28a745"
         },
         {
           "name": "Red Hat",
           "description": "Empresa de software",
-          "icon": "🔴",
+          "icon": "<i class=\"fas fa-circle\"></i>",
           "color": "#EE0000"
         },
         {
           "name": "Linux",
           "description": "Sistema operativo",
-          "icon": "🐧",
+          "icon": "<i class=\"fab fa-linux\"></i>",
           "color": "#FCC624"
         },
         {
           "name": "Fedora",
           "description": "Distribución Linux",
-          "icon": "🎩",
+          "icon": "<i class=\"fas fa-hat-cowboy\"></i>",
           "color": "#294172"
         }
       ],
@@ -56,11 +56,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=U3I5fVrnq-g"
   },
   "tags": [
-    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
-    {"name": "Open Source", "icon": "🔓", "color": "#28a745"},
-    {"name": "Linux", "icon": "🐧", "color": "#FCC624"},
-    {"name": "Red Hat", "icon": "🔴", "color": "#EE0000"},
-    {"name": "Fedora", "icon": "🎩", "color": "#294172"},
-    {"name": "Community", "icon": "👥", "color": "#17a2b8"}
+    {"name": "Python", "icon": "<i class=\"fab fa-python\"></i>", "color": "#3776AB"},
+    {"name": "Open Source", "icon": "<i class=\"fas fa-unlock\"></i>", "color": "#28a745"},
+    {"name": "Linux", "icon": "<i class=\"fab fa-linux\"></i>", "color": "#FCC624"},
+    {"name": "Red Hat", "icon": "<i class=\"fas fa-circle\"></i>", "color": "#EE0000"},
+    {"name": "Fedora", "icon": "<i class=\"fas fa-hat-cowboy\"></i>", "color": "#294172"},
+    {"name": "Community", "icon": "<i class=\"fas fa-users\"></i>", "color": "#17a2b8"}
   ]
 }

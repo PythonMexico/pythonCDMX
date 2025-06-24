@@ -148,7 +148,7 @@ Cada meetup incluye tiempo de networking para conectar con otros desarrolladores
 <div class="upcoming-events">
 
 ### [Junio 2025 - Usando Python y software libre](2025/202506-junio.md)
-[![Junio 2025](/images/meetup/202506-pythoncdmx.png)](2025/202506-junio.md)
+[![Junio 2025](../images/meetup/202506-pythoncdmx.png)](2025/202506-junio.md)
 
 **Fecha:** Martes 10 de Junio, 18:30
 **Ponente:** Carlos Cesar Caballero

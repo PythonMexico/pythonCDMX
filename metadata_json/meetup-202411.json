@@ -26,19 +26,19 @@
         {
           "name": "Python",
           "description": "Lenguaje principal",
-          "icon": "🐍",
+          "icon": "<i class=\"fab fa-python\"></i>",
           "color": "#3776AB"
         },
         {
           "name": "Best Practices",
           "description": "Buenas prácticas",
-          "icon": "✨",
+          "icon": "<i class=\"fas fa-star\"></i>",
           "color": "#28a745"
         },
         {
           "name": "Code Quality",
           "description": "Calidad de código",
-          "icon": "🔍",
+          "icon": "<i class=\"fas fa-search\"></i>",
           "color": "#ffc107"
         }
       ],
@@ -61,19 +61,19 @@
         {
           "name": "ChatGPT",
           "description": "Modelo de lenguaje",
-          "icon": "🤖",
+          "icon": "<i class=\"fas fa-robot\"></i>",
           "color": "#10a37f"
         },
         {
           "name": "Transformer",
           "description": "Arquitectura neural",
-          "icon": "🧠",
+          "icon": "<i class=\"fas fa-brain\"></i>",
           "color": "#007bff"
         },
         {
           "name": "NLP",
           "description": "Procesamiento de lenguaje",
-          "icon": "📝",
+          "icon": "<i class=\"fas fa-file-alt\"></i>",
           "color": "#28a745"
         }
       ],
@@ -85,11 +85,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=01V35jpDou0"
   },
   "tags": [
-    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
-    {"name": "Best Practices", "icon": "✨", "color": "#28a745"},
-    {"name": "ChatGPT", "icon": "🤖", "color": "#10a37f"},
-    {"name": "Code Quality", "icon": "🔍", "color": "#ffc107"},
-    {"name": "AI", "icon": "🧠", "color": "#007bff"},
-    {"name": "NLP", "icon": "📝", "color": "#6f42c1"}
+    {"name": "Python", "icon": "<i class=\"fab fa-python\"></i>", "color": "#3776AB"},
+    {"name": "Best Practices", "icon": "<i class=\"fas fa-star\"></i>", "color": "#28a745"},
+    {"name": "ChatGPT", "icon": "<i class=\"fas fa-robot\"></i>", "color": "#10a37f"},
+    {"name": "Code Quality", "icon": "<i class=\"fas fa-search\"></i>", "color": "#ffc107"},
+    {"name": "AI", "icon": "<i class=\"fas fa-brain\"></i>", "color": "#007bff"},
+    {"name": "NLP", "icon": "<i class=\"fas fa-file-alt\"></i>", "color": "#6f42c1"}
   ]
 }

@@ -26,19 +26,19 @@
         {
           "name": "Protocols",
           "description": "Tipado estático",
-          "icon": "📋",
+          "icon": "<i class=\"fas fa-clipboard-list\"></i>",
           "color": "#007bff"
         },
         {
           "name": "Type Hints",
           "description": "Anotaciones de tipo",
-          "icon": "🏷️",
+          "icon": "<i class=\"fas fa-tag\"></i>",
           "color": "#28a745"
         },
         {
           "name": "Static Typing",
           "description": "Tipado estático",
-          "icon": "🔍",
+          "icon": "<i class=\"fas fa-search\"></i>",
           "color": "#ffc107"
         }
       ],
@@ -61,19 +61,19 @@
         {
           "name": "Open Source",
           "description": "Software libre",
-          "icon": "🔓",
+          "icon": "<i class=\"fas fa-unlock\"></i>",
           "color": "#28a745"
         },
         {
           "name": "Ruby",
           "description": "Lenguaje de programación",
-          "icon": "💎",
+          "icon": "<i class=\"fas fa-gem\"></i>",
           "color": "#CC342D"
         },
         {
           "name": "Community",
           "description": "Comunidad",
-          "icon": "👥",
+          "icon": "<i class=\"fas fa-users\"></i>",
           "color": "#17a2b8"
         }
       ],
@@ -85,11 +85,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=97NmGheUxmE"
   },
   "tags": [
-    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
-    {"name": "Protocols", "icon": "📋", "color": "#007bff"},
-    {"name": "Type Hints", "icon": "🏷️", "color": "#28a745"},
-    {"name": "Open Source", "icon": "🔓", "color": "#28a745"},
-    {"name": "Ruby", "icon": "💎", "color": "#CC342D"},
-    {"name": "Community", "icon": "👥", "color": "#17a2b8"}
+    {"name": "Python", "icon": "<i class=\"fab fa-python\"></i>", "color": "#3776AB"},
+    {"name": "Protocols", "icon": "<i class=\"fas fa-clipboard-list\"></i>", "color": "#007bff"},
+    {"name": "Type Hints", "icon": "<i class=\"fas fa-tag\"></i>", "color": "#28a745"},
+    {"name": "Open Source", "icon": "<i class=\"fas fa-unlock\"></i>", "color": "#28a745"},
+    {"name": "Ruby", "icon": "<i class=\"fas fa-gem\"></i>", "color": "#CC342D"},
+    {"name": "Community", "icon": "<i class=\"fas fa-users\"></i>", "color": "#17a2b8"}
   ]
 }

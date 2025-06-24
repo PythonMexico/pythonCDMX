@@ -1,41 +1,96 @@
 # Meetups 2023
 
-En 2023, PythonCDMX continuó creciendo y fortaleciendo la comunidad de Python en la Ciudad de México. Aquí encontrarás todos los meetups realizados durante este año.
+Nuestro primer año como comunidad Python CDMX. Aquí encontrarás todos los meetups realizados en 2023.
 
-## Meetups del 2023
+---
 
-### [Septiembre 2023 - Utilizando Servicios AI de AWS y Metaprogramación en Python](/meetups/2023/202309-septiembre/)
+## [GitOps: Automatizando el despliegue de aplicaciones](202311-noviembre.md)
 
-**Fecha:** 12 de Septiembre, 2023
-**Temas:**
-- Utilizando Servicios Administrados de AI de AWS con Python y Boto3
-- Metaprogramación en Python
+!!! success "Meetup #PythonCDMX Noviembre 2023 - Doble Charla"
 
-### [Octubre 2023 - ¡De Jupyter a Web en Minutos!](/meetups/2023/202310-octubre/)
+    **🎤 Ponente 1:** Carlos Reyes
 
-**Fecha:** 17 de Octubre, 2023
-**Tema:** Redefiniendo el Análisis Local con Python: ¡De Jupyter a Web en Minutos!
+    *GitOps: Automatizando el despliegue de aplicaciones*
 
-### [Noviembre 2023 - GitOps 101 / Python: La Forja de un Lenguaje](/meetups/2023/202311-noviembre/)
+    **🎤 Ponente 2:** Gustavo Vera
 
-**Fecha:** 14 de Noviembre, 2023
-**Temas:**
-- GitOps 101. Primeros pasos para desplegar aplicaciones en Kubernetes
-- Python: La Forja de un Lenguaje
+    *Historia de Python: De Guido van Rossum a la actualidad*
+
+    **🗓️ Fecha:** Martes 14 de Noviembre, 18:30
+
+    **📍 Lugar:** Wizeline México
+
+    **RSVP:** https://www.meetup.com/python-mexico/
+
+[![Noviembre 2023](../../images/meetup/202311-pythoncdmx.jpg)](202311-noviembre.md)
+
+[Ver detalles →](202311-noviembre.md)
+
+---
+
+## [Jupyter a Web: De notebooks a aplicaciones web](202310-octubre.md)
+
+!!! info "Meetup #PythonCDMX Octubre 2023"
+
+    **🎤 Ponente:** Gustavo Vera
+
+    **🗓️ Fecha:** Martes 10 de Octubre, 18:30
+
+    **📍 Lugar:** Wizeline México
+
+    **RSVP:** https://www.meetup.com/python-mexico/
+
+[![Octubre 2023](../../images/meetup/202310-pythoncdmx.jpg)](202310-octubre.md)
+
+[Ver detalles →](202310-octubre.md)
+
+---
+
+## [Metaprogramación en Python](202309-septiembre.md)
+
+!!! success "Meetup #PythonCDMX Septiembre 2023 - Doble Charla"
+
+    **🎤 Ponente 1:** David Sol
+
+    *Metaprogramación en Python*
+
+    **🎤 Ponente 2:** Gustavo Vera
+
+    *AWS AI: Servicios de IA en la nube*
+
+    **🗓️ Fecha:** Martes 12 de Septiembre, 18:30
+
+    **📍 Lugar:** Wizeline México
+
+    **RSVP:** https://www.meetup.com/python-mexico/
+
+[![Septiembre 2023](../../images/meetup/202309-pythoncdmx.jpg)](202309-septiembre.md)
+
+[Ver detalles →](202309-septiembre.md)
 
 ---
 
 ## Estadísticas 2023
 
-- **Total de meetups:** 3
-- **Total de charlas:** 5
-- **Ponentes únicos:** 4
-- **Temas principales:** Inteligencia Artificial, DevOps, Metaprogramación, Análisis de Datos
+- **Total meetups:** 3 realizados
+- **Ponentes:** 3 ponentes diferentes
+- **Temas principales:** GitOps, Jupyter, Metaprogramación, AWS AI
+
+**Ponentes Destacados:**
+
+- Gustavo Vera (3 charlas)
+- David Sol (1 charla)
+- Carlos Reyes (1 charla)
 
 ---
 
-## Enlaces útiles
+## Enlaces Útiles
 
-- [Meetups 2024](/meetups/2024/)
-- [Meetups 2025](/meetups/2025/)
-- [Página principal](/)
+- [Telegram](https://t.me/PythonCDMX)
+- [Meetup](https://www.meetup.com/python-mexico)
+- [YouTube](https://www.youtube.com/@PythonMexico)
+- [GitHub](https://github.com/python-cdmx)
+
+---
+
+*Última actualización: {{ git_revision_date_localized }}*

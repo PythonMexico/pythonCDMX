@@ -26,19 +26,19 @@
         {
           "name": "PyPI",
           "description": "Python Package Index",
-          "icon": "📦",
+          "icon": "<i class=\"fas fa-box\"></i>",
           "color": "#FFD43B"
         },
         {
           "name": "setuptools",
           "description": "Herramientas de empaquetado",
-          "icon": "🔧",
+          "icon": "<i class=\"fas fa-wrench\"></i>",
           "color": "#3776AB"
         },
         {
           "name": "twine",
           "description": "Subida de paquetes",
-          "icon": "📤",
+          "icon": "<i class=\"fas fa-upload\"></i>",
           "color": "#28a745"
         }
       ],
@@ -50,10 +50,10 @@
     "youtube_url": "https://www.youtube.com/watch?v=1nHTVEOSRlg"
   },
   "tags": [
-    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
-    {"name": "PyPI", "icon": "📦", "color": "#FFD43B"},
-    {"name": "Packaging", "icon": "📦", "color": "#28a745"},
-    {"name": "Open Source", "icon": "🔓", "color": "#fd7e14"},
-    {"name": "DevOps", "icon": "⚙️", "color": "#6f42c1"}
+    {"name": "Python", "icon": "<i class=\"fab fa-python\"></i>", "color": "#3776AB"},
+    {"name": "PyPI", "icon": "<i class=\"fas fa-box\"></i>", "color": "#FFD43B"},
+    {"name": "Packaging", "icon": "<i class=\"fas fa-box\"></i>", "color": "#28a745"},
+    {"name": "Open Source", "icon": "<i class=\"fas fa-unlock\"></i>", "color": "#fd7e14"},
+    {"name": "DevOps", "icon": "<i class=\"fas fa-cog\"></i>", "color": "#6f42c1"}
   ]
 }

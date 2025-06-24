@@ -26,19 +26,19 @@
         {
           "name": "Vosk",
           "description": "Reconocimiento de voz offline",
-          "icon": "🎤",
+          "icon": "<i class=\"fas fa-microphone\"></i>",
           "color": "#007bff"
         },
         {
           "name": "Argos Translate",
           "description": "Traducción neural offline",
-          "icon": "🌐",
+          "icon": "<i class=\"fas fa-globe\"></i>",
           "color": "#28a745"
         },
         {
           "name": "Coqui TTS",
           "description": "Síntesis de voz neural",
-          "icon": "🔊",
+          "icon": "<i class=\"fas fa-volume-up\"></i>",
           "color": "#dc3545"
         }
       ],
@@ -50,12 +50,12 @@
     "youtube_url": "https://www.youtube.com/watch?v=hSaZXuY30zI"
   },
   "tags": [
-    {"name": "Python", "icon": "🐍", "color": "#007bff"},
-    {"name": "Software Libre", "icon": "🔓", "color": "#28a745"},
-    {"name": "Traducción", "icon": "🌐", "color": "#ffc107"},
-    {"name": "Vosk", "icon": "🎤", "color": "#17a2b8"},
-    {"name": "Argos Translate", "icon": "🔤", "color": "#6f42c1"},
-    {"name": "Coqui TTS", "icon": "🔊", "color": "#e83e8c"},
-    {"name": "Open Source", "icon": "📦", "color": "#fd7e14"}
+    {"name": "Python", "icon": "<i class=\"fab fa-python\"></i>", "color": "#007bff"},
+    {"name": "Software Libre", "icon": "<i class=\"fas fa-unlock\"></i>", "color": "#28a745"},
+    {"name": "Traducción", "icon": "<i class=\"fas fa-globe\"></i>", "color": "#ffc107"},
+    {"name": "Vosk", "icon": "<i class=\"fas fa-microphone\"></i>", "color": "#17a2b8"},
+    {"name": "Argos Translate", "icon": "<i class=\"fas fa-language\"></i>", "color": "#6f42c1"},
+    {"name": "Coqui TTS", "icon": "<i class=\"fas fa-volume-up\"></i>", "color": "#e83e8c"},
+    {"name": "Open Source", "icon": "<i class=\"fas fa-box\"></i>", "color": "#fd7e14"}
   ]
 }

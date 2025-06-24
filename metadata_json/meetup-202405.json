@@ -26,19 +26,19 @@
         {
           "name": "Pydantic",
           "description": "Validación de datos",
-          "icon": "✅",
+          "icon": "<i class=\"fas fa-check\"></i>",
           "color": "#E92063"
         },
         {
           "name": "Type Hints",
           "description": "Anotaciones de tipo",
-          "icon": "🏷️",
+          "icon": "<i class=\"fas fa-tag\"></i>",
           "color": "#28a745"
         },
         {
           "name": "Data Validation",
           "description": "Validación de datos",
-          "icon": "🔍",
+          "icon": "<i class=\"fas fa-search\"></i>",
           "color": "#007bff"
         }
       ],
@@ -50,11 +50,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=acpwiu_sfjk"
   },
   "tags": [
-    {"name": "Python", "icon": "🐍", "color": "#3776AB"},
-    {"name": "Pydantic", "icon": "✅", "color": "#E92063"},
-    {"name": "Type Hints", "icon": "🏷️", "color": "#28a745"},
-    {"name": "Data Validation", "icon": "🔍", "color": "#007bff"},
-    {"name": "FastAPI", "icon": "⚡", "color": "#009688"},
-    {"name": "Best Practices", "icon": "✨", "color": "#ffc107"}
+    {"name": "Python", "icon": "<i class=\"fab fa-python\"></i>", "color": "#3776AB"},
+    {"name": "Pydantic", "icon": "<i class=\"fas fa-check\"></i>", "color": "#E92063"},
+    {"name": "Type Hints", "icon": "<i class=\"fas fa-tag\"></i>", "color": "#28a745"},
+    {"name": "Data Validation", "icon": "<i class=\"fas fa-search\"></i>", "color": "#007bff"},
+    {"name": "FastAPI", "icon": "<i class=\"fas fa-bolt\"></i>", "color": "#009688"},
+    {"name": "Best Practices", "icon": "<i class=\"fas fa-star\"></i>", "color": "#ffc107"}
   ]
 }
