@@ -4,6 +4,20 @@ Este año continuamos con nuestra misión de conectar desarrolladores Python en 
 
 ---
 
+## [Cómo preparar una ambiente de desarrollo con Python desde zero](202507-julio.md)
+
+| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-user"></i> **Ponente** |
+|:---|:---|:---|
+| Martes 08 de Julio, 18:30 | Clara | David Sol |
+
+**RSVP:** https://www.meetup.com/python-mexico/
+
+[![Junio 2025](../../images/meetup/202507-pythoncdmx.png)](202507-julio.md)
+
+[Ver detalles →](202507-julio.md)
+
+---
+
 ## [Usando Python y software libre para crear nuevas herramientas: Traductor de voz español-inglés](202506-junio.md)
 
 | <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-user"></i> **Ponente** |
