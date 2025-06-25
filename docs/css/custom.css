@@ -874,3 +874,110 @@ i[class*="fa-"] {
     padding: 15px;
   }
 }
+
+/* Tarjetas de voluntarios y ponentes mejoradas */
+.volunteer-card, .speaker-card {
+  box-shadow: 0 2px 8px rgba(40, 167, 69, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.2rem;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  font-size: 1.05em;
+}
+.volunteer-card:hover, .speaker-card:hover {
+}
+.volunteer-card {
+  border-left: 5px solid #28a745;
+  background: #f8f9fa;
+}
+.speaker-card {
+  border-left: 5px solid #007bff;
+  background: #e9ecef;
+}
+.avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #e0e0e0 url('/images/generic-avatar.png') center/cover no-repeat;
+  flex-shrink: 0;
+}
+.card-content {
+  flex: 1;
+  min-width: 0;
+}
+.card-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.2em;
+}
+.card-role {
+  color: #555;
+  font-size: 1em;
+  margin-bottom: 0.3em;
+}
+.badge {
+  background: #e6f4ea;
+  color: #28a745;
+  border-radius: 6px;
+  padding: 0.08em 0.45em;
+  font-size: 0.75em;
+  margin-left: 0.4em;
+  vertical-align: middle;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  box-shadow: none;
+}
+.speaker-card .badge {
+  background: #e6f0fa;
+  color: #007bff;
+}
+.card-socials {
+  display: flex;
+  gap: 0.5em;
+  margin-top: 0.2em;
+}
+.social-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  font-size: 1.2em;
+  transition: background 0.2s, color 0.2s;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+.social-btn:hover {
+  background: #28a745;
+  color: #fff;
+}
+.speaker-card .social-btn:hover {
+  background: #007bff;
+}
+@media (max-width: 600px) {
+  .volunteer-card, .speaker-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 0.7rem;
+  }
+  .avatar {
+    width: 56px;
+    height: 56px;
+  }
+  .card-title {
+    font-size: 1.05em;
+  }
+}
