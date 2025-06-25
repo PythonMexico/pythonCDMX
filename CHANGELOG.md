@@ -8,60 +8,60 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
 
 ## [Unreleased]
 
-### Added
-- Nuevas páginas de comunidad bajo `docs/comunidad/`:
-  - `ponentes` - Información sobre cómo ser ponente
-  - `voluntarios.md` - Guía para voluntarios y organizadores
-  - `alianzas.md` - Información sobre alianzas con empresas y comunidades
+### Añadido
+- **Nueva Sección Comunidad**: Creadas páginas completas de comunidad bajo `/comunidad/`
+  - `ponentes.md` - Guía para convertirse en ponente
+  - `voluntarios.md` - Información sobre voluntariado
+  - `alianzas.md` - Alianzas con comunidades y empresas
   - `como-contribuir.md` - Guía completa de contribución
-- Mejoras recientes en README.md y documentación.
-- Actualización de metadatos y páginas de meetups 2025.
-- Eliminación de CNAME para usar la URL estándar de GitHub Pages.
-- Secciones nuevas y reorganización de la documentación: Ponentes, Organizadores y Voluntarios, Alianzas (empresas y comunidades).
-- Sección 'Nuestra Cultura' y 'Comunidades Amigas' en about.md.
-- Eslogan destacado en index.md: "¡Vine por el código, me quedé por la comunidad!".
+- **Navegación Mejorada**: Añadida sección "También Te Puede Interesar" con tablas de navegación en todas las páginas
+- **Enlaces Sociales Modernos**: Reemplazados enlaces tipo badge con botones grid atractivos
+- **Seguridad de Enlaces Externos**: Añadidos `target="_blank"` y `rel="noopener noreferrer"` a todos los enlaces externos
 
-### Changed
-- Renombrado del repositorio a pythonCDMX.
-- Corrección de imágenes y estilos.
-- Limpieza de duplicados y reordenamiento de secciones en about.md.
-- Mejora de formato y estilos visuales en about.md e index.md.
+### Cambiado
+- **Estructura de Enlaces**: Convertidos todos los enlaces relativos a rutas absolutas para mejor navegación
+- **Páginas de Meetups**: Rediseñadas páginas índice de meetups con formato de tabla limpio y estilos consistentes
+- **Formato de Fechas**: Estandarizado formato de fechas en todas las páginas de meetups al estilo "DD Mes YYYY"
+- **Organización de Contenido**: Reorganizado contenido para evitar repetición y mejorar flujo
+- **Consistencia Visual**: Aplicados estilos y formato consistentes en todas las páginas
+- **Página de Ponentes**: Simplificada para enfocarse solo en cómo ser ponente, eliminadas listas de ponentes y charlas destacadas
 
-### Removed
-- Archivos de plantillas de about eliminados: `about-minimalista.md`, `about-balanceado.md`, `about-estructurado.md`
-- Scripts de verificación obsoletos: `verify_speakers.py`, `verify_speakers_json.py`
-- Plantillas de issues obsoletas: `meetup_request.md`, `meetup_confirmado.md`
-- Archivo de metadatos duplicado: `meetup-202506.json`
+### Eliminado
+- **Archivos Obsoletos**: Eliminados archivos temporales de about y archivo CNAME
+- **Contenido Redundante**: Eliminada información duplicada en múltiples páginas
+- **Formato Antiguo de Enlaces Sociales**: Reemplazados enlaces tipo badge con botones grid modernos
+
+### Corregido
+- **Problemas de Navegación**: Corregidos enlaces internos rotos usando rutas absolutas
+- **Consistencia de Enlaces**: Asegurado que todos los enlaces internos usen rutas absolutas correctas
+- **Jerarquía Visual**: Mejorada estructura de páginas y legibilidad
 
 ---
 
-## [1.0.0] - 2025-06-24
+## [1.0.0] - 2024-01-15
 
-### Added
-- Sitio web inicial de Python CDMX Charlas usando MkDocs y Material for MkDocs.
-- Documentación de meetups desde 2023.
-- Estructura de carpetas para años, imágenes y ponentes.
-- Scripts de generación y migración de contenido.
-- Plantillas para nuevos meetups.
-- Configuración de despliegue automático con GitHub Actions.
-- Plantillas para issues y pull requests.
-- Guías de comunidad y archivos de contribución.
-- Configuración base: Docker, mkdocs.yml, requirements.txt, .gitignore, LICENSE.
+### Añadido
+- Lanzamiento inicial del sitio web Python CDMX Charlas
+- Estructura básica de MkDocs con tema Material
+- Documentación de meetups para 2023, 2024 y 2025
+- Página About e información de comunidad
+- Integración con redes sociales
+- GitHub Actions para despliegue automático
 
-### Changed
-- Mejoras en la navegación y estructura de carpetas.
-- Actualización de estilos personalizados y uso de iconos FontAwesome.
-- Refactorización y limpieza de archivos antiguos y assets.
+### Cambiado
+- Migrado desde formato de documentación anterior
+- Actualizada identidad visual y branding
+- Mejorada organización de contenido
 
-### Fixed
-- Corrección de enlaces y metadatos en archivos de meetups y JSON.
-- Problemas de formato en archivos Markdown.
+### Corregido
+- Varios problemas de documentación y enlaces
+- Configuración de despliegue
 
 ---
 
 ## [0.1.0] - 2024-01-31
 
-### Added
+### Añadido
 - Primer README.md y documentación básica del proyecto.
 - Propuesta de charla Flask Rest Api.
 
