@@ -9,6 +9,11 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
 ## [Unreleased]
 
 ### Added
+- Nuevas páginas de comunidad bajo `docs/comunidad/`:
+  - `ponentes` - Información sobre cómo ser ponente
+  - `voluntarios.md` - Guía para voluntarios y organizadores
+  - `alianzas.md` - Información sobre alianzas con empresas y comunidades
+  - `como-contribuir.md` - Guía completa de contribución
 - Mejoras recientes en README.md y documentación.
 - Actualización de metadatos y páginas de meetups 2025.
 - Eliminación de CNAME para usar la URL estándar de GitHub Pages.
@@ -21,6 +26,12 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
 - Corrección de imágenes y estilos.
 - Limpieza de duplicados y reordenamiento de secciones en about.md.
 - Mejora de formato y estilos visuales en about.md e index.md.
+
+### Removed
+- Archivos de plantillas de about eliminados: `about-minimalista.md`, `about-balanceado.md`, `about-estructurado.md`
+- Scripts de verificación obsoletos: `verify_speakers.py`, `verify_speakers_json.py`
+- Plantillas de issues obsoletas: `meetup_request.md`, `meetup_confirmado.md`
+- Archivo de metadatos duplicado: `meetup-202506.json`
 
 ---
 

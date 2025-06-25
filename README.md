@@ -102,7 +102,7 @@ https://pythonmexico.github.io/pythonCDMX/
 - Telegram: https://t.me/PythonCDMX
 - Meetup: https://www.meetup.com/python-mexico
 - YouTube: https://www.youtube.com/@PythonMexico
-- GitHub: https://github.com/python-cdmx
+- GitHub: https://github.com/PythonMexico/pythonCDMX
 - Twitter: https://twitter.com/PythonMexico
 - Email: info@pythoncdmx.org
 
