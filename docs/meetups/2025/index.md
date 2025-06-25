@@ -88,4 +88,6 @@
 
 ---
 
+¿Te gustaría aparecer aquí? Conoce a nuestros [ponentes y voluntarios reconocidos](/comunidad/reconocimientos/).
+
 *<i class="fas fa-clock"></i> Última actualización: {{ git_revision_date_localized }}*

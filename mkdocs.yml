@@ -5,8 +5,8 @@ site_url: https://python-cdmx.github.io
 
 # Repository
 repo_name: pythonCDMX
-repo_url: https://github.com/PythonMexico/pythonCDMX
-edit_uri: edit/main/docs/
+repo_url: https://github.com/PythonMexico/pythonCDMX/
+#edit_uri: edit/main/docs/
 
 # Copyright
 copyright: Copyright &copy; 2025 Python CDMX
@@ -40,8 +40,8 @@ theme:
   # Features
   features:
     - announce.dismiss
-    - content.action.edit
-    - content.action.view
+    #- content.action.edit
+    #- content.action.view
     - content.code.annotate
     - content.code.copy
     - content.code.select
@@ -89,7 +89,8 @@ nav:
     - Ponentes: comunidad/ponentes
     - Voluntarios: comunidad/voluntarios.md
     - Alianzas: comunidad/alianzas.md
-  - Temas y Tecnologías: tags.md
+    - Reconocimientos: comunidad/reconocimientos.md
+  #- Temas y Tecnologías: tags.md
   - Acerca de: about.md
 
 # Plugins

@@ -48,6 +48,15 @@ Somos una comunidad apasionada por Python que busca **conectar, aprender y crece
 
 </div>
 
+## <i class="fas fa-link"></i> Conecta con Nuestra Comunidad
+
+<div style="background: #f8f9fa; border-left: 6px solid #28a745; border-radius: 12px; padding: 1.5rem; margin: 2rem 0; text-align: center;">
+  <b>¡Conoce a quienes hacen posible Python CDMX!</b><br>
+  <a href="/comunidad/reconocimientos/" style="background: #28a745; color: white; padding: 0.7rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; margin-top: 1rem; display: inline-block;">
+    Ver Reconocimientos
+  </a>
+</div>
+
 ---
 
 ## <i class="fas fa-link"></i> Conecta con Nuestra Comunidad
