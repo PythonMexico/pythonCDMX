@@ -25,10 +25,9 @@ Somos una comunidad apasionada por Python que busca **conectar, aprender y crece
 ---
 
 ## <i class="fas fa-users"></i> Formas de Participación
-
 <div class="participation-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
 
-<div class="participation-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 2rem; border-radius: 16px; border-left: 6px solid #28a745; box-shadow: 0 4px 16px rgba(0,0,0,0.1);">
+  <div class="participation-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 2rem; border-radius: 16px; border-left: 6px solid #28a745; box-shadow: 0 4px 16px rgba(0,0,0,0.1);">
   <h3 style="margin: 0 0 1rem 0; color: #28a745; font-size: 1.5rem;"><i class="fas fa-microphone"></i> Ser Ponente</h3>
   <p style="margin: 0 0 1rem 0; line-height: 1.6; color: #555;">Comparte tu conocimiento con la comunidad. Charlas técnicas, casos de uso, mejores prácticas y más.</p>
   <a href="/comunidad/ponentes/" style="background: #28a745; color: white; padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">Conoce Más</a>

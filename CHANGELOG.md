@@ -15,6 +15,7 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
   - `alianzas.md` - Alianzas con comunidades y empresas
   - `como-contribuir.md` - Guía completa de contribución
   - `reconocimientos.md` - Reconocimientos a Ponentes y Voluntarios
+
 - **Navegación Mejorada**: Añadida sección "También Te Puede Interesar" con tablas de navegación en todas las páginas
 - **Enlaces Sociales Modernos**: Reemplazados enlaces tipo badge con botones grid atractivos
 - **Seguridad de Enlaces Externos**: Añadidos `target="_blank"` y `rel="noopener noreferrer"` a todos los enlaces externos
