@@ -74,9 +74,9 @@ tags:
             <p style="margin: 0 0 1rem 0; font-size: 1rem; color: #666;">Python Developer</p>
             <p style="margin: 0 0 1rem 0; line-height: 1.6; color: #555;">Desarrollador Python con experiencia en buenas prácticas y código limpio.</p>
             <div class="speaker-links">
-                
-                
-                
+
+
+
             </div>
         </div>
     </div>
@@ -84,26 +84,26 @@ tags:
     <div class="talk-description" style="background: white; padding: 2rem; border-left: 6px solid #28a745;">
         <p style="line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem; color: #333;">Descubre cómo escribir código Python más limpio y eficiente evitando los anti-patrones más comunes. Mejora tus habilidades y aprende a hacerlo de forma 'pythonic'.</p>
 
-        
+
         <div class="tech-stack" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #3776AB;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #3776AB; font-size: 1rem;"><i class="fab fa-python"></i> Python</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Lenguaje principal</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #28a745;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #28a745; font-size: 1rem;"><i class="fas fa-star"></i> Best Practices</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Buenas prácticas</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #ffc107;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #ffc107; font-size: 1rem;"><i class="fas fa-search"></i> Code Quality</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Calidad de código</p>
             </div>
-            
+
         </div>
-        
+
 
         <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem; color: #333; font-style: italic;">Evitar anti-patrones es fundamental para escribir código Python mantenible y eficiente.</p>
     </div>
@@ -124,9 +124,9 @@ tags:
             <p style="margin: 0 0 1rem 0; font-size: 1rem; color: #666;">AI Researcher</p>
             <p style="margin: 0 0 1rem 0; line-height: 1.6; color: #555;">Investigador en inteligencia artificial con experiencia en modelos de lenguaje y aplicaciones de IA.</p>
             <div class="speaker-links">
-                
-                
-                
+
+
+
             </div>
         </div>
     </div>
@@ -134,26 +134,26 @@ tags:
     <div class="talk-description" style="background: white; padding: 2rem; border-left: 6px solid #28a745;">
         <p style="line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem; color: #333;">ChatGPT es una herramienta poderosa diseñada para mejorar la interacción humano-máquina en tareas cotidianas, creativas y técnicas, gracias a su capacidad para comprender y generar lenguaje natural. La combinación de la arquitectura Transformer, el preentrenamiento masivo y el ajuste fino lo convierte en una opción versátil y accesible para múltiples usos. Además, su continua evolución a través del feedback y la investigación lo posiciona como una de las IA más avanzadas en la actualidad. La pregunta más importante es por qué, en esta charla gracias a Python entenderemos más sobre ChatGPT.</p>
 
-        
+
         <div class="tech-stack" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #10a37f;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #10a37f; font-size: 1rem;"><i class="fas fa-robot"></i> ChatGPT</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Modelo de lenguaje</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #007bff;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #007bff; font-size: 1rem;"><i class="fas fa-brain"></i> Transformer</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Arquitectura neural</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #28a745;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #28a745; font-size: 1rem;"><i class="fas fa-file-alt"></i> NLP</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Procesamiento de lenguaje</p>
             </div>
-            
+
         </div>
-        
+
 
         <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem; color: #333; font-style: italic;">Comprender el funcionamiento interno de ChatGPT es clave para aprovechar su potencial en aplicaciones Python.</p>
     </div>
@@ -186,19 +186,19 @@ tags:
 ## Temas y Tecnologías
 <div class="tags-section" style="margin: 2rem 0;">
     <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
-        
+
         <a href="/tags/python/" style="background: #3776AB; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fab fa-python"></i> Python</a>
-        
+
         <a href="/tags/best-practices/" style="background: #28a745; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-star"></i> Best Practices</a>
-        
+
         <a href="/tags/chatgpt/" style="background: #10a37f; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-robot"></i> ChatGPT</a>
-        
+
         <a href="/tags/code-quality/" style="background: #ffc107; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-search"></i> Code Quality</a>
-        
+
         <a href="/tags/ai/" style="background: #007bff; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-brain"></i> AI</a>
-        
+
         <a href="/tags/nlp/" style="background: #6f42c1; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-file-alt"></i> NLP</a>
-        
+
     </div>
 </div>
 
@@ -226,7 +226,7 @@ tags:
     <a href="https://www.youtube.com/@PythonMexico" style="background: #ff0000; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
         <i class="fab fa-youtube"></i> YouTube
     </a>
-    <a href="https://github.com/python-cdmx" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+    <a href="https://github.com/PythonMexico/pythonCDMX" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
         <i class="fab fa-github"></i> GitHub
     </a>
 </div>

@@ -65,9 +65,9 @@ tags:
         <p style="margin: 0 0 1rem 0; font-size: 1.1rem; opacity: 0.9;">Python Developer</p>
         <p style="margin: 0 0 1rem 0; line-height: 1.6;">Desarrollador Python con experiencia en análisis de datos y desarrollo web.</p>
         <div class="speaker-links">
-            
-            
-            
+
+
+
         </div>
     </div>
 </div>
@@ -80,27 +80,27 @@ tags:
     <h3 style="margin: 0 0 1rem 0; color: #28a745;"><i class="fas fa-rocket"></i> Redefiniendo el Análisis Local con Python: ¡De Jupyter a Web en Minutos!</h3>
     <p style="line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem;">Descubre cómo aprovechar al máximo el potente hardware de tu laptop para realizar análisis de datos avanzados de forma eficiente, todo desde la comodidad de un Jupyter Notebook. Pero eso no es todo: aprenderás cómo convertir tu análisis en un servicio web interactivo en cuestión de minutos. No es magia, es Python. ¡Únete y redefine lo que creías posible en análisis de datos local!</p>
     <div class="tech-stack" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
-        
+
         <div style="background: white; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <h4 style="margin: 0 0 0.5rem 0; color: #F37626;">📓 Jupyter</h4>
             <p style="margin: 0; font-size: 0.9rem;">Notebooks interactivos</p>
         </div>
-        
+
         <div style="background: white; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <h4 style="margin: 0 0 0.5rem 0; color: #28a745;">🌐 Web Development</h4>
             <p style="margin: 0; font-size: 0.9rem;">Desarrollo web</p>
         </div>
-        
+
         <div style="background: white; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <h4 style="margin: 0 0 0.5rem 0; color: #007bff;">📊 Data Analysis</h4>
             <p style="margin: 0; font-size: 0.9rem;">Análisis de datos</p>
         </div>
-        
+
         <div style="background: white; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <h4 style="margin: 0 0 0.5rem 0; color: #6c757d;">💻 Local Development</h4>
             <p style="margin: 0; font-size: 0.9rem;">Desarrollo local</p>
         </div>
-        
+
     </div>
     <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem;">Python permite transformar análisis de datos locales en servicios web interactivos de manera rápida y eficiente.</p>
 </div>
@@ -131,19 +131,19 @@ tags:
 ## Temas y Tecnologías
 <div class="tags-section" style="margin: 2rem 0;">
     <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
-        
+
         <a href="/tags/python/" style="background: #3776AB; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">🐍 Python</a>
-        
+
         <a href="/tags/jupyter/" style="background: #F37626; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">📓 Jupyter</a>
-        
+
         <a href="/tags/web-development/" style="background: #28a745; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">🌐 Web Development</a>
-        
+
         <a href="/tags/data-analysis/" style="background: #007bff; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">📊 Data Analysis</a>
-        
+
         <a href="/tags/local-development/" style="background: #6c757d; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">💻 Local Development</a>
-        
+
         <a href="/tags/interactive/" style="background: #ffc107; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">🎯 Interactive</a>
-        
+
     </div>
 </div>
 
@@ -171,7 +171,7 @@ tags:
     <a href="https://www.youtube.com/@PythonMexico" style="background: #ff0000; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
         <i class="fab fa-youtube"></i> YouTube
     </a>
-    <a href="https://github.com/python-cdmx" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+    <a href="https://github.com/PythonMexico/pythonCDMX" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
         <i class="fab fa-github"></i> GitHub
     </a>
 </div>

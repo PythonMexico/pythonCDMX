@@ -74,9 +74,9 @@ tags:
             <p style="margin: 0 0 1rem 0; font-size: 1rem; color: #666;">SRE Engineer</p>
             <p style="margin: 0 0 1rem 0; line-height: 1.6; color: #555;">SRE Engineer en Wizeline con experiencia en servicios cloud de AWS y desarrollo Python.</p>
             <div class="speaker-links">
-                
-                
-                
+
+
+
             </div>
         </div>
     </div>
@@ -84,31 +84,31 @@ tags:
     <div class="talk-description" style="background: white; padding: 2rem; border-left: 6px solid #28a745;">
         <p style="line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem; color: #333;">¿Qué tan difícil puede ser traducir un texto? ¿Crear una transcripción a partir de un fragmento de sonido? ¿Identificar los objetos en una imagen? ¿Sintetizar voz? Con los servicios administrados de Inteligencia Artificial de AWS, Python y Boto3, ¡es sencillo! En esta charla que nos compartirá David Sol veremos el código real, para darnos cuenta de lo fácil que es.</p>
 
-        
+
         <div class="tech-stack" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #FF9900;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #FF9900; font-size: 1rem;">☁️ AWS</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Servicios cloud</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #3776AB;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #3776AB; font-size: 1rem;">🐍 Boto3</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">SDK de AWS</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #007bff;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #007bff; font-size: 1rem;">🤖 AI Services</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Servicios de IA</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #28a745;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #28a745; font-size: 1rem;">🧠 Machine Learning</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Aprendizaje automático</p>
             </div>
-            
+
         </div>
-        
+
 
         <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem; color: #333; font-style: italic;">AWS proporciona servicios de IA accesibles que permiten integrar inteligencia artificial en aplicaciones Python de manera sencilla.</p>
     </div>
@@ -129,9 +129,9 @@ tags:
             <p style="margin: 0 0 1rem 0; font-size: 1rem; color: #666;">Python Developer</p>
             <p style="margin: 0 0 1rem 0; line-height: 1.6; color: #555;">Desarrollador Python con experiencia en técnicas avanzadas de programación y metaprogramación.</p>
             <div class="speaker-links">
-                
-                
-                
+
+
+
             </div>
         </div>
     </div>
@@ -139,26 +139,26 @@ tags:
     <div class="talk-description" style="background: white; padding: 2rem; border-left: 6px solid #28a745;">
         <p style="line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem; color: #333;">Explora las técnicas avanzadas de metaprogramación en Python para crear código más dinámico y flexible.</p>
 
-        
+
         <div class="tech-stack" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #ffc107;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #ffc107; font-size: 1rem;">🔧 Metaprogramming</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Metaprogramación</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #007bff;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #007bff; font-size: 1rem;">🎨 Decorators</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Decoradores</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #3776AB;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #3776AB; font-size: 1rem;">🐍 Advanced Python</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Python avanzado</p>
             </div>
-            
+
         </div>
-        
+
 
         <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem; color: #333; font-style: italic;">La metaprogramación permite crear código más elegante y reutilizable en Python.</p>
     </div>
@@ -191,19 +191,19 @@ tags:
 ## Temas y Tecnologías
 <div class="tags-section" style="margin: 2rem 0;">
     <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
-        
+
         <a href="/tags/python/" style="background: #3776AB; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">🐍 Python</a>
-        
+
         <a href="/tags/aws/" style="background: #FF9900; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">☁️ AWS</a>
-        
+
         <a href="/tags/ai-services/" style="background: #007bff; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">🤖 AI Services</a>
-        
+
         <a href="/tags/metaprogramming/" style="background: #ffc107; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">🔧 Metaprogramming</a>
-        
+
         <a href="/tags/boto3/" style="background: #3776AB; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">🐍 Boto3</a>
-        
+
         <a href="/tags/cloud/" style="background: #87CEEB; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">☁️ Cloud</a>
-        
+
     </div>
 </div>
 
@@ -231,7 +231,7 @@ tags:
     <a href="https://www.youtube.com/@PythonMexico" style="background: #ff0000; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
         <i class="fab fa-youtube"></i> YouTube
     </a>
-    <a href="https://github.com/python-cdmx" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+    <a href="https://github.com/PythonMexico/pythonCDMX" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
         <i class="fab fa-github"></i> GitHub
     </a>
 </div>

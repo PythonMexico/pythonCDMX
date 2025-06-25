@@ -1,118 +1,82 @@
-# <i class="fab fa-python"></i> Acerca de Python CDMX
+# Sobre Python CDMX <i class="fas fa-info-circle"></i>
 
-<div align="center">
-  <img src="images/logo.png" alt="Python CDMX Logo" style="height: 80px; margin-bottom: 10px;">
+<div align="center" style="font-size: 1.2em; margin: 1.5em 0;">
+  <b>Conectando la comunidad Python en la Ciudad de México</b>
 </div>
 
-**#PythonCDMX** es un grupo de personas interesadas en aprender y compartir su conocimiento sobre el lenguaje de programación Python. El objetivo es estar en contacto con más gente interesada en innovación y tecnología.
+---
+
+## <i class="fas fa-heart"></i> Nuestra Historia
+
+**Python CDMX** nació de la pasión por compartir conocimiento y conectar desarrolladores Python en la Ciudad de México. Desde nuestros inicios, hemos organizado meetups mensuales donde expertos y entusiastas se reúnen para aprender, compartir experiencias y construir relaciones profesionales.
+
+Nuestra comunidad ha crecido significativamente, pasando de pequeños grupos de entusiastas a una red vibrante de desarrolladores, ingenieros y profesionales del sector tecnológico.
 
 ---
 
-## <i class="fas fa-history"></i> Historia y evolución
+## <i class="fas fa-star"></i> Nuestra Cultura
 
-### <i class="fas fa-rocket"></i> Los inicios (2023)
-La comunidad Python CDMX surgió de la necesidad de crear un espacio dedicado específicamente a Python en la Ciudad de México. Con nuestro primer meetup en septiembre de 2023, comenzamos un viaje que nos ha llevado a convertirnos en una de las comunidades técnicas más activas de la capital.
+### <i class="fas fa-handshake"></i> Valores Fundamentales
 
-### <i class="fas fa-chart-line"></i> Crecimiento (2024-2025)
-Durante este período consolidamos nuestro formato de eventos mensuales, establecimos colaboraciones clave con empresas e instituciones académicas, y ampliamos nuestro alcance tanto en número de asistentes como en diversidad de temas cubiertos.
+- **Colaboración**: Creemos en el poder del trabajo en equipo y el intercambio de conocimientos
+- **Inclusividad**: Nuestra comunidad es abierta y acogedora para todos los niveles de experiencia
+- **Innovación**: Fomentamos la exploración de nuevas tecnologías y enfoques
+- **Mentoría**: Promovemos el aprendizaje entre pares y el desarrollo profesional
 
----
+### <i class="fas fa-lightbulb"></i> Filosofía
 
-## <i class="fas fa-gem"></i> Filosofía y valores
+> *"Compartir conocimiento es multiplicar sabiduría"*
 
-### <i class="fas fa-users"></i> Inclusividad
-Creemos que el conocimiento debe ser accesible para todos. No importa si eres un principiante absoluto o un desarrollador senior, hay un lugar para ti en nuestra comunidad.
-
-### <i class="fas fa-lightbulb"></i> Aprendizaje colaborativo
-Fomentamos un ambiente donde las preguntas son bienvenidas, los errores son oportunidades de aprendizaje, y todos tienen algo valioso que aportar.
-
-### <i class="fas fa-flask"></i> Innovación responsable
-Exploramos las últimas tendencias y tecnologías, pero siempre con un enfoque práctico y responsable hacia el desarrollo de software.
+Creemos que el verdadero crecimiento profesional viene de la colaboración y el intercambio de experiencias. Cada charla, cada conversación y cada conexión contribuye al desarrollo de nuestra comunidad.
 
 ---
 
-## <i class="fas fa-user-friends"></i> Equipo organizador
+## <i class="fas fa-users"></i> Formas de Participación
 
-### <i class="fas fa-user-tie"></i> Coordinadores principales
-Nuestro equipo está formado por desarrolladores Python con experiencia en la industria y pasión por la educación y el crecimiento de la comunidad tecnológica en México.
+### <i class="fas fa-microphone"></i> Ser Ponente
+Comparte tu experiencia y conocimiento con la comunidad. Consulta nuestra [guía para ponentes](/comunidad/ponentes) para más información.
 
-### <i class="fas fa-hands-helping"></i> Voluntarios y colaboradores
-La comunidad crece gracias al apoyo de voluntarios que ayudan con logística, contenido, promoción y documentación de eventos.
+### <i class="fas fa-hands-helping"></i> Ser Voluntario
+Ayuda a organizar eventos, gestionar redes sociales o contribuir con el desarrollo del sitio web. Conoce más en [nuestra página de voluntarios](/comunidad/voluntarios).
 
----
-
-## <i class="fas fa-bolt"></i> Impacto en la comunidad
-
-### <i class="fas fa-briefcase"></i> Desarrollo profesional
-Muchos miembros han encontrado nuevas oportunidades laborales, han mejorado sus habilidades técnicas, o han iniciado proyectos propios gracias a las conexiones hechas en la comunidad.
-
-### <i class="fas fa-code-branch"></i> Contribución al ecosistema
-La comunidad ha generado proyectos open source, ha contribuido a la documentación en español de Python, y ha servido como plataforma para que desarrolladores mexicanos compartan su trabajo con una audiencia más amplia.
+### <i class="fas fa-calendar"></i> Asistir a Meetups
+Participa en nuestros eventos mensuales para aprender, conectar y crecer profesionalmente.
 
 ---
 
-## <i class="fas fa-users-cog"></i> Formas de participar
+## <i class="fas fa-link"></i> Conecta con Nuestra Comunidad
 
-### <i class="fas fa-user"></i> Para asistentes
-- Asiste a meetups mensuales
-- Participa en discusiones en Telegram
-- Haz networking con otros desarrolladores
-- Accede a recursos educativos compartidos
-
-### <i class="fas fa-chalkboard-teacher"></i> Para ponentes
-- Propón charlas técnicas sobre Python
-- Comparte experiencias profesionales
-- Presenta proyectos open source
-- Facilita talleres prácticos
-
-### <i class="fas fa-hands-helping"></i> Para colaboradores
-- Ayuda con logística de eventos
-- Contribuye a la documentación
-- Apoya en promoción y redes sociales
-- Mentoriza a nuevos miembros
-
----
-
-## <i class="fas fa-link"></i> Contacto y recursos
-
-### <i class="fab fa-telegram"></i> Canales principales
-- [Telegram](https://t.me/PythonCDMX) — Comunidad diaria activa
-- [Meetup](https://www.meetup.com/python-mexico) — Registro de eventos
-- [GitHub](https://github.com/python-cdmx) — Proyectos y código
-- [YouTube](https://www.youtube.com/@PythonMexico) — Archivo de charlas
-
-### <i class="fas fa-building"></i> Para organizadores
-Si representas una empresa o institución interesada en colaborar, o si quieres proponer una charla, contáctanos a través de nuestros canales oficiales.
-
----
-
-## <i class="fas fa-users"></i> Nuestra Cultura
-
-En Python CDMX creemos que la comunidad la hacemos todos. Nos esforzamos por crear un ambiente seguro, divertido y colaborativo donde cada voz cuenta.
-
-- Nos reunimos el segundo martes de cada mes.
-- Fomentamos la participación, el respeto y la colaboración.
-- ¡Ayudamos a mantener los espacios limpios y ordenados!
-- Reconocemos y agradecemos a nuestros sponsors y sedes, como Wizeline y Clara.
-- Colaboramos activamente con empresas (como Wizeline México), instituciones académicas (como la UNAM Facultad de Ciencias) y otras comunidades tecnológicas.
-
----
-
-## <i class="fas fa-network-wired"></i> Comunidades Amigas
-
-Participamos en el ecosistema más amplio de comunidades tecnológicas en México, colaborando en eventos conjuntos y compartiendo recursos con:
-
-- RustMX
-- LIDSOL
-- AWS User Group Ajolotes en la Nube
-- PyTalavera
-- Sudo FCiencias
-- GitTogether CDMX
-- Fedora México
-- PyLadies Cuernavaca
-
----
-
-<div align="center">
-  <b>Python CDMX — Construyendo el futuro con Python, una línea de código a la vez.</b>
+<div class="community-links" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
+    <a href="https://t.me/PythonCDMX" target="_blank" rel="noopener noreferrer" style="background: #0088cc; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-telegram"></i> Telegram
+    </a>
+    <a href="https://www.meetup.com/python-mexico" target="_blank" rel="noopener noreferrer" style="background: #e51937; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-meetup"></i> Meetup
+    </a>
+    <a href="https://www.youtube.com/@PythonMexico" target="_blank" rel="noopener noreferrer" style="background: #ff0000; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-youtube"></i> YouTube
+    </a>
+    <a href="https://github.com/PythonMexico/pythonCDMX" target="_blank" rel="noopener noreferrer" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://www.instagram.com/pythoncdmx/" target="_blank" rel="noopener noreferrer" style="background: #E4405F; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a href="https://www.linkedin.com/groups/13126454/" target="_blank" rel="noopener noreferrer" style="background: #0A66C2; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
 </div>
+
+---
+
+## <i class="fas fa-star"></i> También Te Puede Interesar
+
+| <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
+|:---|:---|:---|
+| [Meetups 2025](/meetups/2025/) - Año actual | [Ser Ponente](/comunidad/ponentes) - Comparte conocimiento | [Nuestros Ponentes](/comunidad/ponentes) - Conoce a la comunidad |
+| [Meetups 2024](/meetups/2024/) - Año anterior | [Ser Voluntario](/comunidad/voluntarios) - Ayuda a organizar | [Alianzas](/comunidad/alianzas) - Comunidades aliadas |
+| [Archivo Completo](/meetups/) - Todos los meetups | [Cómo Contribuir](/comunidad/como-contribuir) - Guía general | [Volver al Inicio](/) - Página principal |
+
+---
+
+*<i class="fas fa-clock"></i> Última actualización: {{ git_revision_date_localized }}*

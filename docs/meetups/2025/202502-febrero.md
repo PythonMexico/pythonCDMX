@@ -74,9 +74,9 @@ tags:
             <p style="margin: 0 0 1rem 0; font-size: 1rem; color: #666;">Ingeniero en Computación</p>
             <p style="margin: 0 0 1rem 0; line-height: 1.6; color: #555;">Ingeniero en Computación y apasionado por el desarrollo de tecnología. Profesionalmente se dedica a la ingeniería de software y dirección de equipos. Disfruta explorar temas técnicos y participar en comunidades alrededor de la tecnología.</p>
             <div class="speaker-links">
-                
-                
-                
+
+
+
             </div>
         </div>
     </div>
@@ -84,26 +84,26 @@ tags:
     <div class="talk-description" style="background: white; padding: 2rem; border-left: 6px solid #28a745;">
         <p style="line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem; color: #333;">El Advent of Code es un reto de programación con desafíos diarios durante diciembre, diseñado para ejercitar la capacidad de resolución de problemas y el pensamiento algorítmico. En esta charla, compartiré mi experiencia participando en la edición 2024, usando Python para resolver los desafíos. Discutiré las lecciones que me dejó esta experiencia y reflexionaré sobre cómo este reto no solo me permitió profundizar en conocimientos técnicos, sino que también se convirtió en un valioso ejercicio de constancia y adaptación, aspectos fundamentales para cualquier desarrollador.</p>
 
-        
+
         <div class="tech-stack" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #3776AB;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #3776AB; font-size: 1rem;"><i class="fab fa-python"></i> Python</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Lenguaje principal</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #28a745;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #28a745; font-size: 1rem;"><i class="fas fa-calculator"></i> Algorithms</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Algoritmos</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #ffc107;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #ffc107; font-size: 1rem;"><i class="fas fa-lightbulb"></i> Problem Solving</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Resolución de problemas</p>
             </div>
-            
+
         </div>
-        
+
 
         <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem; color: #333; font-style: italic;">El Advent of Code es una excelente manera de mejorar habilidades de programación y resolución de problemas.</p>
     </div>
@@ -124,9 +124,9 @@ tags:
             <p style="margin: 0 0 1rem 0; font-size: 1rem; color: #666;">Líder Técnico</p>
             <p style="margin: 0 0 1rem 0; line-height: 1.6; color: #555;">Juan Guillermo fundó GDG Cali y co-organiza varios eventos globales y locales con Google Developer Groups. Ha estado involucrado en tecnología y programación de software durante los últimos 20 años. Actualmente, es líder técnico en WordBox. Juan es GDE (Google Developer Expert) en Firebase, IA/ML, GCP y Kotlin. Tiene una licenciatura en Ingeniería de Sistemas y una maestría en Ingeniería de Software de la Universidad San Buenaventura Cali.</p>
             <div class="speaker-links">
-                
-                
-                
+
+
+
             </div>
         </div>
     </div>
@@ -134,26 +134,26 @@ tags:
     <div class="talk-description" style="background: white; padding: 2rem; border-left: 6px solid #28a745;">
         <p style="line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem; color: #333;">¿Alguna vez te has preguntado cómo las máquinas entienden el lenguaje humano? En este charla desentrañamos el misterio de los embeddings, una técnica clave en el NLP. Prepárate para: Descubrir qué son los embeddings: Exploraremos cómo se transforman las palabras y frases en vectores numéricos que capturan su significado. Comprender su utilidad: Analizaremos cómo los embeddings permiten a las máquinas realizar tareas como la búsqueda semántica, la traducción automática y el análisis de sentimientos. Explorar casos de uso reales: Desde sistemas de recomendación hasta chatbots inteligentes, veremos cómo los embeddings están revolucionando la tecnología. Adentrarnos en las diferentes aproximaciones para obtener embeddings: Desglosaremos métodos como One Hot Encoding, Co-Ocurrence Matrix y el poderoso Word2Vec. Profundizar en Word2Vec: Descifraremos su funcionamiento y cómo logra capturar relaciones semánticas entre palabras. Muchos ejemplos con Python</p>
 
-        
+
         <div class="tech-stack" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #007bff;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #007bff; font-size: 1rem;"><i class="fas fa-file-alt"></i> NLP</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Natural Language Processing</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #28a745;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #28a745; font-size: 1rem;"><i class="fas fa-font"></i> Word2Vec</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Word embeddings</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #ffc107;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #ffc107; font-size: 1rem;"><i class="fas fa-robot"></i> Machine Learning</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Aprendizaje automático</p>
             </div>
-            
+
         </div>
-        
+
 
         <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem; color: #333; font-style: italic;">Los embeddings son fundamentales para que las máquinas comprendan y procesen el lenguaje humano de manera efectiva.</p>
     </div>
@@ -186,19 +186,19 @@ tags:
 ## Temas y Tecnologías
 <div class="tags-section" style="margin: 2rem 0;">
     <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
-        
+
         <a href="/tags/python/" style="background: #3776AB; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fab fa-python"></i> Python</a>
-        
+
         <a href="/tags/nlp/" style="background: #007bff; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-file-alt"></i> NLP</a>
-        
+
         <a href="/tags/embeddings/" style="background: #28a745; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-font"></i> Embeddings</a>
-        
+
         <a href="/tags/advent-of-code/" style="background: #ffc107; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-calculator"></i> Advent of Code</a>
-        
+
         <a href="/tags/machine-learning/" style="background: #6f42c1; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-robot"></i> Machine Learning</a>
-        
+
         <a href="/tags/word2vec/" style="background: #17a2b8; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-chart-bar"></i> Word2Vec</a>
-        
+
     </div>
 </div>
 
@@ -226,7 +226,7 @@ tags:
     <a href="https://www.youtube.com/@PythonMexico" style="background: #ff0000; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
         <i class="fab fa-youtube"></i> YouTube
     </a>
-    <a href="https://github.com/python-cdmx" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+    <a href="https://github.com/PythonMexico/pythonCDMX" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
         <i class="fab fa-github"></i> GitHub
     </a>
 </div>

@@ -74,9 +74,9 @@ tags:
             <p style="margin: 0 0 1rem 0; font-size: 1rem; color: #666;">DevOps Engineer</p>
             <p style="margin: 0 0 1rem 0; line-height: 1.6; color: #555;">Especialista en GitOps y Kubernetes con experiencia en despliegue de aplicaciones cloud native.</p>
             <div class="speaker-links">
-                
-                
-                
+
+
+
             </div>
         </div>
     </div>
@@ -84,26 +84,26 @@ tags:
     <div class="talk-description" style="background: white; padding: 2rem; border-left: 6px solid #28a745;">
         <p style="line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem; color: #333;">En esta charla se mostrará los conceptos de GitOps y Cloud Native que nos permitirán conocer las estrategias de despliegue en Kubernetes.</p>
 
-        
+
         <div class="tech-stack" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #007bff;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #007bff; font-size: 1rem;">🔄 GitOps</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Metodología de despliegue</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #326CE5;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #326CE5; font-size: 1rem;">☸️ Kubernetes</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Orquestación de contenedores</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #87CEEB;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #87CEEB; font-size: 1rem;">☁️ Cloud Native</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Aplicaciones nativas en la nube</p>
             </div>
-            
+
         </div>
-        
+
 
         <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem; color: #333; font-style: italic;">GitOps proporciona una metodología robusta para el despliegue y gestión de aplicaciones en Kubernetes.</p>
     </div>
@@ -124,9 +124,9 @@ tags:
             <p style="margin: 0 0 1rem 0; font-size: 1rem; color: #666;">Python Developer</p>
             <p style="margin: 0 0 1rem 0; line-height: 1.6; color: #555;">Desarrollador Python con experiencia en compiladores y construcción de lenguajes de programación.</p>
             <div class="speaker-links">
-                
-                
-                
+
+
+
             </div>
         </div>
     </div>
@@ -134,26 +134,26 @@ tags:
     <div class="talk-description" style="background: white; padding: 2rem; border-left: 6px solid #28a745;">
         <p style="line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem; color: #333;">Explora la construcción de un lenguaje con Python, desde los pilares teóricos hasta un sorprendente guiño a la sintaxis financiera.</p>
 
-        
+
         <div class="tech-stack" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #6c757d;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #6c757d; font-size: 1rem;">⚙️ Compilers</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Compiladores</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #ffc107;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #ffc107; font-size: 1rem;">🔧 Language Design</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Diseño de lenguajes</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #28a745;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #28a745; font-size: 1rem;">📝 Parsing</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Análisis sintáctico</p>
             </div>
-            
+
         </div>
-        
+
 
         <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem; color: #333; font-style: italic;">Construir un lenguaje de programación es una excelente manera de entender los fundamentos de la computación.</p>
     </div>
@@ -186,19 +186,19 @@ tags:
 ## Temas y Tecnologías
 <div class="tags-section" style="margin: 2rem 0;">
     <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
-        
+
         <a href="/tags/python/" style="background: #3776AB; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">🐍 Python</a>
-        
+
         <a href="/tags/gitops/" style="background: #007bff; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">🔄 GitOps</a>
-        
+
         <a href="/tags/kubernetes/" style="background: #326CE5; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">☸️ Kubernetes</a>
-        
+
         <a href="/tags/compilers/" style="background: #6c757d; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">⚙️ Compilers</a>
-        
+
         <a href="/tags/language-design/" style="background: #ffc107; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">🔧 Language Design</a>
-        
+
         <a href="/tags/cloud-native/" style="background: #87CEEB; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">☁️ Cloud Native</a>
-        
+
     </div>
 </div>
 
@@ -226,7 +226,7 @@ tags:
     <a href="https://www.youtube.com/@PythonMexico" style="background: #ff0000; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
         <i class="fab fa-youtube"></i> YouTube
     </a>
-    <a href="https://github.com/python-cdmx" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+    <a href="https://github.com/PythonMexico/pythonCDMX" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
         <i class="fab fa-github"></i> GitHub
     </a>
 </div>

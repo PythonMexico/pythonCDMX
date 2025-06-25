@@ -81,9 +81,14 @@ nav:
   - Inicio: index.md
   - Meetups:
     - General: meetups/index.md
-    - 2025: meetups/2025/index.md
-    - 2024: meetups/2024/index.md
-    - 2023: meetups/2023/index.md
+    - 2025: meetups/2025/
+    - 2024: meetups/2024/
+    - 2023: meetups/2023/
+  - Comunidad:
+    - Cómo Contribuir: comunidad/como-contribuir.md
+    - Ponentes: comunidad/ponentes
+    - Voluntarios: comunidad/voluntarios.md
+    - Alianzas: comunidad/alianzas.md
   - Temas y Tecnologías: tags.md
   - Acerca de: about.md
 
@@ -100,7 +105,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/python-cdmx
+      link: https://github.com/PythonMexico/pythonCDMX
     - icon: fontawesome/brands/telegram
       link: https://t.me/PythonCDMX
     - icon: fontawesome/brands/twitter
