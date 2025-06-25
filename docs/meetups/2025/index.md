@@ -1,141 +1,90 @@
-# Meetups 2025
+# Meetups 2025 <i class="fas fa-calendar-alt"></i>
 
-Este año continuamos con nuestra misión de conectar desarrolladores Python en la Ciudad de México. Aquí encontrarás todos los meetups programados y realizados en 2025.
+<div align="center" style="font-size: 1.2em; margin: 1.5em 0;">
+  <b>Conectando desarrolladores Python en la Ciudad de México</b>
+</div>
 
 ---
 
-## [Cómo preparar una ambiente de desarrollo con Python desde zero](202507-julio.md)
+## <i class="fas fa-table"></i> Meetups 2025
 
-| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-user"></i> **Ponente** |
+| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-microphone"></i> **Charla** | <i class="fas fa-user"></i> **Ponente** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-link"></i> **Detalles** |
+|:---|:---|:---|:---|:---|
+| **08 Julio 2025** | Cómo preparar una ambiente de desarrollo con Python desde zero | David Sol | Clara | [Ver detalles](202507-julio) |
+| **10 Junio 2025** | Usando Python y software libre para crear nuevas herramientas: Traductor de voz español-inglés | Carlos Cesar Caballero | Wizeline México | [Ver detalles](202506-junio) |
+| **13 Mayo 2025** | Construyendo un paquete en Python y publicándolo en PyPI | Javier Novoa | Wizeline México | [Ver detalles](202505-mayo) |
+| **25 Abril 2025** | portafolio.py: Como hacer un portafolio web sin saber diseño web | Daniel Paredes | UNAM Facultad de Ciencias | [Ver detalles](202504-abril) |
+| **25 Abril 2025** | Programar en tiempos del Vibe-Coding | Charly Roman | UNAM Facultad de Ciencias | [Ver detalles](202504-abril) |
+| **08 Abril 2025** | El para que cosa de Quien. Kubernetes y AI | Carlos Reyes | Wizeline México | [Ver detalles](202504-abril) |
+| **11 Marzo 2025** | Mi Primer Agente de Inteligencia Artificial con Python | Erik Rivera | Wizeline México | [Ver detalles](202503-marzo) |
+| **11 Maro 2025** | Interfases gráficas con Pyside6 | David Sol | Wizeline México | [Ver detalles](202503-marzo) |
+| **11 Febrero 2025** | Lecciones del Advent of Code 2024 | Manuel Rábade | Wizeline México | [Ver detalles](202502-febrero) |
+| **11 Febrero 2025** | Embeddings: El lenguaje como las máquinas entienden el lenguaje humano | Juan Guillermo Gómez | Wizeline México | [Ver detalles](202502-febrero) |
+| **14 Enero 2025** | Crea extensiones para LibreOffice con Python | elMau (Mauricio B.) | Wizeline México | [Ver detalles](202501-enero) |
+| **14 Enero 2025** | Seguridad y cumplimiento de Python: Garantizar el cumplimiento de PCI DSS | Mauro Parra | Wizeline México | [Ver detalles](202501-enero) |
+
+---
+
+## <i class="fas fa-star"></i> Estadísticas 2025
+
+<div class="stats-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
+
+<div class="stat-card" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 10px; text-align: center;">
+  <h3><i class="fas fa-microphone"></i> 12 Charlas</h3>
+  <p><b>Realizadas</b></p>
+</div>
+
+<div class="stat-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 20px; border-radius: 10px; text-align: center;">
+  <h3><i class="fas fa-users"></i> 11 Ponentes</h3>
+  <p><b>Únicos</b></p>
+</div>
+
+<div class="stat-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 20px; border-radius: 10px; text-align: center;">
+  <h3><i class="fas fa-map-marker-alt"></i> 3 Sedes</h3>
+  <p><b>Diferentes</b></p>
+</div>
+
+<div class="stat-card" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: white; padding: 20px; border-radius: 10px; text-align: center;">
+  <h3><i class="fas fa-calendar"></i> 7 Meses</h3>
+  <p><b>de Actividad</b></p>
+</div>
+
+</div>
+
+---
+
+## <i class="fas fa-link"></i> Conecta con Nuestra Comunidad
+
+<div class="community-links" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
+    <a href="https://t.me/PythonCDMX" target="_blank" rel="noopener noreferrer" style="background: #0088cc; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-telegram"></i> Telegram
+    </a>
+    <a href="https://www.meetup.com/python-mexico" target="_blank" rel="noopener noreferrer" style="background: #e51937; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-meetup"></i> Meetup
+    </a>
+    <a href="https://www.youtube.com/@PythonMexico" target="_blank" rel="noopener noreferrer" style="background: #ff0000; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-youtube"></i> YouTube
+    </a>
+    <a href="https://github.com/PythonMexico/pythonCDMX" target="_blank" rel="noopener noreferrer" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://www.instagram.com/pythoncdmx/" target="_blank" rel="noopener noreferrer" style="background: #E4405F; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a href="https://www.linkedin.com/groups/13126454/" target="_blank" rel="noopener noreferrer" style="background: #0A66C2; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+</div>
+
+---
+
+## <i class="fas fa-star"></i> También Te Puede Interesar
+
+| <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
 |:---|:---|:---|
-| Martes 08 de Julio, 18:30 | Clara | David Sol |
-
-**RSVP:** https://www.meetup.com/python-mexico/
-
-[![Junio 2025](../../images/meetup/202507-pythoncdmx.png)](202507-julio.md)
-
-[Ver detalles →](202507-julio.md)
-
----
-
-## [Usando Python y software libre para crear nuevas herramientas: Traductor de voz español-inglés](202506-junio.md)
-
-| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-user"></i> **Ponente** |
-|:---|:---|:---|
-| Martes 10 de Junio, 18:30 | Wizeline México | Carlos Cesar Caballero |
-
-**RSVP:** https://www.meetup.com/python-mexico/
-
-[![Junio 2025](../../images/meetup/202506-pythoncdmx.png)](202506-junio.md)
-
-[Ver detalles →](202506-junio.md)
-
----
-
-## [Construyendo un paquete en Python y publicándolo en PyPI](202505-mayo.md)
-
-| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-user"></i> **Ponente** |
-|:---|:---|:---|
-| Martes 13 de Mayo, 18:30 | Wizeline México | Javier Novoa |
-
-**RSVP:** https://www.meetup.com/python-mexico/
-
-[![Mayo 2025](../../images/meetup/202505-pythoncdmx.png)](202505-mayo.md)
-
-[Ver detalles →](202505-mayo.md)
-
----
-
-## [portafolio.py: Como hacer un portafolio web sin saber diseño web](202504-abril.md)
-
-| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-user"></i> **Ponente** |
-|:---|:---|:---|
-| Viernes 25 de Abril, 16:00 | UNAM Facultad de Ciencias | Daniel Paredes |
-
-<i class="fas fa-plus-circle"></i> **Charla adicional:** Programar en tiempos del Vibe-Coding - Charly Roman
-
-**RSVP:** https://www.meetup.com/python-mexico/
-
-[![Abril 2025 Extra](../../images/meetup/202504-pythoncdmx-unam.jpg)](202504-abril.md)
-
-[Ver detalles →](202504-abril.md)
-
----
-
-## [El para que cosa de Quien. Kubernetes y AI](202504-abril.md)
-
-| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-user"></i> **Ponente** |
-|:---|:---|:---|
-| Martes 8 de Abril, 18:30 | Wizeline México | Carlos Reyes |
-
-**RSVP:** https://www.meetup.com/python-mexico/
-
-[![Abril 2025](../../images/meetup/202504-pythoncdmx.jpg)](202504-abril.md)
-
-[Ver detalles →](202504-abril.md)
-
----
-
-## [Mi Primer Agente de Inteligencia Artificial con Python](202503-marzo.md)
-
-| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-user"></i> **Ponente** |
-|:---|:---|:---|
-| Martes 11 de Marzo, 18:30 | Wizeline México | Erik Rivera |
-
-<i class="fas fa-plus-circle"></i> **Charla adicional:** Interfases gráficas con Pyside6 - David Sol
-
-**RSVP:** https://www.meetup.com/python-mexico/
-
-[![Marzo 2025](../../images/meetup/202503-marzo.jpg)](202503-marzo.md)
-
-[Ver detalles →](202503-marzo.md)
-
----
-
-## [Lecciones del Advent of Code 2024](202502-febrero.md)
-
-| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-user"></i> **Ponente** |
-|:---|:---|:---|
-| Martes 11 de Febrero, 18:30 | Wizeline México | Manuel Rábade |
-
-<i class="fas fa-plus-circle"></i> **Charla adicional:** Embeddings: El lenguaje como las máquinas entienden el lenguaje humano - Juan Guillermo Gómez
-
-**RSVP:** https://www.meetup.com/python-mexico/
-
-[![Febrero 2025](../../images/meetup/202502-pythoncdmx.png)](202502-febrero.md)
-
-[Ver detalles →](202502-febrero.md)
-
----
-
-## [Crea extensiones para LibreOffice con Python](202501-enero.md)
-
-| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-user"></i> **Ponentes** |
-|:---|:---|:---|
-| Martes 14 de Enero, 18:30 | Wizeline México | **elMau (Mauricio B.)** & **Mauro Parra** |
-
-<i class="fas fa-users"></i> **Doble Charla:**
-
-- **elMau (Mauricio B.):** Crea extensiones para LibreOffice con Python
-- **Mauro Parra:** Seguridad y cumplimiento de Python: Garantizar el cumplimiento de PCI DSS
-
-**RSVP:** https://www.meetup.com/python-mexico/
-
-[![Enero 2025](../../images/meetup/202501-pythoncdmx.png)](202501-enero.md)
-
-[Ver detalles →](202501-enero.md)
-
----
-
-## Enlaces Útiles
-
-| <i class="fab fa-telegram"></i> **Comunidad** | <i class="fas fa-calendar-alt"></i> **Eventos** | <i class="fab fa-youtube"></i> **Contenido** | <i class="fab fa-github"></i> **Código** |
-|:---|:---|:---|:---|
-| [Telegram](https://t.me/PythonCDMX) | [Meetup](https://www.meetup.com/python-mexico) | [YouTube](https://www.youtube.com/@PythonMexico) | [GitHub](https://github.com/python-cdmx) |
-
-| <i class="fab fa-instagram"></i> **Social** | <i class="fab fa-linkedin"></i> **Profesional** |
-|:---|:---|
-| [Instagram](https://www.instagram.com/pythoncdmx/) | [LinkedIn](https://www.linkedin.com/groups/13126454/) |
+| [Meetups 2024](/meetups/2024/) - Año anterior | [Ser Ponente](/comunidad/ponentes) - Comparte conocimiento | [Nuestros Ponentes](/comunidad/ponentes) - Conoce a la comunidad |
+| [Meetups 2023](/meetups/2023) - Nuestros inicios | [Ser Voluntario](/comunidad/voluntarios) - Ayuda a organizar | [Alianzas](/comunidad/alianzas) - Comunidades aliadas |
+| [Archivo Completo](/meetups) - Todos los meetups | [Cómo Contribuir](/comunidad/como-contribuir) - Guía general | [Volver al Inicio](/) - Página principal |
 
 ---
 

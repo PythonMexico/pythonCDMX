@@ -1,236 +1,58 @@
-# Meetups 2024
+# Meetups 2024 <i class="fas fa-calendar-alt"></i>
 
-En 2024, PythonCDMX continuó creciendo y fortaleciendo la comunidad de Python en la Ciudad de México. Aquí encontrarás todos los meetups realizados durante este año.
-
----
-
-## [Evita Anti-patrones en Python / ¿Qué y por qué ChatGPT?](202411-noviembre.md)
-
-!!! success "Meetup #PythonCDMX Noviembre 2024 - Doble Charla"
-
-    **🎤 Ponente 1:** Alejandro Lopez
-
-    *Mejora tu código: Evita anti-patrones en Python*
-
-    **🎤 Ponente 2:** Hugo Ramírez
-
-    *Exactamente qué y (sobre todo) por qué ChatGPT*
-
-    **🗓️ Fecha:** Martes 12 de Noviembre, 18:30
-
-    **📍 Lugar:** Wizeline México
-
-    **RSVP:** https://www.meetup.com/python-mexico/
-
-[![Noviembre 2024](../../images/meetup/202411-pythoncdmx.jpg)](202411-noviembre.md)
-
-[Ver detalles →](202411-noviembre.md)
+<div align="center" style="font-size: 1.2em; margin: 1.5em 0;">
+  <b>Conectando desarrolladores Python en la Ciudad de México</b>
+</div>
 
 ---
 
-## [Contribuir a Open Source](202410-octubre.md)
+## <i class="fas fa-table"></i> Meetups 2024
 
-!!! info "Meetup #PythonCDMX Octubre 2024"
-
-    **🎤 Ponente:** Alex Callejas
-
-    **🗓️ Fecha:** Martes 8 de Octubre, 18:30
-
-    **📍 Lugar:** Wizeline México
-
-    **RSVP:** https://www.meetup.com/python-mexico/
-
-[![Octubre 2024](../../images/meetup/202410-pythoncdmx.jpg)](202410-octubre.md)
-
-[Ver detalles →](202410-octubre.md)
-
----
-
-## [Protocolos en Python](202409-septiembre.md)
-
-!!! success "Meetup #PythonCDMX Septiembre 2024 - Doble Charla"
-
-    **🎤 Ponente 1:** Diego Barriga
-
-    *Protocolos en Python*
-
-    **🎤 Ponente 2:** David Sol
-
-    *Guía Open Source*
-
-    **🗓️ Fecha:** Martes 10 de Septiembre, 18:30
-
-    **📍 Lugar:** Wizeline México
-
-    **RSVP:** https://www.meetup.com/python-mexico/
-
-[![Septiembre 2024](../../images/meetup/202409-pythoncdmx.jpg)](202409-septiembre.md)
-
-[Ver detalles →](202409-septiembre.md)
+| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-microphone"></i> **Charla** | <i class="fas fa-user"></i> **Ponente** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-link"></i> **Detalles** |
+|:---|:---|:---|:---|:---|
+| **12 Noviembre 2024** | Mejora tu código: Evita anti-patrones en Python | Alejandro Lopez | Wizeline México | [Ver detalles](202411-noviembre) |
+| **12 Noviembre 2024** | Exactamente qué y (sobre todo) por qué ChatGPT | Hugo Ramírez | Wizeline México | [Ver detalles](202411-noviembre) |
+| **08 Octubre 2024** | Contribuir a Open Source | Alex Callejas | Wizeline México | [Ver detalles](202410-octubre) |
+| **10 Septiembre 2024** | Protocolos en Python | Diego Barriga | Wizeline México | [Ver detalles](202409-septiembre) |
+| **10 Septiembre 2024** | Guía Open Source | David Sol | Wizeline México | [Ver detalles](202409-septiembre) |
+| **13 Agosto 2024** | ETLs con Python | Gustavo Vera | Wizeline México | [Ver detalles](202408-agosto) |
+| **13 Agosto 2024** | GIL: Global Interpreter Lock | Fer Perales | Wizeline México | [Ver detalles](202408-agosto) |
+| **09 Julio 2024** | Regresión Lineal | Konstantin Spirin | Wizeline México | [Ver detalles](202407-julio) |
+| **09 Julio 2024** | Fonética con Python | Hugo Ramirez | Wizeline México | [Ver detalles](202407-julio) |
+| **11 Junio 2024** | Regresión Lineal | Geovanni Zepeda Martínez | Wizeline México | [Ver detalles](202406-junio) |
+| **14 Mayo 2024** | Pydantic | Charly Román | Wizeline México | [Ver detalles](202405-mayo) |
+| **09 Abril 2024** | Contenedores | David Sol | Wizeline México | [Ver detalles](202404-abril) |
+| **12 Marzo 2024** | Flask APIs | Alejandro López | Wizeline México | [Ver detalles](202403-marzo) |
+| **13 Febrero 2024** | Entornos Virtuales | Gustavo Vera | Wizeline México | [Ver detalles](202402-febrero) |
+| **09 Enero 2024** | PyPI | David Sol | Wizeline México | [Ver detalles](202401-enero) |
 
 ---
 
-## [ETLs con Python](202408-agosto.md)
-
-!!! success "Meetup #PythonCDMX Agosto 2024 - Doble Charla"
-
-    **🎤 Ponente 1:** Gustavo Vera
-
-    *ETLs con Python*
-
-    **🎤 Ponente 2:** Fer Perales
-
-    *GIL: Global Interpreter Lock*
-
-    **🗓️ Fecha:** Martes 13 de Agosto, 18:30
-
-    **📍 Lugar:** Wizeline México
-
-    **RSVP:** https://www.meetup.com/python-mexico/
-
-[![Agosto 2024](../../images/meetup/202408-pythoncdmx.jpg)](202408-agosto.md)
-
-[Ver detalles →](202408-agosto.md)
-
----
-
-## [Regresión Lineal](202407-julio.md)
-
-!!! success "Meetup #PythonCDMX Julio 2024 - Doble Charla"
-
-    **🎤 Ponente 1:** Konstantin Spirin
-
-    *Regresión Lineal*
-
-    **🎤 Ponente 2:** Hugo Ramirez
-
-    *Fonética con Python*
-
-    **🗓️ Fecha:** Martes 9 de Julio, 18:30
-
-    **📍 Lugar:** Wizeline México
-
-    **RSVP:** https://www.meetup.com/python-mexico/
-
-[![Julio 2024](../../images/meetup/202407-pythoncdmx.jpg)](202407-julio.md)
-
-[Ver detalles →](202407-julio.md)
-
----
-
-## [Regresión Lineal](202406-junio.md)
-
-!!! info "Meetup #PythonCDMX Junio 2024"
-
-    **🎤 Ponente:** Geovanni Zepeda Martínez
-
-    **🗓️ Fecha:** Martes 11 de Junio, 18:30
-
-    **📍 Lugar:** Wizeline México
-
-    **RSVP:** https://www.meetup.com/python-mexico/
-
-[![Junio 2024](../../images/meetup/202406-pythoncdmx.jpg)](202406-junio.md)
-
-[Ver detalles →](202406-junio.md)
-
----
-
-## [Pydantic](202405-mayo.md)
-
-!!! info "Meetup #PythonCDMX Mayo 2024"
-
-    **🎤 Ponente:** Charly Román
-
-    **🗓️ Fecha:** Martes 14 de Mayo, 18:30
-
-    **📍 Lugar:** Wizeline México
-
-    **RSVP:** https://www.meetup.com/python-mexico/
-
-[![Mayo 2024](../../images/meetup/202405-pythoncdmx.jpg)](202405-mayo.md)
-
-[Ver detalles →](202405-mayo.md)
-
----
-
-## [Contenedores](202404-abril.md)
-
-!!! info "Meetup #PythonCDMX Abril 2024"
-
-    **🎤 Ponente:** David Sol
-
-    **🗓️ Fecha:** Martes 9 de Abril, 18:30
-
-    **📍 Lugar:** Wizeline México
-
-    **RSVP:** https://www.meetup.com/python-mexico/
-
-[![Abril 2024](../../images/meetup/202404-pythoncdmx.jpg)](202404-abril.md)
-
-[Ver detalles →](202404-abril.md)
-
----
-
-## [Flask APIs](202403-marzo.md)
-
-!!! info "Meetup #PythonCDMX Marzo 2024"
-
-    **🎤 Ponente:** Alejandro López
-
-    **🗓️ Fecha:** Martes 12 de Marzo, 18:30
-
-    **📍 Lugar:** Wizeline México
-
-    **RSVP:** https://www.meetup.com/python-mexico/
-
-[![Marzo 2024](../../images/meetup/202403-pythoncdmx.jpg)](202403-marzo.md)
-
-[Ver detalles →](202403-marzo.md)
-
----
-
-## [Entornos Virtuales](202402-febrero.md)
-
-!!! info "Meetup #PythonCDMX Febrero 2024"
-
-    **🎤 Ponente:** Gustavo Vera
-
-    **🗓️ Fecha:** Martes 13 de Febrero, 18:30
-
-    **📍 Lugar:** Wizeline México
-
-    **RSVP:** https://www.meetup.com/python-mexico/
-
-[![Febrero 2024](../../images/meetup/202402-pythoncdmx.jpg)](202402-febrero.md)
-
-[Ver detalles →](202402-febrero.md)
-
----
-
-## [PyPI](202401-enero.md)
-
-!!! info "Meetup #PythonCDMX Enero 2024"
-
-    **🎤 Ponente:** David Sol
-
-    **🗓️ Fecha:** Martes 9 de Enero, 18:30
-
-    **📍 Lugar:** Wizeline México
-
-    **RSVP:** https://www.meetup.com/python-mexico/
-
-[![Enero 2024](../../images/meetup/202401-pythoncdmx.jpg)](202401-enero.md)
-
-[Ver detalles →](202401-enero.md)
-
----
-
-## Estadísticas 2024
-
-- **Total meetups:** 11 realizados
-- **Ponentes:** 10 ponentes diferentes
-- **Temas principales:** AI, Web Development, DevOps, Data Science, Open Source
+## <i class="fas fa-star"></i> Estadísticas 2024
+
+<div class="stats-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
+
+<div class="stat-card" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 10px; text-align: center;">
+  <h3><i class="fas fa-microphone"></i> 15 Charlas</h3>
+  <p><b>Realizadas</b></p>
+</div>
+
+<div class="stat-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 20px; border-radius: 10px; text-align: center;">
+  <h3><i class="fas fa-users"></i> 10 Ponentes</h3>
+  <p><b>Únicos</b></p>
+</div>
+
+<div class="stat-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 20px; border-radius: 10px; text-align: center;">
+  <h3><i class="fas fa-map-marker-alt"></i> 1 Sede</h3>
+  <p><b>Principal</b></p>
+</div>
+
+<div class="stat-card" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: white; padding: 20px; border-radius: 10px; text-align: center;">
+  <h3><i class="fas fa-calendar"></i> 11 Meses</h3>
+  <p><b>de Actividad</b></p>
+</div>
+
+</div>
 
 **Ponentes Destacados:**
 
@@ -240,13 +62,39 @@ En 2024, PythonCDMX continuó creciendo y fortaleciendo la comunidad de Python e
 
 ---
 
-## Enlaces Útiles
+## <i class="fas fa-link"></i> Conecta con Nuestra Comunidad
 
-- [Telegram](https://t.me/PythonCDMX)
-- [Meetup](https://www.meetup.com/python-mexico)
-- [YouTube](https://www.youtube.com/@PythonMexico)
-- [GitHub](https://github.com/python-cdmx)
+<div class="community-links" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
+    <a href="https://t.me/PythonCDMX" target="_blank" rel="noopener noreferrer" style="background: #0088cc; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-telegram"></i> Telegram
+    </a>
+    <a href="https://www.meetup.com/python-mexico" target="_blank" rel="noopener noreferrer" style="background: #e51937; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-meetup"></i> Meetup
+    </a>
+    <a href="https://www.youtube.com/@PythonMexico" target="_blank" rel="noopener noreferrer" style="background: #ff0000; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-youtube"></i> YouTube
+    </a>
+    <a href="https://github.com/PythonMexico/pythonCDMX" target="_blank" rel="noopener noreferrer" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://www.instagram.com/pythoncdmx/" target="_blank" rel="noopener noreferrer" style="background: #E4405F; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a href="https://www.linkedin.com/groups/13126454/" target="_blank" rel="noopener noreferrer" style="background: #0A66C2; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+</div>
 
 ---
 
-*Última actualización: {{ git_revision_date_localized }}*
+## <i class="fas fa-star"></i> También Te Puede Interesar
+
+| <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
+|:---|:---|:---|
+| [Meetups 2025](/meetups/2025/) - Año actual | [Ser Ponente](/comunidad/ponentes) - Comparte conocimiento | [Nuestros Ponentes](/comunidad/ponentes) - Conoce a la comunidad |
+| [Meetups 2023](/meetups/2023/) - Año anterior | [Ser Voluntario](/comunidad/voluntarios) - Ayuda a organizar | [Alianzas](/comunidad/alianzas) - Comunidades aliadas |
+| [Archivo Completo](/meetups/) - Todos los meetups | [Cómo Contribuir](/comunidad/como-contribuir) - Guía general | [Volver al Inicio](/) - Página principal |
+
+---
+
+*<i class="fas fa-clock"></i> Última actualización: {{ git_revision_date_localized }}*
