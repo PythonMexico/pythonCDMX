@@ -19,35 +19,90 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
 
 ## <i class="fas fa-users"></i> Comunidades Amigas
 
-### <i class="fas fa-star"></i> Comunidades Tecnológicas
+### <i class="fas fa-star"></i> Comunidades Python
 
 <div class="communities-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
 
-<div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #28a745;">
-  <h4 style="margin: 0 0 0.5rem 0; color: #28a745;"><i class="fas fa-users"></i> Python México</h4>
-  <p style="margin: 0; font-size: 0.9em;">Comunidad nacional de Python</p>
+<a href="https://social.org.mx/@pymty" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #ff6b35; text-align: center;">
+    <img src="/images/comunidades/pymty.png" alt="Logo PyMTY" style="width: 250px; height: 250px; border-radius: 50%; display: block; margin: 0 auto 0.5rem auto;">
+    <h4 style="margin: 0 0 0.5rem 0; color: #ff6b35;"><i class="fab fa-python"></i>PyMTY</h4>
+    <p style="margin: 0; font-size: 0.9em;">Nuevo Leon</p>
+  </div>
+</a>
+
+<a href="https://pythonistas-gdl.org/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #28a745; text-align: center;">
+    <img src="/images/comunidades/pythonistas-GDL.jpg" alt="Logo PythonistasGDL" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
+    <h4 style="margin: 0 0 0.5rem 0; color: #28a745;"><i class="fab fa-python"></i>Pythonistas GDL</h4>
+    <p style="margin: 0; font-size: 0.9em;">Jalisco</p>
+  </div>
+</a>
+
+<a href="https://www.facebook.com/profile.php?id=61559788469426" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #6f42c1; text-align: center;">
+    <img src="/images/comunidades/pyTalavera.jpg" alt="Logo PyTalavera" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
+    <h4 style="margin: 0 0 0.5rem 0; color: #6f42c1;"><i class="fab fa-python"></i>PyTalavera</h4>
+    <p style="margin: 0; font-size: 0.9em;">Puebla</p>
+  </div>
+</a>
+
+<a href="https://www.meetup.com/es/pyladies-cuernavaca/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #e83e8c; text-align: center;">
+    <img src="/images/comunidades/pyladies-cuernavaca.png" alt="Logo pyladies-cuernavaca" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
+    <h4 style="margin: 0 0 0.5rem 0; color: #e83e8c;"><i class="fab fa-python"></i>pyladies Cuernavaca</h4>
+    <p style="margin: 0; font-size: 0.9em;">Morelos</p>
+  </div>
+</a>
+
 </div>
 
-<div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #007bff;">
-  <h4 style="margin: 0 0 0.5rem 0; color: #007bff;"><i class="fas fa-users"></i> PyCon México</h4>
-  <p style="margin: 0; font-size: 0.9em;">Conferencia anual de Python</p>
+### <i class="fas fa-code"></i> Otras Comunidades
+
+<div class="communities-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+
+<a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #fd7e14; text-align: center;">
+    <img src="/images/comunidades/ajolotes-nube.png" alt="Logo Ajolotes en la Nube" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
+    <h4 style="margin: 0 0 0.5rem 0; color: #fd7e14;"><i class="fab fa-aws"></i> Ajolotes en la Nube</h4>
+    <p style="margin: 0; font-size: 0.9em;">CDMX</p>
+  </div>
+</a>
+
+<a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #20c997; text-align: center;">
+    <img src="/images/comunidades/lidsol.png" alt="Logo Ajolotes en la Nube" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
+    <h4 style="margin: 0 0 0.5rem 0; color: #20c997;"><i class="fas fa-code"></i> LIDSOL</h4>
+    <p style="margin: 0; font-size: 0.9em;">UNAM, Facultad ingeniería<br>CDMX</p>
+  </div>
+</a>
+
+<a href="https://linktr.ee/sudo_fciencias" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #17a2b8; text-align: center;">
+    <img src="/images/comunidades/sudofciencias.jpeg" alt="Logo sudoFCiencias" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
+    <h4 style="margin: 0 0 0.5rem 0; color: #17a2b8;"><i class="fas fa-code"></i> sudoFCiencias</h4>
+    <p style="margin: 0; font-size: 0.9em;">UNAM, Facultad Ciencias<br>CDMX</p>
+  </div>
+</a>
+
+<a href="https://fedoramx.fedorapeople.org/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #007bff; text-align: center;">
+    <img src="/images/comunidades/fedoramexico.png" alt="Logo sudoFCiencias" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
+    <h4 style="margin: 0 0 0.5rem 0; color: #007bff;"><i class="fab fa-linux"></i> Fedora México</h4>
+    <p style="margin: 0; font-size: 0.9em;">México</p>
+  </div>
+
+</a>
+
+<a href="https://rustmx.github.io/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #dc3545; text-align: center;">
+    <img src="/images/comunidades/rustmx.png" alt="Logo RustMX" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
+    <h4 style="margin: 0 0 0.5rem 0; color: #dc3545;"><i class="fab fa-rust"></i> RustMX</h4>
+    <p style="margin: 0; font-size: 0.9em;">México</p>
+  </div>
+</a>
 </div>
 
-<div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #ffc107;">
-  <h4 style="margin: 0 0 0.5rem 0; color: #ffc107;"><i class="fas fa-users"></i> GDG México</h4>
-  <p style="margin: 0; font-size: 0.9em;">Google Developer Groups</p>
-</div>
-
-</div>
-
-### <i class="fas fa-list"></i> Otras Comunidades
-
-- **Mozilla México** - Tecnologías web y open source
-- **Women Who Code México** - Empoderamiento de mujeres en tech
-- **Node.js México** - Desarrollo con JavaScript
-- **Docker México** - Contenedores y DevOps
-- **Kubernetes México** - Orquestación de contenedores
-- **Data Science México** - Ciencia de datos y ML
 
 ---
 
@@ -55,43 +110,27 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
 
 ### <i class="fas fa-star"></i> Empresas Tecnológicas
 
-<div class="companies-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+<div class="communities-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
 
-<div class="company-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #28a745;">
-  <h4 style="margin: 0 0 0.5rem 0; color: #28a745;"><i class="fas fa-building"></i> Wizeline México</h4>
-  <p style="margin: 0; font-size: 0.9em;">Sede principal de nuestros meetups</p>
+<a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #fd7e14; text-align: center;">
+    <img src="/images/comunidades/wizeline.png" alt="Logo Ajolotes en la Nube" style="width: 250px; height: 250px; border-radius: 0%; display: block; margin: 0 auto 0.5rem auto;">
+    <h4 style="margin: 0 0 0.5rem 0; color: #fd7e14;"><i class="fas fa-building"></i> Wizeline México</h4>
+    <p style="margin: 0; font-size: 0.9em;">Sede principal de nuestros meetups</p>
+  </div>
+</a>
+
+<a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #20c997; text-align: center;">
+    <img src="/images/comunidades/clara.png" alt="Logo CLARA" style=" height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
+    <h4 style="margin: 0 0 0.5rem 0; color: #20c997;"><i class="fas fa-building"></i> CLARA</h4>
+    <p style="margin: 0; font-size: 0.9em;">Sede alterna</p>
+  </div>
+</a>
+
+</a>
 </div>
 
-<div class="company-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #007bff;">
-  <h4 style="margin: 0 0 0.5rem 0; color: #007bff;"><i class="fas fa-building"></i> Clara</h4>
-  <p style="margin: 0; font-size: 0.9em;">Sede alternativa para eventos especiales</p>
-</div>
-
-</div>
-
-### <i class="fas fa-list"></i> Otras Empresas
-
-- **Google México** - Apoyo en eventos y recursos
-- **Microsoft México** - Herramientas y plataformas
-- **Amazon Web Services** - Servicios en la nube
-- **JetBrains** - Herramientas de desarrollo
-- **GitHub** - Plataforma de código abierto
-
----
-
-## <i class="fas fa-map-marker-alt"></i> Espacios y Venues
-
-### <i class="fas fa-star"></i> Sedes Principales
-
-- **Wizeline México** - Sede principal para meetups regulares
-- **Clara** - Sede para eventos especiales y workshops
-- **UNAM Facultad de Ciencias** - Eventos académicos y educativos
-
-### <i class="fas fa-list"></i> Espacios Colaborativos
-
-- **WeWork** - Espacios de coworking
-- **Centros de innovación** - Eventos especiales
-- **Universidades** - Colaboraciones académicas
 
 ---
 

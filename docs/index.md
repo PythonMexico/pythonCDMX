@@ -10,7 +10,7 @@
 
 Somos una comunidad apasionada por Python que busca **conectar, aprender y crecer** juntos. Organizamos meetups mensuales donde compartimos conocimiento, experiencias y construimos relaciones profesionales duraderas.
 
-**Nuestro lema:** *"Compartir conocimiento es multiplicar sabiduría"*
+**Nuestro lema:** *"Vine por el código, me quedé por la comunidad"*
 
 ---
 
