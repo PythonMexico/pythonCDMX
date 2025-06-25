@@ -65,9 +65,9 @@ tags:
         <p style="margin: 0 0 1rem 0; font-size: 1.1rem; opacity: 0.9;">Services Content Architect</p>
         <p style="margin: 0 0 1rem 0; line-height: 1.6;">Alex Callejas es Services Content Architect de Red Hat, con base en la Ciudad de México y colaborador de diferentes comunidades OpenSource en Latinoamérica (como SysArmyMx o Fedora México). Con más de 20 años de experiencia como Sysadmin, tiene gran experiencia en hardening de infraestructura y automatización. Entusiasta del código abierto, apoya a la comunidad compartiendo sus conocimientos en diferentes eventos de acceso público y universidades. Autor del libro Fedora Linux Administration de la editorial Packt.</p>
         <div class="speaker-links">
-            
-            
-            
+
+
+
         </div>
     </div>
 </div>
@@ -80,27 +80,27 @@ tags:
     <h3 style="margin: 0 0 1rem 0; color: #28a745;"><i class="fas fa-rocket"></i> Una ida y una vuelta: Cómo iniciar en el opensource</h3>
     <p style="line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem;">Alex Callejas es Services Content Architect de Red Hat, con base en la Ciudad de México y colaborador de diferentes comunidades OpenSource en Latinoamérica (como SysArmyMx o Fedora México). Con más de 20 años de experiencia como Sysadmin, tiene gran experiencia en hardening de infraestructura y automatización. Entusiasta del código abierto, apoya a la comunidad compartiendo sus conocimientos en diferentes eventos de acceso público y universidades. Autor del libro Fedora Linux Administration de la editorial Packt (https://packt.link/Alex). Geek by nature, Linux by choice, Fedora of course.</p>
     <div class="tech-stack" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
-        
+
         <div style="background: white; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <h4 style="margin: 0 0 0.5rem 0; color: #28a745;"><i class="fas fa-unlock"></i> Open Source</h4>
             <p style="margin: 0; font-size: 0.9rem;">Software libre</p>
         </div>
-        
+
         <div style="background: white; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <h4 style="margin: 0 0 0.5rem 0; color: #EE0000;"><i class="fas fa-circle"></i> Red Hat</h4>
             <p style="margin: 0; font-size: 0.9rem;">Empresa de software</p>
         </div>
-        
+
         <div style="background: white; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <h4 style="margin: 0 0 0.5rem 0; color: #FCC624;"><i class="fab fa-linux"></i> Linux</h4>
             <p style="margin: 0; font-size: 0.9rem;">Sistema operativo</p>
         </div>
-        
+
         <div style="background: white; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <h4 style="margin: 0 0 0.5rem 0; color: #294172;"><i class="fas fa-hat-cowboy"></i> Fedora</h4>
             <p style="margin: 0; font-size: 0.9rem;">Distribución Linux</p>
         </div>
-        
+
     </div>
     <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem;">Contribuir al open source es una excelente manera de crecer profesionalmente y dar de vuelta a la comunidad.</p>
 </div>
@@ -131,19 +131,19 @@ tags:
 ## Temas y Tecnologías
 <div class="tags-section" style="margin: 2rem 0;">
     <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
-        
+
         <a href="/tags/python/" style="background: #3776AB; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fab fa-python"></i> Python</a>
-        
+
         <a href="/tags/open-source/" style="background: #28a745; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-unlock"></i> Open Source</a>
-        
+
         <a href="/tags/linux/" style="background: #FCC624; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fab fa-linux"></i> Linux</a>
-        
+
         <a href="/tags/red-hat/" style="background: #EE0000; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-circle"></i> Red Hat</a>
-        
+
         <a href="/tags/fedora/" style="background: #294172; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-hat-cowboy"></i> Fedora</a>
-        
+
         <a href="/tags/community/" style="background: #17a2b8; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-users"></i> Community</a>
-        
+
     </div>
 </div>
 
@@ -171,7 +171,7 @@ tags:
     <a href="https://www.youtube.com/@PythonMexico" style="background: #ff0000; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
         <i class="fab fa-youtube"></i> YouTube
     </a>
-    <a href="https://github.com/python-cdmx" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+    <a href="https://github.com/PythonMexico/pythonCDMX" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
         <i class="fab fa-github"></i> GitHub
     </a>
 </div>

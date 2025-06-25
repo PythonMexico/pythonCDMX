@@ -65,9 +65,9 @@ tags:
         <p style="margin: 0 0 1rem 0; font-size: 1.1rem; opacity: 0.9;">Python Developer</p>
         <p style="margin: 0 0 1rem 0; line-height: 1.6;">Desarrollador Python con experiencia en interfaces gráficas y desarrollo de aplicaciones de escritorio.</p>
         <div class="speaker-links">
-            
-            
-            
+
+
+
         </div>
     </div>
 </div>
@@ -80,27 +80,27 @@ tags:
     <h3 style="margin: 0 0 1rem 0; color: #28a745;"><i class="fas fa-rocket"></i> Del Código al Clic: Transforma Ideas en Interfaces con Python</h3>
     <p style="line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem;">Descubre cómo convertir ideas en interfaces visuales con Python, explorando Kivy, Flet y QT.</p>
     <div class="tech-stack" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
-        
+
         <div style="background: white; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <h4 style="margin: 0 0 0.5rem 0; color: #1FAC64;"><i class="fas fa-mobile-alt"></i> Kivy</h4>
             <p style="margin: 0; font-size: 0.9rem;">Framework GUI</p>
         </div>
-        
+
         <div style="background: white; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <h4 style="margin: 0 0 0.5rem 0; color: #FF6B6B;"><i class="fas fa-palette"></i> Flet</h4>
             <p style="margin: 0; font-size: 0.9rem;">Framework UI</p>
         </div>
-        
+
         <div style="background: white; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <h4 style="margin: 0 0 0.5rem 0; color: #41CD52;"><i class="fas fa-desktop"></i> Qt</h4>
             <p style="margin: 0; font-size: 0.9rem;">Framework GUI</p>
         </div>
-        
+
         <div style="background: white; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <h4 style="margin: 0 0 0.5rem 0; color: #007bff;"><i class="fas fa-image"></i> GUI</h4>
             <p style="margin: 0; font-size: 0.9rem;">Interfaces gráficas</p>
         </div>
-        
+
     </div>
     <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem;">Python ofrece múltiples opciones para crear interfaces gráficas modernas y atractivas.</p>
 </div>
@@ -131,19 +131,19 @@ tags:
 ## Temas y Tecnologías
 <div class="tags-section" style="margin: 2rem 0;">
     <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
-        
+
         <a href="/tags/python/" style="background: #3776AB; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fab fa-python"></i> Python</a>
-        
+
         <a href="/tags/kivy/" style="background: #1FAC64; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-mobile-alt"></i> Kivy</a>
-        
+
         <a href="/tags/flet/" style="background: #FF6B6B; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-palette"></i> Flet</a>
-        
+
         <a href="/tags/qt/" style="background: #41CD52; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-desktop"></i> Qt</a>
-        
+
         <a href="/tags/gui/" style="background: #007bff; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-image"></i> GUI</a>
-        
+
         <a href="/tags/desktop-apps/" style="background: #6c757d; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-laptop-code"></i> Desktop Apps</a>
-        
+
     </div>
 </div>
 
@@ -171,7 +171,7 @@ tags:
     <a href="https://www.youtube.com/@PythonMexico" style="background: #ff0000; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
         <i class="fab fa-youtube"></i> YouTube
     </a>
-    <a href="https://github.com/python-cdmx" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+    <a href="https://github.com/PythonMexico/pythonCDMX" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
         <i class="fab fa-github"></i> GitHub
     </a>
 </div>

@@ -74,9 +74,9 @@ tags:
             <p style="margin: 0 0 1rem 0; font-size: 1rem; color: #666;">MLOps Engineer</p>
             <p style="margin: 0 0 1rem 0; line-height: 1.6; color: #555;">Diego Barriga, Ingeniero en computación por la UNAM, trabajo con NLP y lenguas indígenas mexicanas. Es parte de Laboratorio de Investigación y Desarrollo de Software Libre, Comunidad Elotl y actualmente desempeña un puesto como MLOps en Mercado Libre. Promotor de la cultura libre, la privacidad, neovim y de andar en bicicleta sin frenos :)</p>
             <div class="speaker-links">
-                
-                
-                
+
+
+
             </div>
         </div>
     </div>
@@ -84,26 +84,26 @@ tags:
     <div class="talk-description" style="background: white; padding: 2rem; border-left: 6px solid #28a745;">
         <p style="line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem; color: #333;">¿Te has preguntado que estudia la fonética? ¿Que significan los simbolitos del International Phonetic Alphabet (IPA)? Y más importante; ¿Cómo manipular estos tipos de datos para crear aplicaciones con python? En esta charla desarrollaremos aplicaciones simples usando datasets con texto en representación fonética y aplicando conceptos sobre fonética en un nivel introductorio. Ahora si que, pasa la voz 🗣️. Objetivo: Los asistentes entenderán los principios básicos de fonología y que es un alfabeto fonético, Obtención y manipulación de datasets disponibles en GitHub https://github.com/open-dict-data/ipa-dict, Aplicar estos datos para resolver tareas específicas.</p>
 
-        
+
         <div class="tech-stack" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #007bff;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #007bff; font-size: 1rem;"><i class="fas fa-file-alt"></i> NLP</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Procesamiento de lenguaje</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #28a745;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #28a745; font-size: 1rem;"><i class="fas fa-language"></i> IPA</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Alfabeto fonético</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #ffc107;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #ffc107; font-size: 1rem;"><i class="fas fa-microphone"></i> Phonetics</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Fonética</p>
             </div>
-            
+
         </div>
-        
+
 
         <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem; color: #333; font-style: italic;">La fonética y el procesamiento de lenguaje natural abren nuevas posibilidades para aplicaciones Python.</p>
     </div>
@@ -124,9 +124,9 @@ tags:
             <p style="margin: 0 0 1rem 0; font-size: 1rem; color: #666;">SRE Engineer</p>
             <p style="margin: 0 0 1rem 0; line-height: 1.6; color: #555;">David Sol también estudió en la UNAM, así como sus padres, tíos, hermano, primos, hijos e incluso su conejo (historia real). Le gustan los juegos de Rol de tablero, las películas, los comics y los libros. Actualmente labora como SRE en Wizeline, y cree que el cómputo de nube es genial, así como Python.</p>
             <div class="speaker-links">
-                
-                
-                
+
+
+
             </div>
         </div>
     </div>
@@ -134,26 +134,26 @@ tags:
     <div class="talk-description" style="background: white; padding: 2rem; border-left: 6px solid #28a745;">
         <p style="line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem; color: #333;">Python nos ayuda a hacer excelentes aplicaciones que se ejecutan en la consola. Y además estas pueden ser atractivas visualmente, y tener interfaces de usuario de primer nivel. Vamos a hablar de dos librerías que te ayudan a ello, Rich y Textual. https://github.com/Textualize/rich https://textual.textualize.io</p>
 
-        
+
         <div class="tech-stack" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #FF6B6B;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #FF6B6B; font-size: 1rem;"><i class="fas fa-palette"></i> Rich</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Librería de consola</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #4ECDC4;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #4ECDC4; font-size: 1rem;"><i class="fas fa-desktop"></i> Textual</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Framework TUI</p>
             </div>
-            
+
             <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 3px solid #6c757d;">
                 <h5 style="margin: 0 0 0.5rem 0; color: #6c757d; font-size: 1rem;"><i class="fas fa-laptop-code"></i> Console Apps</h5>
                 <p style="margin: 0; font-size: 0.85rem; color: #666;">Aplicaciones de consola</p>
             </div>
-            
+
         </div>
-        
+
 
         <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem; color: #333; font-style: italic;">Rich y Textual permiten crear aplicaciones de consola modernas y atractivas con Python.</p>
     </div>
@@ -186,19 +186,19 @@ tags:
 ## Temas y Tecnologías
 <div class="tags-section" style="margin: 2rem 0;">
     <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
-        
+
         <a href="/tags/python/" style="background: #3776AB; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fab fa-python"></i> Python</a>
-        
+
         <a href="/tags/nlp/" style="background: #007bff; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-file-alt"></i> NLP</a>
-        
+
         <a href="/tags/phonetics/" style="background: #ffc107; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-microphone"></i> Phonetics</a>
-        
+
         <a href="/tags/rich/" style="background: #FF6B6B; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-palette"></i> Rich</a>
-        
+
         <a href="/tags/textual/" style="background: #4ECDC4; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-desktop"></i> Textual</a>
-        
+
         <a href="/tags/console-apps/" style="background: #6c757d; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"><i class="fas fa-laptop-code"></i> Console Apps</a>
-        
+
     </div>
 </div>
 
@@ -226,7 +226,7 @@ tags:
     <a href="https://www.youtube.com/@PythonMexico" style="background: #ff0000; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
         <i class="fab fa-youtube"></i> YouTube
     </a>
-    <a href="https://github.com/python-cdmx" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+    <a href="https://github.com/PythonMexico/pythonCDMX" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
         <i class="fab fa-github"></i> GitHub
     </a>
 </div>
