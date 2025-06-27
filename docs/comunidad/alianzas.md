@@ -47,7 +47,7 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
   </div>
 </a>
 
-<a href="https://www.meetup.com/es/pyladies-cuernavaca/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+<a href="https://pyladies-cuernavaca.quarto.pub/web/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
   <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #e83e8c; text-align: center;">
     <img src="/images/comunidades/pyladies-cuernavaca.png" alt="Logo pyladies-cuernavaca" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
     <h4 style="margin: 0 0 0.5rem 0; color: #e83e8c;"><i class="fab fa-python"></i>pyladies Cuernavaca</h4>
@@ -101,7 +101,35 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
     <p style="margin: 0; font-size: 0.9em;">México</p>
   </div>
 </a>
+
+<a href="https://enchiladasdevops.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #6f42c1; text-align: center;">
+    <img src="/images/comunidades/enchiladas-devops.png" alt="Logo enchiladas devops" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
+    <h4 style="margin: 0 0 0.5rem 0; color: #6f42c1;"><i class="fas fa-server"></i> Enchiladas Devops</h4>
+    <p style="margin: 0; font-size: 0.9em;">México</p>
+  </div>
+</a>
+
+
+<a href="https://t.me/linuxito" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #333; text-align: center;">
+    <img src="/images/comunidades/LinuxEnEspanol.jpg" alt="Logo Linux en español" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
+    <h4 style="margin: 0 0 0.5rem 0; color: #333;"><i class="fab fa-linux"></i> Linux en español</h4>
+    <p style="margin: 0; font-size: 0.9em;">Latinoamérica</p>
+  </div>
+</a>
+
+
+<a href="https://t.me/salamandradevs" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #fd7e14; text-align: center;">
+    <img src="/images/comunidades/salamandra-devs.jpg" alt="Logo Salamandra Devs" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
+    <h4 style="margin: 0 0 0.5rem 0; color: #fd7e14;"><i class="fas fa-code"></i> Salamandra Devs</h4>
+    <p style="margin: 0; font-size: 0.9em;">México</p>
+  </div>
+</a>
+
 </div>
+
 
 
 ---
