@@ -127,7 +127,6 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
     <p style="margin: 0; font-size: 0.9em;">México</p>
   </div>
 </a>
-
 </div>
 
 
