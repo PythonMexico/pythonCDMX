@@ -382,6 +382,39 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
 </div>
 
 <div class="volunteer-card">
+  <!-- Hugo Ramirez -->
+  <div class="card-header">
+    <img src="/images/voluntarios/logo.png" alt="Hugo Ramirez" class="volunteer-avatar lazy-image" loading="lazy">
+    <div>
+      <h3 class="card-title"><i class="fas fa-globe-americas"></i> Hugo Ramirez</h3>
+      <p class="card-subtitle">Nuestro embajador sin fronteras</p>
+      <span class="badge ambassador">Embajador</span>
+      <span class="badge global">Global</span>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <strong>Área de responsabilidad:</strong> REPRESENTACIÓN GLOBAL - Representación de la comunidad en espacios globales de tecnología y programación<br>
+      <strong>Contribuciones principales:</strong>
+      <ul>
+        <li>Representa con orgullo a la comunidad en otros espacios del mundo tech</li>
+        <li>Fortalece lazos con grupos internacionales de tecnología</li>
+        <li>Comparte lo que hacemos y cómo lo hacemos, inspirando a más personas</li>
+        <li>Teje redes y amistades más allá de la geografía</li>
+        <li>Conecta, comunica y contagia el entusiasmo de Python CDMX</li>
+        <li>Es la prueba de que la comunidad no tiene límites</li>
+        <li>Inspira a otros a unirse, colaborar o replicar nuestras ideas</li>
+      </ul>
+    </div>
+    <div class="action-buttons">
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="volunteer-card">
   <!-- Mónica Ortega -->
   <div class="card-header">
     <img src="/images/voluntarios/logo.png" alt="Mónica Ortega" class="volunteer-avatar lazy-image" loading="lazy">
