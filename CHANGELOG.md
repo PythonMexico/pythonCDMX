@@ -9,34 +9,67 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
 ## [Unreleased]
 
 ### Añadido
-- **Nueva Sección Comunidad**: Creadas páginas completas de comunidad bajo `/comunidad/`
-  - `ponentes.md` - Guía para convertirse en ponente
-  - `voluntarios.md` - Información sobre voluntariado
-  - `alianzas.md` - Alianzas con comunidades y empresas
-  - `como-contribuir.md` - Guía completa de contribución
-  - `reconocimientos.md` - Reconocimientos a Ponentes y Voluntarios
-
-- **Navegación Mejorada**: Añadida sección "También Te Puede Interesar" con tablas de navegación en todas las páginas
-- **Enlaces Sociales Modernos**: Reemplazados enlaces tipo badge con botones grid atractivos
-- **Seguridad de Enlaces Externos**: Añadidos `target="_blank"` y `rel="noopener noreferrer"` a todos los enlaces externos
+- **Nueva Sección Participa**: Creada sección modular con tabs para mejor organización
+- **Nuevo Voluntario**: Agregada Mónica Ortega a la lista de voluntarios destacados
+- **Sistema de Tabs**: Implementado sistema de tabs en secciones de Participa para mejor navegación
+- **Contenido Modular**: Separado contenido motivacional de listas de personas para mayor claridad
+- **Estilos CSS Mejorados**: Añadidos estilos para tarjetas de voluntarios y ponentes
+- **JavaScript Personalizado**: Agregado archivo custom.js para funcionalidad de tabs
+- **Rediseño Completo de las Páginas de Meetups**: Implementado estilos modernos y atractivos
+- **Nuevas Clases CSS Específicas**: Añadidas para páginas de eventos
+  - `.meetup-hero` - Sección hero con gradientes y efectos visuales
+  - `.meetup-banner` - Banner del evento con hover effects
+  - `.event-details` - Grid responsivo para información del evento
+  - `.detail-card` - Tarjetas con colores específicos por tipo (fecha, hora, lugar, etc.)
+  - `.speaker-section` - Sección del ponente con animaciones flotantes
+  - `.talk-description` - Descripción de la charla con efectos hover
+  - `.tech-stack` - Grid de tecnologías con tarjetas interactivas
+  - `.video-section` - Sección de video con botón YouTube estilizado
+  - `.tags-section` - Tags de temas con gradientes y hover effects
+  - `.networking-section` - Sección de networking con patrones SVG
+  - `.community-links` - Enlaces de comunidad con efectos hover por plataforma
+  - `.meetup-footer` - Footer del meetup
+- **Efectos Visuales Mejorados**: Animaciones flotantes, efectos hover, gradientes modernos, patrones SVG sutiles, transiciones suaves
+- **Diseño Completamente Responsivo**: Adaptable para móviles y tablets
+- **Emojis y Iconos Mejorados**: Para mejor UX
+- **Estructura HTML Más Semántica y Accesible**: Mejora en la accesibilidad
+- **Campo `community_links` en los metadatos JSON de eventos para generación automática de enlaces de comunidad.**
+- **Nuevo diseño visual y estructura para todos los eventos de meetups (2023, 2024, 2025).**
+- **Templates de meetups (charla única y múltiples charlas) ahora idénticos al ejemplo manual: sin frontmatter, rutas absolutas para imágenes, bloques y secciones fieles al diseño manual.**
+- **Community links automáticos en los eventos generados.**
 
 ### Cambiado
-- **Estructura de Enlaces**: Convertidos todos los enlaces relativos a rutas absolutas para mejor navegación
-- **Páginas de Meetups**: Rediseñadas páginas índice de meetups con formato de tabla limpio y estilos consistentes
-- **Formato de Fechas**: Estandarizado formato de fechas en todas las páginas de meetups al estilo "DD Mes YYYY"
-- **Organización de Contenido**: Reorganizado contenido para evitar repetición y mejorar flujo
-- **Consistencia Visual**: Aplicados estilos y formato consistentes en todas las páginas
-- **Página de Ponentes**: Simplificada para enfocarse solo en cómo ser ponente, eliminadas listas de ponentes y charlas destacadas
+- **Restructuración de Participa**: Reorganizada sección Participa con tabs "Información General" y "Destacados"
+- **Navegación Mejorada**: Movidas listas de ponentes y voluntarios fuera de "Reconocimientos" a sus propias secciones
+- **Formato de Tarjetas**: Estandarizado formato de tarjetas para voluntarios y ponentes con estilo consistente
+- **Organización de Contenido**: Separado contenido motivacional/proceso de listas de personas
+- **Estructura de Archivos**: Modularizado contenido en archivos separados para mejor mantenimiento
+- **Página de Julio 2025 Completamente Rediseñada**: Ejemplo de rediseño completo
+- **Eliminación de Estilos Inline**: Reemplazado por clases CSS reutilizables
+- **Mejora en la Legibilidad y Jerarquía Visual**: Optimización del espaciado y tipografía
+- **Script `generate_meetups.py` ahora usa el campo textual `event_month_year` del JSON para mostrar el mes en texto (ej. Julio 2025).**
+- **Actualización masiva de eventos de meetups con el nuevo diseño, estructura y enlaces de comunidad.**
+- **Mejoras en los estilos CSS para reflejar el nuevo diseño visual de meetups y secciones.**
 
 ### Eliminado
-- **Archivos Obsoletos**: Eliminados archivos temporales de about y archivo CNAME
-- **Contenido Redundante**: Eliminada información duplicada en múltiples páginas
-- **Formato Antiguo de Enlaces Sociales**: Reemplazados enlaces tipo badge con botones grid modernos
+- **Archivos Duplicados**: Eliminados archivos redundantes que duplicaban contenido:
+  - `ponentes-info.md` - contenido ya incluido en `ponentes.md`
+  - `ponentes-destacados.md` - contenido ya incluido en `ponentes.md` con pestañas
+  - `voluntarios-info.md` - contenido ya incluido en `voluntarios.md` con pestañas
+  - `voluntarios-destacados.md` - contenido ya incluido en `voluntarios.md` con pestañas
+- **Contenido Duplicado**: Eliminada información duplicada entre archivos de información y listas
+- **Dependencia de Snippets**: Reemplazado sistema de snippets con includes directos para mayor estabilidad
+- **Eliminación de archivos de depuración y contenido redundante: ponentes, voluntarios, reconocimientos, test.**
 
 ### Corregido
-- **Problemas de Navegación**: Corregidos enlaces internos rotos usando rutas absolutas
-- **Consistencia de Enlaces**: Asegurado que todos los enlaces internos usen rutas absolutas correctas
-- **Jerarquía Visual**: Mejorada estructura de páginas y legibilidad
+- **Enlaces Internos**: Corregidos enlaces entre secciones de Participa
+- **Consistencia Visual**: Asegurado estilo consistente entre secciones de voluntarios y ponentes
+- **Estructura de Navegación**: Mejorada navegación entre tabs y secciones
+
+### Technical
+- **Nuevas Variables CSS**: Para consistencia en colores y efectos
+- **Media Queries Optimizadas**: Para diferentes tamaños de pantalla
+- **CSS Modular y Reutilizable**: Para futuras páginas de meetups
 
 ---
 

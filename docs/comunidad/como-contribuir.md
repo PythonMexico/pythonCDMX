@@ -1,3 +1,7 @@
+<div align="center" style="margin: 2rem 0;">
+  <img src="/images/logo.png" alt="Python CDMX Logo" style="max-width: 300px; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+</div>
+
 # Cómo Contribuir <i class="fas fa-hands-helping"></i>
 
 <div align="center" style="font-size: 1.2em; margin: 1.5em 0;">
@@ -23,12 +27,12 @@ Contribuir a Python CDMX te permite:
 ### <i class="fas fa-microphone"></i> Ser Ponente
 Comparte tu conocimiento con la comunidad a través de charlas técnicas, casos de uso o introducciones a nuevas tecnologías.
 
-**Más información:** [Ser Ponente](/comunidad/ponentes)
+**Más información:** [Ser Ponente](ponentes.md)
 
 ### <i class="fas fa-hands-helping"></i> Ser Voluntario
 Ayuda a organizar eventos, gestionar redes sociales, o contribuir con el desarrollo del sitio web.
 
-**Más información:** [Ser Voluntario](/comunidad/voluntarios)
+**Más información:** [Ser Voluntario](voluntarios.md)
 
 ### <i class="fas fa-code"></i> Desarrollo Web
 Contribuye al mantenimiento y mejora de nuestro sitio web, herramientas y automatizaciones.
@@ -43,7 +47,7 @@ Escribe artículos, documentación, o crea contenido para nuestras redes sociale
 ### <i class="fas fa-handshake"></i> Alianzas
 Ayuda a establecer y mantener relaciones con otras comunidades y empresas.
 
-**Más información:** [Alianzas](/comunidad/alianzas)
+**Más información:** [Alianzas](alianzas.md)
 
 ---
 
@@ -56,7 +60,7 @@ Ayuda a establecer y mantener relaciones con otras comunidades y empresas.
 
 ### 2. <i class="fas fa-comments"></i> Contacta con Nosotros
 - Envía un mensaje a través de nuestros canales oficiales
-- Participa en [nuestros meetups](/meetups/) para conocernos
+- Participa en [nuestros meetups](../meetups/index.md) para conocernos
 - Asiste a sesiones informativas
 
 ### 3. <i class="fas fa-rocket"></i> Comienza Pequeño
@@ -166,9 +170,9 @@ Ayuda a establecer y mantener relaciones con otras comunidades y empresas.
 
 | <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
 |:---|:---|:---|
-| [Meetups 2025](/meetups/2025/) - Año actual | [Ser Ponente](/comunidad/ponentes) - Comparte conocimiento | [Nuestros Ponentes](/comunidad/ponentes) - Conoce a la comunidad |
-| [Meetups 2024](/meetups/2024/) - Año anterior | [Ser Voluntario](/comunidad/voluntarios) - Ayuda a organizar | [Alianzas](/comunidad/alianzas) - Comunidades aliadas |
-| [Archivo Completo](/meetups/) - Todos los meetups | [Ver Nuestro Equipo](#nuestro-equipo) - Conoce voluntarios | [Volver al Inicio](/) - Página principal |
+| [Meetups 2025](../meetups/2025/) - Año actual | [Ser Ponente](ponentes.md) - Comparte conocimiento | [Nuestros Ponentes](ponentes.md) - Conoce a la comunidad |
+| [Meetups 2024](../meetups/2024/) - Año anterior | [Ser Voluntario](voluntarios.md) - Ayuda a organizar | [Alianzas](alianzas.md) - Comunidades aliadas |
+| [Archivo Completo](../meetups/index.md) - Todos los meetups | [Ver Nuestro Equipo](#nuestro-equipo) - Conoce voluntarios | [Volver al Inicio](../index.md) - Página principal |
 
 ---
 

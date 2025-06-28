@@ -81,16 +81,15 @@ nav:
   - Inicio: index.md
   - Meetups:
     - General: meetups/index.md
-    - 2025: meetups/2025/
-    - 2024: meetups/2024/
-    - 2023: meetups/2023/
-  - Comunidad:
+    - 2025: meetups/2025/index.md
+    - 2024: meetups/2024/index.md
+    - 2023: meetups/2023/index.md
+  - Participa:
     - Cómo Contribuir: comunidad/como-contribuir.md
-    - Ponentes: comunidad/ponentes
     - Voluntarios: comunidad/voluntarios.md
+    - Ponentes: comunidad/ponentes.md
+  - Comunidad:
     - Alianzas: comunidad/alianzas.md
-    - Reconocimientos: comunidad/reconocimientos.md
-  #- Temas y Tecnologías: tags.md
   - Acerca de: about.md
 
 # Plugins
@@ -123,6 +122,9 @@ extra:
 # SEO
 extra_css:
   - css/custom.css
+
+extra_javascript:
+  - js/custom.js
 
 # Markdown extensions
 markdown_extensions:
