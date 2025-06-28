@@ -84,10 +84,11 @@ nav:
     - 2025: meetups/2025/
     - 2024: meetups/2024/
     - 2023: meetups/2023/
-  - Comunidad:
+  - Participa:
     - Cómo Contribuir: comunidad/como-contribuir.md
-    - Ponentes: comunidad/ponentes
     - Voluntarios: comunidad/voluntarios.md
+    - Ponentes: comunidad/ponentes.md
+  - Comunidad:
     - Alianzas: comunidad/alianzas.md
     - Reconocimientos: comunidad/reconocimientos.md
   #- Temas y Tecnologías: tags.md
@@ -123,6 +124,9 @@ extra:
 # SEO
 extra_css:
   - css/custom.css
+
+extra_javascript:
+  - js/custom.js
 
 # Markdown extensions
 markdown_extensions:

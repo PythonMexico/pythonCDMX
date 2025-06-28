@@ -23,6 +23,7 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
 
 <div class="communities-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
 
+<!-- PyMTY-->
 <a href="https://social.org.mx/@pymty" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
   <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #ff6b35; text-align: center;">
     <img src="/images/comunidades/pymty.png" alt="Logo PyMTY" style="width: 250px; height: 250px; border-radius: 50%; display: block; margin: 0 auto 0.5rem auto;">
@@ -31,6 +32,7 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
   </div>
 </a>
 
+<!-- Pythonistas GDL -->
 <a href="https://pythonistas-gdl.org/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
   <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #28a745; text-align: center;">
     <img src="/images/comunidades/pythonistas-GDL.jpg" alt="Logo PythonistasGDL" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
@@ -39,6 +41,7 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
   </div>
 </a>
 
+<!-- PyTalavera -->
 <a href="https://www.facebook.com/profile.php?id=61559788469426" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
   <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #6f42c1; text-align: center;">
     <img src="/images/comunidades/pyTalavera.jpg" alt="Logo PyTalavera" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
@@ -47,6 +50,7 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
   </div>
 </a>
 
+<!-- Pyladies Cuernavaca -->
 <a href="https://pyladies-cuernavaca.quarto.pub/web/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
   <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #e83e8c; text-align: center;">
     <img src="/images/comunidades/pyladies-cuernavaca.png" alt="Logo pyladies-cuernavaca" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
@@ -61,6 +65,7 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
 
 <div class="communities-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
 
+<!-- Ajolotes en la nube -->
 <a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
   <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #fd7e14; text-align: center;">
     <img src="/images/comunidades/ajolotes-nube.png" alt="Logo Ajolotes en la Nube" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
@@ -69,6 +74,7 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
   </div>
 </a>
 
+<!-- LIDSOL -->
 <a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
   <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #20c997; text-align: center;">
     <img src="/images/comunidades/lidsol.png" alt="Logo Ajolotes en la Nube" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
@@ -77,6 +83,7 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
   </div>
 </a>
 
+<!-- sudofCiencias -->
 <a href="https://linktr.ee/sudo_fciencias" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
   <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #17a2b8; text-align: center;">
     <img src="/images/comunidades/sudofciencias.jpeg" alt="Logo sudoFCiencias" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
@@ -85,6 +92,7 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
   </div>
 </a>
 
+<!-- Fedora México-->
 <a href="https://fedoramx.fedorapeople.org/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
   <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #007bff; text-align: center;">
     <img src="/images/comunidades/fedoramexico.png" alt="Logo sudoFCiencias" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
@@ -94,6 +102,7 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
 
 </a>
 
+<!-- RustMX-->
 <a href="https://rustmx.github.io/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
   <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #dc3545; text-align: center;">
     <img src="/images/comunidades/rustmx.png" alt="Logo RustMX" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
@@ -101,7 +110,7 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
     <p style="margin: 0; font-size: 0.9em;">México</p>
   </div>
 </a>
-
+<!-- Enchiladas Devops-->
 <a href="https://enchiladasdevops.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
   <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #6f42c1; text-align: center;">
     <img src="/images/comunidades/enchiladas-devops.png" alt="Logo enchiladas devops" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
@@ -110,7 +119,7 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
   </div>
 </a>
 
-
+<!-- Linux en español -->
 <a href="https://t.me/linuxito" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
   <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #333; text-align: center;">
     <img src="/images/comunidades/LinuxEnEspanol.jpg" alt="Logo Linux en español" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
@@ -119,7 +128,7 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
   </div>
 </a>
 
-
+<!-- Salamandra DEVS-->
 <a href="https://t.me/salamandradevs" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
   <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #fd7e14; text-align: center;">
     <img src="/images/comunidades/salamandra-devs.jpg" alt="Logo Salamandra Devs" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
@@ -129,8 +138,6 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
 </a>
 </div>
 
-
-
 ---
 
 ## <i class="fas fa-building"></i> Empresas Aliadas
@@ -139,6 +146,7 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
 
 <div class="communities-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
 
+<!-- Wizeline Mexico -->
 <a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
   <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #fd7e14; text-align: center;">
     <img src="/images/comunidades/wizeline.png" alt="Logo Ajolotes en la Nube" style="width: 250px; height: 250px; border-radius: 0%; display: block; margin: 0 auto 0.5rem auto;">
@@ -147,6 +155,7 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
   </div>
 </a>
 
+<!-- Clara -->
 <a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
   <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #20c997; text-align: center;">
     <img src="/images/comunidades/clara.png" alt="Logo CLARA" style=" height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
@@ -154,10 +163,7 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
     <p style="margin: 0; font-size: 0.9em;">Sede alterna</p>
   </div>
 </a>
-
-</a>
 </div>
-
 
 ---
 

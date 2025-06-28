@@ -1,160 +1,425 @@
-# Ser Voluntario <i class="fas fa-hands-helping"></i>
-
-<div align="center" style="font-size: 1.2em; margin: 1.5em 0;">
-  <b>Ayuda a construir y mantener nuestra comunidad Python CDMX</b>
-</div>
-
----
+=== "Información"
 
 ## <i class="fas fa-heart"></i> ¿Por Qué Ser Voluntario?
 
 Ser voluntario en Python CDMX te permite:
 
-- **Contribuir al crecimiento** de la comunidad Python en México
-- **Desarrollar habilidades** de organización y liderazgo
-- **Expandir tu red profesional** con otros desarrolladores
-- **Ganar experiencia** en gestión de comunidades tecnológicas
-- **Aprender de primera mano** sobre las últimas tendencias en Python
+- **Contribuir activamente** al crecimiento de la comunidad Python en México
+- **Desarrollar habilidades** de organización, liderazgo y gestión de eventos
+- **Conectar con otros profesionales** del sector tecnológico
+- **Ganar experiencia** en gestión de comunidades y eventos técnicos
+- **Dejar un legado** en el ecosistema Python de México
 
 ---
 
 ## <i class="fas fa-tasks"></i> Áreas de Participación
 
-### <i class="fas fa-calendar"></i> Organización de Eventos
-- **Coordinación de meetups**: Ayudar en la logística de eventos
-- **Gestión de sedes**: Coordinar con espacios y venues
-- **Registro de asistentes**: Manejar el check-in y registro
-- **Apoyo técnico**: Configurar equipos y resolver problemas técnicos
+### <i class="fas fa-users"></i> Organización de Eventos
+- **Coordinación de meetups** mensuales
+- **Gestión de espacios** y logística
+- **Coordinación con ponentes** y sponsors
+- **Organización de eventos especiales**
 
-### <i class="fas fa-share-alt"></i> Comunicación y Marketing
-- **Redes sociales**: Crear contenido y gestionar nuestras plataformas
-- **Newsletter**: Ayudar con la comunicación mensual
-- **Diseño gráfico**: Crear materiales promocionales
-- **Fotografía**: Documentar nuestros eventos
+### <i class="fas fa-tools"></i> Soporte Técnico
+- **Configuración de equipos** y sistemas
+- **Soporte durante eventos** (audio, video, streaming)
+- **Mantenimiento de plataformas** digitales
+- **Desarrollo de herramientas** para la comunidad
 
-### <i class="fas fa-code"></i> Desarrollo Web
-- **Mantenimiento del sitio**: Mejorar y actualizar nuestra web
-- **Contenido**: Escribir artículos y documentación
-- **Herramientas**: Desarrollar herramientas para la comunidad
-- **Automatización**: Crear scripts para tareas repetitivas
+### <i class="fas fa-bullhorn"></i> Comunicaciones
+- **Gestión de redes sociales** y canales digitales
+- **Creación de contenido** promocional
+- **Comunicación con miembros** y partners
+- **Marketing digital** y difusión
 
-### <i class="fas fa-users"></i> Relaciones Comunitarias
-- **Outreach**: Conectar con otras comunidades y empresas
-- **Mentoría**: Ayudar a nuevos miembros
-- **Moderación**: Mantener un ambiente positivo en nuestros canales
-- **Alianzas**: Gestionar relaciones con partners
-
----
-
-## <i class="fas fa-clipboard-list"></i> Proceso para Ser Voluntario
-
-### 1. <i class="fas fa-handshake"></i> Contacto Inicial
-- Envía un mensaje a través de nuestros canales oficiales
-- Menciona tus intereses y habilidades
-- Describe tu disponibilidad de tiempo
-
-### 2. <i class="fas fa-comments"></i> Conversación
-- Charla con nuestro equipo sobre oportunidades
-- Identificamos el área que mejor se adapte a ti
-- Definimos expectativas y compromisos
-
-### 3. <i class="fas fa-rocket"></i> Integración
-- Recibes acceso a nuestros recursos y herramientas
-- Te conectamos con otros voluntarios
-- Comienzas con tareas pequeñas y vas creciendo
-
-### 4. <i class="fas fa-star"></i> Crecimiento
-- Obtienes más responsabilidades según tu desarrollo
-- Participas en la toma de decisiones
-- Te conviertes en líder de tu área
+### <i class="fas fa-chalkboard-teacher"></i> Mentoría y Educación
+- **Apoyo a nuevos miembros** de la comunidad
+- **Organización de workshops** y talleres
+- **Mentoría técnica** para desarrolladores
+- **Desarrollo de recursos** educativos
 
 ---
 
-## <i class="fas fa-gift"></i> Beneficios para Voluntarios
+## <i class="fas fa-clipboard-list"></i> Proceso de Incorporación
 
-### <i class="fas fa-certificate"></i> Reconocimiento
-- Certificado de participación como voluntario
-- Mención especial en eventos y redes sociales
-- Referencias profesionales para futuras oportunidades
-
-### <i class="fas fa-network-wired"></i> Networking
-- Acceso prioritario a eventos y conferencias
-- Conexión directa con ponentes y expertos
-- Oportunidades de colaboración en proyectos
-
-### <i class="fas fa-graduation-cap"></i> Desarrollo Profesional
-- Aprendizaje de nuevas tecnologías y herramientas
-- Experiencia en gestión de proyectos
-- Habilidades de liderazgo y comunicación
-
-### <i class="fas fa-heart"></i> Satisfacción Personal
-- Contribuir al crecimiento de la comunidad
-- Ver el impacto directo de tu trabajo
-- Sentirte parte de algo más grande
+1. **Aplicación inicial** a través de nuestro formulario
+2. **Entrevista** con el equipo organizador
+3. **Asignación de área** según intereses y habilidades
+4. **Capacitación** y onboarding
+5. **Integración gradual** al equipo
 
 ---
 
-## <i class="fas fa-users"></i> Nuestro Equipo de Voluntarios
+## <i class="fas fa-clock"></i> Compromiso de Tiempo
 
-### <i class="fas fa-star"></i> Voluntarios Activos
+- **Mínimo:** 5-10 horas por mes
+- **Flexibilidad:** Horarios adaptables a tu disponibilidad
+- **Eventos:** Presenciales y remotos
+- **Reuniones:** Semanales o quincenales según el área
 
-<div class="volunteers-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+---
 
-<div class="volunteer-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #28a745;">
-  <h4 style="margin: 0 0 0.5rem 0; color: #28a745;"><i class="fas fa-user"></i> Equipo Organizador</h4>
-  <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #666;">Coordinación general</p>
-  <p style="margin: 0; font-size: 0.9em;">Gestión de eventos y estrategia</p>
+## <i class="fas fa-gift"></i> Beneficios
+
+- **Networking** con profesionales del sector
+- **Desarrollo de habilidades** de liderazgo
+- **Acceso a eventos** y conferencias
+- **Certificados** de participación
+- **Referencias** profesionales
+- **Experiencia** en gestión de comunidades
+
+<div class="action-buttons">
+  <a href="#contact" class="btn-action primary">
+    <i class="fas fa-paper-plane"></i>
+    Aplicar como Voluntario
+  </a>
+  <a href="/comunidad/voluntarios-destacados/" class="btn-action secondary">
+    <i class="fas fa-star"></i>
+    Ver Voluntarios Destacados
+  </a>
+  <a href="/comunidad/como-contribuir/" class="btn-action outline">
+    <i class="fas fa-info-circle"></i>
+    Más Información
+  </a>
 </div>
 
-<div class="volunteer-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #007bff;">
-  <h4 style="margin: 0 0 0.5rem 0; color: #007bff;"><i class="fas fa-user"></i> Equipo de Comunicación</h4>
-  <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #666;">Redes sociales y marketing</p>
-  <p style="margin: 0; font-size: 0.9em;">Contenido y promoción</p>
+=== "Voluntarios Destacados"
+
+## <i class="fas fa-star"></i> Voluntarios Destacados de Python CDMX
+
+Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
+
+<div class="volunteer-card">
+  <!-- David Sol -->
+  <div class="card-header">
+    <img src="/images/voluntarios/logo.png" alt="David Sol" class="volunteer-avatar lazy-image" loading="lazy">
+    <div>
+      <h3 class="card-title"> David Sol</h3>
+      <p class="card-subtitle">Conexión entre comunidades y eventos</p>
+      <span class="badge ambassador">Embajador</span>
+      <span class="badge organizer">Organizador</span>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <strong>Área de responsabilidad:</strong> EMBAJADOR Y VÍNCULO ESTRATÉGICO - Organización de charlas y enlace con espacios aliados como Wizeline<br>
+      <strong>Contribuciones principales:</strong>
+      <ul>
+        <li>Organización y planeación de meetups en Python CDMX</li>
+        <li>Representación de la comunidad en otros espacios y colectivos tecnológicos</li>
+        <li>Promotor de la colaboración entre comunidades</li>
+        <li>Impulsor de nuevas alianzas para el crecimiento comunitario</li>
+        <li>Abre puertas, conecta personas y siembra colaboraciones</li>
+        <li>Cree en la comunidad como motor del cambio</li>
+      </ul>
+    </div>
+    <div class="action-buttons">
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
 </div>
 
-<div class="volunteer-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #ffc107;">
-  <h4 style="margin: 0 0 0.5rem 0; color: #ffc107;"><i class="fas fa-user"></i> Equipo Técnico</h4>
-  <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #666;">Desarrollo web y herramientas</p>
-  <p style="margin: 0; font-size: 0.9em;">Mantenimiento y mejoras</p>
+<div class="volunteer-card">
+  <!-- Charly Román -->
+  <div class="card-header">
+    <img src="/images/voluntarios/logo.png" alt="Charly Román" class="volunteer-avatar lazy-image" loading="lazy">
+    <div>
+      <h3 class="card-title"> Charly Román</h3>
+      <p class="card-subtitle">Embajador y moderador de comunidad</p>
+      <span class="badge ambassador">Embajador</span>
+      <span class="badge organizer">Organizador</span>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <strong>Área de responsabilidad:</strong> EXPERTO PYTHONISTA Y REPRESENTANTE COMUNITARIO - Curaduría de contenido, representación externa y moderación activa<br>
+      <strong>Contribuciones principales:</strong>
+      <ul>
+        <li>Representa a Python CMDX como ponente en eventos y conferencias</li>
+        <li>Modera el canal de Telegram, promoviendo el respeto y el aprendizaje colaborativo</li>
+        <li>Comparte conocimiento técnico con claridad, humildad y apertura</li>
+        <li>Ayuda a organizar y dar dirección a las charlas comunitarias</li>
+        <li>Es punto de referencia para nuevos miembros y comunidad técnica nacional</li>
+      </ul>
+    </div>
+    <div class="action-buttons">
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
 </div>
 
+<div class="volunteer-card">
+  <!-- Gustavo Vera -->
+  <div class="card-header">
+    <img src="/images/voluntarios/logo.png" alt="Gustavo Vera" class="volunteer-avatar lazy-image" loading="lazy">
+    <div>
+      <h3 class="card-title"> Gustavo Vera</h3>
+      <p class="card-subtitle">El ninja que siempre aparece cuando más lo necesitamos</p>
+      <span class="badge ambassador">Embajador</span>
+      <span class="badge organizer">Organizador</span>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <strong>Área de responsabilidad:</strong> ORGANIZADOR, EMBAJADOR Y PONENTE DE EMERGENCIA<br>
+      <strong>Contribuciones principales:</strong>
+      <ul>
+        <li>Organización activa de meetups y actividades comunitarias</li>
+        <li>Representa a Python CDMX con convicción y humildad</li>
+        <li>Ponente ninja: siempre listo para dar una charla cuando no hay propuestas</li>
+        <li>Nos recuerda que el conocimiento compartido siempre es suficiente</li>
+        <li>Refuerzo confiable que mantiene el ritmo y la calidad de los eventos</li>
+      </ul>
+    </div>
+    <div class="action-buttons">
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="volunteer-card">
+  <!-- Pixelead0 -->
+  <div class="card-header">
+    <img src="/images/voluntarios/logo.png" alt="Pixelead0" class="volunteer-avatar lazy-image" loading="lazy">
+    <div>
+      <h3 class="card-title"><i class="fas fa-user-tasks"></i> Pixelead0</h3>
+      <p class="card-subtitle">Coordinación de contenido y ponentes</p>
+      <span class="badge organizer">Organizador</span>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <strong>Área de responsabilidad:</strong> ORGANIZACIÓN DE CHARLAS - Gestión de la agenda de meetups y curaduría de ponentes<br>
+      <strong>Contribuciones principales:</strong>
+      <ul>
+        <li>Organización y calendarización de charlas para los eventos de la comunidad</li>
+        <li>Búsqueda activa de speakers con temas diversos y valiosos</li>
+        <li>Coordinación con ponentes para asegurar presentaciones de calidad</li>
+        <li>Fortalecimiento de la diversidad de voces en cada meetup</li>
+      </ul>
+    </div>
+    <div class="action-buttons">
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="volunteer-card">
+  <!-- Iván Castañeda -->
+  <div class="card-header">
+    <img src="/images/voluntarios/logo.png" alt="Iván Castañeda" class="volunteer-avatar lazy-image" loading="lazy">
+    <div>
+      <h3 class="card-title"><i class="fas fa-user-camera"></i> Iván Castañeda</h3>
+      <p class="card-subtitle">El lente, la voz y la chispa detrás de los meetups</p>
+      <span class="badge production">Producción</span>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <strong>Área de responsabilidad:</strong> CREADOR Y DINAMIZADOR COMUNITARIO - Producción de contenidos, documentación visual y dinamización de eventos<br>
+      <strong>Contribuciones principales:</strong>
+      <ul>
+        <li>Transmisión en vivo (streaming) de meetups</li>
+        <li>Creación de contenido para redes sociales</li>
+        <li>Fotografía de eventos presenciales</li>
+        <li>Organización de actividades y dinámicas comunitarias</li>
+        <li>Donación de llaveros artesanales con identidad Python México</li>
+      </ul>
+    </div>
+    <div class="action-buttons">
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="volunteer-card">
+  <!-- Diego B -->
+  <div class="card-header">
+    <img src="/images/voluntarios/logo.png" alt="Diego B" class="volunteer-avatar lazy-image" loading="lazy">
+    <div>
+      <h3 class="card-title"><i class="fas fa-user-microphone"></i> Diego B</h3>
+      <p class="card-subtitle">Presentador y anfitrión de eventos</p>
+      <span class="badge host">Host</span>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <strong>Área de responsabilidad:</strong> HOST Y MAESTRO DE CEREMONIAS<br>
+      <strong>Contribuciones principales:</strong>
+      <ul>
+        <li>Abre cada evento con entusiasmo y calidez</li>
+        <li>Da espacio y visibilidad a ponentes de toda la comunidad</li>
+        <li>Hace que todos se sientan parte del encuentro</li>
+        <li>Lleva el hilo conductor de cada sesión como todo un profesional</li>
+      </ul>
+    </div>
+    <div class="action-buttons">
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="volunteer-card">
+  <!-- Carlos Reyes -->
+  <div class="card-header">
+    <img src="/images/voluntarios/logo.png" alt="Carlos Reyes" class="volunteer-avatar lazy-image" loading="lazy">
+    <div>
+      <h3 class="card-title"><i class="fas fa-user-microphone"></i> Carlos Reyes</h3>
+      <p class="card-subtitle">Presentador y anfitrión de eventos</p>
+      <span class="badge host">Host</span>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <strong>Área de responsabilidad:</strong> HOST DE MEETUPS - Conducción y moderación de los encuentros de la comunidad<br>
+      <strong>Contribuciones principales:</strong>
+      <ul>
+        <li>Presentación de los eventos presenciales y virtuales de Python México</li>
+        <li>Bienvenida a ponentes y asistentes</li>
+        <li>Moderación de preguntas y tiempos</li>
+        <li>Transmisión de la energía y espíritu de comunidad en cada meetup</li>
+      </ul>
+    </div>
+    <div class="action-buttons">
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="volunteer-card">
+  <!-- Aleph -->
+  <div class="card-header">
+    <img src="/images/voluntarios/logo.png" alt="Aleph" class="volunteer-avatar lazy-image" loading="lazy">
+    <div>
+      <h3 class="card-title"><i class="fas fa-user-cog"></i> Aleph</h3>
+      <p class="card-subtitle">Infraestructura y soporte técnico</p>
+      <span class="badge technical">Técnico</span>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <strong>Área de responsabilidad:</strong> DOMINIO Y SOPORTE - Soporte técnico y provisión de infraestructura digital para la comunidad<br>
+      <strong>Contribuciones principales:</strong>
+      <ul>
+        <li>Donación del dominio oficial de la comunidad</li>
+        <li>Configuración y mantenimiento del hosting y DNS</li>
+        <li>Asistencia técnica para el sitio web y herramientas colaborativas</li>
+        <li>Apoyo continuo ante problemas técnicos o nuevas implementaciones</li>
+      </ul>
+    </div>
+    <div class="action-buttons">
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="volunteer-card">
+  <!-- Yemahina Perez -->
+  <div class="card-header">
+    <img src="/images/voluntarios/logo.png" alt="Yemahina Perez" class="volunteer-avatar lazy-image" loading="lazy">
+    <div>
+      <h3 class="card-title"><i class="fas fa-user-gift"></i> Yemahina Perez</h3>
+      <p class="card-subtitle">Apoyo especial</p>
+      <span class="badge support">Apoyo</span>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <strong>Área de responsabilidad:</strong> REGALITOS COMUNITARIOS - Donación y elaboración de objetos con identidad de la comunidad<br>
+      <strong>Contribuciones principales:</strong>
+      <ul>
+        <li>Diseño y creación de objetos personalizados con el logo de la comunidad</li>
+        <li>Donación constante de detalles como llaveros y más</li>
+        <li>Impulso al sentido de pertenencia y orgullo entre los miembros</li>
+        <li>Apoyo a eventos con materiales hechos con cariño</li>
+      </ul>
+    </div>
+    <div class="action-buttons">
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="volunteer-card">
+  <!-- Petrohs -->
+  <div class="card-header">
+    <img src="/images/voluntarios/logo.png" alt="Petrohs" class="volunteer-avatar lazy-image" loading="lazy">
+    <div>
+      <h3 class="card-title"><i class="fas fa-user-robot"></i> Petrohs</h3>
+      <p class="card-subtitle">No es un bot, pero ya quisieran los bots</p>
+      <span class="badge support">Soporte</span>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <strong>Área de responsabilidad:</strong> INTELIGENCIA COMUNITARIA ARTIFICIALMENTE HUMANA<br>
+      <strong>Contribuciones principales:</strong>
+      <ul>
+        <li>Responde dudas antes de que termines de escribirlas</li>
+        <li>Mantiene el orden en el canal como un ninja del teclado</li>
+        <li>Soporte inmediato que parece automático (pero es humano, lo juramos)</li>
+        <li>Enlace viviente a documentación, buenas prácticas y respuestas útiles</li>
+        <li>Es nuestro bot… en carne viva y con corazón pythonista</li>
+      </ul>
+    </div>
+    <div class="action-buttons">
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="volunteer-card">
+  <!-- Mónica Ortega -->
+  <div class="card-header">
+    <img src="/images/voluntarios/logo.png" alt="Mónica Ortega" class="volunteer-avatar lazy-image" loading="lazy">
+    <div>
+      <h3 class="card-title"><i class="fas fa-user-friends"></i> Mónica Ortega</h3>
+      <p class="card-subtitle">NUESTRA ALIADA SILENCIOSA</p>
+      <span class="badge strategic">Aliada estratégica</span>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <strong>Área de responsabilidad:</strong> VÍNCULO ESTRATÉGICO Y ALIADA COMUNITARIA - Fortalecimiento de alianzas y soporte clave para el funcionamiento de la comunidad<br>
+      <strong>Contribuciones principales:</strong>
+      <ul>
+        <li>Apoyo estratégico para el sostenimiento de herramientas que nos permiten reunirnos</li>
+        <li>Impulsora silenciosa pero constante del crecimiento comunitario</li>
+        <li>Conecta a Python CDMX con aliados que comparten nuestra visión</li>
+        <li>Apoya sin protagonismo, pero con gran impacto</li>
+        <li>Nos recuerda que la comunidad también se construye con generosidad y visión</li>
+      </ul>
+    </div>
+    <div class="action-buttons">
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
 </div>
 
 ---
 
-## <i class="fas fa-link"></i> Conecta con Nuestra Comunidad
+## <i class="fas fa-plus-circle"></i> ¿Quieres Ser Parte de Nuestro Equipo?
 
-<div class="community-links" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
-    <a href="https://t.me/PythonCDMX" target="_blank" rel="noopener noreferrer" style="background: #0088cc; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
-        <i class="fab fa-telegram"></i> Telegram
-    </a>
-    <a href="https://www.meetup.com/python-mexico" target="_blank" rel="noopener noreferrer" style="background: #e51937; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
-        <i class="fab fa-meetup"></i> Meetup
-    </a>
-    <a href="https://www.youtube.com/@PythonMexico" target="_blank" rel="noopener noreferrer" style="background: #ff0000; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
-        <i class="fab fa-youtube"></i> YouTube
-    </a>
-    <a href="https://github.com/PythonMexico/pythonCDMX" target="_blank" rel="noopener noreferrer" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
-        <i class="fab fa-github"></i> GitHub
-    </a>
-    <a href="https://www.instagram.com/pythoncdmx/" target="_blank" rel="noopener noreferrer" style="background: #E4405F; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
-        <i class="fab fa-instagram"></i> Instagram
-    </a>
-    <a href="https://www.linkedin.com/groups/13126454/" target="_blank" rel="noopener noreferrer" style="background: #0A66C2; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
-        <i class="fab fa-linkedin"></i> LinkedIn
+Si te interesa contribuir al crecimiento de la comunidad Python CDMX, ¡únete a nuestro equipo de voluntarios!
+
+<div class="action-buttons">
+  <a href="#contact" class="btn-action primary">
+    <i class="fas fa-paper-plane"></i>
+    Aplicar como Voluntario
+  </a>
+  <a href="/comunidad/como-contribuir/" class="btn-action secondary">
+    <i class="fas fa-info-circle"></i>
+    Más Información
     </a>
 </div>
-
----
-
-## <i class="fas fa-star"></i> También Te Puede Interesar
-
-| <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
-|:---|:---|:---|
-| [Meetups 2025](/meetups/2025/) - Año actual | [Ser Ponente](/comunidad/ponentes) - Comparte conocimiento | [Alianzas](/comunidad/alianzas) - Comunidades aliadas |
-| [Meetups 2024](/meetups/2024/) - Año anterior | [Cómo Contribuir](/comunidad/como-contribuir) - Guía general | [Sobre Nosotros](/about) - Conoce más |
-| [Archivo Completo](/meetups/) - Todos los meetups | [Ver Nuestro Equipo](#nuestro-equipo-de-voluntarios) - Conoce voluntarios | [Volver al Inicio](/) - Página principal |
-
----
-
-*<i class="fas fa-clock"></i> Última actualización: {{ git_revision_date_localized }}*

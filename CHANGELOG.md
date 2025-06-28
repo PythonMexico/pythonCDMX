@@ -9,34 +9,32 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
 ## [Unreleased]
 
 ### Añadido
-- **Nueva Sección Comunidad**: Creadas páginas completas de comunidad bajo `/comunidad/`
-  - `ponentes.md` - Guía para convertirse en ponente
-  - `voluntarios.md` - Información sobre voluntariado
-  - `alianzas.md` - Alianzas con comunidades y empresas
-  - `como-contribuir.md` - Guía completa de contribución
-  - `reconocimientos.md` - Reconocimientos a Ponentes y Voluntarios
-
-- **Navegación Mejorada**: Añadida sección "También Te Puede Interesar" con tablas de navegación en todas las páginas
-- **Enlaces Sociales Modernos**: Reemplazados enlaces tipo badge con botones grid atractivos
-- **Seguridad de Enlaces Externos**: Añadidos `target="_blank"` y `rel="noopener noreferrer"` a todos los enlaces externos
+- **Nueva Sección Participa**: Creada sección modular con tabs para mejor organización
+  - `ponentes-info.md` - Información general sobre ser ponente
+  - `ponentes-destacados.md` - Lista completa de ponentes y sus charlas
+  - `voluntarios-info.md` - Información general sobre voluntariado
+  - `voluntarios-destacados.md` - Lista completa de voluntarios destacados
+- **Nuevo Voluntario**: Agregada Mónica Ortega a la lista de voluntarios destacados
+- **Sistema de Tabs**: Implementado sistema de tabs en secciones de Participa para mejor navegación
+- **Contenido Modular**: Separado contenido motivacional de listas de personas para mayor claridad
+- **Estilos CSS Mejorados**: Añadidos estilos para tarjetas de voluntarios y ponentes
+- **JavaScript Personalizado**: Agregado archivo custom.js para funcionalidad de tabs
 
 ### Cambiado
-- **Estructura de Enlaces**: Convertidos todos los enlaces relativos a rutas absolutas para mejor navegación
-- **Páginas de Meetups**: Rediseñadas páginas índice de meetups con formato de tabla limpio y estilos consistentes
-- **Formato de Fechas**: Estandarizado formato de fechas en todas las páginas de meetups al estilo "DD Mes YYYY"
-- **Organización de Contenido**: Reorganizado contenido para evitar repetición y mejorar flujo
-- **Consistencia Visual**: Aplicados estilos y formato consistentes en todas las páginas
-- **Página de Ponentes**: Simplificada para enfocarse solo en cómo ser ponente, eliminadas listas de ponentes y charlas destacadas
+- **Restructuración de Participa**: Reorganizada sección Participa con tabs "Información General" y "Destacados"
+- **Navegación Mejorada**: Movidas listas de ponentes y voluntarios fuera de "Reconocimientos" a sus propias secciones
+- **Formato de Tarjetas**: Estandarizado formato de tarjetas para voluntarios y ponentes con estilo consistente
+- **Organización de Contenido**: Separado contenido motivacional/proceso de listas de personas
+- **Estructura de Archivos**: Modularizado contenido en archivos separados para mejor mantenimiento
 
 ### Eliminado
-- **Archivos Obsoletos**: Eliminados archivos temporales de about y archivo CNAME
-- **Contenido Redundante**: Eliminada información duplicada en múltiples páginas
-- **Formato Antiguo de Enlaces Sociales**: Reemplazados enlaces tipo badge con botones grid modernos
+- **Contenido Duplicado**: Eliminada información duplicada entre archivos de información y listas
+- **Dependencia de Snippets**: Reemplazado sistema de snippets con includes directos para mayor estabilidad
 
 ### Corregido
-- **Problemas de Navegación**: Corregidos enlaces internos rotos usando rutas absolutas
-- **Consistencia de Enlaces**: Asegurado que todos los enlaces internos usen rutas absolutas correctas
-- **Jerarquía Visual**: Mejorada estructura de páginas y legibilidad
+- **Enlaces Internos**: Corregidos enlaces entre secciones de Participa
+- **Consistencia Visual**: Asegurado estilo consistente entre secciones de voluntarios y ponentes
+- **Estructura de Navegación**: Mejorada navegación entre tabs y secciones
 
 ---
 
