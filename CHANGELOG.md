@@ -33,6 +33,10 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
 - **Diseño Completamente Responsivo**: Adaptable para móviles y tablets
 - **Emojis y Iconos Mejorados**: Para mejor UX
 - **Estructura HTML Más Semántica y Accesible**: Mejora en la accesibilidad
+- **Campo `community_links` en los metadatos JSON de eventos para generación automática de enlaces de comunidad.**
+- **Nuevo diseño visual y estructura para todos los eventos de meetups (2023, 2024, 2025).**
+- **Templates de meetups (charla única y múltiples charlas) ahora idénticos al ejemplo manual: sin frontmatter, rutas absolutas para imágenes, bloques y secciones fieles al diseño manual.**
+- **Community links automáticos en los eventos generados.**
 
 ### Cambiado
 - **Restructuración de Participa**: Reorganizada sección Participa con tabs "Información General" y "Destacados"
@@ -43,6 +47,9 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
 - **Página de Julio 2025 Completamente Rediseñada**: Ejemplo de rediseño completo
 - **Eliminación de Estilos Inline**: Reemplazado por clases CSS reutilizables
 - **Mejora en la Legibilidad y Jerarquía Visual**: Optimización del espaciado y tipografía
+- **Script `generate_meetups.py` ahora usa el campo textual `event_month_year` del JSON para mostrar el mes en texto (ej. Julio 2025).**
+- **Actualización masiva de eventos de meetups con el nuevo diseño, estructura y enlaces de comunidad.**
+- **Mejoras en los estilos CSS para reflejar el nuevo diseño visual de meetups y secciones.**
 
 ### Eliminado
 - **Archivos Duplicados**: Eliminados archivos redundantes que duplicaban contenido:
@@ -52,6 +59,7 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
   - `voluntarios-destacados.md` - contenido ya incluido en `voluntarios.md` con pestañas
 - **Contenido Duplicado**: Eliminada información duplicada entre archivos de información y listas
 - **Dependencia de Snippets**: Reemplazado sistema de snippets con includes directos para mayor estabilidad
+- **Eliminación de archivos de depuración y contenido redundante: ponentes, voluntarios, reconocimientos, test.**
 
 ### Corregido
 - **Enlaces Internos**: Corregidos enlaces entre secciones de Participa
