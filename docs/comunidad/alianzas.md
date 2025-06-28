@@ -1,3 +1,7 @@
+<div align="center" style="margin: 2rem 0;">
+  <img src="/images/logo.png" alt="Python CDMX Logo" style="max-width: 300px; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+</div>
+
 # Alianzas <i class="fas fa-handshake"></i>
 
 <div align="center" style="font-size: 1.2em; margin: 1.5em 0;">
@@ -218,9 +222,9 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
 
 | <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
 |:---|:---|:---|
-| [Meetups 2025](/meetups/2025/) - Año actual | [Ser Ponente](/comunidad/ponentes) - Comparte conocimiento | [Nuestros Ponentes](/comunidad/ponentes) - Conoce a la comunidad |
-| [Meetups 2024](/meetups/2024/) - Año anterior | [Ser Voluntario](/comunidad/voluntarios) - Ayuda a organizar | [Sobre Nosotros](/about) - Conoce más |
-| [Archivo Completo](/meetups/) - Todos los meetups | [Cómo Contribuir](/comunidad/como-contribuir) - Guía general | [Volver al Inicio](/) - Página principal |
+| [Meetups 2025](../meetups/2025/) - Año actual | [Ser Ponente](ponentes.md) - Comparte conocimiento | [Nuestros Ponentes](ponentes.md) - Conoce a la comunidad |
+| [Meetups 2024](../meetups/2024/) - Año anterior | [Ser Voluntario](voluntarios.md) - Ayuda a organizar | [Sobre Nosotros](../about.md) - Conoce más |
+| [Archivo Completo](../meetups/index.md) - Todos los meetups | [Cómo Contribuir](como-contribuir.md) - Guía general | [Volver al Inicio](../index.md) - Página principal |
 
 ---
 

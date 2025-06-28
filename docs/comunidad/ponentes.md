@@ -1,26 +1,16 @@
+<div align="center" style="margin: 2rem 0;">
+  <img src="/images/logo.png" alt="Python CDMX Logo" style="max-width: 300px; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+</div>
+
 # Ser Ponente <i class="fas fa-microphone"></i>
-
-<div class="breadcrumb-container">
-  <nav class="breadcrumb">
-    <div class="breadcrumb-item">
-      <a href="/">Inicio</a>
-    </div>
-    <div class="breadcrumb-item">
-      <a href="/comunidad/">Comunidad</a>
-    </div>
-    <div class="breadcrumb-item active">
-      Ser Ponente
-    </div>
-  </nav>
-</div>
-
-<div align="center" style="font-size: 1.2em; margin: 1.5em 0;">
-  <b>Comparte tu conocimiento con la comunidad Python CDMX</b>
-</div>
 
 ---
 
 === "Información"
+
+<div align="center" style="font-size: 1.2em; margin: 1.5em 0;">
+  <b>Comparte tu conocimiento con la comunidad Python CDMX</b>
+</div>
 
 ## <i class="fas fa-heart"></i> ¿Por Qué Ser Ponente?
 
@@ -127,7 +117,7 @@ Ser ponente en Python CDMX te ofrece una oportunidad única para:
 |:---|:---|:---|
 | [Meetups 2025](/meetups/2025/) - Año actual | [Ser Voluntario](/comunidad/voluntarios) - Ayuda a organizar | [Alianzas](/comunidad/alianzas) - Comunidades aliadas |
 | [Meetups 2024](/meetups/2024/) - Año anterior | [Cómo Contribuir](/comunidad/como-contribuir) - Guía general | [Sobre Nosotros](/about) - Conoce más |
-| [Archivo Completo](/meetups/) - Todos los meetups | [Ver Charlas Destacadas](#ponentes-destacados) - Mejores presentaciones | [Volver al Inicio](/) - Página principal |
+| [Archivo Completo](../meetups/index.md) - Todos los meetups | Mejores presentaciones | [Volver al Inicio](../index.md) - Página principal |
 
 ---
 
@@ -371,7 +361,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 Si te interesa compartir tu conocimiento con la comunidad Python CDMX, ¡no dudes en contactarnos!
 
 <div class="action-buttons">
-  <a href="#contact" class="btn-action primary">
+  <a href="https://github.com/PythonMexico/pythonCDMX/issues" class="btn-action primary">
     <i class="fas fa-paper-plane"></i>
     Enviar Propuesta de Charla
   </a>

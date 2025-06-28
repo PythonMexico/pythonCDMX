@@ -1,4 +1,10 @@
-# Python CDMX Charlas <i class="fas fa-python"></i>
+<div align="center" style="margin: 2rem 0;">
+  <img src="/images/logo.png" alt="Python CDMX Logo" style="max-width: 300px; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+</div>
+
+<div align="center">
+  <h1>#PythonCDMX</i></h1>
+</div>
 
 <div align="center" style="font-size: 1.2em; margin: 1.5em 0;">
   <b>Conectando desarrolladores Python en la Ciudad de México</b>
@@ -30,13 +36,13 @@ Somos una comunidad apasionada por Python que busca **conectar, aprender y crece
   <div class="participation-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 2rem; border-radius: 16px; border-left: 6px solid #28a745; box-shadow: 0 4px 16px rgba(0,0,0,0.1);">
   <h3 style="margin: 0 0 1rem 0; color: #28a745; font-size: 1.5rem;"><i class="fas fa-microphone"></i> Ser Ponente</h3>
   <p style="margin: 0 0 1rem 0; line-height: 1.6; color: #555;">Comparte tu conocimiento con la comunidad. Charlas técnicas, casos de uso, mejores prácticas y más.</p>
-  <a href="/comunidad/ponentes/" style="background: #28a745; color: white; padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">Conoce Más</a>
+  <a href="/comunidad/ponentes.md" style="background: #28a745; color: white; padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">Conoce Más</a>
 </div>
 
 <div class="participation-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 2rem; border-radius: 16px; border-left: 6px solid #007bff; box-shadow: 0 4px 16px rgba(0,0,0,0.1);">
   <h3 style="margin: 0 0 1rem 0; color: #007bff; font-size: 1.5rem;"><i class="fas fa-hands-helping"></i> Ser Voluntario</h3>
   <p style="margin: 0 0 1rem 0; line-height: 1.6; color: #555;">Ayuda a organizar eventos, gestionar redes sociales, o contribuir con el desarrollo del sitio web.</p>
-  <a href="/comunidad/voluntarios/" style="background: #007bff; color: white; padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">Únete</a>
+  <a href="/comunidad/voluntarios.md" style="background: #007bff; color: white; padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">Únete</a>
 </div>
 
 <div class="participation-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 2rem; border-radius: 16px; border-left: 6px solid #ffc107; box-shadow: 0 4px 16px rgba(0,0,0,0.1);">
@@ -51,8 +57,12 @@ Somos una comunidad apasionada por Python que busca **conectar, aprender y crece
 
 <div style="background: #f8f9fa; border-left: 6px solid #28a745; border-radius: 12px; padding: 1.5rem; margin: 2rem 0; text-align: center;">
   <b>¡Conoce a quienes hacen posible Python CDMX!</b><br>
-  <a href="/comunidad/reconocimientos/" style="background: #28a745; color: white; padding: 0.7rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; margin-top: 1rem; display: inline-block;">
-    Ver Reconocimientos
+  <a href="/comunidad/voluntarios/#voluntarios-destacados-de-python-cdmx" style="background: #28a745; color: white; padding: 0.7rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; margin-top: 1rem; display: inline-block;">
+    Voluntarios
+  </a>
+
+<a href="/comunidad/ponentes/#ponentes-destacados-de-python-cdmx" style="background: #28a745; color: white; padding: 0.7rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; margin-top: 1rem; display: inline-block;">
+    Ponentes
   </a>
 </div>
 
@@ -87,9 +97,9 @@ Somos una comunidad apasionada por Python que busca **conectar, aprender y crece
 
 | <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
 |:---|:---|:---|
-| [Meetups 2025](/meetups/2025/) - Año actual | [Ser Ponente](/comunidad/ponentes) - Comparte conocimiento | [Nuestros Ponentes](/comunidad/ponentes) - Conoce a la comunidad |
-| [Meetups 2024](/meetups/2024/) - Año anterior | [Ser Voluntario](/comunidad/voluntarios) - Ayuda a organizar | [Alianzas](/comunidad/alianzas) - Comunidades aliadas |
-| [Archivo Completo](/meetups/) - Todos los meetups | [Cómo Contribuir](/comunidad/como-contribuir) - Guía general | [Sobre Nosotros](/about) - Conoce más |
+| [Meetups 2025](meetups/2025/) - Año actual | [Ser Ponente](comunidad/ponentes.md) - Comparte conocimiento | [Nuestros Ponentes](comunidad/ponentes.md) - Conoce a la comunidad |
+| [Meetups 2024](meetups/2024/) - Año anterior | [Ser Voluntario](comunidad/voluntarios.md) - Ayuda a organizar | [Alianzas](comunidad/alianzas.md) - Comunidades aliadas |
+| [Archivo Completo](meetups/index.md) - Todos los meetups | [Cómo Contribuir](comunidad/como-contribuir.md) - Guía general | [Sobre Nosotros](about.md) - Conoce más |
 
 ---
 

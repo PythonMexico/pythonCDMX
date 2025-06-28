@@ -1,3 +1,9 @@
+<div align="center" style="margin: 2rem 0;">
+  <img src="/images/logo.png" alt="Python CDMX Logo" style="max-width: 300px; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+</div>
+
+# Ser Voluntario
+
 === "Información"
 
 ## <i class="fas fa-heart"></i> ¿Por Qué Ser Voluntario?
@@ -77,10 +83,7 @@ Ser voluntario en Python CDMX te permite:
     <i class="fas fa-star"></i>
     Ver Voluntarios Destacados
   </a>
-  <a href="/comunidad/como-contribuir/" class="btn-action outline">
-    <i class="fas fa-info-circle"></i>
-    Más Información
-  </a>
+  <a href="como-contribuir.md" class="btn-action outline">Más Información</a>
 </div>
 
 === "Voluntarios Destacados"
@@ -227,7 +230,7 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
         <li>Creación de contenido para redes sociales</li>
         <li>Fotografía de eventos presenciales</li>
         <li>Organización de actividades y dinámicas comunitarias</li>
-        <li>Donación de llaveros artesanales con identidad Python México</li>
+        <li>Donación de llaveros artesanales con identidad Python CDMX</li>
       </ul>
     </div>
     <div class="action-buttons">
@@ -280,7 +283,7 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
       <strong>Área de responsabilidad:</strong> HOST DE MEETUPS - Conducción y moderación de los encuentros de la comunidad<br>
       <strong>Contribuciones principales:</strong>
       <ul>
-        <li>Presentación de los eventos presenciales y virtuales de Python México</li>
+        <li>Presentación de los eventos presenciales y virtuales de Python CDMX</li>
         <li>Bienvenida a ponentes y asistentes</li>
         <li>Moderación de preguntas y tiempos</li>
         <li>Transmisión de la energía y espíritu de comunidad en cada meetup</li>
@@ -414,11 +417,11 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
 Si te interesa contribuir al crecimiento de la comunidad Python CDMX, ¡únete a nuestro equipo de voluntarios!
 
 <div class="action-buttons">
-  <a href="#contact" class="btn-action primary">
+  <a href="https://github.com/PythonMexico/pythonCDMX/issues" class="btn-action primary">
     <i class="fas fa-paper-plane"></i>
     Aplicar como Voluntario
   </a>
-  <a href="/comunidad/como-contribuir/" class="btn-action secondary">
+  <a href="como-contribuir.md" class="btn-action secondary">
     <i class="fas fa-info-circle"></i>
     Más Información
     </a>
