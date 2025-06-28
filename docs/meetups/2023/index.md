@@ -1,3 +1,7 @@
+<div align="center" style="margin: 2rem 0;">
+  <img src="/images/logo.png" alt="Python CDMX Logo" style="max-width: 300px; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+</div>
+
 # Meetups 2023 <i class="fas fa-calendar-alt"></i>
 
 <div align="center" style="font-size: 1.2em; margin: 1.5em 0;">
@@ -5,8 +9,6 @@
 </div>
 
 ---
-
-## <i class="fas fa-table"></i> Meetups 2023
 
 | <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-microphone"></i> **Charla** | <i class="fas fa-user"></i> **Ponente** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-link"></i> **Detalles** |
 |:---|:---|:---|:---|:---|
@@ -81,12 +83,12 @@
 
 | <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
 |:---|:---|:---|
-| [Meetups 2025](/meetups/2025/) - Año actual | [Ser Ponente](/comunidad/ponentes) - Comparte conocimiento | [Nuestros Ponentes](/comunidad/ponentes) - Conoce a la comunidad |
-| [Meetups 2024](/meetups/2024/) - Año siguiente | [Ser Voluntario](/comunidad/voluntarios) - Ayuda a organizar | [Alianzas](/comunidad/alianzas) - Comunidades aliadas |
-| [Archivo Completo](/meetups/) - Todos los meetups | [Cómo Contribuir](/comunidad/como-contribuir) - Guía general | [Volver al Inicio](/) - Página principal |
+| [Meetups 2025](../2025/) - Año actual | [Ser Ponente](../../comunidad/ponentes.md) - Comparte conocimiento | [Nuestros Ponentes](../../comunidad/ponentes.md) - Conoce a la comunidad |
+| [Meetups 2024](../2024/) - Año siguiente | [Ser Voluntario](../../comunidad/voluntarios.md) - Ayuda a organizar | [Alianzas](../../comunidad/alianzas.md) - Comunidades aliadas |
+| [Archivo Completo](../index.md) - Todos los meetups | [Cómo Contribuir](../../comunidad/como-contribuir.md) - Guía general | [Volver al Inicio](../../index.md) - Página principal |
 
 ---
 
-¿Te gustaría aparecer aquí? Conoce a nuestros [ponentes y voluntarios reconocidos](/comunidad/reconocimientos/).
+¿Te gustaría aparecer aquí? Conoce a nuestros [ponentes y voluntarios reconocidos](/comunidad/como-contribuir/).
 
 *<i class="fas fa-clock"></i> Última actualización: {{ git_revision_date_localized }}*
