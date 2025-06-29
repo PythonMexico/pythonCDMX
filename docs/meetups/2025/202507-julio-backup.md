@@ -32,7 +32,7 @@
     </div>
     <div class="detail-card rsvp-card">
         <h3><i class="fas fa-ticket-alt"></i> RSVP</h3>
-        <p><a href="https://www.meetup.com/python-mexico/" style="color: #ffc107; text-decoration: none;">¡Regístrate aquí!</a></p>
+        <p><a href="https://www.meetup.com/python-mexico/">¡Regístrate aquí!</a></p>
     </div>
 </div>
 
@@ -64,7 +64,7 @@
 
     <p>En esta charla exploraremos las mejores prácticas para configurar un entorno de desarrollo Python profesional:</p>
 
-    <ul style="line-height: 1.8; font-size: 1.1rem; margin: 1.5rem 0; padding-left: 2rem;">
+    <ul>
         <li>¿Debes usar UV para el ambiente virtual?</li>
         <li>¿Tu código debe estar en el directorio raíz o en la carpeta /src?</li>
         <li>¿Dónde poner los archivos de pruebas?</li>
@@ -74,7 +74,7 @@
         <li>Y lo más controvertido de todo: ¿Tabulador o espacios?</li>
     </ul>
 
-    <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem; font-style: italic; color: #666;">
+    <p>
         <i class="fas fa-info-circle"></i> Nota: Basado en la página "Modern Good Practices for Python Development" de Stuart Ellis. Igual hay que preguntarle si se anima a darla él.
     </p>
 </div>

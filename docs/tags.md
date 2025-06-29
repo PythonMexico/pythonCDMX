@@ -54,8 +54,8 @@ Explora nuestros meetups por temas y tecnologías. Haz clic en cualquier tag par
 
 ---
 
-<div style="text-align: center; margin-top: 3rem; padding: 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 16px;">
+<div class="search-help">
     <h3>🎯 ¿No encuentras lo que buscas?</h3>
     <p>Usa la búsqueda en la parte superior para encontrar contenido específico o navega por nuestros meetups organizados por año.</p>
-    <a href="/meetups/" style="background: white; color: #667eea; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600; display: inline-block; margin-top: 1rem;">Ver todos los meetups</a>
+    <a href="/meetups/" class="btn-primary">Ver todos los meetups</a>
 </div>

@@ -20,16 +20,16 @@ theme:
   # Custom colors based on logo
   palette:
     # Light mode
-    - scheme: default
-      primary: green
-      accent: red
+    - scheme: material
+      # primary: green
+      #accent: red
       toggle:
         icon: material/brightness-auto
         name: Switch to dark mode
     # Dark mode
     - scheme: slate
-      primary: green
-      accent: red
+      #primary: green
+      #accent: red
       toggle:
         icon: material/brightness-7
         name: Switch to light mode

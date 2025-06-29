@@ -1,10 +1,10 @@
-<div align="center" style="margin: 2rem 0;">
-  <img src="/images/logo.png" alt="Python CDMX Logo" style="max-width: 300px; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+<div align="center">
+  <img src="/images/logo.png" alt="Python CDMX Logo">
 </div>
 
 # Alianzas <i class="fas fa-handshake"></i>
 
-<div align="center" style="font-size: 1.2em; margin: 1.5em 0;">
+<div align="center">
   <b>Comunidades y empresas que apoyan Python CDMX</b>
 </div>
 
@@ -25,41 +25,41 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
 
 ### <i class="fas fa-star"></i> Comunidades Python
 
-<div class="communities-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+<div class="communities-grid">
 
 <!-- PyMTY-->
-<a href="https://social.org.mx/@pymty" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #ff6b35; text-align: center;">
-    <img src="/images/comunidades/pymty.png" alt="Logo PyMTY" style="width: 250px; height: 250px; border-radius: 50%; display: block; margin: 0 auto 0.5rem auto;">
-    <h4 style="margin: 0 0 0.5rem 0; color: #ff6b35;"><i class="fab fa-python"></i>PyMTY</h4>
-    <p style="margin: 0; font-size: 0.9em;">Nuevo Leon</p>
+<a href="https://social.org.mx/@pymty" target="_blank" rel="noopener noreferrer">
+  <div class="community-card">
+    <img src="/images/comunidades/pymty.png" alt="Logo PyMTY">
+    <h4><i class="fab fa-python"></i>PyMTY</h4>
+    <p>Nuevo Leon</p>
   </div>
 </a>
 
 <!-- Pythonistas GDL -->
-<a href="https://pythonistas-gdl.org/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #28a745; text-align: center;">
-    <img src="/images/comunidades/pythonistas-GDL.jpg" alt="Logo PythonistasGDL" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
-    <h4 style="margin: 0 0 0.5rem 0; color: #28a745;"><i class="fab fa-python"></i>Pythonistas GDL</h4>
-    <p style="margin: 0; font-size: 0.9em;">Jalisco</p>
+<a href="https://pythonistas-gdl.org/" target="_blank" rel="noopener noreferrer">
+  <div class="community-card">
+    <img src="/images/comunidades/pythonistas-GDL.jpg" alt="Logo PythonistasGDL">
+    <h4><i class="fab fa-python"></i>Pythonistas GDL</h4>
+    <p>Jalisco</p>
   </div>
 </a>
 
 <!-- PyTalavera -->
-<a href="https://www.facebook.com/profile.php?id=61559788469426" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #6f42c1; text-align: center;">
-    <img src="/images/comunidades/pyTalavera.jpg" alt="Logo PyTalavera" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
-    <h4 style="margin: 0 0 0.5rem 0; color: #6f42c1;"><i class="fab fa-python"></i>PyTalavera</h4>
-    <p style="margin: 0; font-size: 0.9em;">Puebla</p>
+<a href="https://www.facebook.com/profile.php?id=61559788469426" target="_blank" rel="noopener noreferrer">
+  <div class="community-card">
+    <img src="/images/comunidades/pyTalavera.jpg" alt="Logo PyTalavera">
+    <h4><i class="fab fa-python"></i>PyTalavera</h4>
+    <p>Puebla</p>
   </div>
 </a>
 
 <!-- Pyladies Cuernavaca -->
-<a href="https://pyladies-cuernavaca.quarto.pub/web/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #e83e8c; text-align: center;">
-    <img src="/images/comunidades/pyladies-cuernavaca.png" alt="Logo pyladies-cuernavaca" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
-    <h4 style="margin: 0 0 0.5rem 0; color: #e83e8c;"><i class="fab fa-python"></i>pyladies Cuernavaca</h4>
-    <p style="margin: 0; font-size: 0.9em;">Morelos</p>
+<a href="https://pyladies-cuernavaca.quarto.pub/web/" target="_blank" rel="noopener noreferrer">
+  <div class="community-card">
+    <img src="/images/comunidades/pyladies-cuernavaca.png" alt="Logo pyladies-cuernavaca">
+    <h4><i class="fab fa-python"></i>pyladies Cuernavaca</h4>
+    <p>Morelos</p>
   </div>
 </a>
 
@@ -67,77 +67,77 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
 
 ### <i class="fas fa-code"></i> Otras Comunidades
 
-<div class="communities-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+<div class="communities-grid">
 
 <!-- Ajolotes en la nube -->
-<a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #fd7e14; text-align: center;">
-    <img src="/images/comunidades/ajolotes-nube.png" alt="Logo Ajolotes en la Nube" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
-    <h4 style="margin: 0 0 0.5rem 0; color: #fd7e14;"><i class="fab fa-aws"></i> Ajolotes en la Nube</h4>
-    <p style="margin: 0; font-size: 0.9em;">CDMX</p>
+<a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer">
+  <div class="community-card">
+    <img src="/images/comunidades/ajolotes-nube.png" alt="Logo Ajolotes en la Nube">
+    <h4><i class="fab fa-aws"></i> Ajolotes en la Nube</h4>
+    <p>CDMX</p>
   </div>
 </a>
 
 <!-- LIDSOL -->
-<a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #20c997; text-align: center;">
-    <img src="/images/comunidades/lidsol.png" alt="Logo Ajolotes en la Nube" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
-    <h4 style="margin: 0 0 0.5rem 0; color: #20c997;"><i class="fas fa-code"></i> LIDSOL</h4>
-    <p style="margin: 0; font-size: 0.9em;">UNAM, Facultad ingeniería<br>CDMX</p>
+<a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer">
+  <div class="community-card">
+    <img src="/images/comunidades/lidsol.png" alt="Logo Ajolotes en la Nube">
+    <h4><i class="fas fa-code"></i> LIDSOL</h4>
+    <p>UNAM, Facultad ingeniería<br>CDMX</p>
   </div>
 </a>
 
 <!-- sudofCiencias -->
-<a href="https://linktr.ee/sudo_fciencias" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #17a2b8; text-align: center;">
-    <img src="/images/comunidades/sudofciencias.jpeg" alt="Logo sudoFCiencias" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
-    <h4 style="margin: 0 0 0.5rem 0; color: #17a2b8;"><i class="fas fa-code"></i> sudoFCiencias</h4>
-    <p style="margin: 0; font-size: 0.9em;">UNAM, Facultad Ciencias<br>CDMX</p>
+<a href="https://linktr.ee/sudo_fciencias" target="_blank" rel="noopener noreferrer">
+  <div class="community-card">
+    <img src="/images/comunidades/sudofciencias.jpeg" alt="Logo sudoFCiencias">
+    <h4><i class="fas fa-code"></i> sudoFCiencias</h4>
+    <p>UNAM, Facultad Ciencias<br>CDMX</p>
   </div>
 </a>
 
 <!-- Fedora México-->
-<a href="https://fedoramx.fedorapeople.org/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #007bff; text-align: center;">
-    <img src="/images/comunidades/fedoramexico.png" alt="Logo sudoFCiencias" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
-    <h4 style="margin: 0 0 0.5rem 0; color: #007bff;"><i class="fab fa-linux"></i> Fedora México</h4>
-    <p style="margin: 0; font-size: 0.9em;">México</p>
+<a href="https://fedoramx.fedorapeople.org/" target="_blank" rel="noopener noreferrer">
+  <div class="community-card">
+    <img src="/images/comunidades/fedoramexico.png" alt="Logo sudoFCiencias">
+    <h4><i class="fab fa-linux"></i> Fedora México</h4>
+    <p>México</p>
   </div>
 
 </a>
 
 <!-- RustMX-->
-<a href="https://rustmx.github.io/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #dc3545; text-align: center;">
-    <img src="/images/comunidades/rustmx.png" alt="Logo RustMX" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
-    <h4 style="margin: 0 0 0.5rem 0; color: #dc3545;"><i class="fab fa-rust"></i> RustMX</h4>
-    <p style="margin: 0; font-size: 0.9em;">México</p>
+<a href="https://rustmx.github.io/" target="_blank" rel="noopener noreferrer">
+  <div class="community-card">
+    <img src="/images/comunidades/rustmx.png" alt="Logo RustMX">
+    <h4><i class="fab fa-rust"></i> RustMX</h4>
+    <p>México</p>
   </div>
 </a>
 <!-- Enchiladas Devops-->
-<a href="https://enchiladasdevops.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #6f42c1; text-align: center;">
-    <img src="/images/comunidades/enchiladas-devops.png" alt="Logo enchiladas devops" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
-    <h4 style="margin: 0 0 0.5rem 0; color: #6f42c1;"><i class="fas fa-server"></i> Enchiladas Devops</h4>
-    <p style="margin: 0; font-size: 0.9em;">México</p>
+<a href="https://enchiladasdevops.com/" target="_blank" rel="noopener noreferrer">
+  <div class="community-card">
+    <img src="/images/comunidades/enchiladas-devops.png" alt="Logo enchiladas devops">
+    <h4><i class="fas fa-server"></i> Enchiladas Devops</h4>
+    <p>México</p>
   </div>
 </a>
 
 <!-- Linux en español -->
-<a href="https://t.me/linuxito" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #333; text-align: center;">
-    <img src="/images/comunidades/LinuxEnEspanol.jpg" alt="Logo Linux en español" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
-    <h4 style="margin: 0 0 0.5rem 0; color: #333;"><i class="fab fa-linux"></i> Linux en español</h4>
-    <p style="margin: 0; font-size: 0.9em;">Latinoamérica</p>
+<a href="https://t.me/linuxito" target="_blank" rel="noopener noreferrer">
+  <div class="community-card">
+    <img src="/images/comunidades/LinuxEnEspanol.jpg" alt="Logo Linux en español">
+    <h4><i class="fab fa-linux"></i> Linux en español</h4>
+    <p>Latinoamérica</p>
   </div>
 </a>
 
 <!-- Salamandra DEVS-->
-<a href="https://t.me/salamandradevs" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #fd7e14; text-align: center;">
-    <img src="/images/comunidades/salamandra-devs.jpg" alt="Logo Salamandra Devs" style="width: 250px; height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
-    <h4 style="margin: 0 0 0.5rem 0; color: #fd7e14;"><i class="fas fa-code"></i> Salamandra Devs</h4>
-    <p style="margin: 0; font-size: 0.9em;">México</p>
+<a href="https://t.me/salamandradevs" target="_blank" rel="noopener noreferrer">
+  <div class="community-card">
+    <img src="/images/comunidades/salamandra-devs.jpg" alt="Logo Salamandra Devs">
+    <h4><i class="fas fa-code"></i> Salamandra Devs</h4>
+    <p>México</p>
   </div>
 </a>
 </div>
@@ -148,23 +148,23 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
 
 ### <i class="fas fa-star"></i> Empresas Tecnológicas
 
-<div class="communities-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+<div class="communities-grid">
 
 <!-- Wizeline Mexico -->
-<a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #fd7e14; text-align: center;">
-    <img src="/images/comunidades/wizeline.png" alt="Logo Ajolotes en la Nube" style="width: 250px; height: 250px; border-radius: 0%; display: block; margin: 0 auto 0.5rem auto;">
-    <h4 style="margin: 0 0 0.5rem 0; color: #fd7e14;"><i class="fas fa-building"></i> Wizeline México</h4>
-    <p style="margin: 0; font-size: 0.9em;">Sede principal de nuestros meetups</p>
+<a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer">
+  <div class="community-card">
+    <img src="/images/comunidades/wizeline.png" alt="Logo Ajolotes en la Nube">
+    <h4><i class="fas fa-building"></i> Wizeline México</h4>
+    <p>Sede principal de nuestros meetups</p>
   </div>
 </a>
 
 <!-- Clara -->
-<a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-  <div class="community-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #20c997; text-align: center;">
-    <img src="/images/comunidades/clara.png" alt="Logo CLARA" style=" height: 250px; border-radius: 20%; display: block; margin: 0 auto 0.5rem auto;">
-    <h4 style="margin: 0 0 0.5rem 0; color: #20c997;"><i class="fas fa-building"></i> CLARA</h4>
-    <p style="margin: 0; font-size: 0.9em;">Sede alterna</p>
+<a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer">
+  <div class="community-card">
+    <img src="/images/comunidades/clara.png" alt="Logo CLARA">
+    <h4><i class="fas fa-building"></i> CLARA</h4>
+    <p>Sede alterna</p>
   </div>
 </a>
 </div>
@@ -195,23 +195,23 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
 
 ## <i class="fas fa-link"></i> Conecta con Nuestra Comunidad
 
-<div class="community-links" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
-    <a href="https://t.me/PythonCDMX" target="_blank" rel="noopener noreferrer" style="background: #0088cc; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+<div class="community-links">
+    <a href="https://t.me/PythonCDMX" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-telegram"></i> Telegram
     </a>
-    <a href="https://www.meetup.com/python-mexico" target="_blank" rel="noopener noreferrer" style="background: #e51937; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+    <a href="https://www.meetup.com/python-mexico" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-meetup"></i> Meetup
     </a>
-    <a href="https://www.youtube.com/@PythonMexico" target="_blank" rel="noopener noreferrer" style="background: #ff0000; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+    <a href="https://www.youtube.com/@PythonMexico" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-youtube"></i> YouTube
     </a>
-    <a href="https://github.com/PythonMexico/pythonCDMX" target="_blank" rel="noopener noreferrer" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+    <a href="https://github.com/PythonMexico/pythonCDMX" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-github"></i> GitHub
     </a>
-    <a href="https://www.instagram.com/pythoncdmx/" target="_blank" rel="noopener noreferrer" style="background: #E4405F; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+    <a href="https://www.instagram.com/pythoncdmx/" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-instagram"></i> Instagram
     </a>
-    <a href="https://www.linkedin.com/groups/13126454/" target="_blank" rel="noopener noreferrer" style="background: #0A66C2; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+    <a href="https://www.linkedin.com/groups/13126454/" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-linkedin"></i> LinkedIn
     </a>
 </div>

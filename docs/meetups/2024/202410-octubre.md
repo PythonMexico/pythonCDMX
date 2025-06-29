@@ -30,7 +30,7 @@ title: "Una ida y una vuelta: Cómo iniciar en el opensource"
     </div>
     <div class="detail-card rsvp-card">
         <h3><i class="fas fa-ticket-alt"></i> RSVP</h3>
-        <p><a href="https://www.meetup.com/python-mexico/" style="color: #ffc107; text-decoration: none;">¡Regístrate aquí!</a></p>
+        <p><a href="https://www.meetup.com/python-mexico/">¡Regístrate aquí!</a></p>
     </div>
 </div>
 
@@ -62,10 +62,10 @@ title: "Una ida y una vuelta: Cómo iniciar en el opensource"
     <h3><i class="fas fa-rocket"></i> Una ida y una vuelta: Cómo iniciar en el opensource</h3>
     <p>¿Tienes esa gran idea, pero no sabes cómo organizar tu ambiente virtual, tu código y todas las herramientas de desarrollo?</p>
     <p>En esta charla exploraremos las mejores prácticas para configurar un entorno de desarrollo Python profesional:</p>
-    <ul style="line-height: 1.8; font-size: 1.1rem; margin: 1.5rem 0; padding-left: 2rem;">
+    <ul>
         
     </ul>
-    <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem; font-style: italic; color: #666;">
+    <p>
         <i class="fas fa-info-circle"></i> Contribuir al open source es una excelente manera de crecer profesionalmente y dar de vuelta a la comunidad.
     </p>
 </div>
@@ -118,8 +118,8 @@ title: "Una ida y una vuelta: Cómo iniciar en el opensource"
 
 ---
 
-<div style="text-align: center; margin-top: 3rem; padding: 2rem; background: #f8f9fa; border-radius: 12px;">
-    <p style="margin: 0; color: #6c757d; font-style: italic;">
+<div>
+    <p>
         *Última actualización: Generado automáticamente*
     </p>
 </div>

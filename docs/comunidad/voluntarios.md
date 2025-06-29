@@ -1,5 +1,5 @@
-<div align="center" style="margin: 2rem 0;">
-  <img src="/images/logo.png" alt="Python CDMX Logo" style="max-width: 300px; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+<div align="center">
+  <img src="/images/logo.png" alt="Python CDMX Logo">
 </div>
 
 # Ser Voluntario
