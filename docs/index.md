@@ -49,6 +49,7 @@ Somos una comunidad apasionada por Python que busca **conectar, aprender y crece
 ---
 
 ## <i class="fas fa-users"></i> Formas de Participación
+
 <div class="participation-grid">
   <div class="participation-card participation-ponente">
     <h3><i class="fas fa-microphone"></i> Ser Ponente</h3>
@@ -67,12 +68,11 @@ Somos una comunidad apasionada por Python que busca **conectar, aprender y crece
   </div>
 </div>
 
-## <i class="fas fa-link"></i> Conecta con Nuestra Comunidad
+## <i class="fas fa-link"></i> Conoce a quienes hacen posible Python CDMX!
 
 <div class="community-highlight">
-  <b>¡Conoce a quienes hacen posible Python CDMX!</b><br>
-  <a href="/comunidad/voluntarios/#voluntarios-destacados-de-python-cdmx" class="btn btn-primary mt-2">Voluntarios</a>
-  <a href="/comunidad/ponentes/#ponentes-destacados-de-python-cdmx" class="btn btn-primary mt-2">Ponentes</a>
+  <a href="/comunidad/voluntarios/#voluntarios-de-python-cdmx" class="btn btn-primary mt-2">Voluntarios</a>
+  <a href="/comunidad/ponentes/#ponentes-de-python-cdmx" class="btn btn-primary mt-2">Ponentes</a>
 </div>
 
 ---
@@ -94,9 +94,9 @@ Somos una comunidad apasionada por Python que busca **conectar, aprender y crece
 
 | <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
 |:---|:---|:---|
-| [Meetups 2025](meetups/2025/) - Año actual | [Ser Ponente](comunidad/ponentes.md) - Comparte conocimiento | [Nuestros Ponentes](comunidad/ponentes.md) - Conoce a la comunidad |
-| [Meetups 2024](meetups/2024/) - Año anterior | [Ser Voluntario](comunidad/voluntarios.md) - Ayuda a organizar | [Alianzas](comunidad/alianzas.md) - Comunidades aliadas |
-| [Archivo Completo](meetups/index.md) - Todos los meetups | [Cómo Contribuir](comunidad/como-contribuir.md) - Guía general | [Sobre Nosotros](about.md) - Conoce más |
+| [Meetups 2025](meetups/2025/) - Año actual | [Ser Ponente](comunidad/ponentes/) - Comparte conocimiento | [Nuestros Ponentes](comunidad/ponentes/) - Conoce a la comunidad |
+| [Meetups 2024](meetups/2024/) - Año anterior | [Ser Voluntario](comunidad/voluntarios/) - Ayuda a organizar | [Alianzas](comunidad/alianzas/) - Comunidades aliadas |
+| [Archivo Completo](meetups/) - Todos los meetups | [Cómo Contribuir](comunidad/como-contribuir/) - Guía general | [Sobre Nosotros](about/) - Conoce más |
 
 ---
 

@@ -79,16 +79,16 @@ Ser voluntario en Python CDMX te permite:
     <i class="fas fa-paper-plane"></i>
     Aplicar como Voluntario
   </a>
-  <a href="/comunidad/voluntarios-destacados/" class="btn-action secondary">
+  <a href="/comunidad/voluntarios/" class="btn-action secondary">
     <i class="fas fa-star"></i>
-    Ver Voluntarios Destacados
+    Ver Voluntarios
   </a>
   <a href="como-contribuir.md" class="btn-action outline">Más Información</a>
 </div>
 
-=== "Voluntarios Destacados"
+=== "Voluntarios"
 
-## <i class="fas fa-star"></i> Voluntarios Destacados de Python CDMX
+## <i class="fas fa-star"></i> Voluntarios de Python CDMX
 
 Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
 

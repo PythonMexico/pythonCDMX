@@ -56,7 +56,7 @@
 
 </div>
 
-**Ponentes Destacados:**
+**Ponentes:**
 
 - Gustavo Vera (3 charlas)
 - David Sol (3 charlas)
@@ -93,9 +93,9 @@
 
 | <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
 |:---|:---|:---|
-| [Meetups 2025](../2025/) - Año actual | [Ser Ponente](../../comunidad/ponentes.md) - Comparte conocimiento | [Nuestros Ponentes](../../comunidad/ponentes.md) - Conoce a la comunidad |
-| [Meetups 2023](../2023/) - Año anterior | [Ser Voluntario](../../comunidad/voluntarios.md) - Ayuda a organizar | [Alianzas](../../comunidad/alianzas.md) - Comunidades aliadas |
-| [Archivo Completo](../index.md) - Todos los meetups | [Cómo Contribuir](../../comunidad/como-contribuir.md) - Guía general | [Volver al Inicio](../../index.md) - Página principal |
+| [Meetups 2025](../2025/) - Año actual | [Ser Ponente](../../comunidad/ponentes/) - Comparte conocimiento | [Nuestros Ponentes](../../comunidad/ponentes/) - Conoce a la comunidad |
+| [Meetups 2023](../2023/) - Año anterior | [Ser Voluntario](../../comunidad/voluntarios/) - Ayuda a organizar | [Alianzas](../../comunidad/alianzas/) - Comunidades aliadas |
+| [Archivo Completo](../) - Todos los meetups | [Cómo Contribuir](../../comunidad/como-contribuir/) - Guía general | [Volver al Inicio](../../) - Página principal |
 
 ---
 

@@ -38,12 +38,15 @@ Creemos que el verdadero crecimiento profesional viene de la colaboración y el 
 ## <i class="fas fa-users"></i> Formas de Participación
 
 ### <i class="fas fa-microphone"></i> Ser Ponente
-Comparte tu experiencia y conocimiento con la comunidad. Consulta nuestra [guía para ponentes](comunidad/ponentes.md) para más información.
+
+Comparte tu experiencia y conocimiento con la comunidad. Consulta nuestra [guía para ponentes](comunidad/ponentes/) para más información.
 
 ### <i class="fas fa-hands-helping"></i> Ser Voluntario
-Ayuda a organizar eventos, gestionar redes sociales o contribuir con el desarrollo del sitio web. Conoce más en [nuestra página de voluntarios](/comunidad/voluntarios.md).
+
+Ayuda a organizar eventos, gestionar redes sociales o contribuir con el desarrollo del sitio web. Conoce más en [nuestra página de voluntarios](/comunidad/voluntarios/).
 
 ### <i class="fas fa-calendar"></i> Asistir a Meetups
+
 Participa en nuestros eventos mensuales para aprender, conectar y crecer profesionalmente.
 
 ---
@@ -77,9 +80,9 @@ Participa en nuestros eventos mensuales para aprender, conectar y crecer profesi
 
 | <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
 |:---|:---|:---|
-| [Meetups 2025](meetups/2025/index.md) - Año actual | [Ser Ponente](comunidad/ponentes.md) - Comparte conocimiento | [Nuestros Ponentes](comunidad/ponentes.md) - Conoce a la comunidad |
-| [Meetups 2024](meetups/2024/index.md) - Año anterior | [Ser Voluntario](comunidad/voluntarios.md) - Ayuda a organizar | [Alianzas](comunidad/alianzas.md) - Comunidades aliadas |
-| [Archivo Completo](meetups/index.md) - Todos los meetups | [Cómo Contribuir](comunidad/como-contribuir.md) - Guía general | [Volver al Inicio](index.md) - Página principal |
+| [Meetups 2025](meetups/2025/) - Año actual | [Ser Ponente](comunidad/ponentes/) - Comparte conocimiento | [Nuestros Ponentes](comunidad/ponentes/) - Conoce a la comunidad |
+| [Meetups 2024](meetups/2024/) - Año anterior | [Ser Voluntario](comunidad/voluntarios/) - Ayuda a organizar | [Alianzas](comunidad/alianzas/) - Comunidades aliadas |
+| [Archivo Completo](meetups/) - Todos los meetups | [Cómo Contribuir](comunidad/como-contribuir/) - Guía general | [Volver al Inicio](/) - Página principal |
 
 ---
 

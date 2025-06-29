@@ -174,18 +174,21 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
 ## <i class="fas fa-handshake"></i> Beneficios de las Alianzas
 
 ### <i class="fas fa-users"></i> Para la Comunidad
+
 - **Eventos más grandes** y diversos
 - **Recursos compartidos** entre comunidades
 - **Oportunidades de networking** expandidas
 - **Contenido más rico** y variado
 
 ### <i class="fas fa-building"></i> Para las Empresas
+
 - **Visibilidad** en la comunidad tech
 - **Acceso a talento** calificado
 - **Branding** positivo y asociación
 - **Networking** con desarrolladores
 
 ### <i class="fas fa-star"></i> Para los Miembros
+
 - **Más eventos** y oportunidades
 - **Redes profesionales** expandidas
 - **Recursos adicionales** y beneficios
@@ -222,9 +225,9 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
 
 | <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
 |:---|:---|:---|
-| [Meetups 2025](../meetups/2025/) - Año actual | [Ser Ponente](ponentes.md) - Comparte conocimiento | [Nuestros Ponentes](ponentes.md) - Conoce a la comunidad |
-| [Meetups 2024](../meetups/2024/) - Año anterior | [Ser Voluntario](voluntarios.md) - Ayuda a organizar | [Sobre Nosotros](../about.md) - Conoce más |
-| [Archivo Completo](../meetups/index.md) - Todos los meetups | [Cómo Contribuir](como-contribuir.md) - Guía general | [Volver al Inicio](../index.md) - Página principal |
+| [Meetups 2025](../meetups/2025/) - Año actual | [Ser Ponente](ponentes/) - Comparte conocimiento | [Nuestros Ponentes](ponentes/) - Conoce a la comunidad |
+| [Meetups 2024](../meetups/2024/) - Año anterior | [Ser Voluntario](voluntarios/) - Ayuda a organizar | [Sobre Nosotros](../about/) - Conoce más |
+| [Archivo Completo](../meetups/) - Todos los meetups | [Cómo Contribuir](como-contribuir/) - Guía general | [Volver al Inicio](../) - Página principal |
 
 ---
 

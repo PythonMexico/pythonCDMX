@@ -27,16 +27,19 @@ Ser ponente en Python CDMX te ofrece una oportunidad única para:
 ## <i class="fas fa-lightbulb"></i> Tipos de Charlas
 
 ### <i class="fas fa-code"></i> Charlas Técnicas
+
 - **Duración**: 20-30 minutos
 - **Contenido**: Tecnologías Python, frameworks, librerías, mejores prácticas
 - **Ejemplos**: Django, Flask, FastAPI, Pandas, NumPy, Machine Learning
 
 ### <i class="fas fa-chart-line"></i> Casos de Uso
+
 - **Duración**: 25-35 minutos
 - **Contenido**: Proyectos reales, experiencias en producción, lecciones aprendidas
 - **Ejemplos**: Migración de sistemas, optimización de performance, arquitecturas
 
 ### <i class="fas fa-rocket"></i> Charlas Introductorias
+
 - **Duración**: 15-25 minutos
 - **Contenido**: Conceptos básicos, introducción a nuevas tecnologías
 - **Ejemplos**: Primeros pasos con Python, conceptos de programación
@@ -46,21 +49,25 @@ Ser ponente en Python CDMX te ofrece una oportunidad única para:
 ## <i class="fas fa-clipboard-list"></i> Proceso para Ser Ponente
 
 ### 1. <i class="fas fa-pencil"></i> Propón tu Charla
+
 - Envía tu propuesta a través de nuestros canales de comunicación
 - Incluye título, descripción, duración y nivel de audiencia
 - Menciona cualquier requisito técnico especial
 
 ### 2. <i class="fas fa-comments"></i> Revisión y Feedback
+
 - Nuestro equipo revisará tu propuesta
 - Te proporcionaremos feedback y sugerencias
 - Confirmaremos la fecha y logística
 
 ### 3. <i class="fas fa-calendar"></i> Preparación
+
 - Recibirás recursos y guías para preparar tu presentación
 - Podrás hacer una prueba técnica si lo deseas
 - Te conectaremos con otros ponentes si es un evento múltiple
 
 ### 4. <i class="fas fa-microphone"></i> Presentación
+
 - Llegada temprana para configuración técnica
 - Presentación en un ambiente acogedor y colaborativo
 - Sesión de preguntas y respuestas
@@ -70,16 +77,19 @@ Ser ponente en Python CDMX te ofrece una oportunidad única para:
 ## <i class="fas fa-gift"></i> Beneficios para Ponentes
 
 ### <i class="fas fa-certificate"></i> Reconocimiento
+
 - Certificado de participación como ponente
 - Mención especial en nuestras redes sociales
 - Inclusión en nuestro directorio de ponentes
 
 ### <i class="fas fa-network-wired"></i> Networking
+
 - Acceso prioritario a eventos especiales
 - Conexión directa con otros expertos del sector
 - Oportunidades de colaboración en proyectos
 
 ### <i class="fas fa-book"></i> Recursos
+
 - Acceso a materiales y recursos de presentación
 - Feedback detallado para mejorar futuras charlas
 - Posibilidad de grabar tu presentación
@@ -117,15 +127,15 @@ Ser ponente en Python CDMX te ofrece una oportunidad única para:
 |:---|:---|:---|
 | [Meetups 2025](/meetups/2025/) - Año actual | [Ser Voluntario](/comunidad/voluntarios) - Ayuda a organizar | [Alianzas](/comunidad/alianzas) - Comunidades aliadas |
 | [Meetups 2024](/meetups/2024/) - Año anterior | [Cómo Contribuir](/comunidad/como-contribuir) - Guía general | [Sobre Nosotros](/about) - Conoce más |
-| [Archivo Completo](../meetups/index.md) - Todos los meetups | Mejores presentaciones | [Volver al Inicio](../index.md) - Página principal |
+| [Archivo Completo](../meetups/) - Todos los meetups | Mejores presentaciones | [Volver al Inicio](../) - Página principal |
 
 ---
 
 *<i class="fas fa-clock"></i> Última actualización: {{ git_revision_date_localized }}*
 
-=== "Ponentes Destacados"
+=== "Ponentes"
 
-## <i class="fas fa-star"></i> Ponentes Destacados de Python CDMX
+## <i class="fas fa-star"></i> Ponentes de Python CDMX
 
 Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra comunidad:
 
