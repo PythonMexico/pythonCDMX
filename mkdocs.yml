@@ -4,7 +4,7 @@ site_author: Python CDMX Community
 site_url: https://python-cdmx.github.io
 
 # Repository
-repo_name: pythonCDMX
+repo_name: PythonMexico/pythonCDMX
 repo_url: https://github.com/PythonMexico/pythonCDMX/
 #edit_uri: edit/main/docs/
 
@@ -34,10 +34,7 @@ theme:
         icon: material/brightness-7
         name: Switch to light mode
 
-  # Custom CSS
-  custom_dir: docs/css/
-
-  # Features
+  # Features - configuración optimizada
   features:
     - announce.dismiss
     #- content.action.edit
@@ -54,11 +51,6 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    - navigation.instant.result
-    - navigation.instant.suggest
-    - navigation.instant.tracking
-    - navigation.instant.worker
-    - navigation.managing
     - navigation.prune
     - navigation.sections
     - navigation.tabs
@@ -70,11 +62,11 @@ theme:
     - search.suggest
     - toc.follow
 
-  # FontAwesome configuration
+  # Icons
   icon:
     repo: fontawesome/brands/github
-    edit: fontawesome/solid/pen-to-square
-    view: fontawesome/solid/eye
+    edit: material/pencil
+    view: material/eye
 
 # Navigation
 nav:
@@ -94,32 +86,49 @@ nav:
 
 # Plugins
 plugins:
-  - search
+  - search:
+      lang: es
   - git-revision-date-localized:
       enable_creation_date: true
+      type: date
+      timezone: America/Mexico_City
+      locale: es
   - minify:
       minify_html: true
-  - tags
+      minify_css: true
+      minify_js: true
+      htmlmin_opts:
+        remove_comments: true
+  - tags:
+      tags_file: tags.md
 
 # Social links
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/PythonMexico/pythonCDMX
+      name: GitHub
     - icon: fontawesome/brands/telegram
       link: https://t.me/PythonCDMX
-    - icon: fontawesome/brands/twitter
+      name: Telegram
+    - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/PythonMexico
+      name: Twitter/X
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@PythonMexico
+      name: YouTube
     - icon: fontawesome/brands/meetup
       link: https://www.meetup.com/python-mexico
+      name: Meetup
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/pythoncdmx/
+      name: Instagram
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/groups/13126454/
+      name: LinkedIn
 
-# SEO
+
+# Custom CSS and JavaScript
 extra_css:
   - css/custom.css
 
@@ -136,6 +145,7 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+      title: En esta página
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -149,12 +159,18 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+      use_pygments: true
   - pymdownx.inlinehilite
   - pymdownx.keys
-  - pymdownx.magiclink
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: PythonMexico
+      repo: pythonCDMX
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
+      base_path: 'docs'
       check_paths: true
   - pymdownx.superfences:
       custom_fences:
@@ -164,9 +180,6 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
       combine_header_slug: true
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
@@ -175,4 +188,6 @@ markdown_extensions:
 validation:
   nav:
     omitted_files: ignore
-  not_found: warn
+    not_found: warn
+  links:
+    not_found: warn

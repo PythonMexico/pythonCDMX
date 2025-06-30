@@ -12,11 +12,17 @@ import requests
 
 
 def find_internal_links(content):
-    """Find all internal links in markdown content."""
+    """Find all internal links in markdown and HTML content."""
     links = []
-    pattern = r"\[([^\]]+)\]\(([^)]+)\)"
 
-    for match in re.finditer(pattern, content):
+    # Markdown link pattern: [text](url)
+    md_pattern = r"\[([^\]]+)\]\(([^)]+)\)"
+
+    # HTML link pattern: <a href="url">text</a> or <a href='url'>text</a>
+    html_pattern = r'<a\s+href=["\']([^"\']+)["\'][^>]*>([^<]+)</a>'
+
+    # Find markdown links
+    for match in re.finditer(md_pattern, content):
         text = match.group(1)
         url = match.group(2)
 
@@ -24,7 +30,18 @@ def find_internal_links(content):
         if url.startswith(("http://", "https://", "mailto:", "tel:")):
             continue
 
-        links.append((text, url))
+        links.append((text, url, "markdown", match.start()))
+
+    # Find HTML links
+    for match in re.finditer(html_pattern, content):
+        url = match.group(1)
+        text = match.group(2).strip()
+
+        # Skip external links
+        if url.startswith(("http://", "https://", "mailto:", "tel:")):
+            continue
+
+        links.append((text, url, "html", match.start()))
 
     return links
 
@@ -107,26 +124,28 @@ def main():
 
             links = find_internal_links(content)
 
-            for text, url in links:
+            for text, url, link_type, line_start in links:
                 is_working, status = check_link(
                     base_url, url, str(md_file.relative_to(docs_dir))
                 )
+
+                # Calculate full URL for display
+                if not url.startswith("#"):
+                    full_url = urljoin(base_url, url)
+                else:
+                    full_url = urljoin(
+                        base_url,
+                        str(md_file.relative_to(docs_dir)).replace(".md", "/") + url,
+                    )
 
                 result = {
                     "file": str(md_file.relative_to(docs_dir)),
                     "text": text,
                     "url": url,
-                    "full_url": (
-                        urljoin(base_url, url)
-                        if not url.startswith("#")
-                        else urljoin(
-                            base_url,
-                            str(md_file.relative_to(docs_dir)).replace(".md", "/")
-                            + url,
-                        )
-                    ),
+                    "full_url": full_url,
                     "status": status,
-                    "line": content[: content.find(f"[{text}]({url})")].count("\n") + 1,
+                    "line": content[:line_start].count("\n") + 1,
+                    "link_type": link_type,
                 }
 
                 if is_working:

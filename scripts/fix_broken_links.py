@@ -80,14 +80,35 @@ def fix_file_links(file_path: str, broken_links: List[Dict]) -> Tuple[bool, List
         for link in file_links:
             old_url = link["url"]
             new_url = suggest_fix(old_url)
+            link_type = link.get("link_type", "markdown")
 
             if new_url != old_url:
-                # Create the pattern to find and replace
-                pattern = f'\\[{re.escape(link["text"])}\\]\\({re.escape(old_url)}\\)'
-                replacement = f'[{link["text"]}]({new_url})'
+                if link_type == "markdown":
+                    # Fix markdown links: [text](url)
+                    pattern = (
+                        f'\\[{re.escape(link["text"])}\\]\\({re.escape(old_url)}\\)'
+                    )
+                    replacement = f'[{link["text"]}]({new_url})'
+                elif link_type == "html":
+                    # Fix HTML links: <a href="url">text</a>
+                    # Handle both single and double quotes
+                    pattern1 = f'<a\\s+href=["\']{re.escape(old_url)}["\'][^>]*>{re.escape(link["text"])}</a>'
+                    replacement1 = f'<a href="{new_url}">{link["text"]}</a>'
 
-                # Apply the fix
-                new_content = re.sub(pattern, replacement, content)
+                    # Try with double quotes first
+                    new_content = re.sub(pattern1, replacement1, content)
+
+                    # If no change, try with single quotes
+                    if new_content == content:
+                        pattern2 = f'<a\\s+href=[\'"]{re.escape(old_url)}[\'"][^>]*>{re.escape(link["text"])}</a>'
+                        new_content = re.sub(pattern2, replacement1, content)
+                else:
+                    # Fallback to markdown pattern
+                    pattern = (
+                        f'\\[{re.escape(link["text"])}\\]\\({re.escape(old_url)}\\)'
+                    )
+                    replacement = f'[{link["text"]}]({new_url})'
+                    new_content = re.sub(pattern, replacement, content)
 
                 if new_content != content:
                     content = new_content
@@ -97,6 +118,7 @@ def fix_file_links(file_path: str, broken_links: List[Dict]) -> Tuple[bool, List
                             "text": link["text"],
                             "old_url": old_url,
                             "new_url": new_url,
+                            "link_type": link_type,
                         }
                     )
 
