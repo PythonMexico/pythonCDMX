@@ -1,7 +1,7 @@
 site_name: Python CDMX
 site_description: Comunidad de desarrolladores Python en la Ciudad de México
-site_author: Python CDMX Community
-site_url: https://python-cdmx.github.io
+site_author: Comunidad Python CDMX
+site_url: https://pythoncdmx.org
 
 # Repository
 repo_name: PythonMexico/pythonCDMX
@@ -20,25 +20,19 @@ theme:
   # Custom colors based on logo
   palette:
     # Light mode
-    - scheme: material
-      # primary: green
-      #accent: red
+    - scheme: default
       toggle:
         icon: material/brightness-auto
-        name: Switch to dark mode
+        name: Cambiar a modo oscuro
     # Dark mode
     - scheme: slate
-      #primary: green
-      #accent: red
       toggle:
         icon: material/brightness-7
-        name: Switch to light mode
+        name: Cambiar a modo claro
 
   # Features - configuración optimizada
   features:
     - announce.dismiss
-    #- content.action.edit
-    #- content.action.view
     - content.code.annotate
     - content.code.copy
     - content.code.select
@@ -65,8 +59,6 @@ theme:
   # Icons
   icon:
     repo: fontawesome/brands/github
-    edit: material/pencil
-    view: material/eye
 
 # Navigation
 nav:
@@ -99,8 +91,6 @@ plugins:
       minify_js: true
       htmlmin_opts:
         remove_comments: true
-  - tags:
-      tags_file: tags.md
 
 # Social links
 extra:
