@@ -100,13 +100,6 @@ Ayuda a establecer y mantener relaciones con otras comunidades y empresas.
 - **YouTube**: Contenido audiovisual
 - **Instagram**: Redes sociales
 
-### <i class="fas fa-calendar"></i> Organización
-
-- **Google Calendar**: Eventos y reuniones
-- **Trello/Notion**: Gestión de tareas
-- **Slack/Discord**: Comunicación interna
-- **Zoom/Meet**: Reuniones virtuales
-
 ---
 
 ## <i class="fas fa-gift"></i> Beneficios de Contribuir
@@ -121,7 +114,6 @@ Ayuda a establecer y mantener relaciones con otras comunidades y empresas.
 ### <i class="fas fa-network-wired"></i> Networking
 
 - Conexiones con expertos del sector
-- Acceso a eventos exclusivos
 - Oportunidades de colaboración
 - Red profesional expandida
 
