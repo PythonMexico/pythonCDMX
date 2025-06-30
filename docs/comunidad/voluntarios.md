@@ -4,6 +4,8 @@
 
 # Ser Voluntario
 
+---
+
 === "Información"
 
 ## <i class="fas fa-heart"></i> ¿Por Qué Ser Voluntario?
@@ -86,14 +88,16 @@ Ser voluntario en Python CDMX te permite:
   <a href="como-contribuir/" class="btn-action outline">Más Información</a>
 </div>
 
+---
+
 === "Voluntarios"
 
 ## <i class="fas fa-star"></i> Voluntarios de Python CDMX
 
 Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
 
+<!-- David Sol -->
 <div class="volunteer-card">
-  <!-- David Sol -->
   <div class="card-header">
     <img src="/images/voluntarios/logo.png" alt="David Sol" class="volunteer-avatar lazy-image" loading="lazy">
     <div>
@@ -123,8 +127,8 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
   </div>
 </div>
 
+<!-- Charly Román -->
 <div class="volunteer-card">
-  <!-- Charly Román -->
   <div class="card-header">
     <img src="/images/voluntarios/logo.png" alt="Charly Román" class="volunteer-avatar lazy-image" loading="lazy">
     <div>
@@ -153,8 +157,8 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
   </div>
 </div>
 
+<!-- Gustavo Vera -->
 <div class="volunteer-card">
-  <!-- Gustavo Vera -->
   <div class="card-header">
     <img src="/images/voluntarios/logo.png" alt="Gustavo Vera" class="volunteer-avatar lazy-image" loading="lazy">
     <div>
@@ -183,8 +187,8 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
   </div>
 </div>
 
+<!-- Pixelead0 -->
 <div class="volunteer-card">
-  <!-- Pixelead0 -->
   <div class="card-header">
     <img src="/images/voluntarios/logo.png" alt="Pixelead0" class="volunteer-avatar lazy-image" loading="lazy">
     <div>
@@ -211,8 +215,8 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
   </div>
 </div>
 
+<!-- Iván Castañeda -->
 <div class="volunteer-card">
-  <!-- Iván Castañeda -->
   <div class="card-header">
     <img src="/images/voluntarios/logo.png" alt="Iván Castañeda" class="volunteer-avatar lazy-image" loading="lazy">
     <div>
@@ -240,8 +244,8 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
   </div>
 </div>
 
+<!-- Diego B -->
 <div class="volunteer-card">
-  <!-- Diego B -->
   <div class="card-header">
     <img src="/images/voluntarios/logo.png" alt="Diego B" class="volunteer-avatar lazy-image" loading="lazy">
     <div>
@@ -268,8 +272,8 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
   </div>
 </div>
 
+<!-- Carlos Reyes -->
 <div class="volunteer-card">
-  <!-- Carlos Reyes -->
   <div class="card-header">
     <img src="/images/voluntarios/logo.png" alt="Carlos Reyes" class="volunteer-avatar lazy-image" loading="lazy">
     <div>
@@ -296,8 +300,8 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
   </div>
 </div>
 
+<!-- Aleph -->
 <div class="volunteer-card">
-  <!-- Aleph -->
   <div class="card-header">
     <img src="/images/voluntarios/logo.png" alt="Aleph" class="volunteer-avatar lazy-image" loading="lazy">
     <div>
@@ -324,8 +328,8 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
   </div>
 </div>
 
+<!-- Yemahina Perez -->
 <div class="volunteer-card">
-  <!-- Yemahina Perez -->
   <div class="card-header">
     <img src="/images/voluntarios/logo.png" alt="Yemahina Perez" class="volunteer-avatar lazy-image" loading="lazy">
     <div>
@@ -352,8 +356,8 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
   </div>
 </div>
 
+<!-- Petrohs -->
 <div class="volunteer-card">
-  <!-- Petrohs -->
   <div class="card-header">
     <img src="/images/voluntarios/logo.png" alt="Petrohs" class="volunteer-avatar lazy-image" loading="lazy">
     <div>
@@ -381,8 +385,8 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
   </div>
 </div>
 
+<!-- Hugo Ramirez -->
 <div class="volunteer-card">
-  <!-- Hugo Ramirez -->
   <div class="card-header">
     <img src="/images/voluntarios/logo.png" alt="Hugo Ramirez" class="volunteer-avatar lazy-image" loading="lazy">
     <div>
@@ -414,8 +418,8 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
 </div>
 
 
+<!-- Mónica Ortega -->
 <div class="volunteer-card">
-  <!-- Mónica Ortega -->
   <div class="card-header">
     <img src="/images/voluntarios/logo.png" alt="Mónica Ortega" class="volunteer-avatar lazy-image" loading="lazy">
     <div>
@@ -459,3 +463,16 @@ Si te interesa contribuir al crecimiento de la comunidad Python CDMX, ¡únete a
     Más Información
     </a>
 </div>
+
+
+---
+
+---
+
+--8<-- "components/community-links.md"
+
+---
+
+--8<-- "components/quick-navigation.md"
+
+---

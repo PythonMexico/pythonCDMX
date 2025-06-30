@@ -1,4 +1,4 @@
-## <i class="fas fa-link"></i> Conecta con Nuestra Comunidad
+## <i class="fas fa-link"></i> NUEVO Conecta con Nuestra Comunidad
 
 <div class="community-links">
   <a href="https://t.me/PythonCDMX" target="_blank" rel="noopener noreferrer" class="community-link telegram"><i class="fab fa-telegram"></i> Telegram</a>

@@ -55,7 +55,6 @@
   </div>
 </div>
 
-
 ---
 
 --8<-- "components/community-links.md"
@@ -66,4 +65,3 @@
 
 ---
 
-*<i class="fas fa-clock"></i> Última actualización: {{ git_revision_date_localized }}*

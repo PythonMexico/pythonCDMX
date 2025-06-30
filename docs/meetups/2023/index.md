@@ -54,41 +54,15 @@
 
 ---
 
-## <i class="fas fa-link"></i> Conecta con Nuestra Comunidad
-
-<div class="community-links">
-    <a href="https://t.me/PythonCDMX" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-telegram"></i> Telegram
-    </a>
-    <a href="https://www.meetup.com/python-mexico" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-meetup"></i> Meetup
-    </a>
-    <a href="https://www.youtube.com/@PythonMexico" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-youtube"></i> YouTube
-    </a>
-    <a href="https://github.com/PythonMexico/pythonCDMX" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github"></i> GitHub
-    </a>
-    <a href="https://www.instagram.com/pythoncdmx/" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-instagram"></i> Instagram
-    </a>
-    <a href="https://www.linkedin.com/groups/13126454/" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-linkedin"></i> LinkedIn
-    </a>
-</div>
+--8<-- "components/community-links.md"
 
 ---
 
-## <i class="fas fa-star"></i> También Te Puede Interesar
-
-| <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
-|:---|:---|:---|
-| [Meetups 2025](../2025/) - Año actual | [Ser Ponente](../../comunidad/ponentes/) - Comparte conocimiento | [Nuestros Ponentes](../../comunidad/ponentes/) - Conoce a la comunidad |
-| [Meetups 2024](../2024/) - Año siguiente | [Ser Voluntario](../../comunidad/voluntarios/) - Ayuda a organizar | [Alianzas](../../comunidad/alianzas/) - Comunidades aliadas |
-| [Archivo Completo](../) - Todos los meetups | [Cómo Contribuir](../../comunidad/como-contribuir/) - Guía general | [Volver al Inicio](../../) - Página principal |
+--8<-- "components/quick-navigation.md"
 
 ---
 
 ¿Te gustaría aparecer aquí? Conoce a nuestros [ponentes y voluntarios reconocidos](/comunidad/como-contribuir/).
 
-*<i class="fas fa-clock"></i> Última actualización: {{ git_revision_date_localized }}*
+
+

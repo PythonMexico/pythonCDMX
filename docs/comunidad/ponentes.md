@@ -96,43 +96,6 @@ Ser ponente en Python CDMX te ofrece una oportunidad única para:
 
 ---
 
-## <i class="fas fa-link"></i> Conecta con Nuestra Comunidad
-
-<div class="community-links">
-    <a href="https://t.me/PythonCDMX" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-telegram"></i> Telegram
-    </a>
-    <a href="https://www.meetup.com/python-mexico" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-meetup"></i> Meetup
-    </a>
-    <a href="https://www.youtube.com/@PythonMexico" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-youtube"></i> YouTube
-    </a>
-    <a href="https://github.com/PythonMexico/pythonCDMX" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github"></i> GitHub
-    </a>
-    <a href="https://www.instagram.com/pythoncdmx/" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-instagram"></i> Instagram
-    </a>
-    <a href="https://www.linkedin.com/groups/13126454/" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-linkedin"></i> LinkedIn
-    </a>
-</div>
-
----
-
-## <i class="fas fa-star"></i> También Te Puede Interesar
-
-| <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
-|:---|:---|:---|
-| [Meetups 2025](/meetups/2025/) - Año actual | [Ser Voluntario](/comunidad/voluntarios) - Ayuda a organizar | [Alianzas](/comunidad/alianzas) - Comunidades aliadas |
-| [Meetups 2024](/meetups/2024/) - Año anterior | [Cómo Contribuir](/comunidad/como-contribuir) - Guía general | [Sobre Nosotros](/about) - Conoce más |
-| [Archivo Completo](../meetups/) - Todos los meetups | Mejores presentaciones | [Volver al Inicio](../) - Página principal |
-
----
-
-*<i class="fas fa-clock"></i> Última actualización: {{ git_revision_date_localized }}*
-
 === "Ponentes"
 
 ## <i class="fas fa-star"></i> Ponentes de Python CDMX
@@ -142,7 +105,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- David Sol -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="David Sol" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="David Sol" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-user-cog"></i> David Sol</h3>
       <p class="card-subtitle">SRE Engineer en Wizeline</p>
@@ -170,7 +133,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- Gustavo Vera -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Gustavo Vera" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="Gustavo Vera" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-user-ninja"></i> Gustavo Vera</h3>
       <p class="card-subtitle">Python Developer</p>
@@ -198,7 +161,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- Carlos Reyes -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Carlos Reyes" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="Carlos Reyes" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-user-astronaut"></i> Carlos Reyes</h3>
       <p class="card-subtitle">DevOps Engineer</p>
@@ -224,7 +187,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- Alejandro López -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Alejandro López" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="Alejandro López" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-user-tie"></i> Alejandro López</h3>
       <p class="card-subtitle">Python Developer</p>
@@ -250,7 +213,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- Charly Román -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Charly Román" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="Charly Román" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-user-shield"></i> Charly Román</h3>
       <p class="card-subtitle">Python Developer</p>
@@ -326,7 +289,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- Erik Rivera -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Erik Rivera" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="Erik Rivera" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-user-ninja"></i> Erik Rivera</h3>
       <p class="card-subtitle">AI Engineer</p>
@@ -351,7 +314,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- Javier Novoa -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Javier Novoa" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="Javier Novoa" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-user-tie"></i> Javier Novoa</h3>
       <p class="card-subtitle">Ingeniero en Sistemas Computacionales</p>
@@ -376,7 +339,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- Carlos Cesar Caballero -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Carlos Cesar Caballero" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="Carlos Cesar Caballero" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-user-cog"></i> Carlos Cesar Caballero</h3>
       <p class="card-subtitle">Ingeniero en Ciencias Informáticas</p>
@@ -401,7 +364,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- Alex Callejas -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Alex Callejas" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="Alex Callejas" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-user-code"></i> Alex Callejas</h3>
       <p class="card-subtitle">Services Content Architect en Red Hat</p>
@@ -426,7 +389,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- Daniel Paredes -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Daniel Paredes" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="Daniel Paredes" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-user-graduate"></i> Daniel Paredes</h3>
       <p class="card-subtitle">Desarrollador Web</p>
@@ -451,7 +414,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- Diego Barriga -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Diego Barriga" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="Diego Barriga" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-user-tie"></i> Diego Barriga</h3>
       <p class="card-subtitle">MLOps Engineer en Mercado Libre</p>
@@ -476,7 +439,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- elMau (Mauricio B.) -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="elMau (Mauricio B.)" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="elMau (Mauricio B.)" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-user-ninja"></i> elMau (Mauricio B.)</h3>
       <p class="card-subtitle">Desarrollador LibreOffice</p>
@@ -501,7 +464,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- Fer Perales -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Fer Perales" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="Fer Perales" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-user-code"></i> Fer Perales</h3>
       <p class="card-subtitle">Open Source Contributor</p>
@@ -526,7 +489,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- Geovanni Zepeda Martínez -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Geovanni Zepeda Martínez" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="Geovanni Zepeda Martínez" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-user-tie"></i> Geovanni Zepeda Martínez</h3>
       <p class="card-subtitle">Data Scientist</p>
@@ -551,7 +514,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- Hugo Ramirez -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Hugo Ramirez" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="Hugo Ramirez" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-globe-americas"></i> Hugo Ramirez</h3>
       <p class="card-subtitle">Data Engineer</p>
@@ -577,7 +540,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- Konstantin Spirin -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Konstantin Spirin" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="Konstantin Spirin" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-user-cog"></i> Konstantin Spirin</h3>
       <p class="card-subtitle">Python Core Developer</p>
@@ -602,7 +565,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 <!-- Mauro Parra -->
 <div class="speaker-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Mauro Parra" class="speaker-avatar lazy-image" loading="lazy">
+    <img src="/images/voluntarios/logo.png" alt="Mauro Parra" class="speaker-avatar lazy-image" loading="lazy">
     <div>
       <h3 class="card-title"><i class="fas fa-user-shield"></i> Mauro Parra</h3>
       <p class="card-subtitle">Security Engineer</p>
@@ -640,3 +603,13 @@ Si te interesa compartir tu conocimiento con la comunidad Python CDMX, ¡no dude
     Más Información
   </a>
 </div>
+
+---
+
+--8<-- "components/community-links.md"
+
+---
+
+--8<-- "components/quick-navigation.md"
+
+---

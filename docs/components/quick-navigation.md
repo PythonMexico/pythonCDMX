@@ -1,4 +1,4 @@
-## <i class="fas fa-star"></i> También Te Puede Interesar
+## <i class="fas fa-star"></i> NUEVO También Te Puede Interesar
 
 | <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
 |:---|:---|:---|
