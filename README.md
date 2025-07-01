@@ -13,7 +13,7 @@ Sitio web oficial de la comunidad Python CDMX, construido con **MkDocs Material*
 - **Completamente responsive** - Optimizado para móvil, tablet y escritorio
 - **Búsqueda avanzada** - Encuentra charlas por tema, ponente o contenido
 - **Videos integrados** - Acceso directo a nuestras charlas en YouTube
-- **CSS optimizado** - Sistema de variables centralizadas y componentes reutilizables
+- **CSS optimizado** - Sistema de 18+ variables centralizadas, arquitectura variables-first
 - **Enlaces de comunidad** - Botones con colores oficiales de cada plataforma
 - **Estadísticas de comunidad** - Métricas y datos de participación
 - **Despliegue automático** - CI/CD con GitHub Actions
@@ -61,7 +61,7 @@ mkdocs build
 python-cdmx-charlas/
 ├── docs/                          # Contenido principal
 │   ├── css/
-│   │   └── custom.css            # Estilos optimizados (~450 líneas)
+│   │   └── custom.css            # Estilos optimizados (~1466 líneas, variables-first)
 │   ├── components/               # Componentes reutilizables
 │   │   ├── community-links.md    # Enlaces de redes sociales
 │   │   └── quick-navigation.md   # Navegación de páginas
@@ -93,11 +93,22 @@ python-cdmx-charlas/
 - **Modo automático**: Claro/oscuro según preferencia del sistema
 
 ### Componentes CSS
-- **Variables centralizadas** - Fácil personalización de colores y espaciado
-- **Sistema de botones** - `.btn-primary`, `.btn`, `.btn-nav`
-- **Tarjetas de participación** - Design centrado con iconos grandes
-- **Enlaces de comunidad** - Colores oficiales por plataforma
-- **Responsive design** - Breakpoint único en 768px
+- **Variables centralizadas** - 18+ variables CSS para colores, badges, transiciones y espaciado
+- **Arquitectura variables-first** - Zero colores hardcoded, mantenibilidad máxima
+- **Sistema de botones** - `.btn-primary`, `.btn`, `.btn-nav` con variables unificadas
+- **Sistema de badges** - 8 tipos de roles con colores centralizados
+- **Tarjetas unificadas** - `.volunteer-card` para ponentes y voluntarios
+- **Enlaces de comunidad** - Colores oficiales por plataforma usando variables
+- **Responsive design** - Breakpoint único en 768px, mobile-first approach
+- **Zero `!important`** - Arquitectura CSS limpia con especificidad apropiada
+
+## Documentación
+
+El proyecto cuenta con documentación específica para diferentes audiencias:
+
+- **[STYLE_GUIDE.md](STYLE_GUIDE.md)** - Sistema de diseño, CSS y componentes (para desarrollo frontend)
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Guía completa de contribución y setup del proyecto
+- **[CLAUDE.md](CLAUDE.md)** - Documentación técnica para asistentes IA
 
 ## Contribuir
 

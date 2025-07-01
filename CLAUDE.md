@@ -291,27 +291,45 @@ palette:
 <a href="/path/" class="btn-nav">Navigate</a>
 ```
 
-## CSS Variables Reference
+## CSS System Reference
 
-### Spacing & Layout
+> **📋 Para documentación completa del sistema de diseño y CSS, ver [`STYLE_GUIDE.md`](STYLE_GUIDE.md)**
+
+El proyecto utiliza una **arquitectura variables-first** con 18+ variables CSS centralizadas. Para información completa sobre:
+
+- 🎨 **Variables CSS completas** → Ver sección "Sistema de Variables" en STYLE_GUIDE.md
+- 🧩 **Componentes detallados** → Ver sección "Componentes" en STYLE_GUIDE.md
+- 🏗️ **Sistema unificado de tarjetas** → Ver sección dedicada en STYLE_GUIDE.md
+- 📱 **Layout responsive** → Ver sección "Layout y Responsive" en STYLE_GUIDE.md
+- ⚡ **Buenas prácticas** → Ver sección completa en STYLE_GUIDE.md
+
+### Variables esenciales para IA:
+
 ```css
+/* Colores principales */
+--python-green: #4CAF50
+--python-green-dark: #45a049
+
+/* Badges (8 tipos completos en STYLE_GUIDE.md) */
+--badge-ambassador: #2E7D32
+--badge-technical: #37474F
+
+/* Transiciones estándar */
+--transition-base: all 0.3s ease
+--transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1)
+
+/* Layout */
 --button-radius: 3.125rem
 --card-radius: 0.75rem
 ```
 
-### Transitions
+### Patrón de uso rápido:
 ```css
---transition-base: all 0.3s ease
---transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1)
-```
-
-### Usage Pattern
-```css
-.new-component {
+.nuevo-componente {
   background: var(--python-green);
   border-radius: var(--card-radius);
   transition: var(--transition-base);
-  color: var(--python-white);
+  /* Ver STYLE_GUIDE.md para más variables */
 }
 ```
 
@@ -344,14 +362,21 @@ palette:
 - **Typography**: Uses clamp() for responsive scaling
 
 ## Maintenance Notes
-- CSS file currently optimized and organized (~800+ lines, multiple optimizations)
+- CSS file currently optimized and organized (~1466 lines, heavily optimized with variables)
+- **COMPLETE variables-first architecture** - Zero hardcoded colors, all use CSS custom properties
+- **18 CSS variables total** - Primary colors, social media, badges, years, and layout
 - All social media colors centralized in variables
+- **Badge system fully variables-driven** - 8 role types with centralized color management
 - Unified button system with four variants (primary, standard, navigation, action)
-- Single responsive breakpoint for consistency
+- Single responsive breakpoint for consistency (768px)
 - Dark/light mode handled automatically by MkDocs Material variables
 - Community links use brand-specific colors with smooth hover transitions
 - Participation cards use large centered icons for modern appearance
-- Year cards with specialized styling and gradient hover effects
+- Year cards with specialized styling and gradient hover effects using CSS variables
+- **Unified Design System**:
+  - **Meetup speaker photos**: Rectangular (160px × 160px, no border-radius)
+  - **Ponentes/Volunteer avatars**: Circular (100px × 100px via `.volunteer-avatar`)
+  - **Community logos**: Circular (120px × 120px with hover effects)
 - **NEW**: Comprehensive volunteer system with modern grid layout
 - **NEW**: Maintainable `.volunteer-header` class eliminates hardcoded names
 - **NEW**: Discrete badge system with 8 role types and consistent styling
@@ -360,7 +385,9 @@ palette:
 - **UPDATED**: All speakers alphabetically organized with unified navigation
 - **UPDATED**: Dedicated `/images/ponentes/` directory for speaker photos
 - **UPDATED**: Simplified single-page layout (removed tab system)
+- **OPTIMIZED**: All transitions use standard variables (`var(--transition-base)`, `var(--transition-smooth)`)
 - Complete responsive design for all card types with mobile-first approach
+- **Zero `!important` declarations** - Clean CSS architecture with proper specificity
 
 ## Critical Information for New Developers
 
@@ -417,7 +444,40 @@ palette:
 
 ## Recent Major Updates
 
-### Latest Optimizations (Current Session)
+### Latest CSS Optimization & Variables System (Current Session)
+- **Complete Variables-First Implementation**: Full compliance with CLAUDE.md guidelines
+  - **10 new CSS variables** added for badges, years, and color management
+  - **Zero hardcoded colors** - All #hex values now use CSS custom properties
+  - **Unified transition system** - Consistent use of `var(--transition-base)` and `var(--transition-smooth)`
+  - **Badge system optimization** - All 8 badge types now use centralized color variables
+- **Professional CSS Architecture**:
+  ```css
+  /* NEW VARIABLES ADDED */
+  --badge-ambassador: #2E7D32;
+  --badge-organizer: #1565C0;
+  --badge-production: #E65100;
+  --badge-host: #6A1B9A;
+  --badge-technical: #37474F;
+  --badge-support: #3E2723;
+  --badge-global: #AD1457;
+  --badge-strategic: #283593;
+  --year-2024-color: #2196F3;
+  --year-2024-hover: #1976D2;
+  --year-2023-color: #FF9800;
+  --year-2023-hover: #F57C00;
+  ```
+- **Unified Design System Maintained**:
+  - **Speaker images in meetups**: Rectangular (160px × 160px) - no border-radius
+  - **Speaker images in ponentes page**: Circular via `.volunteer-avatar` (100px × 100px)
+  - **Volunteer avatars**: Circular via `.volunteer-avatar` (100px × 100px)
+  - **Community logos**: Circular (120px × 120px) with hover scale effects
+- **CSS Code Quality Enhancement**:
+  - **Zero `!important` declarations** - Clean specificity hierarchy maintained
+  - **Consistent variable usage** - Every color, transition, and spacing uses CSS variables
+  - **Maintainable architecture** - Easy theming and future modifications
+  - **Performance optimized** - Consolidated selectors and efficient CSS organization
+
+### Previous Major Optimizations
 - **CSS Architecture Overhaul**: Complete elimination of `!important` declarations (7 instances removed)
   - Migration to specific selectors and proper CSS specificity hierarchy
   - Improved maintainability through clean CSS architecture
