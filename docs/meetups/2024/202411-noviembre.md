@@ -5,7 +5,7 @@ title: "Evita Anti-patrones en Python / ¿Qué y por qué ChatGPT?"
 # Meetup #PythonCDMX <i class="fab fa-python"></i> - Noviembre 2024
 
 <div class="meetup-hero">
-    <h1>✨ Evita Anti-patrones en Python / ¿Qué y por qué ChatGPT? ✨</h1>
+    <h1>Evita Anti-patrones en Python / ¿Qué y por qué ChatGPT?</h1>
     <p class="meetup-subtitle">Dos charlas sobre buenas prácticas y ChatGPT</p>
 </div>
 
@@ -147,9 +147,6 @@ title: "Evita Anti-patrones en Python / ¿Qué y por qué ChatGPT?"
                 allowfullscreen>
             ></iframe>
         </div>
-        <a href="https://www.youtube.com/watch?v=01V35jpDou0" class="youtube-btn">
-            <i class="fab fa-youtube"></i> Ver en YouTube
-        </a>
     </div>
 </div>
 

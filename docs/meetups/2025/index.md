@@ -15,8 +15,8 @@
 | **08 Julio 2025** | Cómo preparar una ambiente de desarrollo con Python desde zero | David Sol | Clara | [Ver detalles](202507-julio) |
 | **10 Junio 2025** | Usando Python y software libre para crear nuevas herramientas: Traductor de voz español-inglés | Carlos Cesar Caballero | Wizeline México | [Ver detalles](202506-junio) |
 | **13 Mayo 2025** | Construyendo un paquete en Python y publicándolo en PyPI | Javier Novoa | Wizeline México | [Ver detalles](202505-mayo) |
-| **25 Abril 2025** | portafolio.py: Como hacer un portafolio web sin saber diseño web | Daniel Paredes | UNAM Facultad de Ciencias | [Ver detalles](202504-abril) |
-| **25 Abril 2025** | Programar en tiempos del Vibe-Coding | Charly Roman | UNAM Facultad de Ciencias | [Ver detalles](202504-abril) |
+| **25 Abril 2025** | portafolio.py: Como hacer un portafolio web sin saber diseño web | Daniel Paredes | UNAM Facultad de Ciencias | [Ver detalles](202504-unam) |
+| **25 Abril 2025** | Programar en tiempos del Vibe-Coding | Charly Roman | UNAM Facultad de Ciencias | [Ver detalles](202504-unam) |
 | **08 Abril 2025** | El para que cosa de Quien. Kubernetes y AI | Carlos Reyes | Wizeline México | [Ver detalles](202504-abril) |
 | **11 Marzo 2025** | Mi Primer Agente de Inteligencia Artificial con Python | Erik Rivera | Wizeline México | [Ver detalles](202503-marzo) |
 | **11 Maro 2025** | Interfases gráficas con Pyside6 | David Sol | Wizeline México | [Ver detalles](202503-marzo) |

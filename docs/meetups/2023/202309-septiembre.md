@@ -5,7 +5,7 @@ title: "Utilizando Servicios AI de AWS y Metaprogramación en Python"
 # Meetup #PythonCDMX <i class="fab fa-python"></i> - Septiembre 2023
 
 <div class="meetup-hero">
-    <h1>✨ Utilizando Servicios AI de AWS y Metaprogramación en Python ✨</h1>
+    <h1>Utilizando Servicios AI de AWS y Metaprogramación en Python</h1>
     <p class="meetup-subtitle">Dos charlas sobre IA en la nube y metaprogramación</p>
 </div>
 
@@ -54,38 +54,38 @@ title: "Utilizando Servicios AI de AWS y Metaprogramación en Python"
             <p>SRE Engineer en Wizeline con experiencia en servicios cloud de AWS y desarrollo Python.</p>
             <div class="speaker-links">
                 
-                
-                
+
+
             </div>
         </div>
     </div>
     <div class="talk-description">
         <p>¿Qué tan difícil puede ser traducir un texto? ¿Crear una transcripción a partir de un fragmento de sonido? ¿Identificar los objetos en una imagen? ¿Sintetizar voz? Con los servicios administrados de Inteligencia Artificial de AWS, Python y Boto3, ¡es sencillo! En esta charla que nos compartirá David Sol veremos el código real, para darnos cuenta de lo fácil que es.</p>
-        
+
         <div class="tech-stack">
-            
+
             <div>
                 <h5>☁️ AWS</h5>
                 <p>Servicios cloud</p>
             </div>
-            
+
             <div>
                 <h5>🐍 Boto3</h5>
                 <p>SDK de AWS</p>
             </div>
-            
+
             <div>
                 <h5>🤖 AI Services</h5>
                 <p>Servicios de IA</p>
             </div>
-            
+
             <div>
                 <h5>🧠 Machine Learning</h5>
                 <p>Aprendizaje automático</p>
             </div>
-            
+
         </div>
-        
+
         <p>AWS proporciona servicios de IA accesibles que permiten integrar inteligencia artificial en aplicaciones Python de manera sencilla.</p>
     </div>
 </div>
@@ -104,34 +104,34 @@ title: "Utilizando Servicios AI de AWS y Metaprogramación en Python"
             <p>Python Developer</p>
             <p>Desarrollador Python con experiencia en técnicas avanzadas de programación y metaprogramación.</p>
             <div class="speaker-links">
-                
-                
-                
+
+
+
             </div>
         </div>
     </div>
     <div class="talk-description">
         <p>Explora las técnicas avanzadas de metaprogramación en Python para crear código más dinámico y flexible.</p>
-        
+
         <div class="tech-stack">
-            
+
             <div>
                 <h5>🔧 Metaprogramming</h5>
                 <p>Metaprogramación</p>
             </div>
-            
+
             <div>
                 <h5>🎨 Decorators</h5>
                 <p>Decoradores</p>
             </div>
-            
+
             <div>
                 <h5>🐍 Advanced Python</h5>
                 <p>Python avanzado</p>
             </div>
-            
+
         </div>
-        
+
         <p>La metaprogramación permite crear código más elegante y reutilizable en Python.</p>
     </div>
 </div>
@@ -152,9 +152,6 @@ title: "Utilizando Servicios AI de AWS y Metaprogramación en Python"
                 allowfullscreen>
             ></iframe>
         </div>
-        <a href="https://www.youtube.com/watch?v=YNcqrukgQQY" class="youtube-btn">
-            <i class="fab fa-youtube"></i> Ver en YouTube
-        </a>
     </div>
 </div>
 
@@ -167,4 +164,3 @@ title: "Utilizando Servicios AI de AWS y Metaprogramación en Python"
 --8<-- "components/quick-navigation.md"
 
 ---
-

@@ -5,7 +5,7 @@ title: "Embeddings / Advent of Code"
 # Meetup #PythonCDMX <i class="fab fa-python"></i> - Febrero 2025
 
 <div class="meetup-hero">
-    <h1>✨ Embeddings / Advent of Code ✨</h1>
+    <h1>Embeddings / Advent of Code</h1>
     <p class="meetup-subtitle">Dos charlas sobre NLP y programación competitiva</p>
 </div>
 
@@ -45,7 +45,7 @@ title: "Embeddings / Advent of Code"
     </div>
     <div class="speaker-section">
         <div class="speaker-photo">
-            <img src="/../../images/ponentes/202502-PythonCDMX-manuel-rabade.jpg" alt="Manuel Rábade">
+            <img src="/images/ponentes/202502-PythonCDMX-manuel-rabade.jpg" alt="Manuel Rábade">
         </div>
         <div class="speaker-info">
             <h4>Manuel Rábade</h4>
@@ -141,9 +141,6 @@ title: "Embeddings / Advent of Code"
                 allowfullscreen>
             ></iframe>
         </div>
-        <a href="https://www.youtube.com/watch?v=fBPcHm2y4w4" class="youtube-btn">
-            <i class="fab fa-youtube"></i> Ver en YouTube
-        </a>
     </div>
 </div>
 
@@ -156,4 +153,3 @@ title: "Embeddings / Advent of Code"
 --8<-- "components/quick-navigation.md"
 
 ---
-

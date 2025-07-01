@@ -5,7 +5,7 @@ title: "Una ida y una vuelta: Cómo iniciar en el opensource"
 # Meetup #PythonCDMX <i class="fab fa-python"></i> - Octubre 2024
 
 <div class="meetup-hero">
-    <h1>✨ Una ida y una vuelta: Cómo iniciar en el opensource ✨</h1>
+    <h1>Una ida y una vuelta: Cómo iniciar en el opensource</h1>
     <p class="meetup-subtitle">Guía práctica para contribuir al software libre</p>
 </div>
 
@@ -85,9 +85,6 @@ title: "Una ida y una vuelta: Cómo iniciar en el opensource"
                 allowfullscreen>
             ></iframe>
         </div>
-        <a href="https://www.youtube.com/watch?v=U3I5fVrnq-g" class="youtube-btn">
-            <i class="fab fa-youtube"></i> Ver en YouTube
-        </a>
     </div>
 </div>
 

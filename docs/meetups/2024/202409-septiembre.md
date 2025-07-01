@@ -5,7 +5,7 @@ title: "Representaciones Fonéticas / Rich & Textual"
 # Meetup #PythonCDMX <i class="fab fa-python"></i> - Septiembre 2024
 
 <div class="meetup-hero">
-    <h1>✨ Representaciones Fonéticas / Rich & Textual ✨</h1>
+    <h1>Representaciones Fonéticas / Rich & Textual</h1>
     <p class="meetup-subtitle">Dos charlas sobre fonética y interfaces de consola</p>
 </div>
 
@@ -147,9 +147,6 @@ title: "Representaciones Fonéticas / Rich & Textual"
                 allowfullscreen>
             ></iframe>
         </div>
-        <a href="https://www.youtube.com/watch?v=Pq5ryqP95X0" class="youtube-btn">
-            <i class="fab fa-youtube"></i> Ver en YouTube
-        </a>
     </div>
 </div>
 

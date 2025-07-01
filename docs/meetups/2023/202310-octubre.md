@@ -5,7 +5,7 @@ title: "¡De Jupyter a Web en Minutos!"
 # Meetup #PythonCDMX <i class="fab fa-python"></i> - Octubre 2023
 
 <div class="meetup-hero">
-    <h1>✨ ¡De Jupyter a Web en Minutos! ✨</h1>
+    <h1>¡De Jupyter a Web en Minutos!</h1>
     <p class="meetup-subtitle">Redefiniendo el Análisis Local con Python</p>
 </div>
 
@@ -85,9 +85,6 @@ title: "¡De Jupyter a Web en Minutos!"
                 allowfullscreen>
             ></iframe>
         </div>
-        <a href="https://www.youtube.com/watch?v=vhlPmOgrvUA" class="youtube-btn">
-            <i class="fab fa-youtube"></i> Ver en YouTube
-        </a>
     </div>
 </div>
 

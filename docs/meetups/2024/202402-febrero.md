@@ -5,7 +5,7 @@ title: "Del Código al Clic: Transforma Ideas en Interfaces"
 # Meetup #PythonCDMX <i class="fab fa-python"></i> - Febrero 2024
 
 <div class="meetup-hero">
-    <h1>✨ Del Código al Clic: Transforma Ideas en Interfaces ✨</h1>
+    <h1>Del Código al Clic: Transforma Ideas en Interfaces</h1>
     <p class="meetup-subtitle">Interfaces visuales con Python</p>
 </div>
 
@@ -85,9 +85,6 @@ title: "Del Código al Clic: Transforma Ideas en Interfaces"
                 allowfullscreen>
             ></iframe>
         </div>
-        <a href="https://www.youtube.com/watch?v=placeholder" class="youtube-btn">
-            <i class="fab fa-youtube"></i> Ver en YouTube
-        </a>
     </div>
 </div>
 
