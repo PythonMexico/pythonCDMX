@@ -48,8 +48,10 @@ This is the Python CDMX community website built with MkDocs Material. The site s
 - **Variables-first approach**: All colors, transitions, and spacing use CSS custom properties
 - **MkDocs Material integration**: Leverages native variables (`var(--md-primary-fg-color)`)
 - **Responsive design**: Single breakpoint at 768px for mobile
-- **Component-based**: Clear separation of concerns
-- **Heavily optimized**: Eliminated duplications, reduced code by 35%
+- **Component-based**: Clear separation of concerns with dedicated sections
+- **Maintainable selectors**: Uses semantic classes instead of hardcoded identifiers
+- **Optimized structure**: Consolidated media queries, unified transitions
+- **Heavily optimized**: Eliminated duplications, consistent variable usage
 
 ### Component Classes
 
@@ -60,6 +62,9 @@ This is the Python CDMX community website built with MkDocs Material. The site s
 
 #### Cards & Content
 - `.participation-card` - Large centered icons with call-to-action buttons
+- `.year-card` - Annual summaries with specialized styling and hover effects
+- `.stat-card` - Statistics display cards
+- `.volunteer-card` - Individual volunteer profile cards with badges and social links
 - `.community-highlight` - Special highlighted sections
 - `.upcoming-events` - Event highlight sections
 
@@ -67,6 +72,7 @@ This is the Python CDMX community website built with MkDocs Material. The site s
 - `.action-buttons` - Hero button containers
 - `.btn`, `.btn-primary` - Standard action buttons (green)
 - `.btn-nav` - Discrete navigation buttons (minimal style)
+- `.btn-action` - Volunteer card action buttons (outline style)
 - `.quick-navigation` - End-of-page navigation grid
 - `.quick-navigation-title` - Navigation section titles
 
@@ -74,6 +80,32 @@ This is the Python CDMX community website built with MkDocs Material. The site s
 - `.community-links` - Social media grid with brand colors
 - `.community-link` - Individual social platform buttons with hover effects
 - Specific classes: `.telegram`, `.meetup`, `.youtube`, `.github`, `.instagram`, `.linkedin`
+
+#### Volunteer System (Optimized & Maintainable)
+- `.volunteer-card` - Main volunteer profile container with grid layout
+- `.volunteer-header` - **NEW**: Maintainable class for hiding TOC headers
+- `.card-header` - Two-column grid: info on left, avatar/social on right
+- `.card-info` - Left column with name, subtitle, and badges
+- `.card-title` - Volunteer names (h3 elements within cards)
+- `.card-subtitle` - Role descriptions with proper hierarchy
+- `.badges-container` - Flex container for role badges
+- `.badge` - Discrete role badges with semi-transparent backgrounds
+  - `.badge.ambassador` - Green theme for ambassadors
+  - `.badge.organizer` - Blue theme for organizers
+  - `.badge.production` - Orange theme for production roles
+  - `.badge.host` - Purple theme for event hosts
+  - `.badge.technical` - Gray theme for technical support
+  - `.badge.support` - Brown theme for general support
+  - `.badge.global` - Pink theme for global representation
+  - `.badge.strategic` - Indigo theme for strategic roles
+- `.avatar-section` - Right column with circular avatar and social icons
+- `.volunteer-avatar` - 100px circular images with hover scale effect
+- `.social-icons` - Flex container for social media links
+- `.social-icon` - Individual social platform buttons
+- `.card-content` - Main content area with role details
+- `.card-role` - Container for role title, description, and contributions
+- `.role-title` - Uppercase, prominent role titles
+- `.role-description` - Italic, lighter role descriptions
 
 ## Development Workflow
 
@@ -154,6 +186,51 @@ palette:
 </div>
 ```
 
+### Volunteer Cards (Modern Design with TOC Navigation)
+```markdown
+### Volunteer Name {.volunteer-header}
+
+<!-- Volunteer Name -->
+<div class="volunteer-card">
+  <div class="card-header">
+    <div class="card-info">
+      <h3 class="card-title">Volunteer Name</h3>
+      <p class="card-subtitle">Role description</p>
+      <div class="badges-container">
+        <span class="badge ambassador">Embajador</span>
+        <span class="badge organizer">Organizador</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/voluntarios/avatar.jpg" alt="Volunteer Name" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <span class="role-title">MAIN ROLE TITLE</span>
+      <span class="role-description">Detailed role description</span>
+      <strong>Contribuciones principales:</strong>
+      <ul>
+        <li>Contribution item 1</li>
+        <li>Contribution item 2</li>
+      </ul>
+    </div>
+  </div>
+</div>
+```
+
+**Key Features:**
+- `{.volunteer-header}` automatically hides the h3 but keeps TOC functionality
+- Two-column grid layout with responsive design
+- Circular avatars with hover effects
+- Discrete badges with role-specific colors
+- Social icons grouped below avatar
+- Structured role information with title/description separation
+
 ### Button Types
 ```html
 <!-- Primary action buttons -->
@@ -216,13 +293,19 @@ palette:
 - **Typography**: Uses clamp() for responsive scaling
 
 ## Maintenance Notes
-- CSS file currently ~450 lines (optimized from 692 lines)
+- CSS file currently optimized and organized (~800+ lines, multiple optimizations)
 - All social media colors centralized in variables
-- Unified button system with three variants (primary, standard, navigation)
+- Unified button system with four variants (primary, standard, navigation, action)
 - Single responsive breakpoint for consistency
 - Dark/light mode handled automatically by MkDocs Material variables
 - Community links use brand-specific colors with smooth hover transitions
 - Participation cards use large centered icons for modern appearance
+- Year cards with specialized styling and gradient hover effects
+- **NEW**: Comprehensive volunteer system with modern grid layout
+- **NEW**: Maintainable `.volunteer-header` class eliminates hardcoded names
+- **NEW**: Discrete badge system with 8 role types and consistent styling
+- **NEW**: Two-column responsive design with avatar/social integration
+- Complete responsive design for all card types with mobile-first approach
 
 ## Critical Information for New Developers
 
@@ -252,6 +335,15 @@ palette:
 - **Complex styling**: If requires 5+ CSS rules, consider a new class
 - **Brand consistency**: Always check existing patterns before creating new styles
 
+### Volunteer System Best Practices
+- **Always use `.volunteer-header`**: Never hardcode names in CSS selectors
+- **Badge consistency**: Use predefined badge classes (ambassador, organizer, etc.)
+- **Image optimization**: Volunteer avatars should be 200x200px minimum, optimized
+- **Social links**: Include LinkedIn and GitHub at minimum, add others as needed
+- **Role structure**: Use `.role-title` for main role, `.role-description` for details
+- **Responsive design**: Test two-column layout on mobile (becomes single column)
+- **TOC navigation**: Ensure all volunteer headers work with table of contents
+
 ### Integration Points
 - **MkDocs Material**: Uses `extra_css` in mkdocs.yml to load custom.css
 - **FontAwesome**: Loaded via CDN import in CSS file
@@ -259,6 +351,17 @@ palette:
 - **Color System**: Inherits from mkdocs.yml palette configuration
 
 ## Recent Major Updates
+
+### Latest Optimizations (Current)
+- **Volunteer System Redesign**: Complete overhaul with modern two-column layout
+- **Maintainable Architecture**: New `.volunteer-header` class eliminates hardcoded name lists
+- **CSS Optimization**: Consolidated variables, eliminated duplications, unified media queries
+- **TOC Navigation**: Seamless integration of volunteer cards with table of contents
+- **Badge System**: Comprehensive role identification with discrete, color-coded badges
+- **Avatar System**: Circular images with hover effects and integrated social icons
+- **Grid Layout**: Responsive design with mobile-first approach
+
+### Previous Major Updates
 - Complete CSS optimization (35% code reduction)
 - New community motto component with decorative quotes
 - Modernized participation cards with centered icons
@@ -267,6 +370,8 @@ palette:
 - Consolidated media queries into single responsive section
 - Eliminated unused gradients and duplicate code
 - Added quick navigation component for page endings
+- Year cards with specialized hover effects and color coding
+- Complete responsive design updates for all components
 
 ## Working with Claude AI
 
@@ -301,7 +406,17 @@ Please refer to the CLAUDE.md file for project guidelines and existing patterns.
 3. **Use existing patterns** - Check similar components before creating new ones
 4. **Follow CSS structure** - Add new styles in the appropriate section
 5. **Test responsive** - Verify 768px breakpoint behavior
-6. **Attach this file to Claude** - Use this memory for consistency and guidance
+6. **Use `.volunteer-header`** - For any volunteer-related TOC headers
+7. **Follow badge system** - Use predefined badge classes for volunteer roles
+8. **Attach this file to Claude** - Use this memory for consistency and guidance
+
+## Adding New Volunteers (Step-by-Step)
+1. **Add volunteer image** to `docs/images/voluntarios/` (200x200px minimum)
+2. **Use the volunteer card template** from this file
+3. **Add `.volunteer-header` class** to the markdown header
+4. **Choose appropriate badges** from the predefined badge system
+5. **Test TOC navigation** to ensure proper functionality
+6. **Verify responsive design** on mobile devices
 
 ## Project Continuation Checklist
 - [ ] CLAUDE.md file read and understood

@@ -11,640 +11,886 @@
    - Sección Hero
    - Sistema de botones
    - Tarjetas y grillas
+   - Tarjetas de voluntarios
    - Enlaces de comunidad
-   - Lema y navegación
+   - Lema de la comunidad y navegación
    - Iconografía
-   - Media queries responsivas
+   - Media queries responsivas (consolidados)
    ============================================================================= */
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
-
-/* -----------------------------------------------------------------------------
-   VARIABLES CSS PERSONALIZADAS
-   ----------------------------------------------------------------------------- */
-
-:root {
-  /* Colores principales */
-  --python-green: #4CAF50;
-  --python-green-dark: #45a049;
-  --python-white: #ffffff;
-
-  /* Radios y espaciado */
-  --button-radius: 3.125rem;
-  --card-radius: 0.75rem;
-
-  /* Colores de redes sociales */
-  --telegram-color: #0088cc;
-  --meetup-color: #ed1c40;
-  --youtube-color: #ff0000;
-  --github-color: #333333;
-  --instagram-color: #e4405f;
-  --linkedin-color: #0077b5;
-
-  /* Transiciones estándar */
-  --transition-base: all 0.3s ease;
-  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.pygreen {
-  color: var(--md-primary-fg-color);
-  font-weight: 400;
-}
-
-/* -----------------------------------------------------------------------------
-   SECCIÓN HERO
-   ----------------------------------------------------------------------------- */
-
-.hero-section {
-  padding: 2rem 1rem;
-  text-align: center;
-  margin-bottom: 2rem;
-  border-radius: var(--card-radius);
-  background: var(--md-default-bg-color);
-  border: 1px solid var(--md-default-fg-color--lightest);
-}
-
-.hero-logo {
-  width: 7.5rem;
-  height: 7.5rem;
-  margin-bottom: 1.5rem;
-  border-radius: 1rem;
-  box-shadow: var(--md-shadow-z1);
-}
-
-.hero-section h1 {
-  font-size: clamp(2.5rem, 8vw, 4rem);
-  margin-bottom: 1rem;
-  line-height: 1.2;
-}
-
-.hero-subtitle {
-  font-size: 1.125rem;
-  color: var(--md-default-fg-color--light);
-  max-width: 37.5rem;
-  margin: 0 auto 2rem;
-  line-height: 1.7;
-}
-
-/* -----------------------------------------------------------------------------
-   SISTEMA DE BOTONES
-   ----------------------------------------------------------------------------- */
-
-.action-buttons {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.action-buttons a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem 1.5rem;
-  border-radius: var(--button-radius);
-  text-decoration: none;
-  font-weight: 500;
-  transition: all 0.2s ease;
-  min-width: 8.75rem;
-}
-
-.action-buttons a:first-child {
-  background: var(--md-primary-fg-color);
-  color: var(--python-white);
-}
-
-.action-buttons a:first-child:hover {
-  opacity: 0.9;
-  transform: translateY(-1px);
-}
-
-.action-buttons a:last-child {
-  background: transparent;
-  color: var(--md-primary-fg-color);
-  border: 2px solid var(--md-primary-fg-color);
-}
-
-.action-buttons a:last-child:hover {
-  background: var(--md-primary-fg-color);
-  color: var(--python-white);
-}
-
-/* Botones estándar del sitio */
-.upcoming-btn,
-.btn,
-.btn-primary,
-.participation-card a,
-.year-card a {
-  background: var(--python-green) !important;
-  color: var(--python-white) !important;
-  padding: 0.75rem 1.5rem;
-  border-radius: var(--button-radius);
-  text-decoration: none;
-  font-weight: 600;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  transition: var(--transition-base);
-  border: none;
-  margin-top: 1rem;
-}
-
-.upcoming-btn:hover,
-.btn:hover,
-.btn-primary:hover,
-.participation-card a:hover,
-.year-card a:hover {
-  background: var(--python-green-dark) !important;
-  color: var(--python-white) !important;
-  transform: translateY(-2px);
-  box-shadow: var(--md-shadow-z2);
-  text-decoration: none;
-}
-
-/* Botones de navegación discretos */
-.btn-nav {
-  background: transparent !important;
-  color: var(--md-default-fg-color--light) !important;
-  border: 1px solid var(--md-default-fg-color--lightest) !important;
-  padding: 0.5rem 1rem;
-  border-radius: 1.5rem;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 0.875rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.375rem;
-  transition: var(--transition-base);
-  margin: 0.25rem;
-  box-shadow: none !important;
-  min-width: 140px;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.btn-nav:hover {
-  background: var(--md-default-fg-color--lightest) !important;
-  color: var(--md-default-fg-color) !important;
-  border-color: var(--md-default-fg-color--light) !important;
-  transform: none;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
-  text-decoration: none;
-}
-
-.btn-nav i {
-  font-size: 0.875em;
-  opacity: 0.7;
-}
-
-.btn-nav:hover i {
-  opacity: 1;
-}
-
-/* -----------------------------------------------------------------------------
-   TARJETAS Y GRILLAS
-   ----------------------------------------------------------------------------- */
-
-/* Estilos base para todas las tarjetas */
-.participation-card,
-.year-card,
-.stat-card,
-.community-highlight,
-.upcoming-events {
-  background: var(--md-default-bg-color);
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: var(--card-radius);
-  text-align: center;
-  transition: var(--transition-smooth);
-  position: relative;
-  overflow: hidden;
-}
-
-/* Grillas responsivas */
-.participation-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.year-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-/* Caso especial: cuando hay 3 tarjetas de participación, la tercera ocupa toda la fila */
-.participation-grid .participation-card:nth-child(3):nth-last-child(1) {
-  grid-column: 1 / -1;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-/* Tarjetas de participación */
-.participation-card {
-  padding: 2rem;
-  min-height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.participation-card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--md-shadow-z3);
-  border-color: var(--md-primary-fg-color);
-}
-
-.participation-card h3 {
-  color: var(--md-default-fg-color);
-  margin-bottom: 1rem;
-  font-size: 1.25rem;
-  font-weight: 600;
-}
-
-.participation-card h3 i {
-  font-size: 2rem;
-  color: var(--md-primary-fg-color);
-  margin-bottom: 0.5rem;
-  display: block;
-}
-
-.participation-card p {
-  color: var(--md-default-fg-color--light);
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-  flex-grow: 1;
-}
-
-/* Tarjetas de años */
-.year-card {
-  padding: 0.5rem 2rem;
-  min-height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.year-card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--md-shadow-z3);
-  border-color: var(--md-primary-fg-color);
-}
-
-.year-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, var(--md-primary-fg-color), var(--python-green));
-  opacity: 0;
-  transition: var(--transition-base);
-}
-
-.year-card:hover::before {
-  opacity: 1;
-}
-
-.year-card h3 {
-  color: var(--md-default-fg-color);
-  margin-bottom: 0.5rem;
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.year-card h3 i {
-  font-size: 2rem;
-  color: var(--md-primary-fg-color);
-  margin-bottom: 0.25rem;
-  display: block;
-}
-
-.year-card p {
-  color: var(--md-default-fg-color--light);
-  line-height: 1.4;
-  margin-bottom: 0.25rem;
-}
-
-.year-card p:first-of-type {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: var(--md-primary-fg-color);
-}
-
-.year-card a {
-  margin-top: auto;
-}
-
-/* Tarjetas de estadísticas */
-.stat-card {
-  padding: 1.5rem;
-}
-
-.stat-card:hover {
-  transform: translateY(-3px);
-  box-shadow: var(--md-shadow-z2);
-  border-color: var(--md-primary-fg-color);
-}
-
-.stat-card h3 {
-  color: var(--md-primary-fg-color);
-  margin-bottom: 0.5rem;
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-
-.stat-card h3 i {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  display: block;
-}
-
-.stat-card p {
-  color: var(--md-default-fg-color--light);
-  font-weight: 500;
-}
-
-/* Especialización de tarjetas por tipo */
-.participation-ponente,
-.year-2025 {
-  border-left: 4px solid var(--python-green);
-}
-
-.participation-voluntario,
-.year-2024 {
-  border-left: 4px solid #2196F3;
-}
-
-.participation-asistir,
-.year-2023 {
-  border-left: 4px solid #FF9800;
-}
-
-.year-2025:hover {
-  border-left-color: var(--python-green-dark);
-}
-
-.year-2024:hover {
-  border-left-color: #1976D2;
-}
-
-.year-2023:hover {
-  border-left-color: #F57C00;
-}
-
-/* -----------------------------------------------------------------------------
-   ENLACES DE COMUNIDAD
-   ----------------------------------------------------------------------------- */
-
-.community-links {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  margin: 2rem 0;
-  padding: 0;
-  align-items: stretch;
-}
-
-.community-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.625rem;
-  padding: 1rem;
-  height: 60px;
-  border-radius: 1rem;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 0.9rem;
-  letter-spacing: 0.025em;
-  transition: var(--transition-smooth);
-  border: 2px solid var(--md-default-fg-color--lightest);
-  background: var(--md-default-bg-color);
-  color: var(--md-default-fg-color);
-  text-align: center;
-  position: relative;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-  white-space: nowrap;
-  animation: breathe 4s ease-in-out infinite;
-}
-
-.community-link:hover {
-  transform: translateY(-3px);
-  color: var(--python-white);
-  text-decoration: none;
-  animation: none;
-}
-
-.community-link:active {
-  transform: translateY(-1px);
-}
-
-.community-link i {
-  font-size: 1.25em;
-  transition: var(--transition-base);
-  margin-right: 0.125rem;
-}
-
-.community-link:hover i {
-  color: var(--python-white) !important;
-  transform: scale(1.1);
-}
-
-/* Colores específicos por red social */
-.community-link.telegram { border-color: var(--telegram-color); }
-.community-link.telegram i { color: var(--telegram-color); }
-.community-link.telegram:hover { background: var(--telegram-color); border-color: var(--telegram-color); box-shadow: 0 8px 25px rgba(0, 136, 204, 0.3); }
-
-.community-link.meetup { border-color: var(--meetup-color); }
-.community-link.meetup i { color: var(--meetup-color); }
-.community-link.meetup:hover { background: var(--meetup-color); border-color: var(--meetup-color); box-shadow: 0 8px 25px rgba(237, 28, 64, 0.3); }
-
-.community-link.youtube { border-color: var(--youtube-color); }
-.community-link.youtube i { color: var(--youtube-color); }
-.community-link.youtube:hover { background: var(--youtube-color); border-color: var(--youtube-color); box-shadow: 0 8px 25px rgba(255, 0, 0, 0.3); }
-
-.community-link.github { border-color: var(--github-color); }
-.community-link.github i { color: var(--github-color); }
-.community-link.github:hover { background: var(--github-color); border-color: var(--github-color); box-shadow: 0 8px 25px rgba(51, 51, 51, 0.3); }
-
-.community-link.instagram { border-color: var(--instagram-color); }
-.community-link.instagram i { color: var(--instagram-color); }
-.community-link.instagram:hover { background: var(--instagram-color); border-color: var(--instagram-color); box-shadow: 0 8px 25px rgba(228, 64, 95, 0.3); }
-
-.community-link.linkedin { border-color: var(--linkedin-color); }
-.community-link.linkedin i { color: var(--linkedin-color); }
-.community-link.linkedin:hover { background: var(--linkedin-color); border-color: var(--linkedin-color); box-shadow: 0 8px 25px rgba(0, 119, 181, 0.3); }
-
-@keyframes breathe {
-  0%, 100% { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
-  50% { box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); }
-}
-
-/* -----------------------------------------------------------------------------
-   LEMA DE LA COMUNIDAD
-   ----------------------------------------------------------------------------- */
-
-.community-motto {
-  text-align: center;
-  font-size: 1.5rem;
-  font-style: italic;
-  font-weight: 600;
-  color: var(--md-default-fg-color);
-  margin: 1rem auto;
-  padding: 1.25rem;
-  max-width: 600px;
-  position: relative;
-  background: var(--md-default-bg-color);
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: var(--card-radius);
-  box-shadow: var(--md-shadow-z1);
-}
-
-.community-motto::before {
-  content: '"';
-  position: absolute;
-  top: -0.5rem;
-  left: 1rem;
-  font-size: 4rem;
-  color: var(--md-primary-fg-color);
-  font-family: Georgia, serif;
-  opacity: 0.3;
-}
-
-.community-motto::after {
-  content: '"';
-  position: absolute;
-  bottom: -2rem;
-  right: 1rem;
-  font-size: 4rem;
-  color: var(--md-primary-fg-color);
-  font-family: Georgia, serif;
-  opacity: 0.3;
-}
-
-/* -----------------------------------------------------------------------------
-   NAVEGACIÓN Y SECCIONES ESPECIALES
-   ----------------------------------------------------------------------------- */
-
-.quick-navigation {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 0.625rem;
-  margin: 0.75rem auto;
-  max-width: 600px;
-}
-
-.quick-navigation-title {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 0.5rem;
-}
-
-.quick-navigation-title i {
-  color: var(--md-primary-fg-color);
-  margin-right: 0.5rem;
-}
-
-.community-highlight {
-  border-left: 4px solid var(--md-primary-fg-color);
-  margin: 2rem 0;
-  padding: 1.5rem;
-}
-
-.upcoming-events {
-  margin: 0.75rem 0;
-  padding: 1.25rem 2rem;
-}
-
-.upcoming-events h3 {
-  color: var(--md-default-fg-color);
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-}
-
-.upcoming-events p {
-  color: var(--md-default-fg-color--light);
-  margin-bottom: 2rem;
-  font-size: 1.1rem;
-}
-
-/* -----------------------------------------------------------------------------
-   ICONOGRAFÍA
-   ----------------------------------------------------------------------------- */
-
-.fas, .fab {
-  color: var(--md-primary-fg-color);
-}
-
-h2 .fas, h3 .fas {
-  margin-right: 0.5rem;
-  font-size: 0.9em;
-}
-
-/* -----------------------------------------------------------------------------
-   MEDIA QUERIES RESPONSIVAS
-   ----------------------------------------------------------------------------- */
-
-@media (max-width: 768px) {
-  .participation-grid,
-  .year-cards {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .participation-grid .participation-card:nth-child(3):nth-last-child(1) {
-    grid-column: 1;
-  }
-
-  .stats-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-  }
-
-  .community-links {
-    justify-content: center;
-    gap: 0.75rem;
-  }
-
-  .community-link {
-    min-width: 140px;
-    padding: 1rem;
-  }
-
-  .community-link i {
-    font-size: 1.5rem;
-  }
-
-  .hero-section {
-    padding: 1.5rem 1rem;
-  }
-
-  .hero-logo {
-    width: 5rem;
-    height: 5rem;
-  }
-
-  .action-buttons {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .action-buttons a {
-    width: 100%;
-    max-width: 250px;
-  }
-}
+   @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+   /* -----------------------------------------------------------------------------
+      VARIABLES CSS PERSONALIZADAS
+      ----------------------------------------------------------------------------- */
+
+   :root {
+     /* Colores principales */
+     --python-green: #4CAF50;
+     --python-green-dark: #45a049;
+     --python-white: #ffffff;
+
+     /* Radios y espaciado */
+     --button-radius: 3.125rem;
+     --card-radius: 0.75rem;
+
+     /* Colores de redes sociales */
+     --telegram-color: #0088cc;
+     --meetup-color: #ed1c40;
+     --youtube-color: #ff0000;
+     --github-color: #333333;
+     --instagram-color: #e4405f;
+     --linkedin-color: #0077b5;
+
+     /* Transiciones estándar */
+     --transition-base: all 0.3s ease;
+     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+   }
+
+   .pygreen {
+     color: var(--md-primary-fg-color);
+     font-weight: 400;
+   }
+
+   /* -----------------------------------------------------------------------------
+      SECCIÓN HERO
+      ----------------------------------------------------------------------------- */
+
+   .hero-section {
+     padding: 2rem 1rem;
+     text-align: center;
+     margin-bottom: 2rem;
+     border-radius: var(--card-radius);
+     background: var(--md-default-bg-color);
+     border: 1px solid var(--md-default-fg-color--lightest);
+   }
+
+   .hero-logo {
+     width: 7.5rem;
+     height: 7.5rem;
+     margin-bottom: 1.5rem;
+     border-radius: 1rem;
+     box-shadow: var(--md-shadow-z1);
+   }
+
+   .hero-section h1 {
+     font-size: clamp(2.5rem, 8vw, 4rem);
+     margin-bottom: 1rem;
+     line-height: 1.2;
+   }
+
+   .hero-subtitle {
+     font-size: 1.125rem;
+     color: var(--md-default-fg-color--light);
+     max-width: 37.5rem;
+     margin: 0 auto 2rem;
+     line-height: 1.7;
+   }
+
+   /* -----------------------------------------------------------------------------
+      SISTEMA DE BOTONES
+      ----------------------------------------------------------------------------- */
+
+   .action-buttons {
+     display: flex;
+     gap: 1rem;
+     justify-content: center;
+     flex-wrap: wrap;
+   }
+
+   .action-buttons a {
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     padding: 1rem 1.5rem;
+     border-radius: var(--button-radius);
+     text-decoration: none;
+     font-weight: 500;
+     transition: all 0.2s ease;
+     min-width: 8.75rem;
+   }
+
+   .action-buttons a:first-child {
+     background: var(--md-primary-fg-color);
+     color: var(--python-white);
+   }
+
+   .action-buttons a:first-child:hover {
+     opacity: 0.9;
+     transform: translateY(-1px);
+   }
+
+   .action-buttons a:last-child {
+     background: transparent;
+     color: var(--md-primary-fg-color);
+     border: 2px solid var(--md-primary-fg-color);
+   }
+
+   .action-buttons a:last-child:hover {
+     background: var(--md-primary-fg-color);
+     color: var(--python-white);
+   }
+
+   /* Botones estándar del sitio */
+   .upcoming-btn,
+   .btn,
+   .btn-primary,
+   .participation-card a,
+   .year-card a {
+     background: var(--python-green) !important;
+     color: var(--python-white) !important;
+     padding: 0.75rem 1.5rem;
+     border-radius: var(--button-radius);
+     text-decoration: none;
+     font-weight: 600;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     gap: 0.5rem;
+     transition: var(--transition-base);
+     border: none;
+     margin-top: 1rem;
+   }
+
+   .upcoming-btn:hover,
+   .btn:hover,
+   .btn-primary:hover,
+   .participation-card a:hover,
+   .year-card a:hover {
+     background: var(--python-green-dark) !important;
+     color: var(--python-white) !important;
+     transform: translateY(-2px);
+     box-shadow: var(--md-shadow-z2);
+     text-decoration: none;
+   }
+
+   /* Botones de navegación discretos */
+   .btn-nav {
+     background: transparent !important;
+     color: var(--md-default-fg-color--light) !important;
+     border: 1px solid var(--md-default-fg-color--lightest) !important;
+     padding: 0.5rem 1rem;
+     border-radius: 1.5rem;
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 0.875rem;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     gap: 0.375rem;
+     transition: var(--transition-base);
+     margin: 0.25rem;
+     box-shadow: none !important;
+     min-width: 140px;
+     text-align: center;
+     white-space: nowrap;
+   }
+
+   .btn-nav:hover {
+     background: var(--md-default-fg-color--lightest) !important;
+     color: var(--md-default-fg-color) !important;
+     border-color: var(--md-default-fg-color--light) !important;
+     transform: none;
+     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+     text-decoration: none;
+   }
+
+   .btn-nav i {
+     font-size: 0.875em;
+     opacity: 0.7;
+   }
+
+   .btn-nav:hover i {
+     opacity: 1;
+   }
+
+   /* -----------------------------------------------------------------------------
+      TARJETAS Y GRILLAS
+      ----------------------------------------------------------------------------- */
+
+   /* Estilos base para todas las tarjetas */
+   .participation-card,
+   .year-card,
+   .stat-card,
+   .community-highlight,
+   .upcoming-events {
+     background: var(--md-default-bg-color);
+     border: 1px solid var(--md-default-fg-color--lightest);
+     border-radius: var(--card-radius);
+     text-align: center;
+     transition: var(--transition-smooth);
+     position: relative;
+     overflow: hidden;
+   }
+
+   /* Grillas responsivas */
+   .participation-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     gap: 1.5rem;
+     margin: 2rem 0;
+   }
+
+   .year-cards {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+     gap: 1.5rem;
+     margin: 2rem 0;
+   }
+
+   .stats-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     gap: 1.5rem;
+     margin: 2rem 0;
+   }
+
+   /* Caso especial: cuando hay 3 tarjetas de participación, la tercera ocupa toda la fila */
+   .participation-grid .participation-card:nth-child(3):nth-last-child(1) {
+     grid-column: 1 / -1;
+     max-width: 400px;
+     margin: 0 auto;
+   }
+
+   /* Tarjetas de participación */
+   .participation-card {
+     padding: 2rem;
+     min-height: 200px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+   }
+
+   .participation-card:hover {
+     transform: translateY(-5px);
+     box-shadow: var(--md-shadow-z3);
+     border-color: var(--md-primary-fg-color);
+   }
+
+   .participation-card h3 {
+     color: var(--md-default-fg-color);
+     margin-bottom: 1rem;
+     font-size: 1.25rem;
+     font-weight: 600;
+   }
+
+   .participation-card h3 i {
+     font-size: 2rem;
+     color: var(--md-primary-fg-color);
+     margin-bottom: 0.5rem;
+     display: block;
+   }
+
+   .participation-card p {
+     color: var(--md-default-fg-color--light);
+     line-height: 1.6;
+     margin-bottom: 1.5rem;
+     flex-grow: 1;
+   }
+
+   /* Tarjetas de años */
+   .year-card {
+     padding: 0.5rem 2rem;
+     min-height: 200px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+   }
+
+   .year-card:hover {
+     transform: translateY(-5px);
+     box-shadow: var(--md-shadow-z3);
+     border-color: var(--md-primary-fg-color);
+   }
+
+   .year-card::before {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     height: 4px;
+     background: linear-gradient(90deg, var(--md-primary-fg-color), var(--python-green));
+     opacity: 0;
+     transition: var(--transition-base);
+   }
+
+   .year-card:hover::before {
+     opacity: 1;
+   }
+
+   .year-card h3 {
+     color: var(--md-default-fg-color);
+     margin-bottom: 0.5rem;
+     font-size: 1.5rem;
+     font-weight: 700;
+   }
+
+   .year-card h3 i {
+     font-size: 2rem;
+     color: var(--md-primary-fg-color);
+     margin-bottom: 0.25rem;
+     display: block;
+   }
+
+   .year-card p {
+     color: var(--md-default-fg-color--light);
+     line-height: 1.4;
+     margin-bottom: 0.25rem;
+   }
+
+   .year-card p:first-of-type {
+     font-size: 1.125rem;
+     font-weight: 600;
+     color: var(--md-primary-fg-color);
+   }
+
+   .year-card a {
+     margin-top: auto;
+   }
+
+   /* Tarjetas de estadísticas */
+   .stat-card {
+     padding: 1.5rem;
+   }
+
+   .stat-card:hover {
+     transform: translateY(-3px);
+     box-shadow: var(--md-shadow-z2);
+     border-color: var(--md-primary-fg-color);
+   }
+
+   .stat-card h3 {
+     color: var(--md-primary-fg-color);
+     margin-bottom: 0.5rem;
+     font-size: 1.25rem;
+     font-weight: 700;
+   }
+
+   .stat-card h3 i {
+     font-size: 1.5rem;
+     margin-bottom: 0.5rem;
+     display: block;
+   }
+
+   .stat-card p {
+     color: var(--md-default-fg-color--light);
+     font-weight: 500;
+   }
+
+   /* Especialización de tarjetas por tipo */
+   .participation-ponente,
+   .year-2025 {
+     border-left: 4px solid var(--python-green);
+   }
+
+   .participation-voluntario,
+   .year-2024 {
+     border-left: 4px solid #2196F3;
+   }
+
+   .participation-asistir,
+   .year-2023 {
+     border-left: 4px solid #FF9800;
+   }
+
+   .year-2025:hover {
+     border-left-color: var(--python-green-dark);
+   }
+
+   .year-2024:hover {
+     border-left-color: #1976D2;
+   }
+
+   .year-2023:hover {
+     border-left-color: #F57C00;
+   }
+
+   /* -----------------------------------------------------------------------------
+      ENLACES DE COMUNIDAD
+      ----------------------------------------------------------------------------- */
+
+   .community-links {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     gap: 1rem;
+     margin: 2rem 0;
+     padding: 0;
+     align-items: stretch;
+   }
+
+   .community-link {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 0.625rem;
+     padding: 1rem;
+     height: 60px;
+     border-radius: 1rem;
+     text-decoration: none;
+     font-weight: 600;
+     font-size: 0.9rem;
+     letter-spacing: 0.025em;
+     transition: var(--transition-smooth);
+     border: 2px solid var(--md-default-fg-color--lightest);
+     background: var(--md-default-bg-color);
+     color: var(--md-default-fg-color);
+     text-align: center;
+     position: relative;
+     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+     box-sizing: border-box;
+     white-space: nowrap;
+     animation: breathe 4s ease-in-out infinite;
+   }
+
+   .community-link:hover {
+     transform: translateY(-3px);
+     color: var(--python-white);
+     text-decoration: none;
+     animation: none;
+   }
+
+   .community-link:active {
+     transform: translateY(-1px);
+   }
+
+   .community-link i {
+     font-size: 1.25em;
+     transition: var(--transition-base);
+     margin-right: 0.125rem;
+   }
+
+   .community-link:hover i {
+     color: var(--python-white) !important;
+     transform: scale(1.1);
+   }
+
+   /* Colores específicos por red social */
+   .community-link.telegram { border-color: var(--telegram-color); }
+   .community-link.telegram i { color: var(--telegram-color); }
+   .community-link.telegram:hover { background: var(--telegram-color); border-color: var(--telegram-color); box-shadow: 0 8px 25px rgba(0, 136, 204, 0.3); }
+
+   .community-link.meetup { border-color: var(--meetup-color); }
+   .community-link.meetup i { color: var(--meetup-color); }
+   .community-link.meetup:hover { background: var(--meetup-color); border-color: var(--meetup-color); box-shadow: 0 8px 25px rgba(237, 28, 64, 0.3); }
+
+   .community-link.youtube { border-color: var(--youtube-color); }
+   .community-link.youtube i { color: var(--youtube-color); }
+   .community-link.youtube:hover { background: var(--youtube-color); border-color: var(--youtube-color); box-shadow: 0 8px 25px rgba(255, 0, 0, 0.3); }
+
+   .community-link.github { border-color: var(--github-color); }
+   .community-link.github i { color: var(--github-color); }
+   .community-link.github:hover { background: var(--github-color); border-color: var(--github-color); box-shadow: 0 8px 25px rgba(51, 51, 51, 0.3); }
+
+   .community-link.instagram { border-color: var(--instagram-color); }
+   .community-link.instagram i { color: var(--instagram-color); }
+   .community-link.instagram:hover { background: var(--instagram-color); border-color: var(--instagram-color); box-shadow: 0 8px 25px rgba(228, 64, 95, 0.3); }
+
+   .community-link.linkedin { border-color: var(--linkedin-color); }
+   .community-link.linkedin i { color: var(--linkedin-color); }
+   .community-link.linkedin:hover { background: var(--linkedin-color); border-color: var(--linkedin-color); box-shadow: 0 8px 25px rgba(0, 119, 181, 0.3); }
+
+   @keyframes breathe {
+     0%, 100% { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+     50% { box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); }
+   }
+
+   /* -----------------------------------------------------------------------------
+      LEMA DE LA COMUNIDAD
+      ----------------------------------------------------------------------------- */
+
+   .community-motto {
+     text-align: center;
+     font-size: 1.5rem;
+     font-style: italic;
+     font-weight: 600;
+     color: var(--md-default-fg-color);
+     margin: 1rem auto;
+     padding: 1.25rem;
+     max-width: 600px;
+     position: relative;
+     background: var(--md-default-bg-color);
+     border: 1px solid var(--md-default-fg-color--lightest);
+     border-radius: var(--card-radius);
+     box-shadow: var(--md-shadow-z1);
+   }
+
+   .community-motto::before {
+     content: '"';
+     position: absolute;
+     top: -0.5rem;
+     left: 1rem;
+     font-size: 4rem;
+     color: var(--md-primary-fg-color);
+     font-family: Georgia, serif;
+     opacity: 0.3;
+   }
+
+   .community-motto::after {
+     content: '"';
+     position: absolute;
+     bottom: -2rem;
+     right: 1rem;
+     font-size: 4rem;
+     color: var(--md-primary-fg-color);
+     font-family: Georgia, serif;
+     opacity: 0.3;
+   }
+
+   /* -----------------------------------------------------------------------------
+      NAVEGACIÓN Y SECCIONES ESPECIALES
+      ----------------------------------------------------------------------------- */
+
+   .quick-navigation {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+     gap: 0.625rem;
+     margin: 0.75rem auto;
+     max-width: 600px;
+   }
+
+   .quick-navigation-title {
+     width: 100%;
+     text-align: center;
+     margin-bottom: 0.5rem;
+   }
+
+   .quick-navigation-title i {
+     color: var(--md-primary-fg-color);
+     margin-right: 0.5rem;
+   }
+
+   .community-highlight {
+     border-left: 4px solid var(--md-primary-fg-color);
+     margin: 2rem 0;
+     padding: 1.5rem;
+   }
+
+   .upcoming-events {
+     margin: 0.75rem 0;
+     padding: 1.25rem 2rem;
+   }
+
+   .upcoming-events h3 {
+     color: var(--md-default-fg-color);
+     margin-bottom: 1rem;
+     font-size: 1.5rem;
+   }
+
+   .upcoming-events p {
+     color: var(--md-default-fg-color--light);
+     margin-bottom: 2rem;
+     font-size: 1.1rem;
+   }
+
+   /* -----------------------------------------------------------------------------
+      ICONOGRAFÍA
+      ----------------------------------------------------------------------------- */
+
+   .fas, .fab {
+     color: var(--md-primary-fg-color);
+   }
+
+   h2 .fas, h3 .fas {
+     margin-right: 0.5rem;
+     font-size: 0.9em;
+   }
+
+   /* -----------------------------------------------------------------------------
+      MEDIA QUERIES RESPONSIVAS
+      ----------------------------------------------------------------------------- */
+
+   @media (max-width: 768px) {
+     .participation-grid,
+     .year-cards {
+       grid-template-columns: 1fr;
+       gap: 1rem;
+     }
+
+     .participation-grid .participation-card:nth-child(3):nth-last-child(1) {
+       grid-column: 1;
+     }
+
+     .stats-grid {
+       grid-template-columns: repeat(2, 1fr);
+       gap: 1rem;
+     }
+
+     .community-links {
+       justify-content: center;
+       gap: 0.75rem;
+     }
+
+     .community-link {
+       min-width: 140px;
+       padding: 1rem;
+     }
+
+     .community-link i {
+       font-size: 1.5rem;
+     }
+
+     .hero-section {
+       padding: 1.5rem 1rem;
+     }
+
+     .hero-logo {
+       width: 5rem;
+       height: 5rem;
+     }
+
+     .action-buttons {
+       flex-direction: column;
+       align-items: center;
+     }
+
+     .action-buttons a {
+       width: 100%;
+       max-width: 250px;
+     }
+
+     /* Voluntarios */
+     .volunteer-card {
+       padding: 1.5rem;
+     }
+
+     .volunteer-card .card-header {
+       grid-template-columns: 1fr;
+       text-align: center;
+       gap: 1.5rem;
+     }
+
+     .volunteer-card .avatar-section {
+       order: -1;
+     }
+   }
+
+   /* -----------------------------------------------------------------------------
+      TARJETAS DE VOLUNTARIOS
+      ----------------------------------------------------------------------------- */
+
+   .volunteer-card {
+     background: var(--md-default-bg-color);
+     border: 1px solid var(--md-default-fg-color--lightest);
+     border-radius: var(--card-radius);
+     padding: 2rem;
+     margin-bottom: 2rem;
+     transition: var(--transition-base);
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+   }
+
+   .volunteer-card:hover {
+     transform: translateY(-2px);
+     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+     border-color: var(--md-primary-fg-color--light);
+   }
+
+   .volunteer-card .card-header {
+     display: grid;
+     grid-template-columns: 1fr auto;
+     gap: 2rem;
+     align-items: start;
+     margin-bottom: 1.5rem;
+   }
+
+   .volunteer-card .card-info {
+     display: flex;
+     flex-direction: column;
+     gap: 0.75rem;
+   }
+
+   .volunteer-card .card-title {
+     font-size: 1.5rem;
+     font-weight: 700;
+     color: var(--md-default-fg-color);
+     margin: 0;
+     line-height: 1.2;
+   }
+
+   .volunteer-card .card-title i {
+     color: var(--md-primary-fg-color);
+     margin-right: 0.5rem;
+   }
+
+   .volunteer-card .card-subtitle {
+     font-size: 1rem;
+     color: var(--md-default-fg-color--light);
+     margin: 0;
+     font-weight: 500;
+     line-height: 1.4;
+   }
+
+   .volunteer-card .badges-container {
+     display: flex;
+     gap: 0.5rem;
+     flex-wrap: wrap;
+   }
+
+   .volunteer-card .badge {
+     padding: 0.125rem 0.5rem;
+     border-radius: 0.75rem;
+     font-size: 0.625rem;
+     font-weight: 500;
+     text-transform: uppercase;
+     letter-spacing: 0.03em;
+     opacity: 0.85;
+   }
+
+   .volunteer-card .badge.ambassador {
+     background: rgba(76, 175, 80, 0.15);
+     color: #2E7D32;
+     border: 1px solid rgba(76, 175, 80, 0.3);
+   }
+
+   .volunteer-card .badge.organizer {
+     background: rgba(33, 150, 243, 0.15);
+     color: #1565C0;
+     border: 1px solid rgba(33, 150, 243, 0.3);
+   }
+
+   .volunteer-card .badge.production {
+     background: rgba(255, 152, 0, 0.15);
+     color: #E65100;
+     border: 1px solid rgba(255, 152, 0, 0.3);
+   }
+
+   .volunteer-card .badge.host {
+     background: rgba(156, 39, 176, 0.15);
+     color: #6A1B9A;
+     border: 1px solid rgba(156, 39, 176, 0.3);
+   }
+
+   .volunteer-card .badge.technical {
+     background: rgba(96, 125, 139, 0.15);
+     color: #37474F;
+     border: 1px solid rgba(96, 125, 139, 0.3);
+   }
+
+   .volunteer-card .badge.support {
+     background: rgba(121, 85, 72, 0.15);
+     color: #3E2723;
+     border: 1px solid rgba(121, 85, 72, 0.3);
+   }
+
+   .volunteer-card .badge.global {
+     background: rgba(233, 30, 99, 0.15);
+     color: #AD1457;
+     border: 1px solid rgba(233, 30, 99, 0.3);
+   }
+
+   .volunteer-card .badge.strategic {
+     background: rgba(63, 81, 181, 0.15);
+     color: #283593;
+     border: 1px solid rgba(63, 81, 181, 0.3);
+   }
+
+   .volunteer-card .avatar-section {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 1rem;
+   }
+
+   .volunteer-card .volunteer-avatar {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     object-fit: cover;
+     border: 3px solid var(--md-primary-fg-color--light);
+     transition: var(--transition-base);
+   }
+
+   .volunteer-card:hover .volunteer-avatar {
+     border-color: var(--md-primary-fg-color);
+     transform: scale(1.05);
+   }
+
+   .volunteer-card .social-icons {
+     display: flex;
+     gap: 0.5rem;
+     justify-content: center;
+   }
+
+   .volunteer-card .social-icon {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 32px;
+     height: 32px;
+     border-radius: 50%;
+     background: var(--md-default-fg-color--lightest);
+     color: var(--md-default-fg-color--light);
+     text-decoration: none;
+     transition: var(--transition-base);
+     font-size: 0.875rem;
+   }
+
+   .volunteer-card .social-icon:hover {
+     transform: translateY(-2px);
+     text-decoration: none;
+   }
+
+   .volunteer-card .social-icon.linkedin:hover {
+     background: var(--linkedin-color);
+     color: white;
+   }
+
+   .volunteer-card .social-icon.github:hover {
+     background: var(--github-color);
+     color: white;
+   }
+
+   .volunteer-card .card-content {
+     border-top: 1px solid var(--md-default-fg-color--lightest);
+     padding-top: 1.5rem;
+   }
+
+   .volunteer-card .card-role {
+     line-height: 1.6;
+   }
+
+   .volunteer-card .role-title {
+     font-weight: 700;
+     color: var(--md-primary-fg-color);
+     font-size: 0.9rem;
+     text-transform: uppercase;
+     letter-spacing: 0.05em;
+     display: block;
+     margin-bottom: 0.5rem;
+   }
+
+   .volunteer-card .role-description {
+     font-weight: 500;
+     color: var(--md-default-fg-color--light);
+     font-size: 0.875rem;
+     font-style: italic;
+     line-height: 1.4;
+     display: block;
+     margin-bottom: 1rem;
+   }
+
+   .volunteer-card .card-role ul {
+     margin-top: 1rem;
+     padding-left: 1.5rem;
+   }
+
+   .volunteer-card .card-role li {
+     margin-bottom: 0.5rem;
+     color: var(--md-default-fg-color--light);
+   }
+
+         /* Encabezados de voluntarios ocultos - Solución mantenible */
+   /* Usar clase .volunteer-header en cualquier h3 que deba ocultarse */
+   .volunteer-header {
+     position: absolute !important;
+     left: -9999px !important;
+     width: 1px !important;
+     height: 1px !important;
+     overflow: hidden !important;
+     clip: rect(1px, 1px, 1px, 1px) !important;
+   }
+
+   /* Ajustar espaciado de las tarjetas */
+   .volunteer-card:first-of-type {
+     margin-top: 1rem;
+   }
