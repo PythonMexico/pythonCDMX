@@ -158,23 +158,92 @@ Crea archivos en `docs/meetups/YYYY/mes-YYYY.md` siguiendo la plantilla y metada
 - Git
 - Editor de código (VS Code, PyCharm, etc.)
 
-### Configuración Inicial
+### Fork y Setup Inicial
 
 ```bash
-# Clonar el repositorio
-git clone https://github.com/PythonMexico/pythonCDMX.git
+# 1. Haz fork del repositorio en GitHub
+# 2. Clona tu fork
+git clone https://github.com/TU-USUARIO/pythonCDMX.git
 cd pythonCDMX
 
-# Crear entorno virtual
+# 3. Configura el repositorio original como upstream
+git remote add upstream https://github.com/PythonMexico/pythonCDMX.git
+
+# 4. Crear entorno virtual
 python -m venv .venv
 source .venv/bin/activate  # En Windows: .venv\Scripts\activate
 
-# Instalar dependencias
+# 5. Instalar dependencias
 pip install -r requirements.txt
 
-# Ejecutar servidor de desarrollo
+# 6. Ejecutar servidor de desarrollo
 mkdocs serve
 ```
+
+### Flujo de Trabajo Detallado
+
+#### 1. Crear Rama de Trabajo
+
+```bash
+# Actualiza tu main local
+git checkout main
+git pull upstream main
+
+# Crea una nueva rama descriptiva
+git checkout -b feature/nueva-funcionalidad
+# o
+git checkout -b fix/corregir-problema
+# o
+git checkout -b meetup/agregar-evento-marzo-2025
+```
+
+#### 2. Realizar y Probar Cambios
+
+```bash
+# Haz tus cambios
+# Prueba localmente
+mkdocs serve
+
+# Verifica que todo funcione en:
+# - Modo claro y oscuro
+# - Móvil y escritorio
+# - Todos los enlaces
+```
+
+#### 3. Commit y Push
+
+```bash
+# Añade los cambios
+git add .
+
+# Commit con mensaje descriptivo
+git commit -m "feat: agregar meetup marzo 2025 con ponentes confirmados"
+# o
+git commit -m "fix: corregir enlaces rotos en página de comunidad"
+# o
+git commit -m "style: mejorar responsive design en tarjetas de participación"
+
+# Push a tu fork
+git push origin nombre-de-tu-rama
+```
+
+#### 4. Crear Pull Request
+
+1. Ve a tu fork en GitHub
+2. Click en "Compare & pull request"
+3. **Título descriptivo**: Ej. "Agregar meetup marzo 2025 - IA en producción"
+4. **Descripción detallada**:
+   - Qué cambios realizaste
+   - Por qué son necesarios
+   - Screenshots si hay cambios visuales
+   - Checklist de verificación
+5. Etiqueta apropiada: `meetup`, `enhancement`, `bug`, etc.
+
+#### 5. Revisión y Merge
+
+- El equipo revisará tu PR
+- Responde a comentarios si los hay
+- Una vez aprobado, será merged al proyecto principal
 
 ### Comandos Útiles
 
@@ -191,6 +260,58 @@ mkdocs build --strict
 # Limpiar build
 rm -rf site/
 ```
+
+## Guidelines de Desarrollo
+
+### Qué SÍ hacer:
+- **Usar variables CSS** - No hardcodear colores o medidas
+- **Probar responsive** - Verificar en móvil y escritorio
+- **Seguir convenciones** - Nombres de archivos, estructura, etc.
+- **Commits descriptivos** - Mensajes claros sobre los cambios
+- **Screenshots en PRs** - Si hay cambios visuales
+- **Usar sistema de componentes** - Reutilizar elementos existentes
+- **Probar en ambos modos** - Verificar modo claro y oscuro
+
+### Qué NO hacer:
+- **Estilos inline** - Siempre usar clases CSS
+- **Modificar `mkdocs.yml`** - Sin consultar primero
+- **Cambios masivos** - Preferir PRs focalizados
+- **Ignorar el linter** - Mantener calidad de código
+- **Romper responsive** - Probar siempre en móvil
+- **Hardcodear valores** - Usar variables CSS existentes
+
+### Tipos de Issues Disponibles
+
+#### Propuesta de Charla
+Para postularte como ponente o proponer una charla
+
+#### Publicar Evento
+Para agregar un meetup confirmado a la página
+
+#### Bug Report
+Para reportar problemas o errores
+
+#### Feature Request
+Para sugerir nuevas funcionalidades
+
+#### Documentación
+Para mejorar docs o README
+
+## Agregar Nuevo Contenido
+
+### Nuevo Meetup
+
+1. Crear archivo en `docs/meetups/YYYY/YYYYMM-mes.md`
+2. Usar plantilla existente como referencia
+3. Incluir metadatos del evento
+4. Agregar descripción y detalles de charlas
+
+### Nuevo Componente
+
+1. Crear en `docs/components/`
+2. Usar sistema de variables CSS existente
+3. Seguir patrones establecidos
+4. Incluir en páginas con `--8<-- "components/nombre.md"`
 
 ## Áreas de Contribución
 

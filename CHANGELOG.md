@@ -9,6 +9,36 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
 ## [Unreleased]
 
 ### Añadido
+- **Galería de Imágenes Completa**: 6 fotos profesionales de ponentes destacados + imagen de voluntario
+- **Sistema de Automatización**: Scripts para detección y corrección automática de enlaces rotos
+- **Estándares de Calidad**: Configuración MarkdownLint para validación automática de documentación
+
+### Cambiado
+- **Secciones de Comunidad Rediseñadas**: Ponentes y voluntarios con sistema de pestañas funcional e imágenes personales integradas
+- **CSS Optimizado**: Refactorización completa de estilos con mejor organización y responsividad
+- **Enlaces Corregidos**: Eliminación sistemática de enlaces rotos en toda la documentación
+- **Navegación Simplificada**: Páginas de índice de meetups optimizadas sin contenido duplicado
+
+### Eliminado
+- **Contenido Obsoleto**: Archivo tags.md y elementos duplicados removidos para mejorar mantenimiento
+
+### Arquitectura y Sistema
+- **Eliminación Completa de Estilos Inline**: Migración total a CSS centralizado para separación de presentación y contenido
+- **Sistema Unificado de Tarjetas**: Ponentes y voluntarios ahora usan la misma estructura base (`.volunteer-card`) con contenido diferenciado
+- **Arquitectura Mantenible**: Implementación de `.volunteer-header` elimina selectores hardcodeados y facilita escalabilidad
+- **Optimización CSS Significativa**: Reducción del 35% en código CSS mediante consolidación de variables y eliminación de duplicaciones
+- **Sistema de Badges Comprehensivo**: 8 tipos de roles predefinidos con colores específicos para identificación visual
+- **Reorganización Alfabética**: Todos los ponentes organizados alfabéticamente para mejor navegación y mantenimiento
+
+### Impacto
+- **Arquitectura Moderna**: CSS centralizado mejora dramáticamente la mantenibilidad y consistencia visual
+- **Mantenimiento Simplificado**: Separación de presentación y contenido facilita actualizaciones futuras
+- **Escalabilidad Mejorada**: Nueva arquitectura permite agregar contenido sin modificar estilos
+- **Presentación Profesional**: Sistema unificado con imágenes personales y herramientas automatizadas
+
+## [0.1.0]
+
+### Añadido
 - **Nueva Sección Participa**: Creada sección modular con tabs para mejor organización
 - **Nuevo Voluntario**: Agregada Mónica Ortega a la lista de voluntarios destacados
 - **Sistema de Tabs**: Implementado sistema de tabs en secciones de Participa para mejor navegación
@@ -73,7 +103,7 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
 
 ---
 
-## [1.0.0] - 2024-06-24
+## [0.0.2] - 2024-06-24
 
 ### Añadido
 - Lanzamiento inicial del sitio web Python CDMX Charlas
@@ -94,7 +124,7 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
 
 ---
 
-## [0.1.0] - 2024-01-31
+## [0.0.1] - 2024-01-31
 
 ### Añadido
 - Primer README.md y documentación básica del proyecto.

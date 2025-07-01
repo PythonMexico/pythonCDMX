@@ -24,6 +24,8 @@ This is the Python CDMX community website built with MkDocs Material. The site s
   - `quick-navigation.md` - Page navigation cards system
 - `docs/meetups/` - Event documentation organized by year
 - `docs/comunidad/` - Community pages (volunteers, speakers, etc.)
+  - `ponentes.md` - **UPDATED**: Unified card system, alphabetical order, no tabs
+  - `voluntarios.md` - Modern volunteer cards with TOC navigation
 - `scripts/` - Python automation scripts for content generation
 
 ## Design System & CSS Guidelines
@@ -64,7 +66,9 @@ This is the Python CDMX community website built with MkDocs Material. The site s
 - `.participation-card` - Large centered icons with call-to-action buttons
 - `.year-card` - Annual summaries with specialized styling and hover effects
 - `.stat-card` - Statistics display cards
-- `.volunteer-card` - Individual volunteer profile cards with badges and social links
+- `.volunteer-card` - **UNIFIED SYSTEM**: Used for both volunteers AND speakers with identical structure
+  - Volunteers: Focus on community contributions and organizational roles
+  - Speakers: Focus on technical specialties and recent talks
 - `.community-highlight` - Special highlighted sections
 - `.upcoming-events` - Event highlight sections
 
@@ -127,6 +131,10 @@ This is the Python CDMX community website built with MkDocs Material. The site s
 ### Content Updates
 - Event pages: Follow existing year/month structure in `docs/meetups/`
 - Images: Store in appropriate `docs/images/` subdirectories
+  - `voluntarios/` - Volunteer profile images
+  - `ponentes/` - Speaker profile images (organized alphabetically)
+  - `meetup/` - Event promotional images
+  - `comunidades/` - Partner community logos
 - Community content: Update respective pages in `docs/comunidad/`
 - Components: Use `--8<-- "components/component-name.md"` for includes
 
@@ -186,23 +194,29 @@ palette:
 </div>
 ```
 
-### Volunteer Cards (Modern Design with TOC Navigation)
+### Unified Card System (Volunteers & Speakers)
 ```markdown
-### Volunteer Name {.volunteer-header}
+### Person Name {.volunteer-header}
 
-<!-- Volunteer Name -->
+<!-- Person Name -->
 <div class="volunteer-card">
   <div class="card-header">
     <div class="card-info">
-      <h3 class="card-title">Volunteer Name</h3>
-      <p class="card-subtitle">Role description</p>
+      <h3 class="card-title">Person Name</h3>
+      <p class="card-subtitle">Role/Company description</p>
       <div class="badges-container">
+        <!-- For Volunteers -->
         <span class="badge ambassador">Embajador</span>
         <span class="badge organizer">Organizador</span>
+        <!-- For Speakers -->
+        <span class="badge technical">DevOps</span>
+        <span class="badge development">Desarrollo</span>
       </div>
     </div>
     <div class="avatar-section">
-      <img src="/images/voluntarios/avatar.jpg" alt="Volunteer Name" class="volunteer-avatar lazy-image" loading="lazy">
+      <!-- Volunteers: /images/voluntarios/ -->
+      <!-- Speakers: /images/ponentes/ -->
+      <img src="/images/ponentes/avatar.jpg" alt="Person Name" class="volunteer-avatar lazy-image" loading="lazy">
       <div class="social-icons">
         <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
         <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
@@ -211,12 +225,17 @@ palette:
   </div>
   <div class="card-content">
     <div class="card-role">
-      <span class="role-title">MAIN ROLE TITLE</span>
-      <span class="role-description">Detailed role description</span>
+      <!-- For Volunteers -->
+      <span class="role-title">COMMUNITY ROLE TITLE</span>
+      <span class="role-description">Community role description</span>
       <strong>Contribuciones principales:</strong>
+      <!-- For Speakers -->
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">Technical specialties list</span>
+      <strong>Charlas recientes:</strong>
       <ul>
-        <li>Contribution item 1</li>
-        <li>Contribution item 2</li>
+        <li>Content item 1</li>
+        <li>Content item 2</li>
       </ul>
     </div>
   </div>
@@ -225,11 +244,14 @@ palette:
 
 **Key Features:**
 - `{.volunteer-header}` automatically hides the h3 but keeps TOC functionality
+- **IDENTICAL STRUCTURE** for volunteers and speakers
 - Two-column grid layout with responsive design
 - Circular avatars with hover effects
 - Discrete badges with role-specific colors
 - Social icons grouped below avatar
-- Structured role information with title/description separation
+- **Content Differentiation**:
+  - Volunteers: Community contributions and organizational roles
+  - Speakers: Technical specialties and recent talks
 
 ### Button Types
 ```html
@@ -305,6 +327,10 @@ palette:
 - **NEW**: Maintainable `.volunteer-header` class eliminates hardcoded names
 - **NEW**: Discrete badge system with 8 role types and consistent styling
 - **NEW**: Two-column responsive design with avatar/social integration
+- **UPDATED**: Speaker system completely redesigned using volunteer card structure
+- **UPDATED**: All speakers alphabetically organized with unified navigation
+- **UPDATED**: Dedicated `/images/ponentes/` directory for speaker photos
+- **UPDATED**: Simplified single-page layout (removed tab system)
 - Complete responsive design for all card types with mobile-first approach
 
 ## Critical Information for New Developers
@@ -335,14 +361,24 @@ palette:
 - **Complex styling**: If requires 5+ CSS rules, consider a new class
 - **Brand consistency**: Always check existing patterns before creating new styles
 
-### Volunteer System Best Practices
+### Unified System Best Practices (Volunteers & Speakers)
 - **Always use `.volunteer-header`**: Never hardcode names in CSS selectors
-- **Badge consistency**: Use predefined badge classes (ambassador, organizer, etc.)
-- **Image optimization**: Volunteer avatars should be 200x200px minimum, optimized
+- **Badge consistency**:
+  - Volunteers: Use predefined badge classes (ambassador, organizer, etc.)
+  - Speakers: Use technical badges (technical, development, etc.)
+- **Image optimization**: All avatars should be 200x200px minimum, optimized
+- **Directory structure**:
+  - Volunteers: `/images/voluntarios/filename.jpg`
+  - Speakers: `/images/ponentes/filename.jpg`
 - **Social links**: Include LinkedIn and GitHub at minimum, add others as needed
-- **Role structure**: Use `.role-title` for main role, `.role-description` for details
+- **Content structure**:
+  - Volunteers: Use `.role-title` for community role, focus on contributions
+  - Speakers: Use "ESPECIALIDADES TÉCNICAS" as role title, focus on talks and tech
+- **Organization**:
+  - Volunteers: Group by role/activity
+  - Speakers: **MAINTAIN ALPHABETICAL ORDER**
 - **Responsive design**: Test two-column layout on mobile (becomes single column)
-- **TOC navigation**: Ensure all volunteer headers work with table of contents
+- **TOC navigation**: Ensure all headers work with table of contents
 
 ### Integration Points
 - **MkDocs Material**: Uses `extra_css` in mkdocs.yml to load custom.css
@@ -353,6 +389,12 @@ palette:
 ## Recent Major Updates
 
 ### Latest Optimizations (Current)
+- **Speaker System Complete Overhaul**: All 19+ ponentes converted to modern volunteer-card layout
+- **Unified Design System**: Speakers now use same structure as volunteers but with speaker-specific content
+- **Organized Alphabetically**: All speakers reorganized in alphabetical order for better navigation
+- **Dedicated Image Structure**: New `/images/ponentes/` directory with speaker-specific photos
+- **Simplified Layout**: Removed tab system (=== "Información"/"Ponentes") for cleaner single-page design
+- **Real Speaker Photos**: Added actual photos for multiple speakers (Carlos Caballero, Erik Rivera, etc.)
 - **Volunteer System Redesign**: Complete overhaul with modern two-column layout
 - **Maintainable Architecture**: New `.volunteer-header` class eliminates hardcoded name lists
 - **CSS Optimization**: Consolidated variables, eliminated duplications, unified media queries
@@ -412,11 +454,42 @@ Please refer to the CLAUDE.md file for project guidelines and existing patterns.
 
 ## Adding New Volunteers (Step-by-Step)
 1. **Add volunteer image** to `docs/images/voluntarios/` (200x200px minimum)
-2. **Use the volunteer card template** from this file
+2. **Use the unified card template** from this file
 3. **Add `.volunteer-header` class** to the markdown header
-4. **Choose appropriate badges** from the predefined badge system
-5. **Test TOC navigation** to ensure proper functionality
-6. **Verify responsive design** on mobile devices
+4. **Choose appropriate badges** from the predefined badge system (organizer, ambassador, etc.)
+5. **Focus on community contributions** in content section
+6. **Test TOC navigation** to ensure proper functionality
+7. **Verify responsive design** on mobile devices
+
+## Adding New Speakers (Step-by-Step)
+1. **Add speaker image** to `docs/images/ponentes/` (200x200px minimum)
+2. **Use the unified card template** from this file (same as volunteers)
+3. **Add `.volunteer-header` class** to the markdown header
+4. **Choose technical badges** (technical, development, etc.)
+5. **Focus on specialties and talks** in content section
+6. **Maintain alphabetical order** in the speakers list
+7. **Test TOC navigation** to ensure proper functionality
+8. **Verify responsive design** on mobile devices
+
+## Completed System Transformations
+
+### Speaker System Overhaul (2025)
+- ✅ **21+ speakers converted** to unified volunteer-card system
+- ✅ **Alphabetical organization** implemented across all speakers
+- ✅ **Tab system removed** for cleaner single-page layout
+- ✅ **Dedicated image directory** `/images/ponentes/` created
+- ✅ **Real speaker photos** added for multiple speakers
+- ✅ **Identical structure** to volunteers but with speaker-specific content
+- ✅ **TOC navigation** integrated for all speakers
+- ✅ **Badge system** adapted for technical specialties
+- ✅ **Mobile responsive** design maintained
+
+### Key Architectural Changes
+- **Unified Card System**: Both volunteers and speakers use `.volunteer-card`
+- **Content Differentiation**: Same structure, different focus areas
+- **Maintainable Design**: `.volunteer-header` eliminates hardcoded selectors
+- **Scalable Organization**: Alphabetical for speakers, role-based for volunteers
+- **Image Management**: Separate directories for logical organization
 
 ## Project Continuation Checklist
 - [ ] CLAUDE.md file read and understood
@@ -425,3 +498,5 @@ Please refer to the CLAUDE.md file for project guidelines and existing patterns.
 - [ ] Existing component patterns studied
 - [ ] CSS variable system understood
 - [ ] MkDocs Material integration grasped
+- [ ] Speaker vs Volunteer content structure understood
+- [ ] Alphabetical organization principle for speakers followed

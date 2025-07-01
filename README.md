@@ -99,136 +99,16 @@ python-cdmx-charlas/
 - **Enlaces de comunidad** - Colores oficiales por plataforma
 - **Responsive design** - Breakpoint único en 768px
 
-## Agregar Contenido
+## Contribuir
 
-### Nuevo Meetup
+¿Quieres contribuir al proyecto? ¡Excelente! 🎉
 
-1. Crear archivo en `docs/meetups/YYYY/YYYYMM-mes.md`
-2. Usar plantilla existente como referencia
-3. Incluir metadatos del evento
-4. Agregar descripción y detalles de charlas
+- **Proponer una charla**: Abre un [issue](https://github.com/PythonMexico/pythonCDMX/issues/new) con la plantilla "💡 Propuesta de Charla"
+- **Publicar evento**: Usa la plantilla "Publicar evento en la página"
+- **Reportar problema**: Crea un issue con detalles del bug
+- **Mejorar documentación**: Los PRs son bienvenidos
 
-### Nuevo Componente
-
-1. Crear en `docs/components/`
-2. Usar sistema de variables CSS existente
-3. Seguir patrones establecidos
-4. Incluir en páginas con `--8<-- "components/nombre.md"`
-
-## Cómo Contribuir
-
-¡Bienvenidas todas las contribuciones! Sigue estos pasos:
-
-### 1. Fork y Setup
-
-```bash
-# 1. Haz fork del repositorio en GitHub
-# 2. Clona tu fork
-git clone https://github.com/TU-USUARIO/pythonCDMX.git
-cd pythonCDMX
-
-# 3. Configura el repositorio original como upstream
-git remote add upstream https://github.com/PythonMexico/pythonCDMX.git
-
-# 4. Instala dependencias
-pip install -r requirements.txt
-```
-
-### 2. Crear Rama de Trabajo
-
-```bash
-# Actualiza tu main local
-git checkout main
-git pull upstream main
-
-# Crea una nueva rama descriptiva
-git checkout -b feature/nueva-funcionalidad
-# o
-git checkout -b fix/corregir-problema
-# o
-git checkout -b meetup/agregar-evento-marzo-2025
-```
-
-### 3. Realizar Cambios
-
-```bash
-# Haz tus cambios
-# Prueba localmente
-mkdocs serve
-
-# Verifica que todo funcione en:
-# - Modo claro y oscuro
-# - Móvil y escritorio
-# - Todos los enlaces
-```
-
-### 4. Commit y Push
-
-```bash
-# Añade los cambios
-git add .
-
-# Commit con mensaje descriptivo
-git commit -m "feat: agregar meetup marzo 2025 con ponentes confirmados"
-# o
-git commit -m "fix: corregir enlaces rotos en página de comunidad"
-# o
-git commit -m "style: mejorar responsive design en tarjetas de participación"
-
-# Push a tu fork
-git push origin nombre-de-tu-rama
-```
-
-### 5. Crear Pull Request
-
-1. Ve a tu fork en GitHub
-2. Click en "Compare & pull request"
-3. **Título descriptivo**: Ej. "Agregar meetup marzo 2025 - IA en producción"
-4. **Descripción detallada**:
-   - Qué cambios realizaste
-   - Por qué son necesarios
-   - Screenshots si hay cambios visuales
-   - Checklist de verificación
-5. Etiqueta apropiada: `meetup`, `enhancement`, `bug`, etc.
-
-### 6. Revisión y Merge
-
-- El equipo revisará tu PR
-- Responde a comentarios si los hay
-- Una vez aprobado, será merged al proyecto principal
-
-## Guidelines de Contribución
-
-### Qué SÍ hacer:
-- **Usar variables CSS** - No hardcodear colores o medidas
-- **Probar responsive** - Verificar en móvil y escritorio
-- **Seguir convenciones** - Nombres de archivos, estructura, etc.
-- **Commits descriptivos** - Mensajes claros sobre los cambios
-- **Screenshots en PRs** - Si hay cambios visuales
-
-### Qué NO hacer:
-- **Estilos inline** - Siempre usar clases CSS
-- **Modificar `mkdocs.yml`** - Sin consultar primero
-- **Cambios masivos** - Preferir PRs focalizados
-- **Ignorar el linter** - Mantener calidad de código
-- **Romper responsive** - Probar siempre en móvil
-
-### Tipos de Issues
-
-#### Propuesta de Charla
-Para postularte como ponente o proponer una charla
-
-#### Publicar Evento
-Para agregar un meetup confirmado a la página
-
-#### Bug Report
-Para reportar problemas o errores
-
-#### Feature Request
-Para sugerir nuevas funcionalidades
-
-#### Documentación
-Para mejorar docs o README
+👉 **[Ver guía completa de contribución](CONTRIBUTING.md)** para proceso detallado, setup del entorno y guidelines.
 
 ## Despliegue
 
