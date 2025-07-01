@@ -217,7 +217,7 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
       </div>
     </div>
     <div class="avatar-section">
-      <img src="/images/voluntarios/logo.png" alt="Pixelead0" class="volunteer-avatar lazy-image" loading="lazy">
+      <img src="/images/voluntarios/pixelead0.jpg" alt="Pixelead0" class="volunteer-avatar lazy-image" loading="lazy">
       <div class="social-icons">
         <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
         <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
