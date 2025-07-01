@@ -6,7 +6,7 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
 
 ---
 
-## [Unreleased]
+## [0.1.0]
 
 ### Añadido
 - **Nueva Sección Participa**: Creada sección modular con tabs para mejor organización
@@ -73,7 +73,7 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
 
 ---
 
-## [1.0.0] - 2024-06-24
+## [0.0.2] - 2024-06-24
 
 ### Añadido
 - Lanzamiento inicial del sitio web Python CDMX Charlas
@@ -94,7 +94,7 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
 
 ---
 
-## [0.1.0] - 2024-01-31
+## [0.0.1] - 2024-01-31
 
 ### Añadido
 - Primer README.md y documentación básica del proyecto.
