@@ -5,7 +5,7 @@ title: "Del Código al Clic: Transforma Ideas en Interfaces"
 # Meetup #PythonCDMX <i class="fab fa-python"></i> - Febrero 2024
 
 <div class="meetup-hero">
-    <h1>✨ Del Código al Clic: Transforma Ideas en Interfaces ✨</h1>
+    <h1>Del Código al Clic: Transforma Ideas en Interfaces</h1>
     <p class="meetup-subtitle">Interfaces visuales con Python</p>
 </div>
 
@@ -30,7 +30,7 @@ title: "Del Código al Clic: Transforma Ideas en Interfaces"
     </div>
     <div class="detail-card rsvp-card">
         <h3><i class="fas fa-ticket-alt"></i> RSVP</h3>
-        <p><a href="https://www.meetup.com/python-mexico/" style="color: #ffc107; text-decoration: none;">¡Regístrate aquí!</a></p>
+        <p><a href="https://www.meetup.com/python-mexico/">¡Regístrate aquí!</a></p>
     </div>
 </div>
 
@@ -62,10 +62,10 @@ title: "Del Código al Clic: Transforma Ideas en Interfaces"
     <h3><i class="fas fa-rocket"></i> Del Código al Clic: Transforma Ideas en Interfaces con Python</h3>
     <p>¿Tienes esa gran idea, pero no sabes cómo organizar tu ambiente virtual, tu código y todas las herramientas de desarrollo?</p>
     <p>En esta charla exploraremos las mejores prácticas para configurar un entorno de desarrollo Python profesional:</p>
-    <ul style="line-height: 1.8; font-size: 1.1rem; margin: 1.5rem 0; padding-left: 2rem;">
+    <ul>
         
     </ul>
-    <p style="line-height: 1.8; font-size: 1.1rem; margin-top: 1.5rem; font-style: italic; color: #666;">
+    <p>
         <i class="fas fa-info-circle"></i> Python ofrece múltiples opciones para crear interfaces gráficas modernas y atractivas.
     </p>
 </div>
@@ -85,41 +85,15 @@ title: "Del Código al Clic: Transforma Ideas en Interfaces"
                 allowfullscreen>
             ></iframe>
         </div>
-        <a href="https://www.youtube.com/watch?v=placeholder" class="youtube-btn">
-            <i class="fab fa-youtube"></i> Ver en YouTube
-        </a>
     </div>
 </div>
 
 ---
 
-### Unete a #PythonCDMX
-
-<div class="community-links">
-    <a href="https://t.me/PythonCDMX" class="community-link telegram">
-        <i class="fab fa-telegram"></i> Telegram
-    </a>
-    <a href="https://www.meetup.com/python-mexico" class="community-link meetup">
-        <i class="fab fa-meetup"></i> Meetup
-    </a>
-    <a href="https://www.youtube.com/@PythonMexico" class="community-link youtube">
-        <i class="fab fa-youtube"></i> YouTube
-    </a>
-    <a href="https://github.com/PythonMexico/pythonCDMX" class="community-link github">
-        <i class="fab fa-github"></i> GitHub
-    </a>
-    <a href="https://www.instagram.com/pythoncdmx" class="community-link instagram">
-        <i class="fab fa-instagram"></i> Instagram
-    </a>
-    <a href="https://www.linkedin.com/company/pythoncdmx" class="community-link linkedin">
-        <i class="fab fa-linkedin"></i> LinkedIn
-    </a>
-</div>
+--8<-- "components/community-links.md"
 
 ---
 
-<div style="text-align: center; margin-top: 3rem; padding: 2rem; background: #f8f9fa; border-radius: 12px;">
-    <p style="margin: 0; color: #6c757d; font-style: italic;">
-        *Última actualización: Generado automáticamente*
-    </p>
-</div>
+--8<-- "components/quick-navigation.md"
+
+---

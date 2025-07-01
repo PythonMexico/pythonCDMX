@@ -9,6 +9,71 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
 ## [0.1.0]
 
 ### Añadido
+- **Sistema de Estilos para Alianzas**: Implementación completa de estilos CSS para la sección de comunidades aliadas
+  - `.communities-grid`: Grid responsivo con auto-fit y minmax(280px, 1fr)
+  - `.community-card`: Tarjetas con efectos hover avanzados y animación de brillo deslizante
+  - Imágenes circulares con escala en hover y transiciones suaves
+  - Diseño completamente responsivo optimizado para móvil
+- **Galería de Imágenes Completa**: 6 fotos profesionales de ponentes destacados + imagen de voluntario
+- **Sistema de Automatización**: Scripts para detección y corrección automática de enlaces rotos
+- **Estándares de Calidad**: Configuración MarkdownLint para validación automática de documentación
+
+### Cambiado
+- **Documentación Reorganizada**: Reestructuración completa entre README.md y CONTRIBUTING.md
+  - README.md: Simplificado con información esencial y referencias a documentación detallada
+  - CONTRIBUTING.md: Expandido con proceso completo de fork, setup, workflow detallado y guidelines específicas
+  - Separación clara entre información de usuario y documentación de contribución
+- **CSS Completamente Optimizado**: Depuración final del archivo custom.css
+  - **Eliminación total de `!important`**: 7 instancias removidas de botones y navegación para mejor mantenibilidad
+  - **Reorganización estructural**: Orden lógico desde elementos básicos hasta responsive design
+  - **Consolidación avanzada**: Enlaces de redes sociales y componentes mejor organizados
+  - **Mejora de legibilidad**: Indentación consistente y comentarios descriptivos mejorados
+  - **Estructura CSS profesional**: 13 secciones claramente definidas desde variables hasta media queries
+- **Secciones de Comunidad Rediseñadas**: Ponentes y voluntarios con sistema de pestañas funcional e imágenes personales integradas
+- **Enlaces Corregidos**: Eliminación sistemática de enlaces rotos en toda la documentación
+- **Navegación Simplificada**: Páginas de índice de meetups optimizadas sin contenido duplicado
+
+### Eliminado
+- **Dependencias CSS problemáticas**: Eliminación completa de `!important` para arquitectura más limpia
+- **Redundancias CSS**: Código duplicado y selectores no utilizados removidos
+- **Contenido Obsoleto**: Archivo tags.md y elementos duplicados removidos para mejorar mantenimiento
+
+### Arquitectura y Sistema
+- **CSS Sin `!important`**: Migración completa a selectores específicos y arquitectura CSS limpia
+- **Estructura CSS Optimizada**: 13 secciones organizadas lógicamente
+  1. Variables CSS personalizadas
+  2. Sección Hero
+  3. Sistema de botones
+  4. Tarjetas y grillas
+  5. Tarjetas de voluntarios
+  6. Tarjetas de comunidades aliadas (NUEVO)
+  7. Enlaces de comunidad
+  8. Lema de la comunidad
+  9. Navegación y secciones especiales
+  10. Iconografía
+  11. Animaciones
+  12. Media queries responsivas
+  13. Utilidades y helpers
+- **Documentación Profesional**: Separación clara entre información de usuario y guías de contribución
+- **Eliminación Completa de Estilos Inline**: Migración total a CSS centralizado para separación de presentación y contenido
+- **Sistema Unificado de Tarjetas**: Ponentes y voluntarios ahora usan la misma estructura base (`.volunteer-card`) con contenido diferenciado
+- **Arquitectura Mantenible**: Implementación de `.volunteer-header` elimina selectores hardcodeados y facilita escalabilidad
+- **Optimización CSS Avanzada**: Reducción significativa en complejidad de código mediante eliminación de `!important` y reorganización
+- **Sistema de Badges Comprehensivo**: 8 tipos de roles predefinidos con colores específicos para identificación visual
+- **Reorganización Alfabética**: Todos los ponentes organizados alfabéticamente para mejor navegación y mantenimiento
+
+### Impacto
+- **Arquitectura CSS Moderna**: Eliminación de `!important` mejora la mantenibilidad y especificidad natural
+- **Mantenimiento Simplificado**: Separación clara de responsabilidades entre archivos de documentación
+- **CSS Escalable**: Nueva organización permite agregar estilos sin conflictos de especificidad
+- **Presentación Profesional**: Sistema unificado con efectos visuales modernos para alianzas y comunidades
+- **Documentación Clara**: Proceso de contribución bien definido para nuevos colaboradores
+- **Arquitectura Moderna**: CSS centralizado mejora dramáticamente la mantenibilidad y consistencia visual
+- **Escalabilidad Mejorada**: Nueva arquitectura permite agregar contenido sin modificar estilos
+
+## [0.1.0]
+
+### Añadido
 - **Nueva Sección Participa**: Creada sección modular con tabs para mejor organización
 - **Nuevo Voluntario**: Agregada Mónica Ortega a la lista de voluntarios destacados
 - **Sistema de Tabs**: Implementado sistema de tabs en secciones de Participa para mejor navegación

@@ -1,122 +1,183 @@
-# Python CDMX Charlas
+# Python CDMX - Sitio Web de la Comunidad
 
-Sitio web oficial de la comunidad Python CDMX, construido con MkDocs y Material for MkDocs. Aquí documentamos todos nuestros meetups, charlas y eventos desde 2023.
+> *"Vine por el código, me quedé por la comunidad"*
 
-## Características
+Sitio web oficial de la comunidad Python CDMX, construido con **MkDocs Material** y diseño **Material Design** optimizado. Documentamos todos nuestros meetups, charlas y eventos, conectando a la comunidad Python de la Ciudad de México.
 
-- Responsive Design: Optimizado para todos los dispositivos
-- Búsqueda avanzada: Encuentra charlas por tema, ponente o contenido
-- Tema personalizado: Colores inspirados en nuestro logo
-- Estadísticas de la comunidad
-- Videos integrados: Acceso directo a nuestras charlas en YouTube
-- Modo claro/oscuro
-- Despliegue automático con GitHub Actions
+[![Despliegue automático](https://github.com/PythonMexico/pythonCDMX/actions/workflows/deploy.yml/badge.svg)](https://github.com/PythonMexico/pythonCDMX/actions/workflows/deploy.yml)
+[![Sitio Web](https://img.shields.io/badge/sitio-pythoncdmx.org-4CAF50)](https://pythonmexico.github.io/pythonCDMX/)
 
-## Estructura del proyecto
+## Características Principales
 
-```
-pythonCDMX/
-├── docs/                # Documentación y contenido principal
-│   ├── css/             # Estilos personalizados
-│   ├── meetups/         # Páginas de meetups por año
-│   ├── index.md         # Página principal
-│   └── about.md         # Sobre la comunidad
-├── scripts/             # Herramientas y utilidades
-├── .github/workflows/   # Automatización con GitHub Actions
-├── mkdocs.yml           # Configuración de MkDocs
-├── requirements.txt     # Dependencias
-└── README.md            # Este archivo
-```
+- **Material Design moderno** - Interfaz limpia con modo claro/oscuro automático
+- **Completamente responsive** - Optimizado para móvil, tablet y escritorio
+- **Búsqueda avanzada** - Encuentra charlas por tema, ponente o contenido
+- **Videos integrados** - Acceso directo a nuestras charlas en YouTube
+- **CSS optimizado** - Sistema de 18+ variables centralizadas, arquitectura variables-first
+- **Enlaces de comunidad** - Botones con colores oficiales de cada plataforma
+- **Estadísticas de comunidad** - Métricas y datos de participación
+- **Despliegue automático** - CI/CD con GitHub Actions
 
-## Instalación y desarrollo
+## Inicio Rápido
 
 ### Prerrequisitos
 
-- Python 3.8 o superior
-- pip
+- **Python 3.8+**
+- **pip** o **pipenv**
 
-### Instalación rápida
+### Instalación
 
 ```bash
+# Clonar el repositorio
 git clone https://github.com/PythonMexico/pythonCDMX.git
 cd pythonCDMX
+
+# Instalar dependencias
 pip install -r requirements.txt
 ```
 
-### Servidor local
+### Desarrollo Local
 
 ```bash
+# Servidor de desarrollo con recarga automática
 mkdocs serve
-```
-Abre tu navegador en http://localhost:8000
 
-### Construcción para producción
+# El sitio estará disponible en:
+# http://localhost:8000
+```
+
+### Construcción para Producción
 
 ```bash
+# Generar sitio estático
 mkdocs build
-```
-El sitio se generará en la carpeta `site/`.
 
-## Agregar nuevos meetups
-
-1. Crea un archivo en `docs/meetups/YYYY/mes-YYYY.md`
-2. Usa la plantilla de meetup
-3. Agrega metadatos y contenido
-4. Actualiza los índices si es necesario
-
-¿Tienes muchos datos? Usa el script de migración:
-
-```bash
-python scripts/migrate_to_markdown.py
+# Los archivos se generan en la carpeta site/
 ```
 
-## Despliegue en GitHub Pages
+## Estructura del Proyecto
 
-Cada vez que haces push a la rama `main`, el sitio se actualiza automáticamente en:
-https://pythonmexico.github.io/pythonCDMX/
+```
+python-cdmx-charlas/
+├── docs/                          # Contenido principal
+│   ├── css/
+│   │   └── custom.css            # Estilos optimizados (~1466 líneas, variables-first)
+│   ├── components/               # Componentes reutilizables
+│   │   ├── community-links.md    # Enlaces de redes sociales
+│   │   └── quick-navigation.md   # Navegación de páginas
+│   ├── images/                   # Assets e imágenes
+│   ├── meetups/                  # Eventos por año
+│   │   ├── 2023/
+│   │   ├── 2024/
+│   │   └── 2025/
+│   ├── comunidad/                # Páginas de comunidad
+│   │   ├── ponentes.md
+│   │   ├── voluntarios.md
+│   │   └── alianzas.md
+│   └── index.md                  # Página principal
+├── scripts/                      # Herramientas de automatización
+│   ├── generate_meetups.py       # Generador de páginas
+│   ├── check_links.py           # Verificador de enlaces
+│   └── metadata_json/           # Datos de meetups
+├── .github/workflows/           # CI/CD con GitHub Actions
+├── mkdocs.yml                   # Configuración de MkDocs
+├── requirements.txt             # Dependencias Python
+└── README.md                    # Este archivo
+```
+
+## Sistema de Diseño
+
+### Colores Principales
+- **Verde Python**: `#4CAF50` (color primario)
+- **Verde Oscuro**: `#45a049` (hover states)
+- **Modo automático**: Claro/oscuro según preferencia del sistema
+
+### Componentes CSS
+- **Variables centralizadas** - 18+ variables CSS para colores, badges, transiciones y espaciado
+- **Arquitectura variables-first** - Zero colores hardcoded, mantenibilidad máxima
+- **Sistema de botones** - `.btn-primary`, `.btn`, `.btn-nav` con variables unificadas
+- **Sistema de badges** - 8 tipos de roles con colores centralizados
+- **Tarjetas unificadas** - `.volunteer-card` para ponentes y voluntarios
+- **Enlaces de comunidad** - Colores oficiales por plataforma usando variables
+- **Responsive design** - Breakpoint único en 768px, mobile-first approach
+- **Zero `!important`** - Arquitectura CSS limpia con especificidad apropiada
+
+## Documentación
+
+El proyecto cuenta con documentación específica para diferentes audiencias:
+
+- **[STYLE_GUIDE.md](STYLE_GUIDE.md)** - Sistema de diseño, CSS y componentes (para desarrollo frontend)
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Guía completa de contribución y setup del proyecto
+- **[CLAUDE.md](CLAUDE.md)** - Documentación técnica para asistentes IA
 
 ## Contribuir
 
-- Reporta problemas o sugiere mejoras en Issues: https://github.com/PythonMexico/pythonCDMX/issues
-- Haz un fork, crea una rama, haz tus cambios y envía un Pull Request
-- Sigue las convenciones de nombres y prueba localmente antes de enviar
+¿Quieres contribuir al proyecto? ¡Excelente! 🎉
 
-### Plantillas de Issues para Meetups
+- **Proponer una charla**: Abre un [issue](https://github.com/PythonMexico/pythonCDMX/issues/new) con la plantilla "💡 Propuesta de Charla"
+- **Publicar evento**: Usa la plantilla "Publicar evento en la página"
+- **Reportar problema**: Crea un issue con detalles del bug
+- **Mejorar documentación**: Los PRs son bienvenidos
 
-- Si quieres **proponer una charla o postularte como ponente**, usa la plantilla "💡 Propuesta de Charla" al crear un nuevo issue.
-- Si quieres **publicar un evento confirmado en la página**, usa la plantilla "Publicar evento en la página" y proporciona toda la información del meetup.
+👉 **[Ver guía completa de contribución](CONTRIBUTING.md)** para proceso detallado, setup del entorno y guidelines.
 
-## Recursos útiles
+## Despliegue
 
-- MkDocs User Guide: https://www.mkdocs.org/user-guide/
-- Material for MkDocs: https://squidfunk.github.io/mkdocs-material/
-- PyMdown Extensions: https://facelessuser.github.io/pymdown-extensions/
+El sitio se despliega automáticamente a **GitHub Pages** en cada push a `main`:
 
-## Sedes de eventos
+- **URL de producción**: https://pythonmexico.github.io/pythonCDMX/
+- **Workflow**: `.github/workflows/deploy.yml`
+- **Rama de despliegue**: `gh-pages` (automática)
 
-- Wizeline México: Torre Diana, CDMX
-- UNAM Facultad de Ciencias: Anfiteatro Alfredo Barrera
+## Enlaces de la Comunidad
 
-## Enlaces de la comunidad
+### Redes Sociales
+- **Telegram**: [t.me/PythonCDMX](https://t.me/PythonCDMX)
+- **Meetup**: [meetup.com/python-mexico](https://www.meetup.com/python-mexico)
+- **YouTube**: [@PythonMexico](https://www.youtube.com/@PythonMexico)
+- **Instagram**: [@pythoncdmx](https://www.instagram.com/pythoncdmx)
+- **LinkedIn**: [PythonCDMX](https://www.linkedin.com/company/pythoncdmx)
 
-- Telegram: https://t.me/PythonCDMX
-- Meetup: https://www.meetup.com/python-mexico
-- YouTube: https://www.youtube.com/@PythonMexico
-- GitHub: https://github.com/PythonMexico/pythonCDMX
-- Twitter: https://twitter.com/PythonMexico
-- Email: info@pythoncdmx.org
+### Desarrollo
+- **GitHub**: [PythonMexico/pythonCDMX](https://github.com/PythonMexico/pythonCDMX)
+- **Email**: info@pythoncdmx.org
+
+## Sedes de Eventos
+
+- **Wizeline México** - Torre Diana, CDMX
+- **UNAM Facultad de Ciencias** - Anfiteatro Alfredo Barrera
+- **Diferentes espacios** - Según disponibilidad y tipo de evento
+
+## Recursos Técnicos
+
+- [MkDocs User Guide](https://www.mkdocs.org/user-guide/)
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+- [PyMdown Extensions](https://facelessuser.github.io/pymdown-extensions/)
 
 ## Licencia
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+Este proyecto está bajo la **Licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 ## Agradecimientos
 
-- Wizeline México - Por hospedar nuestros meetups
-- UNAM Facultad de Ciencias - Por eventos especiales
-- Todos los ponentes - Por compartir su conocimiento
-- Comunidad Python CDMX - Por su participación activa
+### Organizadores y Voluntarios
+- **Core Team** - Por la organización y coordinación
+- **Voluntarios** - Por el apoyo en eventos y logística
+
+### Sedes y Patrocinadores
+- **Wizeline México** - Por hospedar nuestros meetups regulares
+- **UNAM Facultad de Ciencias** - Por eventos especiales y académicos
+
+### Comunidad
+- **Ponentes** - Por compartir conocimiento y experiencias
+- **Asistentes** - Por participar activamente y hacer preguntas
+- **Contribuidores** - Por mejorar este sitio web continuamente
+
+### Tecnología
+- **MkDocs Material** - Por el framework de documentación
+- **GitHub** - Por el hosting gratuito y herramientas de desarrollo
+- **FontAwesome** - Por la iconografía
 
 ---
 
-Última actualización: {{ git_revision_date_localized }}
+**¿Tienes preguntas?** Abre un [issue](https://github.com/PythonMexico/pythonCDMX/issues) o únete a nuestro [Telegram](https://t.me/PythonCDMX)

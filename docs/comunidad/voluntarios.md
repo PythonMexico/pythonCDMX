@@ -1,10 +1,11 @@
-<div align="center" style="margin: 2rem 0;">
-  <img src="/images/logo.png" alt="Python CDMX Logo" style="max-width: 300px; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+<div align="center">
+  <img src="/images/logo.png" alt="Python CDMX Logo">
 </div>
 
 # Ser Voluntario
 
-=== "Información"
+---
+
 
 ## <i class="fas fa-heart"></i> ¿Por Qué Ser Voluntario?
 
@@ -79,33 +80,43 @@ Ser voluntario en Python CDMX te permite:
     <i class="fas fa-paper-plane"></i>
     Aplicar como Voluntario
   </a>
-  <a href="/comunidad/voluntarios-destacados/" class="btn-action secondary">
+  <a href="/comunidad/voluntarios/" class="btn-action secondary">
     <i class="fas fa-star"></i>
-    Ver Voluntarios Destacados
+    Ver Voluntarios
   </a>
-  <a href="como-contribuir.md" class="btn-action outline">Más Información</a>
+  <a href="como-contribuir/" class="btn-action outline">Más Información</a>
 </div>
 
-=== "Voluntarios Destacados"
 
-## <i class="fas fa-star"></i> Voluntarios Destacados de Python CDMX
+## <i class="fas fa-star"></i> Voluntarios de Python CDMX
 
 Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
 
+### David Sol {.volunteer-header}
+
+<!-- David Sol -->
 <div class="volunteer-card">
-  <!-- David Sol -->
   <div class="card-header">
-    <img src="/images/voluntarios/logo.png" alt="David Sol" class="volunteer-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"> David Sol</h3>
+    <div class="card-info">
+      <h3 class="card-title">David Sol</h3>
       <p class="card-subtitle">Conexión entre comunidades y eventos</p>
-      <span class="badge ambassador">Embajador</span>
-      <span class="badge organizer">Organizador</span>
+      <div class="badges-container">
+        <span class="badge ambassador">Embajador</span>
+        <span class="badge organizer">Organizador</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/voluntarios/david-sol.jpg" alt="David Sol" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Área de responsabilidad:</strong> EMBAJADOR Y VÍNCULO ESTRATÉGICO - Organización de charlas y enlace con espacios aliados como Wizeline<br>
+      <span class="role-title">EMBAJADOR Y VÍNCULO ESTRATÉGICO</span>
+      <span class="role-description">Organización de charlas y enlace con espacios aliados como Wizeline</span>
       <strong>Contribuciones principales:</strong>
       <ul>
         <li>Organización y planeación de meetups en Python CDMX</li>
@@ -116,27 +127,34 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
         <li>Cree en la comunidad como motor del cambio</li>
       </ul>
     </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
   </div>
 </div>
 
+### Charly Román {.volunteer-header}
+
+<!-- Charly Román -->
 <div class="volunteer-card">
-  <!-- Charly Román -->
   <div class="card-header">
-    <img src="/images/voluntarios/logo.png" alt="Charly Román" class="volunteer-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"> Charly Román</h3>
+    <div class="card-info">
+      <h3 class="card-title">Charly Román</h3>
       <p class="card-subtitle">Embajador y moderador de comunidad</p>
-      <span class="badge ambassador">Embajador</span>
-      <span class="badge organizer">Organizador</span>
+      <div class="badges-container">
+        <span class="badge ambassador">Embajador</span>
+        <span class="badge organizer">Organizador</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/voluntarios/logo.png" alt="Charly Román" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Área de responsabilidad:</strong> EXPERTO PYTHONISTA Y REPRESENTANTE COMUNITARIO - Curaduría de contenido, representación externa y moderación activa<br>
+      <span class="role-title">EXPERTO PYTHONISTA Y REPRESENTANTE COMUNITARIO</span>
+      <span class="role-description">Curaduría de contenido, representación externa y moderación activa</span>
       <strong>Contribuciones principales:</strong>
       <ul>
         <li>Representa a Python CMDX como ponente en eventos y conferencias</li>
@@ -146,27 +164,34 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
         <li>Es punto de referencia para nuevos miembros y comunidad técnica nacional</li>
       </ul>
     </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
   </div>
 </div>
 
+### Gustavo Vera {.volunteer-header}
+
+<!-- Gustavo Vera -->
 <div class="volunteer-card">
-  <!-- Gustavo Vera -->
   <div class="card-header">
-    <img src="/images/voluntarios/logo.png" alt="Gustavo Vera" class="volunteer-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"> Gustavo Vera</h3>
+    <div class="card-info">
+      <h3 class="card-title">Gustavo Vera</h3>
       <p class="card-subtitle">El ninja que siempre aparece cuando más lo necesitamos</p>
-      <span class="badge ambassador">Embajador</span>
-      <span class="badge organizer">Organizador</span>
+      <div class="badges-container">
+        <span class="badge ambassador">Embajador</span>
+        <span class="badge organizer">Organizador</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/voluntarios/logo.png" alt="Gustavo Vera" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Área de responsabilidad:</strong> ORGANIZADOR, EMBAJADOR Y PONENTE DE EMERGENCIA<br>
+      <span class="role-title">ORGANIZADOR, EMBAJADOR Y PONENTE DE EMERGENCIA</span>
+      <span class="role-description">Siempre listo para dar una charla cuando más lo necesitamos</span>
       <strong>Contribuciones principales:</strong>
       <ul>
         <li>Organización activa de meetups y actividades comunitarias</li>
@@ -176,26 +201,33 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
         <li>Refuerzo confiable que mantiene el ritmo y la calidad de los eventos</li>
       </ul>
     </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
   </div>
 </div>
 
+### Pixelead0 {.volunteer-header}
+
+<!-- Pixelead0 -->
 <div class="volunteer-card">
-  <!-- Pixelead0 -->
   <div class="card-header">
-    <img src="/images/voluntarios/logo.png" alt="Pixelead0" class="volunteer-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-tasks"></i> Pixelead0</h3>
+    <div class="card-info">
+      <h3 class="card-title">Pixelead0</h3>
       <p class="card-subtitle">Coordinación de contenido y ponentes</p>
-      <span class="badge organizer">Organizador</span>
+      <div class="badges-container">
+        <span class="badge organizer">Organizador</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/voluntarios/pixelead0.jpg" alt="Pixelead0" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Área de responsabilidad:</strong> ORGANIZACIÓN DE CHARLAS - Gestión de la agenda de meetups y curaduría de ponentes<br>
+      <span class="role-title">ORGANIZACIÓN DE CHARLAS</span>
+      <span class="role-description">Gestión de la agenda de meetups y curaduría de ponentes</span>
       <strong>Contribuciones principales:</strong>
       <ul>
         <li>Organización y calendarización de charlas para los eventos de la comunidad</li>
@@ -204,26 +236,33 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
         <li>Fortalecimiento de la diversidad de voces en cada meetup</li>
       </ul>
     </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
   </div>
 </div>
 
+### Iván Castañeda {.volunteer-header}
+
+<!-- Iván Castañeda -->
 <div class="volunteer-card">
-  <!-- Iván Castañeda -->
   <div class="card-header">
-    <img src="/images/voluntarios/logo.png" alt="Iván Castañeda" class="volunteer-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-camera"></i> Iván Castañeda</h3>
+    <div class="card-info">
+      <h3 class="card-title">Iván Castañeda</h3>
       <p class="card-subtitle">El lente, la voz y la chispa detrás de los meetups</p>
-      <span class="badge production">Producción</span>
+      <div class="badges-container">
+        <span class="badge production">Producción</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/voluntarios/logo.png" alt="Iván Castañeda" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Área de responsabilidad:</strong> CREADOR Y DINAMIZADOR COMUNITARIO - Producción de contenidos, documentación visual y dinamización de eventos<br>
+      <span class="role-title">CREADOR Y DINAMIZADOR COMUNITARIO</span>
+      <span class="role-description">Producción de contenidos, documentación visual y dinamización de eventos</span>
       <strong>Contribuciones principales:</strong>
       <ul>
         <li>Transmisión en vivo (streaming) de meetups</li>
@@ -233,26 +272,33 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
         <li>Donación de llaveros artesanales con identidad Python CDMX</li>
       </ul>
     </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
   </div>
 </div>
 
+### Diego Barriga {.volunteer-header}
+
+<!-- Diego Barriga -->
 <div class="volunteer-card">
-  <!-- Diego B -->
   <div class="card-header">
-    <img src="/images/voluntarios/logo.png" alt="Diego B" class="volunteer-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-microphone"></i> Diego B</h3>
+    <div class="card-info">
+      <h3 class="card-title">Diego Barriga</h3>
       <p class="card-subtitle">Presentador y anfitrión de eventos</p>
-      <span class="badge host">Host</span>
+      <div class="badges-container">
+        <span class="badge host">Host</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/voluntarios/logo.png" alt="Diego Barriga" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Área de responsabilidad:</strong> HOST Y MAESTRO DE CEREMONIAS<br>
+      <span class="role-title">HOST Y MAESTRO DE CEREMONIAS</span>
+      <span class="role-description">Conduce los eventos con profesionalismo y calidez</span>
       <strong>Contribuciones principales:</strong>
       <ul>
         <li>Abre cada evento con entusiasmo y calidez</li>
@@ -261,26 +307,33 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
         <li>Lleva el hilo conductor de cada sesión como todo un profesional</li>
       </ul>
     </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
   </div>
 </div>
 
+### Carlos Reyes {.volunteer-header}
+
+<!-- Carlos Reyes -->
 <div class="volunteer-card">
-  <!-- Carlos Reyes -->
   <div class="card-header">
-    <img src="/images/voluntarios/logo.png" alt="Carlos Reyes" class="volunteer-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-microphone"></i> Carlos Reyes</h3>
+    <div class="card-info">
+      <h3 class="card-title">Carlos Reyes</h3>
       <p class="card-subtitle">Presentador y anfitrión de eventos</p>
-      <span class="badge host">Host</span>
+      <div class="badges-container">
+        <span class="badge host">Host</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/voluntarios/logo.png" alt="Carlos Reyes" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Área de responsabilidad:</strong> HOST DE MEETUPS - Conducción y moderación de los encuentros de la comunidad<br>
+      <span class="role-title">HOST DE MEETUPS</span>
+      <span class="role-description">Conducción y moderación de los encuentros de la comunidad</span>
       <strong>Contribuciones principales:</strong>
       <ul>
         <li>Presentación de los eventos presenciales y virtuales de Python CDMX</li>
@@ -289,26 +342,33 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
         <li>Transmisión de la energía y espíritu de comunidad en cada meetup</li>
       </ul>
     </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
   </div>
 </div>
 
+### Aleph Ramos {.volunteer-header}
+
+<!-- Aleph -->
 <div class="volunteer-card">
-  <!-- Aleph -->
   <div class="card-header">
-    <img src="/images/voluntarios/logo.png" alt="Aleph" class="volunteer-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-cog"></i> Aleph</h3>
+    <div class="card-info">
+      <h3 class="card-title">Aleph Ramos</h3>
       <p class="card-subtitle">Infraestructura y soporte técnico</p>
-      <span class="badge technical">Técnico</span>
+      <div class="badges-container">
+        <span class="badge technical">Técnico</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/voluntarios/logo.png" alt="Aleph" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Área de responsabilidad:</strong> DOMINIO Y SOPORTE - Soporte técnico y provisión de infraestructura digital para la comunidad<br>
+      <span class="role-title">DOMINIO Y SOPORTE</span>
+      <span class="role-description">Soporte técnico y provisión de infraestructura digital para la comunidad</span>
       <strong>Contribuciones principales:</strong>
       <ul>
         <li>Donación del dominio oficial de la comunidad</li>
@@ -317,26 +377,33 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
         <li>Apoyo continuo ante problemas técnicos o nuevas implementaciones</li>
       </ul>
     </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
   </div>
 </div>
 
+### Yemahina Perez {.volunteer-header}
+
+<!-- Yemahina Perez -->
 <div class="volunteer-card">
-  <!-- Yemahina Perez -->
   <div class="card-header">
-    <img src="/images/voluntarios/logo.png" alt="Yemahina Perez" class="volunteer-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-gift"></i> Yemahina Perez</h3>
+    <div class="card-info">
+      <h3 class="card-title">Yemahina Perez</h3>
       <p class="card-subtitle">Apoyo especial</p>
-      <span class="badge support">Apoyo</span>
+      <div class="badges-container">
+        <span class="badge support">Apoyo</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/voluntarios/logo.png" alt="Yemahina Perez" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Área de responsabilidad:</strong> REGALITOS COMUNITARIOS - Donación y elaboración de objetos con identidad de la comunidad<br>
+      <span class="role-title">REGALITOS COMUNITARIOS</span>
+      <span class="role-description">Donación y elaboración de objetos con identidad de la comunidad</span>
       <strong>Contribuciones principales:</strong>
       <ul>
         <li>Diseño y creación de objetos personalizados con el logo de la comunidad</li>
@@ -345,26 +412,33 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
         <li>Apoyo a eventos con materiales hechos con cariño</li>
       </ul>
     </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
   </div>
 </div>
 
+### Petrohs {.volunteer-header}
+
+<!-- Petrohs -->
 <div class="volunteer-card">
-  <!-- Petrohs -->
   <div class="card-header">
-    <img src="/images/voluntarios/logo.png" alt="Petrohs" class="volunteer-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-robot"></i> Petrohs</h3>
+    <div class="card-info">
+      <h3 class="card-title">Petrohs</h3>
       <p class="card-subtitle">No es un bot, pero ya quisieran los bots</p>
-      <span class="badge support">Soporte</span>
+      <div class="badges-container">
+        <span class="badge support">Soporte</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/voluntarios/logo.png" alt="Petrohs" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Área de responsabilidad:</strong> INTELIGENCIA COMUNITARIA ARTIFICIALMENTE HUMANA<br>
+      <span class="role-title">INTELIGENCIA COMUNITARIA ARTIFICIALMENTE HUMANA</span>
+      <span class="role-description">Respuestas rápidas y soporte automático con toque humano</span>
       <strong>Contribuciones principales:</strong>
       <ul>
         <li>Responde dudas antes de que termines de escribirlas</li>
@@ -374,27 +448,34 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
         <li>Es nuestro bot… en carne viva y con corazón pythonista</li>
       </ul>
     </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
   </div>
 </div>
 
+### Hugo Ramirez {.volunteer-header}
+
+<!-- Hugo Ramirez -->
 <div class="volunteer-card">
-  <!-- Hugo Ramirez -->
   <div class="card-header">
-    <img src="/images/voluntarios/logo.png" alt="Hugo Ramirez" class="volunteer-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-globe-americas"></i> Hugo Ramirez</h3>
+    <div class="card-info">
+      <h3 class="card-title">Hugo Ramirez</h3>
       <p class="card-subtitle">Nuestro embajador sin fronteras</p>
-      <span class="badge ambassador">Embajador</span>
-      <span class="badge global">Global</span>
+      <div class="badges-container">
+        <span class="badge ambassador">Embajador</span>
+        <span class="badge global">Global</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/voluntarios/logo.png" alt="Hugo Ramirez" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Área de responsabilidad:</strong> REPRESENTACIÓN GLOBAL - Representación de la comunidad en espacios globales de tecnología y programación<br>
+      <span class="role-title">REPRESENTACIÓN GLOBAL</span>
+      <span class="role-description">Representación de la comunidad en espacios globales de tecnología y programación</span>
       <strong>Contribuciones principales:</strong>
       <ul>
         <li>Representa con orgullo a la comunidad en otros espacios del mundo tech</li>
@@ -406,27 +487,33 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
         <li>Inspira a otros a unirse, colaborar o replicar nuestras ideas</li>
       </ul>
     </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
   </div>
 </div>
 
+### Mónica Ortega {.volunteer-header}
 
+<!-- Mónica Ortega -->
 <div class="volunteer-card">
-  <!-- Mónica Ortega -->
   <div class="card-header">
-    <img src="/images/voluntarios/logo.png" alt="Mónica Ortega" class="volunteer-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-friends"></i> Mónica Ortega</h3>
-      <p class="card-subtitle">NUESTRA ALIADA SILENCIOSA</p>
-      <span class="badge strategic">Aliada estratégica</span>
+    <div class="card-info">
+      <h3 class="card-title">Mónica Ortega</h3>
+      <p class="card-subtitle">Nuestra aliada silenciosa</p>
+      <div class="badges-container">
+        <span class="badge strategic">Aliada estratégica</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/voluntarios/logo.png" alt="Mónica Ortega" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Área de responsabilidad:</strong> VÍNCULO ESTRATÉGICO Y ALIADA COMUNITARIA - Fortalecimiento de alianzas y soporte clave para el funcionamiento de la comunidad<br>
+      <span class="role-title">VÍNCULO ESTRATÉGICO Y ALIADA COMUNITARIA</span>
+      <span class="role-description">Fortalecimiento de alianzas y soporte clave para el funcionamiento de la comunidad</span>
       <strong>Contribuciones principales:</strong>
       <ul>
         <li>Apoyo estratégico para el sostenimiento de herramientas que nos permiten reunirnos</li>
@@ -435,10 +522,6 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
         <li>Apoya sin protagonismo, pero con gran impacto</li>
         <li>Nos recuerda que la comunidad también se construye con generosidad y visión</li>
       </ul>
-    </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
     </div>
   </div>
 </div>
@@ -454,8 +537,20 @@ Si te interesa contribuir al crecimiento de la comunidad Python CDMX, ¡únete a
     <i class="fas fa-paper-plane"></i>
     Aplicar como Voluntario
   </a>
-  <a href="como-contribuir.md" class="btn-action secondary">
+  <a href="como-contribuir/" class="btn-action secondary">
     <i class="fas fa-info-circle"></i>
     Más Información
     </a>
 </div>
+
+---
+
+---
+
+--8<-- "components/community-links.md"
+
+---
+
+--8<-- "components/quick-navigation.md"
+
+---

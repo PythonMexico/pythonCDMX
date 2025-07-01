@@ -1,14 +1,12 @@
-<div align="center" style="margin: 2rem 0;">
-  <img src="/images/logo.png" alt="Python CDMX Logo" style="max-width: 300px; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+<div align="center">
+  <img src="/images/logo.png" alt="Python CDMX Logo">
 </div>
 
 # Ser Ponente <i class="fas fa-microphone"></i>
 
 ---
 
-=== "Información"
-
-<div align="center" style="font-size: 1.2em; margin: 1.5em 0;">
+<div align="center">
   <b>Comparte tu conocimiento con la comunidad Python CDMX</b>
 </div>
 
@@ -27,16 +25,19 @@ Ser ponente en Python CDMX te ofrece una oportunidad única para:
 ## <i class="fas fa-lightbulb"></i> Tipos de Charlas
 
 ### <i class="fas fa-code"></i> Charlas Técnicas
+
 - **Duración**: 20-30 minutos
 - **Contenido**: Tecnologías Python, frameworks, librerías, mejores prácticas
 - **Ejemplos**: Django, Flask, FastAPI, Pandas, NumPy, Machine Learning
 
 ### <i class="fas fa-chart-line"></i> Casos de Uso
+
 - **Duración**: 25-35 minutos
 - **Contenido**: Proyectos reales, experiencias en producción, lecciones aprendidas
 - **Ejemplos**: Migración de sistemas, optimización de performance, arquitecturas
 
 ### <i class="fas fa-rocket"></i> Charlas Introductorias
+
 - **Duración**: 15-25 minutos
 - **Contenido**: Conceptos básicos, introducción a nuevas tecnologías
 - **Ejemplos**: Primeros pasos con Python, conceptos de programación
@@ -46,21 +47,25 @@ Ser ponente en Python CDMX te ofrece una oportunidad única para:
 ## <i class="fas fa-clipboard-list"></i> Proceso para Ser Ponente
 
 ### 1. <i class="fas fa-pencil"></i> Propón tu Charla
+
 - Envía tu propuesta a través de nuestros canales de comunicación
 - Incluye título, descripción, duración y nivel de audiencia
 - Menciona cualquier requisito técnico especial
 
 ### 2. <i class="fas fa-comments"></i> Revisión y Feedback
+
 - Nuestro equipo revisará tu propuesta
 - Te proporcionaremos feedback y sugerencias
 - Confirmaremos la fecha y logística
 
 ### 3. <i class="fas fa-calendar"></i> Preparación
+
 - Recibirás recursos y guías para preparar tu presentación
 - Podrás hacer una prueba técnica si lo deseas
 - Te conectaremos con otros ponentes si es un evento múltiple
 
 ### 4. <i class="fas fa-microphone"></i> Presentación
+
 - Llegada temprana para configuración técnica
 - Presentación en un ambiente acogedor y colaborativo
 - Sesión de preguntas y respuestas
@@ -70,78 +75,246 @@ Ser ponente en Python CDMX te ofrece una oportunidad única para:
 ## <i class="fas fa-gift"></i> Beneficios para Ponentes
 
 ### <i class="fas fa-certificate"></i> Reconocimiento
+
 - Certificado de participación como ponente
 - Mención especial en nuestras redes sociales
 - Inclusión en nuestro directorio de ponentes
 
 ### <i class="fas fa-network-wired"></i> Networking
+
 - Acceso prioritario a eventos especiales
 - Conexión directa con otros expertos del sector
 - Oportunidades de colaboración en proyectos
 
 ### <i class="fas fa-book"></i> Recursos
+
 - Acceso a materiales y recursos de presentación
 - Feedback detallado para mejorar futuras charlas
 - Posibilidad de grabar tu presentación
 
----
-
-## <i class="fas fa-link"></i> Conecta con Nuestra Comunidad
-
-<div class="community-links" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
-    <a href="https://t.me/PythonCDMX" target="_blank" rel="noopener noreferrer" style="background: #0088cc; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
-        <i class="fab fa-telegram"></i> Telegram
-    </a>
-    <a href="https://www.meetup.com/python-mexico" target="_blank" rel="noopener noreferrer" style="background: #e51937; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
-        <i class="fab fa-meetup"></i> Meetup
-    </a>
-    <a href="https://www.youtube.com/@PythonMexico" target="_blank" rel="noopener noreferrer" style="background: #ff0000; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
-        <i class="fab fa-youtube"></i> YouTube
-    </a>
-    <a href="https://github.com/PythonMexico/pythonCDMX" target="_blank" rel="noopener noreferrer" style="background: #333; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
-        <i class="fab fa-github"></i> GitHub
-    </a>
-    <a href="https://www.instagram.com/pythoncdmx/" target="_blank" rel="noopener noreferrer" style="background: #E4405F; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
-        <i class="fab fa-instagram"></i> Instagram
-    </a>
-    <a href="https://www.linkedin.com/groups/13126454/" target="_blank" rel="noopener noreferrer" style="background: #0A66C2; color: white; padding: 1rem; border-radius: 12px; text-decoration: none; text-align: center; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
-        <i class="fab fa-linkedin"></i> LinkedIn
-    </a>
-</div>
-
----
-
-## <i class="fas fa-star"></i> También Te Puede Interesar
-
-| <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
-|:---|:---|:---|
-| [Meetups 2025](/meetups/2025/) - Año actual | [Ser Voluntario](/comunidad/voluntarios) - Ayuda a organizar | [Alianzas](/comunidad/alianzas) - Comunidades aliadas |
-| [Meetups 2024](/meetups/2024/) - Año anterior | [Cómo Contribuir](/comunidad/como-contribuir) - Guía general | [Sobre Nosotros](/about) - Conoce más |
-| [Archivo Completo](../meetups/index.md) - Todos los meetups | Mejores presentaciones | [Volver al Inicio](../index.md) - Página principal |
-
----
-
-*<i class="fas fa-clock"></i> Última actualización: {{ git_revision_date_localized }}*
-
-=== "Ponentes Destacados"
-
-## <i class="fas fa-star"></i> Ponentes Destacados de Python CDMX
+## <i class="fas fa-star"></i> Ponentes de Python CDMX
 
 Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra comunidad:
 
-<!-- David Sol -->
-<div class="speaker-card">
+### Alejandro López {.volunteer-header}
+
+<!-- Alejandro López -->
+<div class="volunteer-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="David Sol" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-cog"></i> David Sol</h3>
-      <p class="card-subtitle">SRE Engineer en Wizeline</p>
-      <span class="badge technical">DevOps</span>
+    <div class="card-info">
+      <h3 class="card-title">Alejandro López</h3>
+      <p class="card-subtitle">Python Developer</p>
+      <div class="badges-container">
+        <span class="badge development">Desarrollo</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/logo.png" alt="Alejandro López" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Especialidad:</strong> DevOps, Docker, Kubernetes, CI/CD, AWS<br>
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">Desarrollo de APIs, Frameworks Web, Buenas Prácticas</span>
+      <strong>Charlas recientes:</strong>
+      <ul>
+        <li><a href="/meetups/2024/202411-noviembre/">"Mejora tu código: Evita anti-patrones en Python" (Noviembre 2024)</a></li>
+        <li><a href="/meetups/2024/202403-marzo/">"Desarrollo de APIs con Python" (Marzo 2024)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+### Alex Callejas {.volunteer-header}
+
+<!-- Alex Callejas -->
+<div class="volunteer-card">
+  <div class="card-header">
+    <div class="card-info">
+      <h3 class="card-title">Alex Callejas</h3>
+      <p class="card-subtitle">Services Content Architect en Red Hat</p>
+      <div class="badges-container">
+        <span class="badge technical">OpenSource</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/logo.png" alt="Alex Callejas" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">OpenSource, Automatización, Hardening de Infraestructura</span>
+      <strong>Charlas recientes:</strong>
+      <ul>
+        <li><a href="/meetups/2024/202410-octubre/">"Una ida y una vuelta: Cómo iniciar en el opensource" (Octubre 2024)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+### Carlos Cesar Caballero {.volunteer-header}
+
+<!-- Carlos Cesar Caballero -->
+<div class="volunteer-card">
+  <div class="card-header">
+    <div class="card-info">
+      <h3 class="card-title">Carlos Cesar Caballero</h3>
+      <p class="card-subtitle">Ingeniero en Ciencias Informáticas</p>
+      <div class="badges-container">
+        <span class="badge technical">Cloud</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/carlos-caballero.jpg" alt="Carlos Cesar Caballero" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">Inteligencia Artificial, Tecnologías de Código Abierto</span>
+      <strong>Charlas recientes:</strong>
+      <ul>
+        <li><a href="/meetups/2025/202506-junio/">"Aplicaciones de IA en la nube" (Junio 2025)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+### Carlos Reyes {.volunteer-header}
+
+<!-- Carlos Reyes -->
+<div class="volunteer-card">
+  <div class="card-header">
+    <div class="card-info">
+      <h3 class="card-title">Carlos Reyes</h3>
+      <p class="card-subtitle">DevOps Engineer</p>
+      <div class="badges-container">
+        <span class="badge technical">DevOps</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/logo.png" alt="Carlos Reyes" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">Kubernetes, MLOps, GitOps, Cloud Native</span>
+      <strong>Charlas recientes:</strong>
+      <ul>
+        <li><a href="/meetups/2025/202504-abril/">"Kubernetes y MLOps: Desplegando aplicaciones de IA" (Abril 2025)</a></li>
+        <li><a href="/meetups/2023/202311-noviembre/">"GitOps 101. Primeros pasos para desplegar aplicaciones en Kubernetes" (Noviembre 2023)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+### Charly Román {.volunteer-header}
+
+<!-- Charly Román -->
+<div class="volunteer-card">
+  <div class="card-header">
+    <div class="card-info">
+      <h3 class="card-title">Charly Román</h3>
+      <p class="card-subtitle">Python Developer</p>
+      <div class="badges-container">
+        <span class="badge technical">Seguridad</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/logo.png" alt="Charly Román" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">Validación de Datos, Mejores Prácticas, Nuevas Tecnologías</span>
+      <strong>Charlas recientes:</strong>
+      <ul>
+        <li><a href="/meetups/2025/202504-unam/">"Programar en tiempos del Vibe-Coding" (Abril 2025 - UNAM)</a></li>
+        <li><a href="/meetups/2024/202405-mayo/">"Validación de datos con Python" (Mayo 2024)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+### Daniel Paredes {.volunteer-header}
+
+<!-- Daniel Paredes -->
+<div class="volunteer-card">
+  <div class="card-header">
+    <div class="card-info">
+      <h3 class="card-title">Daniel Paredes</h3>
+      <p class="card-subtitle">Desarrollador Web</p>
+      <div class="badges-container">
+        <span class="badge development">Web</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/logo.png" alt="Daniel Paredes" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">Desarrollo Web, Portafolios, Python</span>
+      <strong>Charlas recientes:</strong>
+      <ul>
+        <li><a href="/meetups/2025/202504-unam/">"portafolio.py: Como hacer un portafolio web sin saber diseño web" (Abril 2025 - UNAM)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+### David Sol {.volunteer-header}
+
+<!-- David Sol -->
+<div class="volunteer-card">
+  <div class="card-header">
+    <div class="card-info">
+      <h3 class="card-title">David Sol</h3>
+      <p class="card-subtitle">SRE Engineer en Wizeline</p>
+      <div class="badges-container">
+        <span class="badge technical">DevOps</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/david-sol.jpg" alt="David Sol" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">DevOps, Docker, Kubernetes, CI/CD, AWS</span>
       <strong>Charlas recientes:</strong>
       <ul>
         <li><a href="/meetups/2025/202507-julio/">"Cómo preparar una ambiente de desarrollo con Python desde zero" (Julio 2025)</a></li>
@@ -150,26 +323,161 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
         <li><a href="/meetups/2023/202309-septiembre/">"Utilizando Servicios Administrados de AI de AWS con Python y Boto3" (Septiembre 2023)</a></li>
       </ul>
     </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
   </div>
 </div>
 
-<!-- Gustavo Vera -->
-<div class="speaker-card">
+### Diego Barriga {.volunteer-header}
+
+<!-- Diego Barriga -->
+<div class="volunteer-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Gustavo Vera" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-ninja"></i> Gustavo Vera</h3>
-      <p class="card-subtitle">Python Developer</p>
-      <span class="badge development">Desarrollo</span>
+    <div class="card-info">
+      <h3 class="card-title">Diego Barriga</h3>
+      <p class="card-subtitle">MLOps Engineer en Mercado Libre</p>
+      <div class="badges-container">
+        <span class="badge technical">MLOps</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/logo.png" alt="Diego Barriga" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Especialidad:</strong> Desarrollo Python, Análisis de Datos, Metaprogramación<br>
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">NLP, Lenguas Indígenas, MLOps, Cultura Libre</span>
+      <strong>Charlas recientes:</strong>
+      <ul>
+        <li><a href="/meetups/2024/202409-septiembre/">"chit-chat: Representaciones fonéticas con python" (Septiembre 2024)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+### Erik Rivera {.volunteer-header}
+
+<!-- Erik Rivera -->
+<div class="volunteer-card">
+  <div class="card-header">
+    <div class="card-info">
+      <h3 class="card-title">Erik Rivera</h3>
+      <p class="card-subtitle">AI Engineer</p>
+      <div class="badges-container">
+        <span class="badge technical">IA</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/erik-rivera.jpg" alt="Erik Rivera" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">Agentes de IA, Machine Learning, LangGraph, LLMs</span>
+      <strong>Charlas recientes:</strong>
+      <ul>
+        <li><a href="/meetups/2025/202503-marzo/">"Mi Primer Agente de Inteligencia Artificial con Python" (Marzo 2025)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+### Fer Perales {.volunteer-header}
+
+<!-- Fer Perales -->
+<div class="volunteer-card">
+  <div class="card-header">
+    <div class="card-info">
+      <h3 class="card-title">Fer Perales</h3>
+      <p class="card-subtitle">Open Source Contributor</p>
+      <div class="badges-container">
+        <span class="badge technical">OpenSource</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/logo.png" alt="Fer Perales" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">Open Source, Ruby, Contribución Comunitaria</span>
+      <strong>Charlas recientes:</strong>
+      <ul>
+        <li><a href="/meetups/2024/202408-agosto/">"Guía Práctica para Convertirse en Contribuidor de Open Source en 10 Años (o más)" (Agosto 2024)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+### Geovanni Zepeda Martínez {.volunteer-header}
+
+<!-- Geovanni Zepeda Martínez -->
+<div class="volunteer-card">
+  <div class="card-header">
+    <div class="card-info">
+      <h3 class="card-title">Geovanni Zepeda Martínez</h3>
+      <p class="card-subtitle">Data Scientist</p>
+      <div class="badges-container">
+        <span class="badge technical">Data Science</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/logo.png" alt="Geovanni Zepeda Martínez" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">Machine Learning, Análisis de Datos, Algoritmos Estadísticos</span>
+      <strong>Charlas recientes:</strong>
+      <ul>
+        <li><a href="/meetups/2024/202406-junio/">"Matemáticas y Python: La Ciencia Detrás de la Regresión Lineal" (Junio 2024)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+### Gustavo Vera {.volunteer-header}
+
+<!-- Gustavo Vera -->
+<div class="volunteer-card">
+  <div class="card-header">
+    <div class="card-info">
+      <h3 class="card-title">Gustavo Vera</h3>
+      <p class="card-subtitle">Python Developer</p>
+      <div class="badges-container">
+        <span class="badge development">Desarrollo</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/logo.png" alt="Gustavo Vera" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">Desarrollo Python, Análisis de Datos, Metaprogramación</span>
       <strong>Charlas recientes:</strong>
       <ul>
         <li><a href="/meetups/2024/202408-agosto/">"Protocolos en Python: El poder del tipado estático avanzado" (Agosto 2024)</a></li>
@@ -178,438 +486,230 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
         <li><a href="/meetups/2023/202311-noviembre/">"Python: La Forja de un Lenguaje" (Noviembre 2023)</a></li>
       </ul>
     </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
   </div>
 </div>
 
-<!-- Carlos Reyes -->
-<div class="speaker-card">
-  <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Carlos Reyes" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-astronaut"></i> Carlos Reyes</h3>
-      <p class="card-subtitle">DevOps Engineer</p>
-      <span class="badge technical">DevOps</span>
-    </div>
-  </div>
-  <div class="card-content">
-    <div class="card-role">
-      <strong>Especialidad:</strong> Kubernetes, MLOps, GitOps, Cloud Native<br>
-      <strong>Charlas recientes:</strong>
-      <ul>
-        <li><a href="/meetups/2025/202504-abril/">"Kubernetes y MLOps: Desplegando aplicaciones de IA" (Abril 2025)</a></li>
-        <li><a href="/meetups/2023/202311-noviembre/">"GitOps 101. Primeros pasos para desplegar aplicaciones en Kubernetes" (Noviembre 2023)</a></li>
-      </ul>
-    </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
-
-<!-- Alejandro López -->
-<div class="speaker-card">
-  <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Alejandro López" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-tie"></i> Alejandro López</h3>
-      <p class="card-subtitle">Python Developer</p>
-      <span class="badge development">Desarrollo</span>
-    </div>
-  </div>
-  <div class="card-content">
-    <div class="card-role">
-      <strong>Especialidad:</strong> Desarrollo de APIs, Frameworks Web, Buenas Prácticas<br>
-      <strong>Charlas recientes:</strong>
-      <ul>
-        <li><a href="/meetups/2024/202411-noviembre/">"Mejora tu código: Evita anti-patrones en Python" (Noviembre 2024)</a></li>
-        <li><a href="/meetups/2024/202403-marzo/">"Desarrollo de APIs con Python" (Marzo 2024)</a></li>
-      </ul>
-    </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
-
-<!-- Charly Román -->
-<div class="speaker-card">
-  <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Charly Román" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-shield"></i> Charly Román</h3>
-      <p class="card-subtitle">Python Developer</p>
-      <span class="badge technical">Seguridad</span>
-    </div>
-  </div>
-  <div class="card-content">
-    <div class="card-role">
-      <strong>Especialidad:</strong> Validación de Datos, Mejores Prácticas, Nuevas Tecnologías<br>
-      <strong>Charlas recientes:</strong>
-      <ul>
-        <li><a href="/meetups/2025/202504-unam/">"Programar en tiempos del Vibe-Coding" (Abril 2025 - UNAM)</a></li>
-        <li><a href="/meetups/2024/202405-mayo/">"Validación de datos con Python" (Mayo 2024)</a></li>
-      </ul>
-    </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
-
-<!-- Manuel Rábade -->
-<div class="speaker-card">
-  <div class="card-header">
-    <img src="/images/ponentes/202502-PythonCDMX-manuel-rabade.jpg" alt="Manuel Rábade" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-tie"></i> Manuel Rábade</h3>
-      <p class="card-subtitle">Ingeniero en Computación</p>
-      <span class="badge technical">Algoritmos</span>
-    </div>
-  </div>
-  <div class="card-content">
-    <div class="card-role">
-      <strong>Especialidad:</strong> Ingeniería de Software, Algoritmos, Resolución de Problemas<br>
-      <strong>Charlas recientes:</strong>
-      <ul>
-        <li><a href="/meetups/2025/202502-febrero/">"Lecciones del Advent of Code 2024" (Febrero 2025)</a></li>
-      </ul>
-    </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
-
-<!-- Juan Guillermo Gómez -->
-<div class="speaker-card">
-  <div class="card-header">
-    <img src="/images/ponentes/202502-PythonCDMX-juan-gomez.jpg" alt="Juan Guillermo Gómez" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-graduate"></i> Juan Guillermo Gómez</h3>
-      <p class="card-subtitle">Líder Técnico en WordBox</p>
-      <span class="badge technical">IA/ML</span>
-    </div>
-  </div>
-  <div class="card-content">
-    <div class="card-role">
-      <strong>Especialidad:</strong> Inteligencia Artificial, Machine Learning, Embeddings, Google Developer Expert<br>
-      <strong>Charlas recientes:</strong>
-      <ul>
-        <li><a href="/meetups/2025/202502-febrero/">"Embeddings - El lenguaje como las máquinas entienden el lenguaje humano" (Febrero 2025)</a></li>
-      </ul>
-    </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
-
-<!-- Erik Rivera -->
-<div class="speaker-card">
-  <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Erik Rivera" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-ninja"></i> Erik Rivera</h3>
-      <p class="card-subtitle">AI Engineer</p>
-      <span class="badge technical">IA</span>
-    </div>
-  </div>
-  <div class="card-content">
-    <div class="card-role">
-      <strong>Especialidad:</strong> Agentes de IA, Machine Learning, LangGraph, LLMs<br>
-      <strong>Charlas recientes:</strong>
-      <ul>
-        <li><a href="/meetups/2025/202503-marzo/">"Mi Primer Agente de Inteligencia Artificial con Python" (Marzo 2025)</a></li>
-      </ul>
-    </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
-
-<!-- Javier Novoa -->
-<div class="speaker-card">
-  <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Javier Novoa" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-tie"></i> Javier Novoa</h3>
-      <p class="card-subtitle">Ingeniero en Sistemas Computacionales</p>
-      <span class="badge development">FinTech</span>
-    </div>
-  </div>
-  <div class="card-content">
-    <div class="card-role">
-      <strong>Especialidad:</strong> FinTech, Performance, DevOps, Software Libre<br>
-      <strong>Charlas recientes:</strong>
-      <ul>
-        <li><a href="/meetups/2025/202505-mayo/">"Desarrollo de aplicaciones FinTech con Python" (Mayo 2025)</a></li>
-      </ul>
-    </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
-
-<!-- Carlos Cesar Caballero -->
-<div class="speaker-card">
-  <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Carlos Cesar Caballero" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-cog"></i> Carlos Cesar Caballero</h3>
-      <p class="card-subtitle">Ingeniero en Ciencias Informáticas</p>
-      <span class="badge technical">Cloud</span>
-    </div>
-  </div>
-  <div class="card-content">
-    <div class="card-role">
-      <strong>Especialidad:</strong> Inteligencia Artificial, Tecnologías de Código Abierto<br>
-      <strong>Charlas recientes:</strong>
-      <ul>
-        <li><a href="/meetups/2025/202506-junio/">"Aplicaciones de IA en la nube" (Junio 2025)</a></li>
-      </ul>
-    </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
-
-<!-- Alex Callejas -->
-<div class="speaker-card">
-  <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Alex Callejas" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-code"></i> Alex Callejas</h3>
-      <p class="card-subtitle">Services Content Architect en Red Hat</p>
-      <span class="badge technical">OpenSource</span>
-    </div>
-  </div>
-  <div class="card-content">
-    <div class="card-role">
-      <strong>Especialidad:</strong> OpenSource, Automatización, Hardening de Infraestructura<br>
-      <strong>Charlas recientes:</strong>
-      <ul>
-        <li><a href="/meetups/2024/202410-octubre/">"Una ida y una vuelta: Cómo iniciar en el opensource" (Octubre 2024)</a></li>
-      </ul>
-    </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
-
-<!-- Daniel Paredes -->
-<div class="speaker-card">
-  <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Daniel Paredes" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-graduate"></i> Daniel Paredes</h3>
-      <p class="card-subtitle">Desarrollador Web</p>
-      <span class="badge development">Web</span>
-    </div>
-  </div>
-  <div class="card-content">
-    <div class="card-role">
-      <strong>Especialidad:</strong> Desarrollo Web, Portafolios, Python<br>
-      <strong>Charlas recientes:</strong>
-      <ul>
-        <li><a href="/meetups/2025/202504-unam/">"portafolio.py: Como hacer un portafolio web sin saber diseño web" (Abril 2025 - UNAM)</a></li>
-      </ul>
-    </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
-
-<!-- Diego Barriga -->
-<div class="speaker-card">
-  <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Diego Barriga" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-tie"></i> Diego Barriga</h3>
-      <p class="card-subtitle">MLOps Engineer en Mercado Libre</p>
-      <span class="badge technical">MLOps</span>
-    </div>
-  </div>
-  <div class="card-content">
-    <div class="card-role">
-      <strong>Especialidad:</strong> NLP, Lenguas Indígenas, MLOps, Cultura Libre<br>
-      <strong>Charlas recientes:</strong>
-      <ul>
-        <li><a href="/meetups/2024/202409-septiembre/">"chit-chat: Representaciones fonéticas con python" (Septiembre 2024)</a></li>
-      </ul>
-    </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
-
-<!-- elMau (Mauricio B.) -->
-<div class="speaker-card">
-  <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="elMau (Mauricio B.)" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-ninja"></i> elMau (Mauricio B.)</h3>
-      <p class="card-subtitle">Desarrollador LibreOffice</p>
-      <span class="badge development">LibreOffice</span>
-    </div>
-  </div>
-  <div class="card-content">
-    <div class="card-role">
-      <strong>Especialidad:</strong> Extensiones LibreOffice, Automatización de Oficina<br>
-      <strong>Charlas recientes:</strong>
-      <ul>
-        <li><a href="/meetups/2025/202501-enero/">"Creando extensiones para LibreOffice, con Python" (Enero 2025)</a></li>
-      </ul>
-    </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
-
-<!-- Fer Perales -->
-<div class="speaker-card">
-  <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Fer Perales" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-code"></i> Fer Perales</h3>
-      <p class="card-subtitle">Open Source Contributor</p>
-      <span class="badge technical">OpenSource</span>
-    </div>
-  </div>
-  <div class="card-content">
-    <div class="card-role">
-      <strong>Especialidad:</strong> Open Source, Ruby, Contribución Comunitaria<br>
-      <strong>Charlas recientes:</strong>
-      <ul>
-        <li><a href="/meetups/2024/202408-agosto/">"Guía Práctica para Convertirse en Contribuidor de Open Source en 10 Años (o más)" (Agosto 2024)</a></li>
-      </ul>
-    </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
-
-<!-- Geovanni Zepeda Martínez -->
-<div class="speaker-card">
-  <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Geovanni Zepeda Martínez" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-tie"></i> Geovanni Zepeda Martínez</h3>
-      <p class="card-subtitle">Data Scientist</p>
-      <span class="badge technical">Data Science</span>
-    </div>
-  </div>
-  <div class="card-content">
-    <div class="card-role">
-      <strong>Especialidad:</strong> Machine Learning, Análisis de Datos, Algoritmos Estadísticos<br>
-      <strong>Charlas recientes:</strong>
-      <ul>
-        <li><a href="/meetups/2024/202406-junio/">"Matemáticas y Python: La Ciencia Detrás de la Regresión Lineal" (Junio 2024)</a></li>
-      </ul>
-    </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
+### Hugo Ramirez {.volunteer-header}
 
 <!-- Hugo Ramirez -->
-<div class="speaker-card">
+<div class="volunteer-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Hugo Ramirez" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-globe-americas"></i> Hugo Ramirez</h3>
+    <div class="card-info">
+      <h3 class="card-title">Hugo Ramirez</h3>
       <p class="card-subtitle">Data Engineer</p>
-      <span class="badge technical">Data Engineering</span>
+      <div class="badges-container">
+        <span class="badge technical">Data Engineering</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/logo.png" alt="Hugo Ramirez" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Especialidad:</strong> Ingeniería de Datos, Procesamiento ETL, Big Data<br>
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">Ingeniería de Datos, Procesamiento ETL, Big Data</span>
       <strong>Charlas recientes:</strong>
       <ul>
         <li><a href="/meetups/2024/202407-julio/">"Python y los esquemas ETLs" (Julio 2024)</a></li>
         <li><a href="/meetups/2024/202411-noviembre/">"Título de la charla" (Noviembre 2024)</a></li>
       </ul>
     </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
   </div>
 </div>
 
-<!-- Konstantin Spirin -->
-<div class="speaker-card">
+### Javier Novoa {.volunteer-header}
+
+<!-- Javier Novoa -->
+<div class="volunteer-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Konstantin Spirin" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-cog"></i> Konstantin Spirin</h3>
-      <p class="card-subtitle">Python Core Developer</p>
-      <span class="badge technical">Core Python</span>
+    <div class="card-info">
+      <h3 class="card-title">Javier Novoa</h3>
+      <p class="card-subtitle">Ingeniero en Sistemas Computacionales</p>
+      <div class="badges-container">
+        <span class="badge development">FinTech</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/logo.png" alt="Javier Novoa" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Especialidad:</strong> Core Python, Optimización, Concurrencia, GIL<br>
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">FinTech, Performance, DevOps, Software Libre</span>
+      <strong>Charlas recientes:</strong>
+      <ul>
+        <li><a href="/meetups/2025/202505-mayo/">"Desarrollo de aplicaciones FinTech con Python" (Mayo 2025)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+### Juan Guillermo Gómez {.volunteer-header}
+
+<!-- Juan Guillermo Gómez -->
+<div class="volunteer-card">
+  <div class="card-header">
+    <div class="card-info">
+      <h3 class="card-title">Juan Guillermo Gómez</h3>
+      <p class="card-subtitle">Líder Técnico en WordBox | Google Developer Expert</p>
+      <div class="badges-container">
+        <span class="badge technical">IA/ML</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/juan-guillermo-gomez.jpg" alt="Juan Guillermo Gómez" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">Inteligencia Artificial, Machine Learning, Embeddings, Google Developer Expert</span>
+      <strong>Charlas recientes:</strong>
+      <ul>
+        <li><a href="/meetups/2025/202502-febrero/">"Embeddings - El lenguaje como las máquinas entienden el lenguaje humano" (Febrero 2025)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+### Konstantin Spirin {.volunteer-header}
+
+<!-- Konstantin Spirin -->
+<div class="volunteer-card">
+  <div class="card-header">
+    <div class="card-info">
+      <h3 class="card-title">Konstantin Spirin</h3>
+      <p class="card-subtitle">Python Core Developer</p>
+      <div class="badges-container">
+        <span class="badge technical">Core Python</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/logo.png" alt="Konstantin Spirin" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">Core Python, Optimización, Concurrencia, GIL</span>
       <strong>Charlas recientes:</strong>
       <ul>
         <li><a href="/meetups/2024/202407-julio/">"El futuro de Python sin GIL" (Julio 2024)</a></li>
       </ul>
     </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
   </div>
 </div>
 
-<!-- Mauro Parra -->
-<div class="speaker-card">
+### Manuel Rábade {.volunteer-header}
+
+<!-- Manuel Rábade -->
+<div class="volunteer-card">
   <div class="card-header">
-    <img src="/images/ponentes/ponentePythonCDMX.jpg" alt="Mauro Parra" class="speaker-avatar lazy-image" loading="lazy">
-    <div>
-      <h3 class="card-title"><i class="fas fa-user-shield"></i> Mauro Parra</h3>
-      <p class="card-subtitle">Security Engineer</p>
-      <span class="badge technical">Seguridad</span>
+    <div class="card-info">
+      <h3 class="card-title">Manuel Rábade</h3>
+      <p class="card-subtitle">Ingeniero en Computación</p>
+      <div class="badges-container">
+        <span class="badge technical">Algoritmos</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/manuel-rabade.jpg" alt="Manuel Rábade" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
   <div class="card-content">
     <div class="card-role">
-      <strong>Especialidad:</strong> Seguridad Informática, PCI DSS, Cumplimiento Normativo<br>
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">Ingeniería de Software, Algoritmos, Resolución de Problemas</span>
+      <strong>Charlas recientes:</strong>
+      <ul>
+        <li><a href="/meetups/2025/202502-febrero/">"Lecciones del Advent of Code 2024" (Febrero 2025)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+### Mauricio B. {.volunteer-header}
+
+<!-- Mauricio B. -->
+<div class="volunteer-card">
+  <div class="card-header">
+    <div class="card-info">
+      <h3 class="card-title">Mauricio B</h3>
+      <p class="card-subtitle">Desarrollador LibreOffice</p>
+      <div class="badges-container">
+        <span class="badge development">LibreOffice</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/logo.png" alt="elMau (Mauricio B.)" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">Extensiones LibreOffice, Automatización de Oficina</span>
+      <strong>Charlas recientes:</strong>
+      <ul>
+        <li><a href="/meetups/2025/202501-enero/">"Creando extensiones para LibreOffice, con Python" (Enero 2025)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+### Mauro Parra {.volunteer-header}
+
+<!-- Mauro Parra -->
+<div class="volunteer-card">
+  <div class="card-header">
+    <div class="card-info">
+      <h3 class="card-title">Mauro Parra</h3>
+      <p class="card-subtitle">Security Engineer</p>
+      <div class="badges-container">
+        <span class="badge technical">Seguridad</span>
+      </div>
+    </div>
+    <div class="avatar-section">
+      <img src="/images/ponentes/logo.png" alt="Mauro Parra" class="volunteer-avatar lazy-image" loading="lazy">
+      <div class="social-icons">
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon github" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-role">
+      <span class="role-title">ESPECIALIDADES TÉCNICAS</span>
+      <span class="role-description">Seguridad Informática, PCI DSS, Cumplimiento Normativo</span>
       <strong>Charlas recientes:</strong>
       <ul>
         <li><a href="/meetups/2025/202501-enero/">"Seguridad y cumplimiento de Python: Garantizar el cumplimiento de PCI DSS en un entorno Python" (Enero 2025)</a></li>
       </ul>
-    </div>
-    <div class="action-buttons">
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="#" class="btn-action outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
     </div>
   </div>
 </div>
@@ -630,3 +730,13 @@ Si te interesa compartir tu conocimiento con la comunidad Python CDMX, ¡no dude
     Más Información
   </a>
 </div>
+
+---
+
+--8<-- "components/community-links.md"
+
+---
+
+--8<-- "components/quick-navigation.md"
+
+---
