@@ -6,26 +6,21 @@
 </p>
   <div class="action-buttons center">
     <a href="/meetups/" class="btn btn-primary">Explorar charlas</a>
-    <a href="/comunidad/como-contribuir/">Únete</a>
+    <a href="/comunidad/como-contribuir/" class="btn btn-primary">Participa</a>
   </div>
 </div>
 
-  **"Vine por el código, me quedé por la comunidad"**
+<div class="community-motto">
+  Vine por el código, me quedé por la comunidad
+</div>
 ---
 
 
-
-
-## <i class="fas fa-link"></i> Conoce a quienes hacen posible Python CDMX!
-
-<div class="community-highlight">
+<div class="upcoming-events">
+  <h3><i class="fas fa-link"></i> Conoce a quienes hacen posible <br>Python CDMX!</h3>
   <a href="/comunidad/voluntarios/#voluntarios-de-python-cdmx" class="btn btn-primary mt-2">Voluntarios</a>
   <a href="/comunidad/ponentes/#ponentes-de-python-cdmx" class="btn btn-primary mt-2">Ponentes</a>
 </div>
-
----
-
-## <i class="fas fa-calendar"></i> Próximos Eventos
 
 <div class="upcoming-events">
   <h3><i class="fas fa-microphone"></i> ¡Únete a Nuestros Meetups!</h3>
@@ -64,4 +59,3 @@
 --8<-- "components/quick-navigation.md"
 
 ---
-

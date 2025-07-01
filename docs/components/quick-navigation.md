@@ -1,7 +1,36 @@
-## <i class="fas fa-star"></i> NUEVO También Te Puede Interesar
+<h2 class="quick-navigation-title"><i class="fas fa-arrow-right"></i> Continúa Explorando</h2>
 
-| <i class="fas fa-calendar"></i> **Eventos** | <i class="fas fa-microphone"></i> **Participa** | <i class="fas fa-users"></i> **Comunidad** |
-|:---|:---|:---|
-| [Meetups 2025](meetups/2025/) - Año actual | [Ser Ponente](comunidad/ponentes/) - Comparte conocimiento | [Nuestros Ponentes](comunidad/ponentes/) - Conoce a la comunidad |
-| [Meetups 2024](meetups/2024/) - Año anterior | [Ser Voluntario](comunidad/voluntarios/) - Ayuda a organizar | [Alianzas](comunidad/alianzas/) - Comunidades aliadas |
-| [Archivo Completo](meetups/) - Todos los meetups | [Cómo Contribuir](comunidad/como-contribuir/) - Guía general | [Sobre Nosotros](about/) - Conoce más |
+<div class="quick-navigation">
+  <!-- Eventos -->
+  <a href="/meetups/2025/" class="btn-nav">
+    <i class="fas fa-calendar"></i> Meetups 2025
+  </a>
+    <a href="/meetups/2024/" class="btn-nav">
+    <i class="fas fa-history"></i> Meetups 2024
+  </a>
+  <a href="/meetups/" class="btn-nav">
+    <i class="fas fa-archive"></i> Archivo Completo
+  </a>
+
+  <!-- Participación -->
+  <a href="/comunidad/ponentes/" class="btn-nav">
+    <i class="fas fa-microphone"></i> Ser Ponente
+  </a>
+  <a href="/comunidad/voluntarios/" class="btn-nav">
+    <i class="fas fa-hands-helping"></i> Ser Voluntario
+  </a>
+  <a href="/comunidad/como-contribuir/" class="btn-nav">
+    <i class="fas fa-heart"></i> Cómo Contribuir
+  </a>
+
+  <!-- Comunidad -->
+  <a href="/comunidad/ponentes/" class="btn-nav">
+    <i class="fas fa-users"></i> Ver Ponentes
+  </a>
+  <a href="/comunidad/alianzas/" class="btn-nav">
+    <i class="fas fa-handshake"></i> Alianzas
+  </a>
+  <a href="/about/" class="btn-nav">
+    <i class="fas fa-info-circle"></i> Sobre Nosotros
+  </a>
+</div>
