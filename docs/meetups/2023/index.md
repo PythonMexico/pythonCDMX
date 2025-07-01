@@ -46,12 +46,6 @@
 
 </div>
 
-**Ponentes:**
-
-- Gustavo Vera (3 charlas)
-- David Sol (1 charla)
-- Carlos Reyes (1 charla)
-
 ---
 
 --8<-- "components/community-links.md"
@@ -63,6 +57,3 @@
 ---
 
 ¿Te gustaría aparecer aquí? Conoce a nuestros [ponentes y voluntarios reconocidos](/comunidad/como-contribuir/).
-
-
-

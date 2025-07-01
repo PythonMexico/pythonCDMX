@@ -14,25 +14,25 @@
 
 <div class="year-cards">
 
-<div class="year-card">
-  <h3><i class="fas fa-calendar"></i> 2025</h3>
+<div class="year-card year-2025">
+  <h3><i class="fas fa-rocket"></i> 2025</h3>
   <p><b>15 charlas realizadas</b></p>
   <p>Nuestro año más activo</p>
-  <a href="/meetups/2025/">Ver meetups</a>
+  <a href="/meetups/2025/"><i class="fas fa-play"></i> Ver meetups</a>
 </div>
 
-<div class="year-card">
-  <h3><i class="fas fa-calendar"></i> 2024</h3>
+<div class="year-card year-2024">
+  <h3><i class="fas fa-trophy"></i> 2024</h3>
   <p><b>15 charlas realizadas</b></p>
   <p>Consolidación de la comunidad</p>
-  <a href="/meetups/2024/">Ver meetups</a>
+  <a href="/meetups/2024/"><i class="fas fa-play"></i> Ver meetups</a>
 </div>
 
-<div class="year-card">
-  <h3><i class="fas fa-calendar"></i> 2023</h3>
+<div class="year-card year-2023">
+  <h3><i class="fas fa-seedling"></i> 2023</h3>
   <p><b>5 charlas realizadas</b></p>
   <p>Nuestros inicios</p>
-  <a href="/meetups/2023/">Ver meetups</a>
+  <a href="/meetups/2023/"><i class="fas fa-play"></i> Ver meetups</a>
 </div>
 
 </div>
@@ -74,6 +74,3 @@
 --8<-- "components/quick-navigation.md"
 
 ---
-
-
-

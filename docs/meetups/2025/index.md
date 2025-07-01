@@ -65,4 +65,3 @@
 ---
 
 ¿Te gustaría aparecer aquí? Conoce a nuestros [ponentes y voluntarios reconocidos](/comunidad/como-contribuir/).
-

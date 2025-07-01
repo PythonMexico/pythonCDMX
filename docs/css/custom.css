@@ -134,7 +134,8 @@
 .upcoming-btn,
 .btn,
 .btn-primary,
-.participation-card a {
+.participation-card a,
+.year-card a {
   background: var(--python-green) !important;
   color: var(--python-white) !important;
   padding: 0.75rem 1.5rem;
@@ -143,6 +144,7 @@
   font-weight: 600;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   transition: var(--transition-base);
   border: none;
@@ -152,7 +154,8 @@
 .upcoming-btn:hover,
 .btn:hover,
 .btn-primary:hover,
-.participation-card a:hover {
+.participation-card a:hover,
+.year-card a:hover {
   background: var(--python-green-dark) !important;
   color: var(--python-white) !important;
   transform: translateY(-2px);
@@ -204,67 +207,206 @@
    TARJETAS Y GRILLAS
    ----------------------------------------------------------------------------- */
 
-.participation-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.25rem;
-  margin: 1rem auto;
-  max-width: 800px;
+/* Estilos base para todas las tarjetas */
+.participation-card,
+.year-card,
+.stat-card,
+.community-highlight,
+.upcoming-events {
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: var(--card-radius);
+  text-align: center;
+  transition: var(--transition-smooth);
+  position: relative;
+  overflow: hidden;
 }
 
+/* Grillas responsivas */
+.participation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.year-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+/* Caso especial: cuando hay 3 tarjetas de participación, la tercera ocupa toda la fila */
 .participation-grid .participation-card:nth-child(3):nth-last-child(1) {
   grid-column: 1 / -1;
   max-width: 400px;
   margin: 0 auto;
 }
 
-/* Estilos base para tarjetas */
-.participation-card,
-.community-highlight,
-.upcoming-events {
-  background: var(--md-default-bg-color);
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: var(--card-radius);
-  padding: 1.25rem;
-  transition: var(--transition-base);
-}
-
+/* Tarjetas de participación */
 .participation-card {
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  padding: 1.5rem 1.25rem 1.25rem;
+  padding: 2rem;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .participation-card:hover {
-  transform: translateY(-0.25rem);
+  transform: translateY(-5px);
   box-shadow: var(--md-shadow-z3);
-}
-
-.participation-card h3 i {
-  display: block;
-  font-size: 3rem;
-  color: var(--md-primary-fg-color);
-  margin-bottom: 1rem;
-  opacity: 0.8;
+  border-color: var(--md-primary-fg-color);
 }
 
 .participation-card h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
   color: var(--md-default-fg-color);
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.participation-card h3 i {
+  font-size: 2rem;
+  color: var(--md-primary-fg-color);
+  margin-bottom: 0.5rem;
+  display: block;
 }
 
 .participation-card p {
   color: var(--md-default-fg-color--light);
   line-height: 1.6;
-  margin-bottom: 1.25rem;
-  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+/* Tarjetas de años */
+.year-card {
+  padding: 0.5rem 2rem;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.year-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--md-shadow-z3);
+  border-color: var(--md-primary-fg-color);
+}
+
+.year-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--md-primary-fg-color), var(--python-green));
+  opacity: 0;
+  transition: var(--transition-base);
+}
+
+.year-card:hover::before {
+  opacity: 1;
+}
+
+.year-card h3 {
+  color: var(--md-default-fg-color);
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.year-card h3 i {
+  font-size: 2rem;
+  color: var(--md-primary-fg-color);
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.year-card p {
+  color: var(--md-default-fg-color--light);
+  line-height: 1.4;
+  margin-bottom: 0.25rem;
+}
+
+.year-card p:first-of-type {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+}
+
+.year-card a {
+  margin-top: auto;
+}
+
+/* Tarjetas de estadísticas */
+.stat-card {
+  padding: 1.5rem;
+}
+
+.stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--md-shadow-z2);
+  border-color: var(--md-primary-fg-color);
+}
+
+.stat-card h3 {
+  color: var(--md-primary-fg-color);
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.stat-card h3 i {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.stat-card p {
+  color: var(--md-default-fg-color--light);
+  font-weight: 500;
+}
+
+/* Especialización de tarjetas por tipo */
+.participation-ponente,
+.year-2025 {
+  border-left: 4px solid var(--python-green);
+}
+
+.participation-voluntario,
+.year-2024 {
+  border-left: 4px solid #2196F3;
+}
+
+.participation-asistir,
+.year-2023 {
+  border-left: 4px solid #FF9800;
+}
+
+.year-2025:hover {
+  border-left-color: var(--python-green-dark);
+}
+
+.year-2024:hover {
+  border-left-color: #1976D2;
+}
+
+.year-2023:hover {
+  border-left-color: #F57C00;
 }
 
 /* -----------------------------------------------------------------------------
-   ENLACES DE COMUNIDAD - SISTEMA OPTIMIZADO
+   ENLACES DE COMUNIDAD
    ----------------------------------------------------------------------------- */
 
 .community-links {
@@ -322,36 +464,30 @@
   transform: scale(1.1);
 }
 
-/* Sistema optimizado por red social - variables + función */
+/* Colores específicos por red social */
 .community-link.telegram { border-color: var(--telegram-color); }
 .community-link.telegram i { color: var(--telegram-color); }
 .community-link.telegram:hover { background: var(--telegram-color); border-color: var(--telegram-color); box-shadow: 0 8px 25px rgba(0, 136, 204, 0.3); }
-.community-link.telegram:active { box-shadow: 0 4px 15px rgba(0, 136, 204, 0.2); }
 
 .community-link.meetup { border-color: var(--meetup-color); }
 .community-link.meetup i { color: var(--meetup-color); }
 .community-link.meetup:hover { background: var(--meetup-color); border-color: var(--meetup-color); box-shadow: 0 8px 25px rgba(237, 28, 64, 0.3); }
-.community-link.meetup:active { box-shadow: 0 4px 15px rgba(237, 28, 64, 0.2); }
 
 .community-link.youtube { border-color: var(--youtube-color); }
 .community-link.youtube i { color: var(--youtube-color); }
 .community-link.youtube:hover { background: var(--youtube-color); border-color: var(--youtube-color); box-shadow: 0 8px 25px rgba(255, 0, 0, 0.3); }
-.community-link.youtube:active { box-shadow: 0 4px 15px rgba(255, 0, 0, 0.2); }
 
 .community-link.github { border-color: var(--github-color); }
 .community-link.github i { color: var(--github-color); }
 .community-link.github:hover { background: var(--github-color); border-color: var(--github-color); box-shadow: 0 8px 25px rgba(51, 51, 51, 0.3); }
-.community-link.github:active { box-shadow: 0 4px 15px rgba(51, 51, 51, 0.2); }
 
 .community-link.instagram { border-color: var(--instagram-color); }
 .community-link.instagram i { color: var(--instagram-color); }
 .community-link.instagram:hover { background: var(--instagram-color); border-color: var(--instagram-color); box-shadow: 0 8px 25px rgba(228, 64, 95, 0.3); }
-.community-link.instagram:active { box-shadow: 0 4px 15px rgba(228, 64, 95, 0.2); }
 
 .community-link.linkedin { border-color: var(--linkedin-color); }
 .community-link.linkedin i { color: var(--linkedin-color); }
 .community-link.linkedin:hover { background: var(--linkedin-color); border-color: var(--linkedin-color); box-shadow: 0 8px 25px rgba(0, 119, 181, 0.3); }
-.community-link.linkedin:active { box-shadow: 0 4px 15px rgba(0, 119, 181, 0.2); }
 
 @keyframes breathe {
   0%, 100% { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
@@ -401,7 +537,7 @@
 }
 
 /* -----------------------------------------------------------------------------
-   NAVEGACIÓN RÁPIDA Y SECCIONES ESPECIALES
+   NAVEGACIÓN Y SECCIONES ESPECIALES
    ----------------------------------------------------------------------------- */
 
 .quick-navigation {
@@ -425,12 +561,11 @@
 
 .community-highlight {
   border-left: 4px solid var(--md-primary-fg-color);
-  text-align: center;
   margin: 2rem 0;
+  padding: 1.5rem;
 }
 
 .upcoming-events {
-  text-align: center;
   margin: 0.75rem 0;
   padding: 1.25rem 2rem;
 }
@@ -465,33 +600,37 @@ h2 .fas, h3 .fas {
    ----------------------------------------------------------------------------- */
 
 @media (max-width: 768px) {
-  .participation-grid {
+  .participation-grid,
+  .year-cards {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
 
   .participation-grid .participation-card:nth-child(3):nth-last-child(1) {
     grid-column: 1;
-    max-width: none;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
 
   .community-links {
-    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
     gap: 0.75rem;
   }
 
   .community-link {
-    padding: 0.875rem 1rem;
-    font-size: 0.85rem;
-    border-radius: 0.75rem;
+    min-width: 140px;
+    padding: 1rem;
   }
 
   .community-link i {
-    font-size: 1.1em;
+    font-size: 1.5rem;
   }
 
   .hero-section {
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
   }
 
   .hero-logo {
@@ -506,6 +645,6 @@ h2 .fas, h3 .fas {
 
   .action-buttons a {
     width: 100%;
-    max-width: 17.5rem;
+    max-width: 250px;
   }
 }

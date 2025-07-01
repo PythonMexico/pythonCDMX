@@ -56,12 +56,6 @@
 
 </div>
 
-**Ponentes:**
-
-- Gustavo Vera (3 charlas)
-- David Sol (3 charlas)
-- Alejandro López (2 charlas)
-
 ---
 
 --8<-- "components/community-links.md"
@@ -73,4 +67,3 @@
 ---
 
 ¿Te gustaría aparecer aquí? Conoce a nuestros [ponentes y voluntarios reconocidos](/comunidad/como-contribuir/).
-
