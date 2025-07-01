@@ -85,6 +85,17 @@ This is the Python CDMX community website built with MkDocs Material. The site s
 - `.community-link` - Individual social platform buttons with hover effects
 - Specific classes: `.telegram`, `.meetup`, `.youtube`, `.github`, `.instagram`, `.linkedin`
 
+#### Communities & Partnerships
+- `.communities-grid` - **NEW**: Auto-fit responsive grid for partner communities with minmax(280px, 1fr)
+- `.community-card` - **NEW**: Partner community cards with advanced hover effects
+  - Sliding shine animation on hover
+  - Circular images with scale transformation
+  - Smooth transitions using existing CSS variables
+  - Mobile-optimized responsive design
+- `.community-card img` - Circular community logos (100px) with hover scale effect
+- `.community-card h3` - Community names with centered alignment
+- `.community-card p` - Community descriptions with proper spacing
+
 #### Volunteer System (Optimized & Maintainable)
 - `.volunteer-card` - Main volunteer profile container with grid layout
 - `.volunteer-header` - **NEW**: Maintainable class for hiding TOC headers
@@ -115,18 +126,25 @@ This is the Python CDMX community website built with MkDocs Material. The site s
 
 ### CSS Modifications
 1. **NEVER use inline styles** - Always use classes in custom.css
-2. Use existing CSS variables for consistency
-3. Follow the established sections in custom.css:
+2. **NEVER use `!important`** - Use specific selectors and proper CSS architecture instead
+3. Use existing CSS variables for consistency
+4. Follow the established sections in custom.css (13 organized sections):
    - Variables CSS personalizadas
    - Sección Hero
    - Sistema de botones
    - Tarjetas y grillas
+   - Tarjetas de voluntarios
+   - **Tarjetas de comunidades aliadas** (NEW)
    - Enlaces de comunidad
-   - Lema y navegación
+   - Lema de la comunidad
+   - Navegación y secciones especiales
    - Iconografía
+   - Animaciones
    - Media queries responsivas
-4. Test in both light and dark modes
-5. Ensure mobile responsiveness at 768px breakpoint
+   - Utilidades y helpers
+5. Test in both light and dark modes
+6. Ensure mobile responsiveness at 768px breakpoint
+7. **Always prefer specific selectors over `!important`** for maintainable CSS architecture
 
 ### Content Updates
 - Event pages: Follow existing year/month structure in `docs/meetups/`
@@ -191,6 +209,17 @@ palette:
   <a href="/meetups/2025/" class="btn-nav">
     <i class="fas fa-calendar"></i> Meetups 2025
   </a>
+</div>
+```
+
+### Communities & Partnerships
+```html
+<div class="communities-grid">
+  <div class="community-card">
+    <img src="/images/comunidades/partner-logo.png" alt="Partner Community">
+    <h3>Community Name</h3>
+    <p>Brief description of the partner community</p>
+  </div>
 </div>
 ```
 
@@ -388,12 +417,46 @@ palette:
 
 ## Recent Major Updates
 
-### Latest Optimizations (Current)
+### Latest Optimizations (Current Session)
+- **CSS Architecture Overhaul**: Complete elimination of `!important` declarations (7 instances removed)
+  - Migration to specific selectors and proper CSS specificity hierarchy
+  - Improved maintainability through clean CSS architecture
+  - Better scalability for future modifications
+- **Professional CSS Structure**: Reorganized into 13 logical sections
+  1. Variables CSS personalizadas
+  2. Sección Hero
+  3. Sistema de botones
+  4. Tarjetas y grillas
+  5. Tarjetas de voluntarios
+  6. **Tarjetas de comunidades aliadas** (NEW)
+  7. Enlaces de comunidad
+  8. Lema de la comunidad
+  9. Navegación y secciones especiales
+  10. Iconografía
+  11. Animaciones
+  12. Media queries responsivas
+  13. Utilidades y helpers
+- **Communities & Partnerships System**: Complete implementation of partner community styles
+  - `.communities-grid`: Responsive auto-fit grid with minmax(280px, 1fr)
+  - `.community-card`: Advanced hover effects with sliding shine animation
+  - Circular community logos with scale effects on hover
+  - Mobile-optimized responsive design with proper spacing
+- **Documentation Reorganization**: Professional separation of concerns
+  - **README.md**: Streamlined to essential user information and quick start
+  - **CONTRIBUTING.md**: Comprehensive contribution workflow and development guidelines
+  - Clear separation between user documentation and contributor guidelines
+- **CSS Code Quality**: Enhanced readability and organization
+  - Consistent indentation and descriptive comments
+  - Consolidated social media link styles
+  - Removal of redundant code and unused selectors
+  - Optimized specificity hierarchy without `!important`
+
+### Previous Major Optimizations
 - **Speaker System Complete Overhaul**: All 19+ ponentes converted to modern volunteer-card layout
 - **Unified Design System**: Speakers now use same structure as volunteers but with speaker-specific content
 - **Organized Alphabetically**: All speakers reorganized in alphabetical order for better navigation
 - **Dedicated Image Structure**: New `/images/ponentes/` directory with speaker-specific photos
-- **Simplified Layout**: Removed tab system (=== "Información"/"Ponentes") for cleaner single-page design
+- **Simplified Layout**: Removed tab system (=== "Información/"Ponentes") for cleaner single-page design
 - **Real Speaker Photos**: Added actual photos for multiple speakers (Carlos Caballero, Erik Rivera, etc.)
 - **Volunteer System Redesign**: Complete overhaul with modern two-column layout
 - **Maintainable Architecture**: New `.volunteer-header` class eliminates hardcoded name lists
@@ -403,7 +466,7 @@ palette:
 - **Avatar System**: Circular images with hover effects and integrated social icons
 - **Grid Layout**: Responsive design with mobile-first approach
 
-### Previous Major Updates
+### Foundation Updates
 - Complete CSS optimization (35% code reduction)
 - New community motto component with decorative quotes
 - Modernized participation cards with centered icons
@@ -500,3 +563,9 @@ Please refer to the CLAUDE.md file for project guidelines and existing patterns.
 - [ ] MkDocs Material integration grasped
 - [ ] Speaker vs Volunteer content structure understood
 - [ ] Alphabetical organization principle for speakers followed
+
+## Documentation Structure
+- **README.md**: Essential user information, quick start, and references to detailed documentation
+- **CONTRIBUTING.md**: Complete contribution workflow, detailed setup instructions, and development guidelines
+- **CLAUDE.md**: This file - comprehensive technical documentation for AI development
+- **CHANGELOG.md**: Release notes and feature documentation following Keep a Changelog format

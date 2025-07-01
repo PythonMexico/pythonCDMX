@@ -12,9 +12,11 @@
    - Sistema de botones
    - Tarjetas y grillas
    - Tarjetas de voluntarios
+   - Tarjetas de comunidades aliadas
    - Enlaces de comunidad
    - Lema de la comunidad y navegación
    - Iconografía
+   - Animaciones
    - Media queries responsivas (consolidados)
    ============================================================================= */
 
@@ -137,8 +139,8 @@
    .btn-primary,
    .participation-card a,
    .year-card a {
-     background: var(--python-green) !important;
-     color: var(--python-white) !important;
+     background: var(--python-green);
+     color: var(--python-white);
      padding: 0.75rem 1.5rem;
      border-radius: var(--button-radius);
      text-decoration: none;
@@ -157,8 +159,8 @@
    .btn-primary:hover,
    .participation-card a:hover,
    .year-card a:hover {
-     background: var(--python-green-dark) !important;
-     color: var(--python-white) !important;
+     background: var(--python-green-dark);
+     color: var(--python-white);
      transform: translateY(-2px);
      box-shadow: var(--md-shadow-z2);
      text-decoration: none;
@@ -166,9 +168,9 @@
 
    /* Botones de navegación discretos */
    .btn-nav {
-     background: transparent !important;
-     color: var(--md-default-fg-color--light) !important;
-     border: 1px solid var(--md-default-fg-color--lightest) !important;
+     background: transparent;
+     color: var(--md-default-fg-color--light);
+     border: 1px solid var(--md-default-fg-color--lightest);
      padding: 0.5rem 1rem;
      border-radius: 1.5rem;
      text-decoration: none;
@@ -180,18 +182,16 @@
      gap: 0.375rem;
      transition: var(--transition-base);
      margin: 0.25rem;
-     box-shadow: none !important;
      min-width: 140px;
      text-align: center;
      white-space: nowrap;
    }
 
    .btn-nav:hover {
-     background: var(--md-default-fg-color--lightest) !important;
-     color: var(--md-default-fg-color) !important;
-     border-color: var(--md-default-fg-color--light) !important;
-     transform: none;
-     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+     background: var(--md-default-fg-color--lightest);
+     color: var(--md-default-fg-color);
+     border-color: var(--md-default-fg-color--light);
+     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
      text-decoration: none;
    }
 
@@ -407,6 +407,329 @@
    }
 
    /* -----------------------------------------------------------------------------
+      TARJETAS DE VOLUNTARIOS
+      ----------------------------------------------------------------------------- */
+
+   .volunteer-card {
+     background: var(--md-default-bg-color);
+     border: 1px solid var(--md-default-fg-color--lightest);
+     border-radius: var(--card-radius);
+     padding: 2rem;
+     margin-bottom: 2rem;
+     transition: var(--transition-base);
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+   }
+
+   .volunteer-card:hover {
+     transform: translateY(-2px);
+     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+     border-color: var(--md-primary-fg-color--light);
+   }
+
+   .volunteer-card .card-header {
+     display: grid;
+     grid-template-columns: 1fr auto;
+     gap: 2rem;
+     align-items: start;
+     margin-bottom: 1.5rem;
+   }
+
+   .volunteer-card .card-info {
+     display: flex;
+     flex-direction: column;
+     gap: 0.75rem;
+   }
+
+   .volunteer-card .card-title {
+     font-size: 1.5rem;
+     font-weight: 700;
+     color: var(--md-default-fg-color);
+     margin: 0;
+     line-height: 1.2;
+   }
+
+   .volunteer-card .card-title i {
+     color: var(--md-primary-fg-color);
+     margin-right: 0.5rem;
+   }
+
+   .volunteer-card .card-subtitle {
+     font-size: 1rem;
+     color: var(--md-default-fg-color--light);
+     margin: 0;
+     font-weight: 500;
+     line-height: 1.4;
+   }
+
+   .volunteer-card .badges-container {
+     display: flex;
+     gap: 0.5rem;
+     flex-wrap: wrap;
+   }
+
+   .volunteer-card .badge {
+     padding: 0.125rem 0.5rem;
+     border-radius: 0.75rem;
+     font-size: 0.625rem;
+     font-weight: 500;
+     text-transform: uppercase;
+     letter-spacing: 0.03em;
+     opacity: 0.85;
+   }
+
+   /* Badges específicos por rol */
+   .volunteer-card .badge.ambassador {
+     background: rgba(76, 175, 80, 0.15);
+     color: #2E7D32;
+     border: 1px solid rgba(76, 175, 80, 0.3);
+   }
+
+   .volunteer-card .badge.organizer {
+     background: rgba(33, 150, 243, 0.15);
+     color: #1565C0;
+     border: 1px solid rgba(33, 150, 243, 0.3);
+   }
+
+   .volunteer-card .badge.production {
+     background: rgba(255, 152, 0, 0.15);
+     color: #E65100;
+     border: 1px solid rgba(255, 152, 0, 0.3);
+   }
+
+   .volunteer-card .badge.host {
+     background: rgba(156, 39, 176, 0.15);
+     color: #6A1B9A;
+     border: 1px solid rgba(156, 39, 176, 0.3);
+   }
+
+   .volunteer-card .badge.technical {
+     background: rgba(96, 125, 139, 0.15);
+     color: #37474F;
+     border: 1px solid rgba(96, 125, 139, 0.3);
+   }
+
+   .volunteer-card .badge.support {
+     background: rgba(121, 85, 72, 0.15);
+     color: #3E2723;
+     border: 1px solid rgba(121, 85, 72, 0.3);
+   }
+
+   .volunteer-card .badge.global {
+     background: rgba(233, 30, 99, 0.15);
+     color: #AD1457;
+     border: 1px solid rgba(233, 30, 99, 0.3);
+   }
+
+   .volunteer-card .badge.strategic {
+     background: rgba(63, 81, 181, 0.15);
+     color: #283593;
+     border: 1px solid rgba(63, 81, 181, 0.3);
+   }
+
+   /* Avatar y sección social */
+   .volunteer-card .avatar-section {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 1rem;
+   }
+
+   .volunteer-card .volunteer-avatar {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     object-fit: cover;
+     border: 3px solid var(--md-primary-fg-color--light);
+     transition: var(--transition-base);
+   }
+
+   .volunteer-card:hover .volunteer-avatar {
+     border-color: var(--md-primary-fg-color);
+     transform: scale(1.05);
+   }
+
+   .volunteer-card .social-icons {
+     display: flex;
+     gap: 0.5rem;
+     justify-content: center;
+   }
+
+   .volunteer-card .social-icon {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 32px;
+     height: 32px;
+     border-radius: 50%;
+     background: var(--md-default-fg-color--lightest);
+     color: var(--md-default-fg-color--light);
+     text-decoration: none;
+     transition: var(--transition-base);
+     font-size: 0.875rem;
+   }
+
+   .volunteer-card .social-icon:hover {
+     transform: translateY(-2px);
+     text-decoration: none;
+   }
+
+   .volunteer-card .social-icon.linkedin:hover {
+     background: var(--linkedin-color);
+     color: white;
+   }
+
+   .volunteer-card .social-icon.github:hover {
+     background: var(--github-color);
+     color: white;
+   }
+
+   /* Contenido de la tarjeta */
+   .volunteer-card .card-content {
+     border-top: 1px solid var(--md-default-fg-color--lightest);
+     padding-top: 1.5rem;
+   }
+
+   .volunteer-card .card-role {
+     line-height: 1.6;
+   }
+
+   .volunteer-card .role-title {
+     font-weight: 700;
+     color: var(--md-primary-fg-color);
+     font-size: 0.9rem;
+     text-transform: uppercase;
+     letter-spacing: 0.05em;
+     display: block;
+     margin-bottom: 0.5rem;
+   }
+
+   .volunteer-card .role-description {
+     font-weight: 500;
+     color: var(--md-default-fg-color--light);
+     font-size: 0.875rem;
+     font-style: italic;
+     line-height: 1.4;
+     display: block;
+     margin-bottom: 1rem;
+   }
+
+   .volunteer-card .card-role ul {
+     margin-top: 1rem;
+     padding-left: 1.5rem;
+   }
+
+   .volunteer-card .card-role li {
+     margin-bottom: 0.5rem;
+     color: var(--md-default-fg-color--light);
+   }
+
+   /* Encabezados ocultos para voluntarios */
+   .volunteer-header {
+     position: absolute;
+     left: -9999px;
+     width: 1px;
+     height: 1px;
+     overflow: hidden;
+     clip: rect(1px, 1px, 1px, 1px);
+   }
+
+   .volunteer-card:first-of-type {
+     margin-top: 1rem;
+   }
+
+   /* -----------------------------------------------------------------------------
+      TARJETAS DE COMUNIDADES ALIADAS
+      ----------------------------------------------------------------------------- */
+
+   .communities-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+     gap: 1.5rem;
+     margin: 2rem 0;
+     padding: 0;
+   }
+
+   .community-card {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     padding: 2rem 1.5rem;
+     border-radius: var(--card-radius);
+     background: var(--md-default-bg-color);
+     border: 2px solid var(--md-default-fg-color--lightest);
+     transition: var(--transition-smooth);
+     text-decoration: none;
+     color: var(--md-default-fg-color);
+     position: relative;
+     overflow: hidden;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   }
+
+   .community-card::before {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: -100%;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(90deg, transparent, rgba(76, 175, 80, 0.1), transparent);
+     transition: left 0.6s ease;
+   }
+
+   .community-card:hover::before {
+     left: 100%;
+   }
+
+   .community-card:hover {
+     transform: translateY(-5px);
+     border-color: var(--python-green);
+     box-shadow: 0 8px 25px rgba(76, 175, 80, 0.15);
+     text-decoration: none;
+     color: var(--md-default-fg-color);
+   }
+
+   .community-card img {
+     width: 80px;
+     height: 80px;
+     object-fit: cover;
+     border-radius: 50%;
+     margin-bottom: 1rem;
+     border: 3px solid var(--md-default-fg-color--lightest);
+     transition: var(--transition-base);
+   }
+
+   .community-card:hover img {
+     border-color: var(--python-green);
+     transform: scale(1.05);
+   }
+
+   .community-card h4 {
+     margin: 0.5rem 0;
+     font-size: 1.1rem;
+     font-weight: 600;
+     color: var(--md-default-fg-color);
+     transition: var(--transition-base);
+   }
+
+   .community-card h4 i {
+     margin-right: 0.5rem;
+     color: var(--python-green);
+     font-size: 0.9em;
+   }
+
+   .community-card:hover h4 {
+     color: var(--python-green);
+   }
+
+   .community-card p {
+     margin: 0;
+     font-size: 0.9rem;
+     color: var(--md-default-fg-color--light);
+     line-height: 1.4;
+   }
+
+   /* -----------------------------------------------------------------------------
       ENLACES DE COMUNIDAD
       ----------------------------------------------------------------------------- */
 
@@ -461,38 +784,93 @@
    }
 
    .community-link:hover i {
-     color: var(--python-white) !important;
+     color: var(--python-white);
      transform: scale(1.1);
    }
 
    /* Colores específicos por red social */
-   .community-link.telegram { border-color: var(--telegram-color); }
-   .community-link.telegram i { color: var(--telegram-color); }
-   .community-link.telegram:hover { background: var(--telegram-color); border-color: var(--telegram-color); box-shadow: 0 8px 25px rgba(0, 136, 204, 0.3); }
+   .community-link.telegram {
+     border-color: var(--telegram-color);
+   }
 
-   .community-link.meetup { border-color: var(--meetup-color); }
-   .community-link.meetup i { color: var(--meetup-color); }
-   .community-link.meetup:hover { background: var(--meetup-color); border-color: var(--meetup-color); box-shadow: 0 8px 25px rgba(237, 28, 64, 0.3); }
+   .community-link.telegram i {
+     color: var(--telegram-color);
+   }
 
-   .community-link.youtube { border-color: var(--youtube-color); }
-   .community-link.youtube i { color: var(--youtube-color); }
-   .community-link.youtube:hover { background: var(--youtube-color); border-color: var(--youtube-color); box-shadow: 0 8px 25px rgba(255, 0, 0, 0.3); }
+   .community-link.telegram:hover {
+     background: var(--telegram-color);
+     border-color: var(--telegram-color);
+     box-shadow: 0 8px 25px rgba(0, 136, 204, 0.3);
+   }
 
-   .community-link.github { border-color: var(--github-color); }
-   .community-link.github i { color: var(--github-color); }
-   .community-link.github:hover { background: var(--github-color); border-color: var(--github-color); box-shadow: 0 8px 25px rgba(51, 51, 51, 0.3); }
+   .community-link.meetup {
+     border-color: var(--meetup-color);
+   }
 
-   .community-link.instagram { border-color: var(--instagram-color); }
-   .community-link.instagram i { color: var(--instagram-color); }
-   .community-link.instagram:hover { background: var(--instagram-color); border-color: var(--instagram-color); box-shadow: 0 8px 25px rgba(228, 64, 95, 0.3); }
+   .community-link.meetup i {
+     color: var(--meetup-color);
+   }
 
-   .community-link.linkedin { border-color: var(--linkedin-color); }
-   .community-link.linkedin i { color: var(--linkedin-color); }
-   .community-link.linkedin:hover { background: var(--linkedin-color); border-color: var(--linkedin-color); box-shadow: 0 8px 25px rgba(0, 119, 181, 0.3); }
+   .community-link.meetup:hover {
+     background: var(--meetup-color);
+     border-color: var(--meetup-color);
+     box-shadow: 0 8px 25px rgba(237, 28, 64, 0.3);
+   }
 
-   @keyframes breathe {
-     0%, 100% { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
-     50% { box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); }
+   .community-link.youtube {
+     border-color: var(--youtube-color);
+   }
+
+   .community-link.youtube i {
+     color: var(--youtube-color);
+   }
+
+   .community-link.youtube:hover {
+     background: var(--youtube-color);
+     border-color: var(--youtube-color);
+     box-shadow: 0 8px 25px rgba(255, 0, 0, 0.3);
+   }
+
+   .community-link.github {
+     border-color: var(--github-color);
+   }
+
+   .community-link.github i {
+     color: var(--github-color);
+   }
+
+   .community-link.github:hover {
+     background: var(--github-color);
+     border-color: var(--github-color);
+     box-shadow: 0 8px 25px rgba(51, 51, 51, 0.3);
+   }
+
+   .community-link.instagram {
+     border-color: var(--instagram-color);
+   }
+
+   .community-link.instagram i {
+     color: var(--instagram-color);
+   }
+
+   .community-link.instagram:hover {
+     background: var(--instagram-color);
+     border-color: var(--instagram-color);
+     box-shadow: 0 8px 25px rgba(228, 64, 95, 0.3);
+   }
+
+   .community-link.linkedin {
+     border-color: var(--linkedin-color);
+   }
+
+   .community-link.linkedin i {
+     color: var(--linkedin-color);
+   }
+
+   .community-link.linkedin:hover {
+     background: var(--linkedin-color);
+     border-color: var(--linkedin-color);
+     box-shadow: 0 8px 25px rgba(0, 119, 181, 0.3);
    }
 
    /* -----------------------------------------------------------------------------
@@ -597,6 +975,19 @@
    }
 
    /* -----------------------------------------------------------------------------
+      ANIMACIONES
+      ----------------------------------------------------------------------------- */
+
+   @keyframes breathe {
+     0%, 100% {
+       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+     }
+     50% {
+       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+     }
+   }
+
+   /* -----------------------------------------------------------------------------
       MEDIA QUERIES RESPONSIVAS
       ----------------------------------------------------------------------------- */
 
@@ -649,7 +1040,7 @@
        max-width: 250px;
      }
 
-     /* Voluntarios */
+     /* Voluntarios en móvil */
      .volunteer-card {
        padding: 1.5rem;
      }
@@ -663,234 +1054,24 @@
      .volunteer-card .avatar-section {
        order: -1;
      }
-   }
 
-   /* -----------------------------------------------------------------------------
-      TARJETAS DE VOLUNTARIOS
-      ----------------------------------------------------------------------------- */
+     /* Comunidades aliadas en móvil */
+     .communities-grid {
+       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+       gap: 1rem;
+       margin: 1.5rem 0;
+     }
 
-   .volunteer-card {
-     background: var(--md-default-bg-color);
-     border: 1px solid var(--md-default-fg-color--lightest);
-     border-radius: var(--card-radius);
-     padding: 2rem;
-     margin-bottom: 2rem;
-     transition: var(--transition-base);
-     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-   }
+     .community-card {
+       padding: 1.5rem 1rem;
+     }
 
-   .volunteer-card:hover {
-     transform: translateY(-2px);
-     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-     border-color: var(--md-primary-fg-color--light);
-   }
+     .community-card img {
+       width: 70px;
+       height: 70px;
+     }
 
-   .volunteer-card .card-header {
-     display: grid;
-     grid-template-columns: 1fr auto;
-     gap: 2rem;
-     align-items: start;
-     margin-bottom: 1.5rem;
-   }
-
-   .volunteer-card .card-info {
-     display: flex;
-     flex-direction: column;
-     gap: 0.75rem;
-   }
-
-   .volunteer-card .card-title {
-     font-size: 1.5rem;
-     font-weight: 700;
-     color: var(--md-default-fg-color);
-     margin: 0;
-     line-height: 1.2;
-   }
-
-   .volunteer-card .card-title i {
-     color: var(--md-primary-fg-color);
-     margin-right: 0.5rem;
-   }
-
-   .volunteer-card .card-subtitle {
-     font-size: 1rem;
-     color: var(--md-default-fg-color--light);
-     margin: 0;
-     font-weight: 500;
-     line-height: 1.4;
-   }
-
-   .volunteer-card .badges-container {
-     display: flex;
-     gap: 0.5rem;
-     flex-wrap: wrap;
-   }
-
-   .volunteer-card .badge {
-     padding: 0.125rem 0.5rem;
-     border-radius: 0.75rem;
-     font-size: 0.625rem;
-     font-weight: 500;
-     text-transform: uppercase;
-     letter-spacing: 0.03em;
-     opacity: 0.85;
-   }
-
-   .volunteer-card .badge.ambassador {
-     background: rgba(76, 175, 80, 0.15);
-     color: #2E7D32;
-     border: 1px solid rgba(76, 175, 80, 0.3);
-   }
-
-   .volunteer-card .badge.organizer {
-     background: rgba(33, 150, 243, 0.15);
-     color: #1565C0;
-     border: 1px solid rgba(33, 150, 243, 0.3);
-   }
-
-   .volunteer-card .badge.production {
-     background: rgba(255, 152, 0, 0.15);
-     color: #E65100;
-     border: 1px solid rgba(255, 152, 0, 0.3);
-   }
-
-   .volunteer-card .badge.host {
-     background: rgba(156, 39, 176, 0.15);
-     color: #6A1B9A;
-     border: 1px solid rgba(156, 39, 176, 0.3);
-   }
-
-   .volunteer-card .badge.technical {
-     background: rgba(96, 125, 139, 0.15);
-     color: #37474F;
-     border: 1px solid rgba(96, 125, 139, 0.3);
-   }
-
-   .volunteer-card .badge.support {
-     background: rgba(121, 85, 72, 0.15);
-     color: #3E2723;
-     border: 1px solid rgba(121, 85, 72, 0.3);
-   }
-
-   .volunteer-card .badge.global {
-     background: rgba(233, 30, 99, 0.15);
-     color: #AD1457;
-     border: 1px solid rgba(233, 30, 99, 0.3);
-   }
-
-   .volunteer-card .badge.strategic {
-     background: rgba(63, 81, 181, 0.15);
-     color: #283593;
-     border: 1px solid rgba(63, 81, 181, 0.3);
-   }
-
-   .volunteer-card .avatar-section {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     gap: 1rem;
-   }
-
-   .volunteer-card .volunteer-avatar {
-     width: 100px;
-     height: 100px;
-     border-radius: 50%;
-     object-fit: cover;
-     border: 3px solid var(--md-primary-fg-color--light);
-     transition: var(--transition-base);
-   }
-
-   .volunteer-card:hover .volunteer-avatar {
-     border-color: var(--md-primary-fg-color);
-     transform: scale(1.05);
-   }
-
-   .volunteer-card .social-icons {
-     display: flex;
-     gap: 0.5rem;
-     justify-content: center;
-   }
-
-   .volunteer-card .social-icon {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     width: 32px;
-     height: 32px;
-     border-radius: 50%;
-     background: var(--md-default-fg-color--lightest);
-     color: var(--md-default-fg-color--light);
-     text-decoration: none;
-     transition: var(--transition-base);
-     font-size: 0.875rem;
-   }
-
-   .volunteer-card .social-icon:hover {
-     transform: translateY(-2px);
-     text-decoration: none;
-   }
-
-   .volunteer-card .social-icon.linkedin:hover {
-     background: var(--linkedin-color);
-     color: white;
-   }
-
-   .volunteer-card .social-icon.github:hover {
-     background: var(--github-color);
-     color: white;
-   }
-
-   .volunteer-card .card-content {
-     border-top: 1px solid var(--md-default-fg-color--lightest);
-     padding-top: 1.5rem;
-   }
-
-   .volunteer-card .card-role {
-     line-height: 1.6;
-   }
-
-   .volunteer-card .role-title {
-     font-weight: 700;
-     color: var(--md-primary-fg-color);
-     font-size: 0.9rem;
-     text-transform: uppercase;
-     letter-spacing: 0.05em;
-     display: block;
-     margin-bottom: 0.5rem;
-   }
-
-   .volunteer-card .role-description {
-     font-weight: 500;
-     color: var(--md-default-fg-color--light);
-     font-size: 0.875rem;
-     font-style: italic;
-     line-height: 1.4;
-     display: block;
-     margin-bottom: 1rem;
-   }
-
-   .volunteer-card .card-role ul {
-     margin-top: 1rem;
-     padding-left: 1.5rem;
-   }
-
-   .volunteer-card .card-role li {
-     margin-bottom: 0.5rem;
-     color: var(--md-default-fg-color--light);
-   }
-
-         /* Encabezados de voluntarios ocultos - Solución mantenible */
-   /* Usar clase .volunteer-header en cualquier h3 que deba ocultarse */
-   .volunteer-header {
-     position: absolute !important;
-     left: -9999px !important;
-     width: 1px !important;
-     height: 1px !important;
-     overflow: hidden !important;
-     clip: rect(1px, 1px, 1px, 1px) !important;
-   }
-
-   /* Ajustar espaciado de las tarjetas */
-   .volunteer-card:first-of-type {
-     margin-top: 1rem;
+     .community-card h4 {
+       font-size: 1rem;
+     }
    }

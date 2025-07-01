@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total_files_scanned": 38,
-    "working_links": 162,
+    "total_files_scanned": 35,
+    "working_links": 79,
     "broken_links": 0,
     "base_url": "http://127.0.0.1:8000"
   },
@@ -26,210 +26,21 @@
       "link_type": "markdown"
     },
     {
-      "file": "about.md",
-      "text": "Meetups 2025",
-      "url": "meetups/2025/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/",
-      "status": "200 OK",
-      "line": 83,
-      "link_type": "markdown"
-    },
-    {
-      "file": "about.md",
-      "text": "Ser Ponente",
-      "url": "comunidad/ponentes/",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/",
-      "status": "200 OK",
-      "line": 83,
-      "link_type": "markdown"
-    },
-    {
-      "file": "about.md",
-      "text": "Nuestros Ponentes",
-      "url": "comunidad/ponentes/",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/",
-      "status": "200 OK",
-      "line": 83,
-      "link_type": "markdown"
-    },
-    {
-      "file": "about.md",
-      "text": "Meetups 2024",
-      "url": "meetups/2024/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/",
-      "status": "200 OK",
-      "line": 84,
-      "link_type": "markdown"
-    },
-    {
-      "file": "about.md",
-      "text": "Ser Voluntario",
-      "url": "comunidad/voluntarios/",
-      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios/",
-      "status": "200 OK",
-      "line": 84,
-      "link_type": "markdown"
-    },
-    {
-      "file": "about.md",
-      "text": "Alianzas",
-      "url": "comunidad/alianzas/",
-      "full_url": "http://127.0.0.1:8000/comunidad/alianzas/",
-      "status": "200 OK",
-      "line": 84,
-      "link_type": "markdown"
-    },
-    {
-      "file": "about.md",
-      "text": "Archivo Completo",
-      "url": "meetups/",
-      "full_url": "http://127.0.0.1:8000/meetups/",
-      "status": "200 OK",
-      "line": 85,
-      "link_type": "markdown"
-    },
-    {
-      "file": "about.md",
-      "text": "Cómo Contribuir",
-      "url": "comunidad/como-contribuir/",
-      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir/",
-      "status": "200 OK",
-      "line": 85,
-      "link_type": "markdown"
-    },
-    {
-      "file": "about.md",
-      "text": "Volver al Inicio",
-      "url": "/",
-      "full_url": "http://127.0.0.1:8000/",
-      "status": "200 OK",
-      "line": 85,
-      "link_type": "markdown"
-    },
-    {
       "file": "index.md",
-      "text": "Meetups 2025",
-      "url": "meetups/2025/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/",
-      "status": "200 OK",
-      "line": 78,
-      "link_type": "markdown"
-    },
-    {
-      "file": "index.md",
-      "text": "Ser Ponente",
-      "url": "comunidad/ponentes/",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/",
-      "status": "200 OK",
-      "line": 78,
-      "link_type": "markdown"
-    },
-    {
-      "file": "index.md",
-      "text": "Nuestros Ponentes",
-      "url": "comunidad/ponentes/",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/",
-      "status": "200 OK",
-      "line": 78,
-      "link_type": "markdown"
-    },
-    {
-      "file": "index.md",
-      "text": "Meetups 2024",
-      "url": "meetups/2024/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/",
-      "status": "200 OK",
-      "line": 79,
-      "link_type": "markdown"
-    },
-    {
-      "file": "index.md",
-      "text": "Ser Voluntario",
-      "url": "comunidad/voluntarios/",
-      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios/",
-      "status": "200 OK",
-      "line": 79,
-      "link_type": "markdown"
-    },
-    {
-      "file": "index.md",
-      "text": "Alianzas",
-      "url": "comunidad/alianzas/",
-      "full_url": "http://127.0.0.1:8000/comunidad/alianzas/",
-      "status": "200 OK",
-      "line": 79,
-      "link_type": "markdown"
-    },
-    {
-      "file": "index.md",
-      "text": "Archivo Completo",
-      "url": "meetups/",
-      "full_url": "http://127.0.0.1:8000/meetups/",
-      "status": "200 OK",
-      "line": 80,
-      "link_type": "markdown"
-    },
-    {
-      "file": "index.md",
-      "text": "Cómo Contribuir",
-      "url": "comunidad/como-contribuir/",
-      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir/",
-      "status": "200 OK",
-      "line": 80,
-      "link_type": "markdown"
-    },
-    {
-      "file": "index.md",
-      "text": "Sobre Nosotros",
-      "url": "about/",
-      "full_url": "http://127.0.0.1:8000/about/",
-      "status": "200 OK",
-      "line": 80,
-      "link_type": "markdown"
-    },
-    {
-      "file": "index.md",
-      "text": "Explotar charlas",
+      "text": "Explorar charlas",
       "url": "/meetups/",
       "full_url": "http://127.0.0.1:8000/meetups/",
-      "status": "200 OK",
-      "line": 7,
-      "link_type": "html"
-    },
-    {
-      "file": "index.md",
-      "text": "Únete",
-      "url": "/comunidad/voluntarios/",
-      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios/",
       "status": "200 OK",
       "line": 8,
       "link_type": "html"
     },
     {
       "file": "index.md",
-      "text": "Conoce Más",
-      "url": "/comunidad/ponentes/",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/",
+      "text": "Participa",
+      "url": "/comunidad/como-contribuir/",
+      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir/",
       "status": "200 OK",
-      "line": 38,
-      "link_type": "html"
-    },
-    {
-      "file": "index.md",
-      "text": "Únete",
-      "url": "/comunidad/voluntarios/",
-      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios/",
-      "status": "200 OK",
-      "line": 43,
-      "link_type": "html"
-    },
-    {
-      "file": "index.md",
-      "text": "Ver Eventos",
-      "url": "/meetups/",
-      "full_url": "http://127.0.0.1:8000/meetups/",
-      "status": "200 OK",
-      "line": 48,
+      "line": 9,
       "link_type": "html"
     },
     {
@@ -238,7 +49,7 @@
       "url": "/comunidad/voluntarios/#voluntarios-de-python-cdmx",
       "full_url": "http://127.0.0.1:8000/comunidad/voluntarios/#voluntarios-de-python-cdmx",
       "status": "200 OK",
-      "line": 55,
+      "line": 21,
       "link_type": "html"
     },
     {
@@ -247,115 +58,34 @@
       "url": "/comunidad/ponentes/#ponentes-de-python-cdmx",
       "full_url": "http://127.0.0.1:8000/comunidad/ponentes/#ponentes-de-python-cdmx",
       "status": "200 OK",
-      "line": 56,
+      "line": 22,
       "link_type": "html"
     },
     {
-      "file": "meetups/index.md",
-      "text": "Meetups 2025",
-      "url": "/meetups/2025/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/",
+      "file": "index.md",
+      "text": "Conoce Más",
+      "url": "/comunidad/ponentes/",
+      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/",
       "status": "200 OK",
-      "line": 99,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/index.md",
-      "text": "Ser Ponente",
-      "url": "/comunidad/ponentes",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes",
-      "status": "200 OK",
-      "line": 99,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/index.md",
-      "text": "Nuestros Ponentes",
-      "url": "/comunidad/ponentes",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes",
-      "status": "200 OK",
-      "line": 99,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/index.md",
-      "text": "Meetups 2024",
-      "url": "/meetups/2024/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/",
-      "status": "200 OK",
-      "line": 100,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/index.md",
-      "text": "Ser Voluntario",
-      "url": "/comunidad/voluntarios",
-      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios",
-      "status": "200 OK",
-      "line": 100,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/index.md",
-      "text": "Alianzas",
-      "url": "/comunidad/alianzas",
-      "full_url": "http://127.0.0.1:8000/comunidad/alianzas",
-      "status": "200 OK",
-      "line": 100,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/index.md",
-      "text": "Meetups 2023",
-      "url": "/meetups/2023/",
-      "full_url": "http://127.0.0.1:8000/meetups/2023/",
-      "status": "200 OK",
-      "line": 101,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/index.md",
-      "text": "Cómo Contribuir",
-      "url": "/comunidad/como-contribuir",
-      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir",
-      "status": "200 OK",
-      "line": 101,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/index.md",
-      "text": "Volver al Inicio",
-      "url": "/",
-      "full_url": "http://127.0.0.1:8000/",
-      "status": "200 OK",
-      "line": 101,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/index.md",
-      "text": "Ver meetups",
-      "url": "/meetups/2025/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/",
-      "status": "200 OK",
-      "line": 21,
+      "line": 39,
       "link_type": "html"
     },
     {
-      "file": "meetups/index.md",
-      "text": "Ver meetups",
-      "url": "/meetups/2024/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/",
+      "file": "index.md",
+      "text": "Únete",
+      "url": "/comunidad/voluntarios/",
+      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios/",
       "status": "200 OK",
-      "line": 28,
+      "line": 44,
       "link_type": "html"
     },
     {
-      "file": "meetups/index.md",
-      "text": "Ver meetups",
-      "url": "/meetups/2023/",
-      "full_url": "http://127.0.0.1:8000/meetups/2023/",
+      "file": "index.md",
+      "text": "Ver Eventos",
+      "url": "/meetups/",
+      "full_url": "http://127.0.0.1:8000/meetups/",
       "status": "200 OK",
-      "line": 35,
+      "line": 49,
       "link_type": "html"
     },
     {
@@ -405,92 +135,11 @@
     },
     {
       "file": "meetups/2023/index.md",
-      "text": "Meetups 2025",
-      "url": "../2025/",
-      "full_url": "http://127.0.0.1:8000/2025/",
-      "status": "200 OK",
-      "line": 86,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2023/index.md",
-      "text": "Ser Ponente",
-      "url": "../../comunidad/ponentes/",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/",
-      "status": "200 OK",
-      "line": 86,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2023/index.md",
-      "text": "Nuestros Ponentes",
-      "url": "../../comunidad/ponentes/",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/",
-      "status": "200 OK",
-      "line": 86,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2023/index.md",
-      "text": "Meetups 2024",
-      "url": "../2024/",
-      "full_url": "http://127.0.0.1:8000/2024/",
-      "status": "200 OK",
-      "line": 87,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2023/index.md",
-      "text": "Ser Voluntario",
-      "url": "../../comunidad/voluntarios/",
-      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios/",
-      "status": "200 OK",
-      "line": 87,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2023/index.md",
-      "text": "Alianzas",
-      "url": "../../comunidad/alianzas/",
-      "full_url": "http://127.0.0.1:8000/comunidad/alianzas/",
-      "status": "200 OK",
-      "line": 87,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2023/index.md",
-      "text": "Archivo Completo",
-      "url": "../",
-      "full_url": "http://127.0.0.1:8000/",
-      "status": "200 OK",
-      "line": 88,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2023/index.md",
-      "text": "Cómo Contribuir",
-      "url": "../../comunidad/como-contribuir/",
-      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir/",
-      "status": "200 OK",
-      "line": 88,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2023/index.md",
-      "text": "Volver al Inicio",
-      "url": "../../",
-      "full_url": "http://127.0.0.1:8000/",
-      "status": "200 OK",
-      "line": 88,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2023/index.md",
       "text": "ponentes y voluntarios reconocidos",
       "url": "/comunidad/como-contribuir/",
       "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir/",
       "status": "200 OK",
-      "line": 92,
+      "line": 59,
       "link_type": "markdown"
     },
     {
@@ -630,92 +279,11 @@
     },
     {
       "file": "meetups/2024/index.md",
-      "text": "Meetups 2025",
-      "url": "../2025/",
-      "full_url": "http://127.0.0.1:8000/2025/",
-      "status": "200 OK",
-      "line": 96,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2024/index.md",
-      "text": "Ser Ponente",
-      "url": "../../comunidad/ponentes/",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/",
-      "status": "200 OK",
-      "line": 96,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2024/index.md",
-      "text": "Nuestros Ponentes",
-      "url": "../../comunidad/ponentes/",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/",
-      "status": "200 OK",
-      "line": 96,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2024/index.md",
-      "text": "Meetups 2023",
-      "url": "../2023/",
-      "full_url": "http://127.0.0.1:8000/2023/",
-      "status": "200 OK",
-      "line": 97,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2024/index.md",
-      "text": "Ser Voluntario",
-      "url": "../../comunidad/voluntarios/",
-      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios/",
-      "status": "200 OK",
-      "line": 97,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2024/index.md",
-      "text": "Alianzas",
-      "url": "../../comunidad/alianzas/",
-      "full_url": "http://127.0.0.1:8000/comunidad/alianzas/",
-      "status": "200 OK",
-      "line": 97,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2024/index.md",
-      "text": "Archivo Completo",
-      "url": "../",
-      "full_url": "http://127.0.0.1:8000/",
-      "status": "200 OK",
-      "line": 98,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2024/index.md",
-      "text": "Cómo Contribuir",
-      "url": "../../comunidad/como-contribuir/",
-      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir/",
-      "status": "200 OK",
-      "line": 98,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2024/index.md",
-      "text": "Volver al Inicio",
-      "url": "../../",
-      "full_url": "http://127.0.0.1:8000/",
-      "status": "200 OK",
-      "line": 98,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2024/index.md",
       "text": "ponentes y voluntarios reconocidos",
       "url": "/comunidad/como-contribuir/",
       "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir/",
       "status": "200 OK",
-      "line": 102,
+      "line": 69,
       "link_type": "markdown"
     },
     {
@@ -828,182 +396,11 @@
     },
     {
       "file": "meetups/2025/index.md",
-      "text": "Meetups 2024",
-      "url": "../2024/",
-      "full_url": "http://127.0.0.1:8000/2024/",
-      "status": "200 OK",
-      "line": 87,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2025/index.md",
-      "text": "Ser Ponente",
-      "url": "../../comunidad/ponentes/",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/",
-      "status": "200 OK",
-      "line": 87,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2025/index.md",
-      "text": "Nuestros Ponentes",
-      "url": "../../comunidad/ponentes/",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/",
-      "status": "200 OK",
-      "line": 87,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2025/index.md",
-      "text": "Meetups 2023",
-      "url": "/meetups/2023",
-      "full_url": "http://127.0.0.1:8000/meetups/2023",
-      "status": "200 OK",
-      "line": 88,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2025/index.md",
-      "text": "Ser Voluntario",
-      "url": "/comunidad/voluntarios",
-      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios",
-      "status": "200 OK",
-      "line": 88,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2025/index.md",
-      "text": "Alianzas",
-      "url": "/comunidad/alianzas",
-      "full_url": "http://127.0.0.1:8000/comunidad/alianzas",
-      "status": "200 OK",
-      "line": 88,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2025/index.md",
-      "text": "Archivo Completo",
-      "url": "/meetups",
-      "full_url": "http://127.0.0.1:8000/meetups",
-      "status": "200 OK",
-      "line": 89,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2025/index.md",
-      "text": "Cómo Contribuir",
-      "url": "/comunidad/como-contribuir",
-      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir",
-      "status": "200 OK",
-      "line": 89,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2025/index.md",
-      "text": "Volver al Inicio",
-      "url": "/",
-      "full_url": "http://127.0.0.1:8000/",
-      "status": "200 OK",
-      "line": 89,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2025/index.md",
       "text": "ponentes y voluntarios reconocidos",
       "url": "/comunidad/como-contribuir/",
       "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir/",
       "status": "200 OK",
-      "line": 93,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/voluntarios.md",
-      "text": "Más Información",
-      "url": "como-contribuir/",
-      "full_url": "http://127.0.0.1:8000/como-contribuir/",
-      "status": "200 OK",
-      "line": 86,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/alianzas.md",
-      "text": "Meetups 2025",
-      "url": "../meetups/2025/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/",
-      "status": "200 OK",
-      "line": 228,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/alianzas.md",
-      "text": "Ser Ponente",
-      "url": "ponentes/",
-      "full_url": "http://127.0.0.1:8000/ponentes/",
-      "status": "200 OK",
-      "line": 228,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/alianzas.md",
-      "text": "Nuestros Ponentes",
-      "url": "ponentes/",
-      "full_url": "http://127.0.0.1:8000/ponentes/",
-      "status": "200 OK",
-      "line": 228,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/alianzas.md",
-      "text": "Meetups 2024",
-      "url": "../meetups/2024/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/",
-      "status": "200 OK",
-      "line": 229,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/alianzas.md",
-      "text": "Ser Voluntario",
-      "url": "voluntarios/",
-      "full_url": "http://127.0.0.1:8000/voluntarios/",
-      "status": "200 OK",
-      "line": 229,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/alianzas.md",
-      "text": "Sobre Nosotros",
-      "url": "../about/",
-      "full_url": "http://127.0.0.1:8000/about/",
-      "status": "200 OK",
-      "line": 229,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/alianzas.md",
-      "text": "Archivo Completo",
-      "url": "../meetups/",
-      "full_url": "http://127.0.0.1:8000/meetups/",
-      "status": "200 OK",
-      "line": 230,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/alianzas.md",
-      "text": "Cómo Contribuir",
-      "url": "como-contribuir/",
-      "full_url": "http://127.0.0.1:8000/como-contribuir/",
-      "status": "200 OK",
-      "line": 230,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/alianzas.md",
-      "text": "Volver al Inicio",
-      "url": "../",
-      "full_url": "http://127.0.0.1:8000/",
-      "status": "200 OK",
-      "line": 230,
+      "line": 67,
       "link_type": "markdown"
     },
     {
@@ -1052,255 +449,12 @@
       "link_type": "markdown"
     },
     {
-      "file": "comunidad/como-contribuir.md",
-      "text": "Meetups 2025",
-      "url": "../meetups/2025/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/",
-      "status": "200 OK",
-      "line": 191,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/como-contribuir.md",
-      "text": "Ser Ponente",
-      "url": "ponentes/",
-      "full_url": "http://127.0.0.1:8000/ponentes/",
-      "status": "200 OK",
-      "line": 191,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/como-contribuir.md",
-      "text": "Nuestros Ponentes",
-      "url": "ponentes/",
-      "full_url": "http://127.0.0.1:8000/ponentes/",
-      "status": "200 OK",
-      "line": 191,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/como-contribuir.md",
-      "text": "Meetups 2024",
-      "url": "../meetups/2024/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/",
-      "status": "200 OK",
-      "line": 192,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/como-contribuir.md",
-      "text": "Ser Voluntario",
-      "url": "voluntarios/",
-      "full_url": "http://127.0.0.1:8000/voluntarios/",
-      "status": "200 OK",
-      "line": 192,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/como-contribuir.md",
-      "text": "Alianzas",
-      "url": "alianzas/",
-      "full_url": "http://127.0.0.1:8000/alianzas/",
-      "status": "200 OK",
-      "line": 192,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/como-contribuir.md",
-      "text": "Archivo Completo",
-      "url": "../meetups/",
-      "full_url": "http://127.0.0.1:8000/meetups/",
-      "status": "200 OK",
-      "line": 193,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/como-contribuir.md",
-      "text": "Ver Nuestro Equipo",
-      "url": "#nuestro-equipo",
-      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir/#nuestro-equipo",
-      "status": "200 OK",
-      "line": 193,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/como-contribuir.md",
-      "text": "Volver al Inicio",
-      "url": "../",
-      "full_url": "http://127.0.0.1:8000/",
-      "status": "200 OK",
-      "line": 193,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "Meetups 2025",
-      "url": "/meetups/2025/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/",
-      "status": "200 OK",
-      "line": 128,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "Ser Voluntario",
-      "url": "/comunidad/voluntarios",
-      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios",
-      "status": "200 OK",
-      "line": 128,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "Alianzas",
-      "url": "/comunidad/alianzas",
-      "full_url": "http://127.0.0.1:8000/comunidad/alianzas",
-      "status": "200 OK",
-      "line": 128,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "Meetups 2024",
-      "url": "/meetups/2024/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/",
-      "status": "200 OK",
-      "line": 129,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "Cómo Contribuir",
-      "url": "/comunidad/como-contribuir",
-      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir",
-      "status": "200 OK",
-      "line": 129,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "Sobre Nosotros",
-      "url": "/about",
-      "full_url": "http://127.0.0.1:8000/about",
-      "status": "200 OK",
-      "line": 129,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "Archivo Completo",
-      "url": "../meetups/",
-      "full_url": "http://127.0.0.1:8000/meetups/",
-      "status": "200 OK",
-      "line": 130,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "Volver al Inicio",
-      "url": "../",
-      "full_url": "http://127.0.0.1:8000/",
-      "status": "200 OK",
-      "line": 130,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"Cómo preparar una ambiente de desarrollo con Python desde zero\" (Julio 2025)",
-      "url": "/meetups/2025/202507-julio/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202507-julio/",
-      "status": "200 OK",
-      "line": 157,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"Interfaces gráficas con PySide6\" (Marzo 2025)",
-      "url": "/meetups/2025/202503-marzo/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202503-marzo/",
-      "status": "200 OK",
-      "line": 158,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"Rich y Textual: Haz tus aplicaciones en la consola visualmente atractivas\" (Septiembre 2024)",
-      "url": "/meetups/2024/202409-septiembre/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/202409-septiembre/",
-      "status": "200 OK",
-      "line": 159,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"Utilizando Servicios Administrados de AI de AWS con Python y Boto3\" (Septiembre 2023)",
-      "url": "/meetups/2023/202309-septiembre/",
-      "full_url": "http://127.0.0.1:8000/meetups/2023/202309-septiembre/",
-      "status": "200 OK",
-      "line": 160,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"Protocolos en Python: El poder del tipado estático avanzado\" (Agosto 2024)",
-      "url": "/meetups/2024/202408-agosto/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/202408-agosto/",
-      "status": "200 OK",
-      "line": 185,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"¡De Jupyter a Web en Minutos!\" (Octubre 2023)",
-      "url": "/meetups/2023/202310-octubre/",
-      "full_url": "http://127.0.0.1:8000/meetups/2023/202310-octubre/",
-      "status": "200 OK",
-      "line": 186,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"Metaprogramación en Python\" (Septiembre 2023)",
-      "url": "/meetups/2023/202309-septiembre/",
-      "full_url": "http://127.0.0.1:8000/meetups/2023/202309-septiembre/",
-      "status": "200 OK",
-      "line": 187,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"Python: La Forja de un Lenguaje\" (Noviembre 2023)",
-      "url": "/meetups/2023/202311-noviembre/",
-      "full_url": "http://127.0.0.1:8000/meetups/2023/202311-noviembre/",
-      "status": "200 OK",
-      "line": 188,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"Kubernetes y MLOps: Desplegando aplicaciones de IA\" (Abril 2025)",
-      "url": "/meetups/2025/202504-abril/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202504-abril/",
-      "status": "200 OK",
-      "line": 213,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"GitOps 101. Primeros pasos para desplegar aplicaciones en Kubernetes\" (Noviembre 2023)",
-      "url": "/meetups/2023/202311-noviembre/",
-      "full_url": "http://127.0.0.1:8000/meetups/2023/202311-noviembre/",
-      "status": "200 OK",
-      "line": 214,
-      "link_type": "html"
-    },
-    {
       "file": "comunidad/ponentes.md",
       "text": "\"Mejora tu código: Evita anti-patrones en Python\" (Noviembre 2024)",
       "url": "/meetups/2024/202411-noviembre/",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202411-noviembre/",
       "status": "200 OK",
-      "line": 239,
+      "line": 125,
       "link_type": "html"
     },
     {
@@ -1309,70 +463,7 @@
       "url": "/meetups/2024/202403-marzo/",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202403-marzo/",
       "status": "200 OK",
-      "line": 240,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"Programar en tiempos del Vibe-Coding\" (Abril 2025 - UNAM)",
-      "url": "/meetups/2025/202504-unam/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202504-unam/",
-      "status": "200 OK",
-      "line": 265,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"Validación de datos con Python\" (Mayo 2024)",
-      "url": "/meetups/2024/202405-mayo/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/202405-mayo/",
-      "status": "200 OK",
-      "line": 266,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"Lecciones del Advent of Code 2024\" (Febrero 2025)",
-      "url": "/meetups/2025/202502-febrero/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202502-febrero/",
-      "status": "200 OK",
-      "line": 291,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"Embeddings - El lenguaje como las máquinas entienden el lenguaje humano\" (Febrero 2025)",
-      "url": "/meetups/2025/202502-febrero/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202502-febrero/",
-      "status": "200 OK",
-      "line": 316,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"Mi Primer Agente de Inteligencia Artificial con Python\" (Marzo 2025)",
-      "url": "/meetups/2025/202503-marzo/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202503-marzo/",
-      "status": "200 OK",
-      "line": 341,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"Desarrollo de aplicaciones FinTech con Python\" (Mayo 2025)",
-      "url": "/meetups/2025/202505-mayo/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202505-mayo/",
-      "status": "200 OK",
-      "line": 366,
-      "link_type": "html"
-    },
-    {
-      "file": "comunidad/ponentes.md",
-      "text": "\"Aplicaciones de IA en la nube\" (Junio 2025)",
-      "url": "/meetups/2025/202506-junio/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202506-junio/",
-      "status": "200 OK",
-      "line": 391,
+      "line": 126,
       "link_type": "html"
     },
     {
@@ -1381,7 +472,52 @@
       "url": "/meetups/2024/202410-octubre/",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202410-octubre/",
       "status": "200 OK",
-      "line": 416,
+      "line": 158,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"Aplicaciones de IA en la nube\" (Junio 2025)",
+      "url": "/meetups/2025/202506-junio/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202506-junio/",
+      "status": "200 OK",
+      "line": 190,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"Kubernetes y MLOps: Desplegando aplicaciones de IA\" (Abril 2025)",
+      "url": "/meetups/2025/202504-abril/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202504-abril/",
+      "status": "200 OK",
+      "line": 222,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"GitOps 101. Primeros pasos para desplegar aplicaciones en Kubernetes\" (Noviembre 2023)",
+      "url": "/meetups/2023/202311-noviembre/",
+      "full_url": "http://127.0.0.1:8000/meetups/2023/202311-noviembre/",
+      "status": "200 OK",
+      "line": 223,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"Programar en tiempos del Vibe-Coding\" (Abril 2025 - UNAM)",
+      "url": "/meetups/2025/202504-unam/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202504-unam/",
+      "status": "200 OK",
+      "line": 255,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"Validación de datos con Python\" (Mayo 2024)",
+      "url": "/meetups/2024/202405-mayo/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202405-mayo/",
+      "status": "200 OK",
+      "line": 256,
       "link_type": "html"
     },
     {
@@ -1390,7 +526,43 @@
       "url": "/meetups/2025/202504-unam/",
       "full_url": "http://127.0.0.1:8000/meetups/2025/202504-unam/",
       "status": "200 OK",
-      "line": 441,
+      "line": 288,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"Cómo preparar una ambiente de desarrollo con Python desde zero\" (Julio 2025)",
+      "url": "/meetups/2025/202507-julio/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202507-julio/",
+      "status": "200 OK",
+      "line": 320,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"Interfaces gráficas con PySide6\" (Marzo 2025)",
+      "url": "/meetups/2025/202503-marzo/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202503-marzo/",
+      "status": "200 OK",
+      "line": 321,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"Rich y Textual: Haz tus aplicaciones en la consola visualmente atractivas\" (Septiembre 2024)",
+      "url": "/meetups/2024/202409-septiembre/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202409-septiembre/",
+      "status": "200 OK",
+      "line": 322,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"Utilizando Servicios Administrados de AI de AWS con Python y Boto3\" (Septiembre 2023)",
+      "url": "/meetups/2023/202309-septiembre/",
+      "full_url": "http://127.0.0.1:8000/meetups/2023/202309-septiembre/",
+      "status": "200 OK",
+      "line": 323,
       "link_type": "html"
     },
     {
@@ -1399,16 +571,16 @@
       "url": "/meetups/2024/202409-septiembre/",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202409-septiembre/",
       "status": "200 OK",
-      "line": 466,
+      "line": 355,
       "link_type": "html"
     },
     {
       "file": "comunidad/ponentes.md",
-      "text": "\"Creando extensiones para LibreOffice, con Python\" (Enero 2025)",
-      "url": "/meetups/2025/202501-enero/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202501-enero/",
+      "text": "\"Mi Primer Agente de Inteligencia Artificial con Python\" (Marzo 2025)",
+      "url": "/meetups/2025/202503-marzo/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202503-marzo/",
       "status": "200 OK",
-      "line": 491,
+      "line": 387,
       "link_type": "html"
     },
     {
@@ -1417,7 +589,7 @@
       "url": "/meetups/2024/202408-agosto/",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202408-agosto/",
       "status": "200 OK",
-      "line": 516,
+      "line": 419,
       "link_type": "html"
     },
     {
@@ -1426,7 +598,43 @@
       "url": "/meetups/2024/202406-junio/",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202406-junio/",
       "status": "200 OK",
-      "line": 541,
+      "line": 451,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"Protocolos en Python: El poder del tipado estático avanzado\" (Agosto 2024)",
+      "url": "/meetups/2024/202408-agosto/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202408-agosto/",
+      "status": "200 OK",
+      "line": 483,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"¡De Jupyter a Web en Minutos!\" (Octubre 2023)",
+      "url": "/meetups/2023/202310-octubre/",
+      "full_url": "http://127.0.0.1:8000/meetups/2023/202310-octubre/",
+      "status": "200 OK",
+      "line": 484,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"Metaprogramación en Python\" (Septiembre 2023)",
+      "url": "/meetups/2023/202309-septiembre/",
+      "full_url": "http://127.0.0.1:8000/meetups/2023/202309-septiembre/",
+      "status": "200 OK",
+      "line": 485,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"Python: La Forja de un Lenguaje\" (Noviembre 2023)",
+      "url": "/meetups/2023/202311-noviembre/",
+      "full_url": "http://127.0.0.1:8000/meetups/2023/202311-noviembre/",
+      "status": "200 OK",
+      "line": 486,
       "link_type": "html"
     },
     {
@@ -1435,7 +643,7 @@
       "url": "/meetups/2024/202407-julio/",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202407-julio/",
       "status": "200 OK",
-      "line": 566,
+      "line": 518,
       "link_type": "html"
     },
     {
@@ -1444,7 +652,25 @@
       "url": "/meetups/2024/202411-noviembre/",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202411-noviembre/",
       "status": "200 OK",
-      "line": 567,
+      "line": 519,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"Desarrollo de aplicaciones FinTech con Python\" (Mayo 2025)",
+      "url": "/meetups/2025/202505-mayo/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202505-mayo/",
+      "status": "200 OK",
+      "line": 551,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"Embeddings - El lenguaje como las máquinas entienden el lenguaje humano\" (Febrero 2025)",
+      "url": "/meetups/2025/202502-febrero/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202502-febrero/",
+      "status": "200 OK",
+      "line": 583,
       "link_type": "html"
     },
     {
@@ -1453,7 +679,25 @@
       "url": "/meetups/2024/202407-julio/",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202407-julio/",
       "status": "200 OK",
-      "line": 592,
+      "line": 615,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"Lecciones del Advent of Code 2024\" (Febrero 2025)",
+      "url": "/meetups/2025/202502-febrero/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202502-febrero/",
+      "status": "200 OK",
+      "line": 647,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/ponentes.md",
+      "text": "\"Creando extensiones para LibreOffice, con Python\" (Enero 2025)",
+      "url": "/meetups/2025/202501-enero/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202501-enero/",
+      "status": "200 OK",
+      "line": 679,
       "link_type": "html"
     },
     {
@@ -1462,7 +706,16 @@
       "url": "/meetups/2025/202501-enero/",
       "full_url": "http://127.0.0.1:8000/meetups/2025/202501-enero/",
       "status": "200 OK",
-      "line": 617,
+      "line": 711,
+      "link_type": "html"
+    },
+    {
+      "file": "comunidad/voluntarios.md",
+      "text": "Más Información",
+      "url": "como-contribuir/",
+      "full_url": "http://127.0.0.1:8000/como-contribuir/",
+      "status": "200 OK",
+      "line": 87,
       "link_type": "html"
     }
   ]
