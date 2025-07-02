@@ -47,9 +47,9 @@ title: "Del Código al Clic: Transforma Ideas en Interfaces"
         <p class="speaker-role">Python Developer</p>
         <p class="speaker-bio">Desarrollador Python con experiencia en interfaces gráficas y desarrollo de aplicaciones de escritorio.</p>
         <div class="speaker-links">
-            
-            
-            
+
+
+
         </div>
     </div>
 </div>
@@ -63,7 +63,7 @@ title: "Del Código al Clic: Transforma Ideas en Interfaces"
     <p>¿Tienes esa gran idea, pero no sabes cómo organizar tu ambiente virtual, tu código y todas las herramientas de desarrollo?</p>
     <p>En esta charla exploraremos las mejores prácticas para configurar un entorno de desarrollo Python profesional:</p>
     <ul>
-        
+
     </ul>
     <p>
         <i class="fas fa-info-circle"></i> Python ofrece múltiples opciones para crear interfaces gráficas modernas y atractivas.

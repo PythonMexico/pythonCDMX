@@ -53,7 +53,7 @@ title: "Utilizando Servicios AI de AWS y Metaprogramación en Python"
             <p>SRE Engineer</p>
             <p>SRE Engineer en Wizeline con experiencia en servicios cloud de AWS y desarrollo Python.</p>
             <div class="speaker-links">
-                
+
 
 
             </div>

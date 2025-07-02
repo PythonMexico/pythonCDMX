@@ -5,6 +5,7 @@ Simple script to check internal links with HTTP requests.
 
 import json
 import re
+import sys
 from pathlib import Path
 from urllib.parse import urljoin
 
@@ -191,6 +192,17 @@ def main():
             print(f"   Status: {link['status']}")
             print()
 
+    # Return number of broken links
+    return len(broken_links)
+
 
 if __name__ == "__main__":
-    main()
+    broken_count = main()
+
+    # Exit with error if there are broken links
+    if broken_count > 0:
+        print(f"\n💥 Script failing due to {broken_count} broken links!")
+        sys.exit(1)
+    else:
+        print("\n✅ Script completed successfully - all links working!")
+        sys.exit(0)

@@ -47,9 +47,9 @@ title: "¡De Jupyter a Web en Minutos!"
         <p class="speaker-role">Python Developer</p>
         <p class="speaker-bio">Desarrollador Python con experiencia en análisis de datos y desarrollo web.</p>
         <div class="speaker-links">
-            
-            
-            
+
+
+
         </div>
     </div>
 </div>
@@ -63,7 +63,7 @@ title: "¡De Jupyter a Web en Minutos!"
     <p>¿Tienes esa gran idea, pero no sabes cómo organizar tu ambiente virtual, tu código y todas las herramientas de desarrollo?</p>
     <p>En esta charla exploraremos las mejores prácticas para configurar un entorno de desarrollo Python profesional:</p>
     <ul>
-        
+
     </ul>
     <p>
         <i class="fas fa-info-circle"></i> Python permite transformar análisis de datos locales en servicios web interactivos de manera rápida y eficiente.

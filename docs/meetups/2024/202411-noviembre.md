@@ -53,34 +53,34 @@ title: "Evita Anti-patrones en Python / ¿Qué y por qué ChatGPT?"
             <p>Python Developer</p>
             <p>Desarrollador Python con experiencia en buenas prácticas y código limpio.</p>
             <div class="speaker-links">
-                
-                
-                
+
+
+
             </div>
         </div>
     </div>
     <div class="talk-description">
         <p>Descubre cómo escribir código Python más limpio y eficiente evitando los anti-patrones más comunes. Mejora tus habilidades y aprende a hacerlo de forma 'pythonic'.</p>
-        
+
         <div class="tech-stack">
-            
+
             <div>
                 <h5><i class="fab fa-python"></i> Python</h5>
                 <p>Lenguaje principal</p>
             </div>
-            
+
             <div>
                 <h5><i class="fas fa-star"></i> Best Practices</h5>
                 <p>Buenas prácticas</p>
             </div>
-            
+
             <div>
                 <h5><i class="fas fa-search"></i> Code Quality</h5>
                 <p>Calidad de código</p>
             </div>
-            
+
         </div>
-        
+
         <p>Evitar anti-patrones es fundamental para escribir código Python mantenible y eficiente.</p>
     </div>
 </div>
@@ -99,34 +99,34 @@ title: "Evita Anti-patrones en Python / ¿Qué y por qué ChatGPT?"
             <p>AI Researcher</p>
             <p>Investigador en inteligencia artificial con experiencia en modelos de lenguaje y aplicaciones de IA.</p>
             <div class="speaker-links">
-                
-                
-                
+
+
+
             </div>
         </div>
     </div>
     <div class="talk-description">
         <p>ChatGPT es una herramienta poderosa diseñada para mejorar la interacción humano-máquina en tareas cotidianas, creativas y técnicas, gracias a su capacidad para comprender y generar lenguaje natural. La combinación de la arquitectura Transformer, el preentrenamiento masivo y el ajuste fino lo convierte en una opción versátil y accesible para múltiples usos. Además, su continua evolución a través del feedback y la investigación lo posiciona como una de las IA más avanzadas en la actualidad. La pregunta más importante es por qué, en esta charla gracias a Python entenderemos más sobre ChatGPT.</p>
-        
+
         <div class="tech-stack">
-            
+
             <div>
                 <h5><i class="fas fa-robot"></i> ChatGPT</h5>
                 <p>Modelo de lenguaje</p>
             </div>
-            
+
             <div>
                 <h5><i class="fas fa-brain"></i> Transformer</h5>
                 <p>Arquitectura neural</p>
             </div>
-            
+
             <div>
                 <h5><i class="fas fa-file-alt"></i> NLP</h5>
                 <p>Procesamiento de lenguaje</p>
             </div>
-            
+
         </div>
-        
+
         <p>Comprender el funcionamiento interno de ChatGPT es clave para aprovechar su potencial en aplicaciones Python.</p>
     </div>
 </div>
@@ -159,4 +159,3 @@ title: "Evita Anti-patrones en Python / ¿Qué y por qué ChatGPT?"
 --8<-- "components/quick-navigation.md"
 
 ---
-
