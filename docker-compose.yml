@@ -2,9 +2,9 @@ version: '3.8'
 
 services:
   # Servicio principal de desarrollo
-  pythonCDMX:
+  python-cdmx-page:
     build: .
-    container_name: pythonCDMX-dev
+    container_name: python-cdmx-page-dev
     ports:
       - "8000:8000"
     volumes:
@@ -19,9 +19,9 @@ services:
       - python-cdmx-network
 
   # Servicio de producción (build estático)
-  pythonCDMX-prod:
+  python-cdmx-page-prod:
     build: .
-    container_name: pythonCDMX-prod
+    container_name: python-cdmx-page-prod
     ports:
       - "8080:80"
     volumes:
@@ -34,7 +34,7 @@ services:
         nginx -g 'daemon off;'
       "
     depends_on:
-      - pythonCDMX
+      - python-cdmx-page
     networks:
       - python-cdmx-network
 
@@ -50,7 +50,7 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
       - ./ssl:/etc/nginx/ssl:ro
     depends_on:
-      - pythonCDMX-prod
+      - python-cdmx-page-prod
     networks:
       - python-cdmx-network
     profiles:
