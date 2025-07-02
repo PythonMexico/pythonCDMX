@@ -4,9 +4,9 @@ site_author: Comunidad Python CDMX
 site_url: https://pythoncdmx.org
 
 # Repository
-repo_name: python-cdmx/python-cdmx-page
-repo_url: https://github.com/python-cdmx/python-cdmx-page
-edit_uri: edit/main/docs/
+repo_name: PythonMexico/pythonCDMX
+repo_url: https://github.com/PythonMexico/pythonCDMX/
+#edit_uri: edit/main/docs/
 
 # Copyright
 copyright: Copyright &copy; 2025 Python CDMX
