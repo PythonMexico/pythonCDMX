@@ -36,11 +36,15 @@ jobs:
 
       - name: Check for broken links
         run: |
+          # Iniciar servidor HTTP en background
           cd site && python -m http.server 8000 &
           sleep 10
 
-          cd .. && python scripts/check_links.py
+          # Ejecutar check de links desde el directorio raíz
+          cd ${{ github.workspace }}
+          python scripts/check_links.py
 
+          # Verificar resultado
           broken_count=$(jq '.summary.broken_links' broken_links.json)
 
           if [ "$broken_count" -gt 0 ]; then
