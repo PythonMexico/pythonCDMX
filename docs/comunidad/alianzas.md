@@ -203,4 +203,3 @@ Python CDMX trabaja en colaboración con diversas comunidades y empresas para cr
 --8<-- "components/quick-navigation.md"
 
 ---
-

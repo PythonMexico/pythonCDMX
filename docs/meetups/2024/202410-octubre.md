@@ -47,9 +47,9 @@ title: "Una ida y una vuelta: Cómo iniciar en el opensource"
         <p class="speaker-role">Services Content Architect</p>
         <p class="speaker-bio">Alex Callejas es Services Content Architect de Red Hat, con base en la Ciudad de México y colaborador de diferentes comunidades OpenSource en Latinoamérica (como SysArmyMx o Fedora México). Con más de 20 años de experiencia como Sysadmin, tiene gran experiencia en hardening de infraestructura y automatización. Entusiasta del código abierto, apoya a la comunidad compartiendo sus conocimientos en diferentes eventos de acceso público y universidades. Autor del libro Fedora Linux Administration de la editorial Packt.</p>
         <div class="speaker-links">
-            
-            
-            
+
+
+
         </div>
     </div>
 </div>
@@ -63,7 +63,7 @@ title: "Una ida y una vuelta: Cómo iniciar en el opensource"
     <p>¿Tienes esa gran idea, pero no sabes cómo organizar tu ambiente virtual, tu código y todas las herramientas de desarrollo?</p>
     <p>En esta charla exploraremos las mejores prácticas para configurar un entorno de desarrollo Python profesional:</p>
     <ul>
-        
+
     </ul>
     <p>
         <i class="fas fa-info-circle"></i> Contribuir al open source es una excelente manera de crecer profesionalmente y dar de vuelta a la comunidad.
@@ -97,4 +97,3 @@ title: "Una ida y una vuelta: Cómo iniciar en el opensource"
 --8<-- "components/quick-navigation.md"
 
 ---
-

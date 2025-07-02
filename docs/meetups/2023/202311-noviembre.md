@@ -53,34 +53,34 @@ title: "GitOps 101 / Python: La Forja de un Lenguaje"
             <p>DevOps Engineer</p>
             <p>Especialista en GitOps y Kubernetes con experiencia en despliegue de aplicaciones cloud native.</p>
             <div class="speaker-links">
-                
-                
-                
+
+
+
             </div>
         </div>
     </div>
     <div class="talk-description">
         <p>En esta charla se mostrará los conceptos de GitOps y Cloud Native que nos permitirán conocer las estrategias de despliegue en Kubernetes.</p>
-        
+
         <div class="tech-stack">
-            
+
             <div>
                 <h5>🔄 GitOps</h5>
                 <p>Metodología de despliegue</p>
             </div>
-            
+
             <div>
                 <h5>☸️ Kubernetes</h5>
                 <p>Orquestación de contenedores</p>
             </div>
-            
+
             <div>
                 <h5>☁️ Cloud Native</h5>
                 <p>Aplicaciones nativas en la nube</p>
             </div>
-            
+
         </div>
-        
+
         <p>GitOps proporciona una metodología robusta para el despliegue y gestión de aplicaciones en Kubernetes.</p>
     </div>
 </div>
@@ -99,34 +99,34 @@ title: "GitOps 101 / Python: La Forja de un Lenguaje"
             <p>Python Developer</p>
             <p>Desarrollador Python con experiencia en compiladores y construcción de lenguajes de programación.</p>
             <div class="speaker-links">
-                
-                
-                
+
+
+
             </div>
         </div>
     </div>
     <div class="talk-description">
         <p>Explora la construcción de un lenguaje con Python, desde los pilares teóricos hasta un sorprendente guiño a la sintaxis financiera.</p>
-        
+
         <div class="tech-stack">
-            
+
             <div>
                 <h5>⚙️ Compilers</h5>
                 <p>Compiladores</p>
             </div>
-            
+
             <div>
                 <h5>🔧 Language Design</h5>
                 <p>Diseño de lenguajes</p>
             </div>
-            
+
             <div>
                 <h5>📝 Parsing</h5>
                 <p>Análisis sintáctico</p>
             </div>
-            
+
         </div>
-        
+
         <p>Construir un lenguaje de programación es una excelente manera de entender los fundamentos de la computación.</p>
     </div>
 </div>
