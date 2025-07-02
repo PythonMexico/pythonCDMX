@@ -1,0 +1,28 @@
+repos:
+  # Hooks básicos
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+        exclude: ^mkdocs\.yml$  # Excluir mkdocs.yml
+      - id: check-json
+      - id: check-added-large-files
+      - id: check-merge-conflict
+      # - id: requirements-txt-fixer  # Comentado si no lo quieres
+
+  # Validación de Markdown - MENOS ESTRICTO para empezar
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.39.0
+    hooks:
+      - id: markdownlint
+        args: ['--config', '.markdownlint.json', '--disable', 'MD012', 'MD022', 'MD032']
+        files: ^docs/.*\.md$
+
+  # Formateo de Python (opcional, pero útil para scripts)
+  - repo: https://github.com/psf/black
+    rev: 23.12.1
+    hooks:
+      - id: black
+        files: ^scripts/.*\.py$

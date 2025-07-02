@@ -40,14 +40,11 @@ def create_meetup_file(json_file):
         "event_location": data["event_location"],
         "event_rsvp_link": data.get("event_rsvp_link", "#"),
         "event_banner_image": data.get(
-            "event_banner_image",
-            "/assets/images/default-banner.jpg"
+            "event_banner_image", "/assets/images/default-banner.jpg"
         ),
         "event_month_year": data.get("event_month_year", ""),
         "tags": data["tags"],
-        "last_update": data.get(
-            "last_update", "Generado automáticamente"
-        ),
+        "last_update": data.get("last_update", "Generado automáticamente"),
     }
 
     # Agregar datos específicos según el tipo de template

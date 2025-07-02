@@ -1,7 +1,21 @@
 {
+  "MD001": true,
+  "MD003": { "style": "atx" },
+  "MD004": { "style": "dash" },
+  "MD007": { "indent": 2 },
+  "MD010": { "spaces_per_tab": 2 },
+  "MD012": false,
+  "MD013": { "line_length": 120 },
+  "MD022": false,
+  "MD025": true,
+  "MD026": { "punctuation": ".,;:!?" },
+  "MD029": { "style": "ordered" },
+  "MD030": { "ul_single": 1, "ul_multi": 1, "ol_single": 1, "ol_multi": 1 },
+  "MD031": false,
+  "MD032": false,
   "MD033": false,
+  "MD034": false,
+  "MD036": false,
   "MD041": false,
-  "MD013": false,
-  "MD025": false,
-  "MD026": false
+  "MD051": false
 }
