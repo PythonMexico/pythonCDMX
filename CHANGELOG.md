@@ -6,6 +6,66 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
 
 ---
 
+## [Unreleased]
+
+### Añadido
+- **Sistema Completo de Sedes**: Implementación integral de documentación para empresas que quieren ser sede
+  - `sedes.md`: Página principal con formato estándar de comunidad, incluyendo header con logo,
+    iconos FontAwesome y componentes de navegación
+  - `sedes_faq.md`: FAQ comprehensivo organizado en 7 secciones temáticas con información
+    práctica basada en experiencia real
+  - Integración de imagen personalizada `pythoncdmx_buscamos_sede.jpg` para branding específico
+  - Timeline detallado desde 3-4 semanas antes hasta después del evento
+  - Recomendaciones técnicas específicas (HDMI, WiFi, proyección, streaming)
+- **Documentación Práctica de Eventos**: Integración completa de lecciones aprendidas del evento en Clara
+  - Proceso de acceso a edificios con seguridad (formularios, listas, identificación oficial)
+  - Manejo de asistentes: 60-70% de asistencia real vs registrados
+  - Mejores prácticas para organización del espacio y áreas restringidas
+  - Requerimientos específicos de A/V y conectividad
+  - Checklist de preparación y coordinación
+
+### Cambiado
+- **Formato Unificado de Páginas de Comunidad**: `sedes.md` ahora sigue el estándar establecido
+  - Header centrado con logo de Python CDMX
+  - Iconos FontAwesome en lugar de emojis para consistencia visual
+  - Estructura de secciones con iconografía coherente
+  - Componentes de navegación estándar (`community-links.md` y `quick-navigation.md`)
+- **FAQ de Sedes Completamente Reestructurado**: Organización profesional en secciones temáticas
+  - **Logística del Evento**: Duración, asistencia, formato, agenda
+  - **Requerimientos Técnicos**: A/V, proyección, internet, streaming
+  - **Gestión de Asistentes**: Registro, listas, acceso a edificios
+  - **Participación de la Empresa**: Branding, charlas, snacks, bienvenida
+  - **Preparación del Espacio**: Layout, distribución, áreas restringidas
+  - **Timeline y Coordinación**: Cronograma completo de 3-4 semanas
+  - **Preguntas Comunes**: Horarios, problemas técnicos, beneficios
+
+### Corregido
+- **Visibilidad de Texto en Botones**: Solución definitiva para botones invisibles en `index.md`
+  - Agregado `!important` estratégico en CSS para `.btn`, `.btn-primary`, `.upcoming-btn`
+  - Reglas específicas para clases utilizadas en la página principal
+  - Estados hover consistentes con colores verde Python
+  - Texto blanco claramente visible en todos los botones del sitio
+- **Formato de Listas en Markdown**: Corrección de renderizado de viñetas en `sedes_faq.md`
+  - Agregadas líneas en blanco antes de listas para renderizado correcto
+  - Mejora en la legibilidad de información estructurada
+
+### Arquitectura y Sistema
+- **Documentación Escalable para Sedes**: Sistema modular que facilita agregar nueva información
+- **CSS Específico para Botones**: Arquitectura robusta que previene problemas de visibilidad
+- **Integración de Experiencia Real**: Documentación basada en eventos reales (Clara)
+  para mayor utilidad práctica
+- **Estandarización Visual**: Todas las páginas de comunidad ahora siguen el mismo
+  formato y estructura
+
+### Impacto
+- **Herramienta Completa para Sedes**: Las empresas ahora tienen toda la información
+  necesaria para ser sede exitosa
+- **Reducción de Preguntas Repetitivas**: FAQ comprehensive reduce la carga de soporte
+- **Mejora en UX**: Botones ahora completamente funcionales y visibles
+- **Professionalización**: Documentación de nivel empresarial para partnerships
+
+---
+
 ## [0.1.0]
 
 ### Añadido
@@ -71,7 +131,7 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y [
 - **Arquitectura Moderna**: CSS centralizado mejora dramáticamente la mantenibilidad y consistencia visual
 - **Escalabilidad Mejorada**: Nueva arquitectura permite agregar contenido sin modificar estilos
 
-## [0.1.0]
+## [0.1.0] - Inicial
 
 ### Añadido
 - **Nueva Sección Participa**: Creada sección modular con tabs para mejor organización
