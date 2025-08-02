@@ -1,6 +1,14 @@
 # 🐍 Código de Conducta de Python CDMX
 
-![Código de Conducta Python CDMX](/images/codigo-de-conducta.svg)
+<div align="center">
+  <img src="/images/codigo-de-conducta.svg" alt="Código de Conducta Python CDMX" width="400" style="margin: 20px 0;">
+</div>
+
+<div align="center">
+  <b>Construyendo una comunidad segura, inclusiva y respetuosa</b>
+</div>
+
+---
 
 ## 💡 Nuestra Misión
 
@@ -9,6 +17,8 @@ En Python CDMX creemos en una comunidad donde todas las personas, sin importar s
 Fomentamos una comunidad **diversa, inclusiva y colaborativa**, que valore la curiosidad, el respeto y el crecimiento mutuo.
 
 Este código aplica a **todas nuestras actividades**: meetups, talleres, redes sociales, canales virtuales, y cualquier espacio de convivencia dentro de la comunidad.
+
+---
 
 ## ✅ Comportamientos Esperados
 
@@ -22,6 +32,8 @@ Pedimos a todas las personas asistentes, colaboradoras y organizadoras que:
 * Se responsabilicen de sus palabras y acciones
 * Acepten graciosamente la crítica constructiva
 * Enfóquense en lo que es mejor para la comunidad
+
+---
 
 ## 🚫 Comportamientos Inaceptables
 
@@ -37,6 +49,8 @@ No se toleran:
 * Publicar información privada de otros sin permiso explícito
 * Otra conducta que razonablemente podría considerarse inapropiada en un entorno profesional
 
+---
+
 ## 🏢 En eventos presenciales
 
 Además de lo anterior, te pedimos:
@@ -45,6 +59,8 @@ Además de lo anterior, te pedimos:
 * Preguntar antes de tomar fotos o grabar a otras personas
 * Evitar conductas invasivas o insistentes, especialmente durante networking
 * Reportar cualquier situación incómoda al equipo organizador
+
+---
 
 ## 💻 En espacios virtuales
 
@@ -55,6 +71,8 @@ Ya sea en Telegram, Discord, transmisiones en vivo o cualquier canal digital:
 * Si haces bromas o memes, asegúrate de que sean inofensivos para todes
 * Si alguien te pide que detengas un comportamiento, **detente de inmediato**
 * Respeta los tiempos, ritmos y niveles de participación de cada quien
+
+---
 
 ## 🛠 Aplicación y Consecuencias
 
@@ -68,12 +86,14 @@ Las personas organizadoras están comprometidas con aplicar este código. Podemo
 **No se requiere haber sido víctima para reportar algo.** Si notas algo preocupante, puedes contactarnos a través de:
 
 📧 **Email:** info@pythoncdmx.org
+
 💬 **Telegram:** [@PythonCDMX](https://t.me/PythonCDMX)
+
 👥 **O acercarte a alguien del equipo organizador**
 
 Todas las quejas serán revisadas e investigadas y resultarán en una respuesta que se considere necesaria y apropiada a las circunstancias. El equipo está obligado a mantener confidencialidad respecto al reportante de un incidente.
 
-Mantenedores del proyecto que no sigan o hagan cumplir el Código de Conducta de buena fe pueden enfrentar repercusiones temporales o permanentes según lo determinen otros miembros del liderazgo del proyecto.
+---
 
 ## 📄 Basado en...
 
@@ -84,13 +104,20 @@ Este código se inspira y adapta de:
 * [LIDSOL Code of Conduct](https://github.com/LIDSOL/CodeOfConduct)
 * [Contributor Covenant](https://www.contributor-covenant.org), versión 2.0
 
-Para respuestas a preguntas comunes sobre este código de conducta, vea https://www.contributor-covenant.org/faq
+---
+
+<div align="center">
+  <img src="/images/logo.png" alt="Python CDMX Logo" width="200">
+</div>
+
 
 ## 🤝 Gracias
 
 Gracias por ser parte de Python CDMX. Tu participación activa y respetuosa **hace posible esta comunidad**.
 
 Juntos construimos una comunidad más fuerte y diversa. 🐍
+
+---
 
 ## 🎨 Créditos
 
