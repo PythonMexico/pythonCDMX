@@ -36,12 +36,11 @@ jobs:
 
       - name: Check for broken links
         run: |
-          # Iniciar servidor HTTP en background
-          cd site && python -m http.server 8000 &
-          sleep 10
+          # Iniciar mkdocs serve en background (mejor que python -m http.server)
+          mkdocs serve -a 127.0.0.1:8000 &
+          sleep 15  # Dar más tiempo para que mkdocs serve esté listo
 
-          # Ejecutar check de links desde el directorio raíz
-          cd ${{ github.workspace }}
+          # Ejecutar check de links
           python scripts/check_links.py
 
           # Verificar resultado
@@ -49,12 +48,12 @@ jobs:
 
           if [ "$broken_count" -gt 0 ]; then
             echo "❌ Found $broken_count broken links - failing!"
-            pkill -f "python -m http.server" || true
+            pkill -f "mkdocs serve" || true
             exit 1
           fi
 
           echo "✅ All links working!"
-          pkill -f "python -m http.server" || true
+          pkill -f "mkdocs serve" || true
 
       # Solo para main: guardar el sitio construido
       - name: Upload build artifact
