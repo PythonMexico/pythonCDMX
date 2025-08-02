@@ -60,7 +60,7 @@ Ayuda a establecer y mantener relaciones con otras comunidades y empresas.
 
 ### 1. <i class="fas fa-search"></i> Identifica tu Área
 
-- Revisa las [formas de contribuir](#formas-de-contribuir)
+- Revisa las [formas de contribuir](#formas-de-contribuir/)
 - Considera tus habilidades e intereses
 - Evalúa tu disponibilidad de tiempo
 

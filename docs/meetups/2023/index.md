@@ -12,11 +12,11 @@
 
 | <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-microphone"></i> **Charla** | <i class="fas fa-user"></i> **Ponente** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-link"></i> **Detalles** |
 |:---|:---|:---|:---|:---|
-| **14 Noviembre 2023** | GitOps: Automatizando el despliegue de aplicaciones | Carlos Reyes | Wizeline México | [Ver detalles](202311-noviembre) |
-| **14 Noviembre 2023** | Historia de Python: De Guido van Rossum a la actualidad | Gustavo Vera | Wizeline México | [Ver detalles](202311-noviembre) |
-| **10 Octubre 2023** | Jupyter a Web: De notebooks a aplicaciones web | Gustavo Vera | Wizeline México | [Ver detalles](202310-octubre) |
-| **12 Septiembre 2023** | Metaprogramación en Python | David Sol | Wizeline México | [Ver detalles](202309-septiembre) |
-| **12 Septiembre 2023** | AWS AI: Servicios de IA en la nube | Gustavo Vera | Wizeline México | [Ver detalles](202309-septiembre) |
+| **14 Noviembre 2023** | GitOps: Automatizando el despliegue de aplicaciones | Carlos Reyes | Wizeline México | [Ver detalles](202311-noviembre/) |
+| **14 Noviembre 2023** | Historia de Python: De Guido van Rossum a la actualidad | Gustavo Vera | Wizeline México | [Ver detalles](202311-noviembre/) |
+| **10 Octubre 2023** | Jupyter a Web: De notebooks a aplicaciones web | Gustavo Vera | Wizeline México | [Ver detalles](202310-octubre/) |
+| **12 Septiembre 2023** | Metaprogramación en Python | David Sol | Wizeline México | [Ver detalles](202309-septiembre/) |
+| **12 Septiembre 2023** | AWS AI: Servicios de IA en la nube | Gustavo Vera | Wizeline México | [Ver detalles](202309-septiembre/) |
 
 ---
 
