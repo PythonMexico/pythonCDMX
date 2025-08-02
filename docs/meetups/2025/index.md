@@ -12,6 +12,7 @@
 
 | <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-microphone"></i> **Charla** | <i class="fas fa-user"></i> **Ponente** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-link"></i> **Detalles** |
 |:---|:---|:---|:---|:---|
+| **12 Agosto 2025** | Cómo preparar una ambiente de desarrollo con Python desde zero | Juan Guillermo Gómez | Jardin Chapultepec | [Ver detalles](202508-agosto) |
 | **08 Julio 2025** | Cómo preparar una ambiente de desarrollo con Python desde zero | David Sol | Clara | [Ver detalles](202507-julio) |
 | **10 Junio 2025** | Usando Python y software libre para crear nuevas herramientas: Traductor de voz español-inglés | Carlos Cesar Caballero | Wizeline México | [Ver detalles](202506-junio) |
 | **13 Mayo 2025** | Construyendo un paquete en Python y publicándolo en PyPI | Javier Novoa | Wizeline México | [Ver detalles](202505-mayo) |
