@@ -30,14 +30,14 @@ jobs:
         uses: pre-commit/action@v3.0.0
 
       - name: Build with MkDocs
-        run: mkdocs build
+        run: mkdocs build --use-directory-urls
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Check for broken links
         run: |
           # Iniciar mkdocs serve en background (mejor que python -m http.server)
-          mkdocs serve -a 127.0.0.1:8000 &
+          mkdocs serve -a 127.0.0.1:8000 --use-directory-urls &
           sleep 15  # Dar más tiempo para que mkdocs serve esté listo
 
           # Ejecutar check de links
