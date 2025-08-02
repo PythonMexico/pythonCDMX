@@ -89,6 +89,7 @@ def fix_file_links(file_path: str, broken_links: List[Dict]) -> Tuple[bool, List
                         f'\\[{re.escape(link["text"])}\\]\\({re.escape(old_url)}\\)'
                     )
                     replacement = f'[{link["text"]}]({new_url})'
+                    new_content = re.sub(pattern, replacement, content)
                 elif link_type == "html":
                     # Fix HTML links: <a href="url">text</a>
                     # Handle both single and double quotes

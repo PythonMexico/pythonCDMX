@@ -155,8 +155,8 @@
    .btn-primary,
    .participation-card a,
    .year-card a {
-     background: var(--python-green);
-     color: var(--python-white);
+     background: var(--python-green) !important;
+     color: var(--python-white) !important;
      padding: 0.75rem 1.5rem;
      border-radius: var(--button-radius);
      text-decoration: none;
@@ -175,11 +175,28 @@
    .btn-primary:hover,
    .participation-card a:hover,
    .year-card a:hover {
-     background: var(--python-green-dark);
-     color: var(--python-white);
+     background: var(--python-green-dark) !important;
+     color: var(--python-white) !important;
      transform: translateY(-2px);
      box-shadow: var(--md-shadow-z2);
      text-decoration: none;
+   }
+
+   /* Asegurar visibilidad en botones específicos del index */
+   .btn.btn-primary,
+   .btn-primary.mt-2,
+   .upcoming-btn {
+     background: var(--python-green) !important;
+     color: var(--python-white) !important;
+     text-decoration: none !important;
+   }
+
+   .btn.btn-primary:hover,
+   .btn-primary.mt-2:hover,
+   .upcoming-btn:hover {
+     background: var(--python-green-dark) !important;
+     color: var(--python-white) !important;
+     text-decoration: none !important;
    }
 
    /* Botones de navegación discretos */
@@ -706,10 +723,10 @@
    }
 
    .community-card img {
-     width: 120px;
+     /*width: 120px;*/
      height: 120px;
      object-fit: cover;
-     border-radius: 50%;
+     /*border-radius: 50%;*/
      margin-bottom: 1rem;
      border: 3px solid var(--md-default-fg-color--lightest);
      transition: var(--transition-base);

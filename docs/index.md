@@ -18,8 +18,8 @@
 
 <div class="upcoming-events">
   <h3><i class="fas fa-link"></i> Conoce a quienes hacen posible <br>Python CDMX!</h3>
-  <a href="/comunidad/voluntarios/#voluntarios-de-python-cdmx" class="btn btn-primary mt-2">Voluntarios</a>
-  <a href="/comunidad/ponentes/#ponentes-de-python-cdmx" class="btn btn-primary mt-2">Ponentes</a>
+  <a href="/comunidad/voluntarios/#voluntarios-de-python-cdmx/">Voluntarios</a>
+  <a href="/comunidad/ponentes/#ponentes-de-python-cdmx/">Ponentes</a>
 </div>
 
 <div class="upcoming-events">
