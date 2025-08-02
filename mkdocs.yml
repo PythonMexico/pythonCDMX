@@ -79,6 +79,8 @@ nav:
     - Sedes: comunidad/sedes.md
   - Comunidad:
     - Comunidades: comunidad/comunidades.md
+    - Código de Conducta: codigo-de-conducta.md
+    - Aviso de Privacidad: aviso-de-privacidad.md
   - Acerca de: about.md
 
 # Plugins
