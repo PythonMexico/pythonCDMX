@@ -81,6 +81,9 @@ nav:
     - Comunidades: comunidad/comunidades.md
     - Código de Conducta: codigo-de-conducta.md
     - Aviso de Privacidad: aviso-de-privacidad.md
+  - Blog:
+    - Inicio: blog/index.md
+    - PyCon Latam 2025: blog/PyconLatam2025.md
   - Acerca de: about.md
 
 # Plugins
@@ -98,6 +101,10 @@ plugins:
       minify_js: true
       htmlmin_opts:
         remove_comments: true
+  - awesome-pages:
+      filename: .pages
+      collapse_single_pages: false
+      strict: false
 
 # Social links
 extra:
