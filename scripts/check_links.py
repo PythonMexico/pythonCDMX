@@ -48,7 +48,7 @@ def find_internal_links(content):
 
 
 def resolve_link_url(base_url, md_file, link_url):
-    """Resolve the real URL as a browser would from the markdown file location."""
+    """Resolve the real URL as a browser would from the markdown file."""
     # If link is absolute (starts with /), join with base_url
     if link_url.startswith("/"):
         return urljoin(base_url, link_url)
@@ -69,21 +69,25 @@ def check_link(base_url, link_url, current_file):
     try:
         # Handle anchor links - they should resolve from current page
         if link_url.startswith("#"):
-            # Build URL from current file path
-            file_path = current_file.replace(".md", "/")
+            # Build URL from current file path, converting .md to .html
+            file_path = current_file.replace(".md", ".html")
             if not file_path.startswith("/"):
                 file_path = "/" + file_path
             full_url = urljoin(base_url, file_path + link_url)
         else:
+            # Convert .md URLs to .html URLs for checking
+            check_url = link_url
+            if ".md" in check_url:
+                check_url = check_url.replace(".md", ".html")
             # For relative links, resolve from current file's directory
-            if not link_url.startswith("/"):
+            if not check_url.startswith("/"):
                 # Get current file's directory
                 current_dir = str(Path(current_file).parent)
                 if current_dir != ".":
                     # Resolve relative to current directory
-                    resolved_path = str(Path(current_dir) / link_url)
+                    resolved_path = str(Path(current_dir) / check_url)
                 else:
-                    resolved_path = link_url
+                    resolved_path = check_url
 
                 # Convert to URL format
                 if not resolved_path.startswith("/"):
@@ -91,7 +95,7 @@ def check_link(base_url, link_url, current_file):
                 full_url = urljoin(base_url, resolved_path)
             else:
                 # Absolute path from site root
-                full_url = urljoin(base_url, link_url)
+                full_url = urljoin(base_url, check_url)
 
         # Make request
         response = requests.get(full_url, timeout=5)
@@ -132,12 +136,15 @@ def main():
 
                 # Calculate full URL for display
                 if not url.startswith("#"):
-                    full_url = urljoin(base_url, url)
+                    # Convert .md URLs to .html URLs for display
+                    display_url = url
+                    if ".md" in display_url:
+                        display_url = display_url.replace(".md", ".html")
+                    full_url = urljoin(base_url, display_url)
                 else:
-                    full_url = urljoin(
-                        base_url,
-                        str(md_file.relative_to(docs_dir)).replace(".md", "/") + url,
-                    )
+                    file_path = str(md_file.relative_to(docs_dir))
+                    file_path = file_path.replace(".md", ".html")
+                    full_url = urljoin(base_url, file_path + url)
 
                 result = {
                     "file": str(md_file.relative_to(docs_dir)),
@@ -154,7 +161,7 @@ def main():
                 else:
                     broken_links.append(result)
 
-        except Exception as e:
+        except (IOError, OSError) as e:
             print(f"❌ Error reading {md_file}: {e}")
 
     # Print summary
@@ -182,10 +189,10 @@ def main():
 
     # Show some broken links in console
     if broken_links:
-        print(f"\n🔴 BROKEN LINKS (showing first 10):")
+        print("\n🔴 BROKEN LINKS (showing first 10):")
         print("-" * 50)
         for link in broken_links[:10]:
-            print(f"📄 {link['file']}:{link['line']}")
+            print("📄 {}:{}".format(link["file"], link["line"]))
             print(f"   Text: {link['text']}")
             print(f"   URL: {link['url']}")
             print(f"   Full URL: {link['full_url']}")
