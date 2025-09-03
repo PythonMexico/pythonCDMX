@@ -106,7 +106,7 @@ Lo coordinamos con gusto durante la planeación.
 
 **¡Sí!** Solo pedimos que sigan el mismo proceso que cualquier miembro de la comunidad:
 
-[Ser Ponente](/comunidad/ponentes/#por-que-ser-ponente)
+[Ser Ponente](ponentes.md#por-que-ser-ponente)
 
 <i class="fab fa-github"></i> **Registrar su propuesta** en [python-cdmx-charlas/issues](https://github.com/PythonMexico/python-cdmx-charlas/issues)
 para mantener el espíritu abierto y curado del contenido.
