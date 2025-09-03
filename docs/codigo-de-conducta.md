@@ -100,7 +100,7 @@ Todas las quejas serán revisadas e investigadas y resultarán en una respuesta 
 Este código se inspira y adapta de:
 
 * [PSF Code of Conduct](https://policies.python.org/python.org/code-of-conduct/)
-* [Pythonistas GDL](https://pythonistas-gdl.org/pages/codigo-de-conducta.html)
+* [Pythonistas GDL](https://pythonistas-gdl.org/pages/codigo-de-conducta.md)
 * [LIDSOL Code of Conduct](https://github.com/LIDSOL/CodeOfConduct)
 * [Contributor Covenant](https://www.contributor-covenant.org), versión 2.0
 
