@@ -64,7 +64,6 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
-
 # Plugins
 plugins:
   - search:
