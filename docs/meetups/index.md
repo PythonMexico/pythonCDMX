@@ -1,67 +1,78 @@
-<div align="center">
-  <img src="/images/logo.png" alt="Python CDMX Logo">
-</div>
+---
+title: Meetups
+subtitle: Archivo completo de todos nuestros eventos
+---
+
+![logo PythonCDMX](/images/logo.png){ width=150px .hero-logo }
 
 # Meetups Python CDMX
 
-<div align="center">
-  <b>Archivo completo de todos nuestros eventos</b>
+Archivo completo de todos nuestros eventos.
+{ .centered-text .subtitle }
+
+## :fontawesome-solid-calendar: Años Disponibles
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-solid-rocket: 2025
+
+    ---
+    
+    **15 charlas realizadas**
+
+    Nuestro año más activo a la fecha!
+    
+    [:fontawesome-solid-play: Ver meetups](/meetups/2025){ .md-button .md-button--primary }
+    
+-   :fontawesome-solid-trophy: 2024
+    
+    ---
+    
+    **15 charlas realizadas**
+
+    Esta fue la consolidación de la comunidad.
+    
+    [:fontawesome-solid-play: Ver meetups](/meetups/2024){ .md-button .md-button--primary }
+    
+-   :fontawesome-solid-seedling: 2023
+
+    ---
+    
+    **5 charlas realizadas**
+    
+    Nuestros inicios
+    
+    [:fontawesome-solid-play: Ver meetups](/meetups/2023){ .md-button .md-button--primary }
+  
 </div>
 
----
+## :fontawesome-solid-star: Estadísticas Generales
 
-## <i class="fas fa-calendar"></i> Años Disponibles
+<div class="grid cards stats" markdown>
 
-<div class="year-cards">
+-   :fontawesome-solid-microphone: 
 
-<div class="year-card year-2025">
-  <h3><i class="fas fa-rocket"></i> 2025</h3>
-  <p><b>15 charlas realizadas</b></p>
-  <p>Nuestro año más activo</p>
-  <a href="/meetups/2025/"><i class="fas fa-play"></i> Ver meetups</a>
-</div>
+    35 Charlas
 
-<div class="year-card year-2024">
-  <h3><i class="fas fa-trophy"></i> 2024</h3>
-  <p><b>15 charlas realizadas</b></p>
-  <p>Consolidación de la comunidad</p>
-  <a href="/meetups/2024/"><i class="fas fa-play"></i> Ver meetups</a>
-</div>
+    Total Realizadas
+    
+-   :fontawesome-solid-users: 
+    
+    +20 Ponentes
 
-<div class="year-card year-2023">
-  <h3><i class="fas fa-seedling"></i> 2023</h3>
-  <p><b>5 charlas realizadas</b></p>
-  <p>Nuestros inicios</p>
-  <a href="/meetups/2023/"><i class="fas fa-play"></i> Ver meetups</a>
-</div>
+    Únicos
+    
+-   :fontawesome-solid-location-dot:
 
-</div>
+    3 Sedes
+    
+    Diferentes
 
----
+-   :fontawesome-solid-calendar: 
 
-## <i class="fas fa-star"></i> Estadísticas Generales
+    3 años
 
-<div class="stats-grid">
-
-<div class="stat-card">
-  <h3><i class="fas fa-microphone"></i> 35 Charlas</h3>
-  <p><b>Total Realizadas</b></p>
-</div>
-
-<div class="stat-card">
-  <h3><i class="fas fa-users"></i> 20+ Ponentes</h3>
-  <p><b>Únicos</b></p>
-</div>
-
-<div class="stat-card">
-  <h3><i class="fas fa-map-marker-alt"></i> 3 Sedes</h3>
-  <p><b>Diferentes</b></p>
-</div>
-
-<div class="stat-card">
-  <h3><i class="fas fa-calendar"></i> 3 Años</h3>
-  <p><b>de Actividad</b></p>
-</div>
+    De Actividad!
 
 </div>
 
@@ -74,3 +85,5 @@
 --8<-- "components/quick-navigation.md"
 
 ---
+
+

@@ -1,20 +1,20 @@
 nav:
   - Inicio: index.md
   - Meetups:
-    - General: meetups/index.md
-    - "2025": meetups/2025/index.md
-    - "2024": meetups/2024/index.md
-    - "2023": meetups/2023/index.md
+      - General: meetups/index.md
+      - "2025": meetups/2025/index.md
+      - "2024": meetups/2024/index.md
+      - "2023": meetups/2023/index.md
   - Participa:
-    - Cómo Contribuir: comunidad/como-contribuir.md
-    - Voluntarios: comunidad/voluntarios.md
-    - Ponentes: comunidad/ponentes.md
-    - Sedes: comunidad/sedes.md
+      - Cómo Contribuir: participa/como-contribuir.md
+      - Voluntarios: participa/voluntarios.md
+      - Ponentes: participa/ponentes.md
+      - Sedes: participa/sedes.md
   - Comunidad:
-    - Comunidades: comunidad/comunidades.md
-    - Código de Conducta: codigo-de-conducta.md
-    - Aviso de Privacidad: aviso-de-privacidad.md
+      - Comunidades: comunidad/comunidades.md
+      - Código de Conducta: comunidad/codigo-de-conducta.md
+      - Aviso de Privacidad: comunidad/aviso-de-privacidad.md
   - Blog:
-    - Inicio: blog/index.md
-    - PyCon Latam 2025: blog/PyconLatam2025.md
+      - Inicio: blog/index.md
+      - PyCon Latam 2025: blog/PyconLatam2025.md
   - Acerca de: about.md

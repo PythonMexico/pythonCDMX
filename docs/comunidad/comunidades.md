@@ -1,56 +1,42 @@
-<div align="center">
-  <img src="/images/logo.png" alt="Python CDMX Logo">
-</div>
-
+---
+title: Alianzas y Comunidades
 ---
 
-## <i class="fas fa-users"></i> Comunidades Amigas
+![logo PythonCDMX](/images/logo.png){ width=150px .hero-logo }
 
-### <i class="fas fa-star"></i> Comunidades Python en México
+# Comunidades
 
-<div class="communities-grid">
+## :fontawesome-solid-users: Comunidades Amigas
 
-<!-- PyMTY-->
-<a href="https://social.org.mx/@pymty" target="_blank" rel="noopener noreferrer">
-  <div class="community-card">
-    <img src="/images/comunidades/pymty.png" alt="Logo PyMTY">
-    <h4><i class="fab fa-python"></i>PyMTY</h4>
-    <p>Nuevo Leon</p>
-  </div>
-</a>
+### :fontawesome-solid-star: Comunidades Python en México
 
-<!-- Pythonistas GDL -->
-<a href="https://pythonistas-gdl.org/" target="_blank" rel="noopener noreferrer">
-  <div class="community-card">
-    <img src="/images/comunidades/pythonistas-GDL.jpg" alt="Logo PythonistasGDL">
-    <h4><i class="fab fa-python"></i>Pythonistas GDL</h4>
-    <p>Jalisco</p>
-  </div>
-</a>
+<div class="grid cards" markdown>
+-   ![logo PyMTY](/images/comunidades/pymty.png)
 
-<!-- PyTalavera -->
-<a href="https://www.facebook.com/profile.php?id=61559788469426" target="_blank" rel="noopener noreferrer">
-  <div class="community-card">
-    <img src="/images/comunidades/pyTalavera.jpg" alt="Logo PyTalavera">
-    <h4><i class="fab fa-python"></i>PyTalavera</h4>
-    <p>Puebla</p>
-  </div>
-</a>
+    :fontawesome-solid-python: [PyMTY](https://social.org.mx/@pymty)
 
-<!-- Pyladies Cuernavaca -->
-<a href="https://pyladies-cuernavaca.quarto.pub/web/" target="_blank" rel="noopener noreferrer">
-  <div class="community-card">
-    <img src="/images/comunidades/pyladies-cuernavaca.png" alt="Logo pyladies-cuernavaca">
-    <h4><i class="fab fa-python"></i>pyladies Cuernavaca</h4>
-    <p>Morelos</p>
-  </div>
-</a>
+    Nuevo Leon
 
+-   ![logo Pythonistas GDL](/images/comunidades/pythonistas-GDL.jpg)
+
+    :fontawesome-solid-python: [Pythonistas GDL](https://pythonistas-gdl.org/)
+
+    Jalisco
+
+-   ![logo PyTalavera](/images/comunidades/pyTalavera.jpg)
+
+    [:fontawesome-solid-python: PyTalavera](https://www.facebook.com/profile.php?id=61559788469426)
+
+    Puebla
+
+-   ![logo pyladies Cuernavaca](/images/comunidades/pyladies-cuernavaca.png)
+    :fontawesome-solid-python: [pyladies Cuernavaca](https://pyladies-cuernavaca.quarto.pub/web/)
+    Morelos
 </div>
 
-### <i class="fas fa-code"></i> Otras Comunidades
+### :fontawesome-solid-code: Otras Comunidades
 
-<div class="communities-grid">
+<div class="grid cards">
 
 <!-- Ajolotes en la nube -->
 <a href="https://www.meetup.com/es/ajolotesenlanube/" target="_blank" rel="noopener noreferrer">
@@ -127,16 +113,12 @@
 
 ---
 
-## <i class="fas fa-building"></i> Empresas anfitrionas
+## :fontawesome-solid-building: Empresas anfitrionas
 
-<div align="center">
-  <b>Estas empresas han abierto sus puertas para que la comunidad Python CDMX crezca</b>
-</div>
+Estas empresas han abierto sus puertas para que la comunidad Python CDMX crezca, **gracias por su apoyo**.
+{ .centered-text }
 
-### <i class="fas fa-star"></i> Gracias por ser sede
-
-<div class="communities-grid">
-
+<div class="grid cards">
 <!-- Wizeline Mexico -->
 <a href="https://www.wizeline.com/" target="_blank" rel="noopener noreferrer">
   <div class="community-card">
@@ -154,7 +136,6 @@
     <p>Anfitriones en múltiples ediciones recientes</p>
   </div>
 </a>
-
 </div>
 
 ---

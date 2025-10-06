@@ -6,8 +6,6 @@ site_url: https://pythoncdmx.org
 # Repository
 repo_name: PythonMexico/pythonCDMX
 repo_url: https://github.com/PythonMexico/pythonCDMX/
-#edit_uri: edit/main/docs/
-
 # Copyright
 copyright: Copyright &copy; 2025 Python CDMX
 
@@ -15,25 +13,23 @@ copyright: Copyright &copy; 2025 Python CDMX
 theme:
   name: material
   logo: images/logo.png
-  favicon: images/favicon.ico
-
+  favicon: images/logo.png
   # Custom colors based on logo
   palette:
     # Light mode
     - scheme: default
-      primary: green
-      accent: green
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Cambiar a modo oscuro
     # Dark mode
     - scheme: slate
-      primary: green
-      accent: green
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Cambiar a modo claro
-
   # Features - configuración optimizada
   features:
     - announce.dismiss
@@ -59,13 +55,13 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-
   # Icons
-  icon:
-    repo: fontawesome/brands/github
+  # icon:
+  # repo: fontawesome/brands/github
 
 # Plugins
 plugins:
+  - macros
   - search:
       lang: es
   - git-revision-date-localized:
@@ -106,67 +102,69 @@ extra:
       link: https://www.linkedin.com/groups/13126454/
       name: LinkedIn
 
-
 # Custom CSS and JavaScript
 extra_css:
-  - css/custom.css
+  - styles/main.css
+# - css/custom.css
 
-extra_javascript:
-  - js/custom.js
+# extra_javascript:
+# - js/custom.js
 
 # Markdown extensions
 markdown_extensions:
-  - abbr
-  - admonition
+  # Nos permite hacer cosas como las Card Grids https://squidfunk.github.io/mkdocs-material/reference/grids/#using-card-grids
   - attr_list
-  - def_list
-  - footnotes
   - md_in_html
+  # - abbr
+  # - admonition
+  # - def_list
+  # - footnotes
   - toc:
       permalink: true
       title: En esta página
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.details
+  # - pymdownx.arithmatex:
+  #     generic: true
+  # - pymdownx.betterem:
+  #     smart_enable: all
+  # - pymdownx.caret
+  # - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-      use_pygments: true
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.magiclink:
-      normalize_issue_symbols: true
-      repo_url_shorthand: true
-      user: PythonMexico
-      repo: pythonCDMX
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.snippets:
-      base_path: 'docs'
-      check_paths: true
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
-      combine_header_slug: true
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
+        # - pymdownx.highlight:
+        #     anchor_linenums: true
+        #     line_spans: __span
+        #     pygments_lang_class: true
+        #     use_pygments: true
+        # - pymdownx.inlinehilite
+        # - pymdownx.keys
+        # - pymdownx.magiclink:
+        #     normalize_issue_symbols: true
+        #     repo_url_shorthand: true
+        #     user: PythonMexico
+        #     repo: pythonCDMX
+        # - pymdownx.mark
+        # - pymdownx.smartsymbols
+        # - pymdownx.snippets:
+        #     base_path: "docs"
+        #     check_paths: true
+        # - pymdownx.superfences:
+        #     custom_fences:
+        #       - name: mermaid
+        #         class: mermaid
+        #         format: !!python/name:pymdownx.superfences.fence_code_format
+        # - pymdownx.tabbed:
+        #     alternate_style: true
+        #     combine_header_slug: true
+        #     slugify: !!python/object/apply:pymdownx.slugs.slugify
+        #       kwds:
+        #         case: lower
+        # - pymdownx.tasklist:
+        #     custom_checkbox: true
+        # - pymdownx.tilde
 
-# Validation
+        # Validation
+
 validation:
   nav:
     omitted_files: ignore

@@ -1,16 +1,15 @@
-<div align="center">
-  <img src="/images/logo.png" alt="Python CDMX Logo">
-</div>
-
-# Meetups 2024 <i class="fas fa-calendar-alt"></i>
-
-<div align="center">
-  <b>Conectando desarrolladores Python en la Ciudad de México</b>
-</div>
-
+---
+title: Meetups 2024
 ---
 
-| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-microphone"></i> **Charla** | <i class="fas fa-user"></i> **Ponente** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-link"></i> **Detalles** |
+![logo PythonCDMX](/images/logo.png){ width=150px .hero-logo }
+
+# :fontawesome-solid-calendar-alt: Meetups 2024
+
+La consolidación de la comunidad Python en la Ciudad de México
+{ .centered-text .subtitle }
+
+| :fontawesome-solid-calendar: **Fecha** | :fontawesome-solid-microphone: **Charla** | :fontawesome-solid-user: **Ponente** | :fontawesome-solid-map-marker-alt: **Lugar** | :fontawesome-solid-link: **Detalles** |
 |:---|:---|:---|:---|:---|
 | **12 Noviembre 2024** | Mejora tu código: Evita anti-patrones en Python | Alejandro Lopez | Wizeline México | [Ver detalles](202411-noviembre.md) |
 | **12 Noviembre 2024** | Exactamente qué y (sobre todo) por qué ChatGPT | Hugo Ramírez | Wizeline México | [Ver detalles](202411-noviembre.md) |
@@ -30,30 +29,32 @@
 
 ---
 
-## <i class="fas fa-star"></i> Estadísticas 2024
+## :fontawesome-solid-star: Estadísticas 2024
 
-<div class="stats-grid">
+<div class="grid cards stats" markdown>
+-   :fontawesome-solid-microphone:
 
-<div class="stat-card">
-  <h3><i class="fas fa-microphone"></i> 15 Charlas</h3>
-  <p><b>Realizadas</b></p>
-</div>
+    15 Charlas
 
-<div class="stat-card">
-  <h3><i class="fas fa-users"></i> 10 Ponentes</h3>
-  <p><b>Únicos</b></p>
-</div>
+    Total Realizadas
 
-<div class="stat-card">
-  <h3><i class="fas fa-map-marker-alt"></i> 1 Sede</h3>
-  <p><b>Principal</b></p>
-</div>
+-   :fontawesome-solid-users:
 
-<div class="stat-card">
-  <h3><i class="fas fa-calendar"></i> 11 Meses</h3>
-  <p><b>de Actividad</b></p>
-</div>
+    10 Ponentes
 
+    Únicos
+
+-   :fontawesome-solid-map-marker-alt:
+
+    1 Sede
+
+    Principal
+
+-   :fontawesome-solid-calendar:
+
+    11 Meses
+
+    de Actividad
 </div>
 
 ---

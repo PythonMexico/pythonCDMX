@@ -1,16 +1,15 @@
-<div align="center">
-  <img src="/images/logo.png" alt="Python CDMX Logo">
-</div>
-
-# Meetups 2025 <i class="fas fa-calendar-alt"></i>
-
-<div align="center">
-  <b>Conectando desarrolladores Python en la Ciudad de México</b>
-</div>
-
+---
+title: Meetups 2025
 ---
 
-| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-microphone"></i> **Charla** | <i class="fas fa-user"></i> **Ponente** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-link"></i> **Detalles** |
+![logo PythonCDMX](/images/logo.png){ width=150px .hero-logo }
+
+# :fontawesome-solid-calendar-alt: Meetups 2025
+
+Conectando desarrolladores Python en la Ciudad de México
+{ .centered-text .subtitle }
+
+| :fontawesome-solid-calendar: **Fecha** | :fontawesome-solid-microphone: **Charla** | :fontawesome-solid-user: **Ponente** | :fontawesome-solid-map-marker-alt: **Lugar** | :fontawesome-solid-link: **Detalles** |
 |:---|:---|:---|:---|:---|
 | **12 Agosto 2025** | Cómo preparar una ambiente de desarrollo con Python desde zero | Juan Guillermo Gómez | Jardin Chapultepec | [Ver detalles](202508-agosto.md) |
 | **08 Julio 2025** | Cómo preparar una ambiente de desarrollo con Python desde zero | David Sol | Clara | [Ver detalles](202507-julio.md) |
@@ -28,32 +27,33 @@
 
 ---
 
-## <i class="fas fa-star"></i> Estadísticas 2025
+## :fontawesome-solid-star: Estadísticas 2025
 
-<div class="stats-grid">
+<div class="grid cards stats" markdown>
+-   :fontawesome-solid-microphone:
 
-<div class="stat-card">
-  <h3><i class="fas fa-microphone"></i> 12 Charlas</h3>
-  <p><b>Realizadas</b></p>
+    12 Charlas
+
+    Total Realizadas
+
+-   :fontawesome-solid-users:
+
+    11 Ponentes
+
+    Únicos
+
+-   :fontawesome-solid-map-marker-alt:
+
+    3 Sedes
+
+    Diferentes
+
+-   :fontawesome-solid-calendar:
+
+    7 Meses
+
+    de Actividad
 </div>
-
-<div class="stat-card">
-  <h3><i class="fas fa-users"></i> 11 Ponentes</h3>
-  <p><b>Únicos</b></p>
-</div>
-
-<div class="stat-card">
-  <h3><i class="fas fa-map-marker-alt"></i> 3 Sedes</h3>
-  <p><b>Diferentes</b></p>
-</div>
-
-<div class="stat-card">
-  <h3><i class="fas fa-calendar"></i> 7 Meses</h3>
-  <p><b>de Actividad</b></p>
-</div>
-
-</div>
-
 
 ---
 
@@ -66,3 +66,4 @@
 ---
 
 ¿Te gustaría aparecer aquí? Conoce a nuestros [ponentes y voluntarios reconocidos](../../comunidad/como-contribuir.md).
+

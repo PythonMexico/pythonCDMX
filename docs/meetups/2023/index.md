@@ -1,16 +1,15 @@
-<div align="center">
-  <img src="/images/logo.png" alt="Python CDMX Logo">
-</div>
-
-# Meetups 2023 <i class="fas fa-calendar-alt"></i>
-
-<div align="center">
-  <b>Nuestro primer año como comunidad Python CDMX</b>
-</div>
-
+---
+title: Meetups 2023
 ---
 
-| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-microphone"></i> **Charla** | <i class="fas fa-user"></i> **Ponente** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-link"></i> **Detalles** |
+![logo PythonCDMX](/images/logo.png){ width=150px .hero-logo }
+
+# :fontawesome-solid-calendar-alt: Meetups 2023
+
+Nuestro primer año como comunidad...
+{ .centered-text .subtitle }
+
+| :fontawesome-solid-calendar: **Fecha** | :fontawesome-solid-microphone: **Charla** | :fontawesome-solid-user: **Ponente** | :fontawesome-solid-map-marker-alt: **Lugar** | :fontawesome-solid-link: **Detalles** |
 |:---|:---|:---|:---|:---|
 | **14 Noviembre 2023** | GitOps: Automatizando el despliegue de aplicaciones | Carlos Reyes | Wizeline México | [Ver detalles](202311-noviembre.md) |
 | **14 Noviembre 2023** | Historia de Python: De Guido van Rossum a la actualidad | Gustavo Vera | Wizeline México | [Ver detalles](202311-noviembre.md) |
@@ -20,30 +19,32 @@
 
 ---
 
-## <i class="fas fa-star"></i> Estadísticas 2023
+## :fontawesome-solid-star: Estadísticas 2023
 
-<div class="stats-grid">
+<div class="grid cards stats" markdown>
+-   :fontawesome-solid-microphone:
 
-<div class="stat-card">
-  <h3><i class="fas fa-microphone"></i> 5 Charlas</h3>
-  <p><b>Realizadas</b></p>
-</div>
+    5 Charlas
 
-<div class="stat-card">
-  <h3><i class="fas fa-users"></i> 3 Ponentes</h3>
-  <p><b>Únicos</b></p>
-</div>
+    Total Realizadas
 
-<div class="stat-card">
-  <h3><i class="fas fa-map-marker-alt"></i> 1 Sede</h3>
-  <p><b>Principal</b></p>
-</div>
+-   :fontawesome-solid-users:
 
-<div class="stat-card">
-  <h3><i class="fas fa-calendar"></i> 3 Meses</h3>
-  <p><b>de Actividad</b></p>
-</div>
+    3 Ponentes
 
+    Únicos
+
+-   :fontawesome-solid-map-marker-alt:
+
+    1 Sede
+
+    Principal
+
+-   :fontawesome-solid-calendar:
+
+    3 Meses
+
+    de Actividad
 </div>
 
 ---

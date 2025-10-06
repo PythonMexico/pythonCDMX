@@ -1,0 +1,124 @@
+:root>* {
+    /* Colores principales */
+    --md-primary-fg-color--lighter: #b3d0c6;
+    --md-primary-fg-color--light: #4d927a;
+    --md-primary-fg-color: #006341;
+    --md-primary-fg-color--dark: #004f34;
+    --md-primary-fg-color--darker: #003221;
+    --md-accent-fg-color: #006341;
+    --md-accent-bg-color: #ffffff;
+
+    /* Radios y espaciado */
+    --button-radius: 1rem;
+    --card-radius: 0.75rem;
+}
+
+/* CENTRA TITULOS E ICONO (HERO LOGO) */
+article.md-typeset h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+article.md-typeset h1#bienvenidxs-a-pythoncdmx {
+    font-weight: 700;
+    color: var(--md-primary-fg-color);
+}
+
+p:has(img.hero-logo) {
+    text-align: center;
+}
+
+/* CARD BUTTONS */
+article.md-typeset .grid.cards ul li p:has(a.md-button) {
+    display: flex;
+    justify-content: end;
+}
+
+/* GENERAL BUTTON */
+
+.md-typeset a.md-button {
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px 0.25rem;
+    border-radius: var(--button-radius);
+}
+
+.md-typeset a.md-button span.twemoji {
+    color: inherit;
+}
+
+.md-typeset a.md-button:focus,
+.md-typeset a.md-button:hover {
+    color: var(--md-accent-fg-color);
+    border-color: var(--md-accent-fg-color);
+    background-color: var(--md-default-bg-color);
+}
+
+/* CARD STYLE */
+.md-typeset .grid.cards ul li {
+    border-radius: var(--card-radius);
+}
+
+.md-typeset .grid.cards ul li:hover {
+    box-shadow: var(--md-shadow-z3);
+    border-color: var(--md-primary-fg-color);
+}
+
+/* CARD HEADER */
+.md-typeset .grid.cards ul li h3 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* STAT CARDS */
+.grid.cards.stats ul li {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--md-default-fg-color--light);
+}
+
+.md-typeset>div.grid.cards.stats>ul>li>p:nth-child(1)>span,
+.md-typeset>div.grid.cards.stats>ul>li>p:nth-child(2) {
+    color: var(--md-primary-fg-color);
+}
+
+/* GENERICS */
+.centered-text {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.gap-1 {
+    gap: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+}
+
+span.twemoji {
+    color: var(--md-accent-fg-color);
+}
+
+/* Motto */
+blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    margin: 1rem 0;
+}
+
+blockquote p {
+    text-align: center;
+}
