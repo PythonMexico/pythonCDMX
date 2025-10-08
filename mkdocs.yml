@@ -55,9 +55,6 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-  # Icons
-  # icon:
-  # repo: fontawesome/brands/github
 
 # Plugins
 plugins:
@@ -105,66 +102,19 @@ extra:
 # Custom CSS and JavaScript
 extra_css:
   - styles/main.css
-# - css/custom.css
-
-# extra_javascript:
-# - js/custom.js
 
 # Markdown extensions
 markdown_extensions:
-  # Nos permite hacer cosas como las Card Grids https://squidfunk.github.io/mkdocs-material/reference/grids/#using-card-grids
   - attr_list
+  # Nos permite hacer cosas como las Card Grids https://squidfunk.github.io/mkdocs-material/reference/grids/#using-card-grids
   - md_in_html
-  # - abbr
-  # - admonition
-  # - def_list
-  # - footnotes
   - toc:
       permalink: true
       title: En esta página
-  # - pymdownx.arithmatex:
-  #     generic: true
-  # - pymdownx.betterem:
-  #     smart_enable: all
-  # - pymdownx.caret
-  # - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-        # - pymdownx.highlight:
-        #     anchor_linenums: true
-        #     line_spans: __span
-        #     pygments_lang_class: true
-        #     use_pygments: true
-        # - pymdownx.inlinehilite
-        # - pymdownx.keys
-        # - pymdownx.magiclink:
-        #     normalize_issue_symbols: true
-        #     repo_url_shorthand: true
-        #     user: PythonMexico
-        #     repo: pythonCDMX
-        # - pymdownx.mark
-        # - pymdownx.smartsymbols
-        # - pymdownx.snippets:
-        #     base_path: "docs"
-        #     check_paths: true
-        # - pymdownx.superfences:
-        #     custom_fences:
-        #       - name: mermaid
-        #         class: mermaid
-        #         format: !!python/name:pymdownx.superfences.fence_code_format
-        # - pymdownx.tabbed:
-        #     alternate_style: true
-        #     combine_header_slug: true
-        #     slugify: !!python/object/apply:pymdownx.slugs.slugify
-        #       kwds:
-        #         case: lower
-        # - pymdownx.tasklist:
-        #     custom_checkbox: true
-        # - pymdownx.tilde
-
-        # Validation
-
+# Validation
 validation:
   nav:
     omitted_files: ignore
