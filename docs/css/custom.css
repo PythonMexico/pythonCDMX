@@ -27,11 +27,16 @@
       ----------------------------------------------------------------------------- */
 
    :root {
-     /* Colores principales */
-     --python-green: #4CAF50;
-     --python-green-dark: #45a049;
-     --python-white: #ffffff;
-
+    /* Material Design Variables */
+     --md-primary-fg-color--lighter: #b3d0c6;
+     --md-primary-fg-color--light: #4d927a;
+     --md-primary-fg-color: #006341;
+     --md-primary-fg-color--dark: #004f34;
+     --md-primary-fg-color--darker: #003221;
+     --md-accent-fg-color--light: #4d927a;
+     --md-accent-fg-color: #006341;
+     --md-accent-fg-color--dark: #004f34;
+     --md-accent-bg-color: #ffffff;
      /* Radios y espaciado */
      --button-radius: 3.125rem;
      --card-radius: 0.75rem;
@@ -129,8 +134,8 @@
    }
 
    .action-buttons a:first-child {
+     color: var(--md-accent-bg-color);
      background: var(--md-primary-fg-color);
-     color: var(--python-white);
    }
 
    .action-buttons a:first-child:hover {
@@ -146,7 +151,7 @@
 
    .action-buttons a:last-child:hover {
      background: var(--md-primary-fg-color);
-     color: var(--python-white);
+     color: var(--md-primary-bg-color);
    }
 
    /* Botones estándar del sitio */
@@ -155,8 +160,8 @@
    .btn-primary,
    .participation-card a,
    .year-card a {
-     background: var(--python-green) !important;
-     color: var(--python-white) !important;
+     background: var(--md-accent-fg-color) !important;
+     color: var(--md-accent-bg-color) !important;
      padding: 0.75rem 1.5rem;
      border-radius: var(--button-radius);
      text-decoration: none;
@@ -175,8 +180,8 @@
    .btn-primary:hover,
    .participation-card a:hover,
    .year-card a:hover {
-     background: var(--python-green-dark) !important;
-     color: var(--python-white) !important;
+     background: var(--md-accent-fg-color--dark) !important;
+     color: var(--md-accent-bg-color) !important;
      transform: translateY(-2px);
      box-shadow: var(--md-shadow-z2);
      text-decoration: none;
@@ -186,16 +191,16 @@
    .btn.btn-primary,
    .btn-primary.mt-2,
    .upcoming-btn {
-     background: var(--python-green) !important;
-     color: var(--python-white) !important;
+     background: var(--md-accent-fg-color) !important;
+     color: var(--md-accent-bg-color) !important;
      text-decoration: none !important;
    }
 
    .btn.btn-primary:hover,
    .btn-primary.mt-2:hover,
    .upcoming-btn:hover {
-     background: var(--python-green-dark) !important;
-     color: var(--python-white) !important;
+     background: var(--md-accent-fg-color--dark) !important;
+     color: var(--md-accent-bg-color) !important;
      text-decoration: none !important;
    }
 
@@ -343,7 +348,7 @@
      left: 0;
      right: 0;
      height: 4px;
-     background: linear-gradient(90deg, var(--md-primary-fg-color), var(--python-green));
+     background: linear-gradient(90deg, var(--md-primary-fg-color), var(--md-primary-bg-color));
      opacity: 0;
      transition: var(--transition-base);
    }
@@ -414,7 +419,7 @@
    /* Especialización de tarjetas por tipo */
    .participation-ponente,
    .year-2025 {
-     border-left: 4px solid var(--python-green);
+     border-left: 4px solid var(--md-primary-fg-color);
    }
 
    .participation-voluntario,
@@ -428,7 +433,7 @@
    }
 
    .year-2025:hover {
-     border-left-color: var(--python-green-dark);
+     border-left-color: var(--md-accent-fg-color--dark);
    }
 
    .year-2024:hover {
@@ -716,7 +721,7 @@
 
    .community-card:hover {
      transform: translateY(-5px);
-     border-color: var(--python-green);
+     border-color: var(--md-accent-fg-color);
      box-shadow: 0 8px 25px rgba(76, 175, 80, 0.15);
      text-decoration: none;
      color: var(--md-default-fg-color);
@@ -733,7 +738,7 @@
    }
 
    .community-card:hover img {
-     border-color: var(--python-green);
+     border-color: var(--md-accent-fg-color);
      transform: scale(1.05);
    }
 
@@ -747,12 +752,12 @@
 
    .community-card h4 i {
      margin-right: 0.5rem;
-     color: var(--python-green);
+     color: var(--md-accent-fg-color);
      font-size: 0.9em;
    }
 
    .community-card:hover h4 {
-     color: var(--python-green);
+     color: var(--md-accent-fg-color);
    }
 
    .community-card p {
@@ -953,8 +958,8 @@
    }
 
    .speaker-links a:hover {
-     background: var(--md-primary-fg-color);
-     color: var(--python-white);
+     background: var(--md-accent-fg-color);
+     color: var(--md-accent-bg-color);
    }
 
    /* Descripción de la charla */
@@ -1053,8 +1058,8 @@
      display: inline-flex;
      align-items: center;
      gap: 0.5rem;
-     background: var(--python-green);
-     color: var(--python-white);
+     background: var(--md-accent-fg-color);
+     color: var(--md-accent-bg-color);
      padding: 0.75rem 1.25rem;
      border-radius: var(--button-radius);
      text-decoration: none;
@@ -1065,8 +1070,8 @@
    }
 
    .youtube-btn:hover {
-     background: var(--python-green-dark);
-     color: var(--python-white);
+     background: var(--md-accent-fg-color--dark);
+     color: var(--md-accent-bg-color);
      transform: translateY(-1px);
      box-shadow: var(--md-shadow-z1);
      text-decoration: none;
@@ -1115,7 +1120,7 @@
 
    .community-link:hover {
      transform: translateY(-3px);
-     color: var(--python-white);
+     color: var(--md-accent-bg-color);
      text-decoration: none;
      animation: none;
    }
@@ -1131,7 +1136,7 @@
    }
 
    .community-link:hover i {
-     color: var(--python-white);
+     color: var(--md-accent-bg-color);
      transform: scale(1.1);
    }
 

@@ -21,15 +21,15 @@ theme:
   palette:
     # Light mode
     - scheme: default
-      primary: green
-      accent: green
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Cambiar a modo oscuro
     # Dark mode
     - scheme: slate
-      primary: green
-      accent: green
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Cambiar a modo claro
