@@ -76,6 +76,8 @@ resource "aws_s3_bucket_lifecycle_configuration" "website_staging" {
     id     = "delete-old-versions"
     status = "Enabled"
 
+    filter {}
+
     noncurrent_version_expiration {
       noncurrent_days = 30 # Shorter retention for staging
     }
@@ -84,6 +86,8 @@ resource "aws_s3_bucket_lifecycle_configuration" "website_staging" {
   rule {
     id     = "delete-incomplete-uploads"
     status = "Enabled"
+
+    filter {}
 
     abort_incomplete_multipart_upload {
       days_after_initiation = 3

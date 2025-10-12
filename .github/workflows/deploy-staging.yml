@@ -3,26 +3,19 @@ name: Deploy to Staging (AWS S3 + CloudFront)
 on:
   push:
     branches: [ develop, staging ]
-  pull_request:
-    branches: [ main ]
   workflow_dispatch: # Allow manual trigger
 
 permissions:
   contents: read
   id-token: write # Required for AWS OIDC authentication
 
-env:
-  AWS_REGION: us-east-1
-  S3_BUCKET: pythoncdmx-website-staging
-  CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID_STAGING }}
 
 jobs:
   build-and-deploy-staging:
     name: Build and Deploy to Staging
     runs-on: ubuntu-latest
     environment:
-      name: staging
-      url: https://staging.pythoncdmx.org
+      name: aws-stag
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -59,25 +52,25 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
-          aws-region: ${{ env.AWS_REGION }}
+          aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Sync to S3 (Staging)
         run: |
-          aws s3 sync site/ s3://${{ env.S3_BUCKET }}/ \
+          aws s3 sync site/ s3://${{ secrets.AWS_S3_BUCKET }}/ \
             --delete \
             --cache-control "public, max-age=300" \
             --exclude "*.html" \
             --exclude "sitemap.xml"
 
           # Upload HTML files with shorter cache for staging
-          aws s3 sync site/ s3://${{ env.S3_BUCKET }}/ \
+          aws s3 sync site/ s3://${{ secrets.AWS_S3_BUCKET }}/ \
             --cache-control "public, max-age=60, must-revalidate" \
             --content-type "text/html; charset=utf-8" \
             --exclude "*" \
             --include "*.html"
 
           # Upload sitemap with no cache
-          aws s3 sync site/ s3://${{ env.S3_BUCKET }}/ \
+          aws s3 sync site/ s3://${{ secrets.AWS_S3_BUCKET }}/ \
             --cache-control "public, max-age=0, must-revalidate" \
             --exclude "*" \
             --include "sitemap.xml"
@@ -85,14 +78,14 @@ jobs:
       - name: Invalidate CloudFront cache
         run: |
           aws cloudfront create-invalidation \
-            --distribution-id ${{ env.CLOUDFRONT_DISTRIBUTION_ID }} \
+            --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION }} \
             --paths "/*"
 
       - name: Deployment summary
         run: |
           echo "✅ Staging website deployed successfully!"
           echo "🌐 URL: https://staging.pythoncdmx.org"
-          echo "📦 S3 Bucket: ${{ env.S3_BUCKET }}"
-          echo "🚀 CloudFront Distribution: ${{ env.CLOUDFRONT_DISTRIBUTION_ID }}"
+          echo "📦 S3 Bucket: ${{ secrets.AWS_S3_BUCKET }}"
+          echo "🚀 CloudFront Distribution: ${{ secrets.CLOUDFRONT_DISTRIBUTION }}"
           echo ""
           echo "ℹ️  This is a STAGING environment for testing purposes."

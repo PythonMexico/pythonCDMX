@@ -9,11 +9,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "pythoncdmx-terraform-state"
-    key            = "website/terraform.tfstate"
-    region         = "us-east-1"
-    encrypt        = true
-    dynamodb_table = "pythoncdmx-terraform-locks"
+    bucket  = "bucket-terraform-a8ab"
+    key     = "pythoncdmx/terraform.tfstate"
+    region  = "us-east-1"
+    encrypt = true
   }
 }
 
