@@ -1,0 +1,80 @@
+name: Deploy to AWS S3 + CloudFront
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  id-token: write # Required for AWS OIDC authentication
+
+env:
+  AWS_REGION: us-east-1
+  S3_BUCKET: pythoncdmx-website
+  CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+
+jobs:
+  build-and-deploy:
+    name: Build and Deploy to AWS
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build MkDocs site
+        run: mkdocs build --strict --use-directory-urls
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Sync to S3
+        run: |
+          aws s3 sync site/ s3://${{ env.S3_BUCKET }}/ \
+            --delete \
+            --cache-control "public, max-age=3600" \
+            --exclude "*.html" \
+            --exclude "sitemap.xml"
+
+          # Upload HTML files with shorter cache
+          aws s3 sync site/ s3://${{ env.S3_BUCKET }}/ \
+            --cache-control "public, max-age=600, must-revalidate" \
+            --content-type "text/html; charset=utf-8" \
+            --exclude "*" \
+            --include "*.html"
+
+          # Upload sitemap with no cache
+          aws s3 sync site/ s3://${{ env.S3_BUCKET }}/ \
+            --cache-control "public, max-age=0, must-revalidate" \
+            --exclude "*" \
+            --include "sitemap.xml"
+
+      - name: Invalidate CloudFront cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ env.CLOUDFRONT_DISTRIBUTION_ID }} \
+            --paths "/*"
+
+      - name: Deployment summary
+        run: |
+          echo "✅ Website deployed successfully!"
+          echo "🌐 URL: https://pythoncdmx.org"
+          echo "📦 S3 Bucket: ${{ env.S3_BUCKET }}"
+          echo "🚀 CloudFront Distribution: ${{ env.CLOUDFRONT_DISTRIBUTION_ID }}"

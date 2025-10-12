@@ -39,11 +39,11 @@ Creemos que el verdadero crecimiento profesional viene de la colaboración y el 
 
 ### <i class="fas fa-microphone"></i> Ser Ponente
 
-Comparte tu experiencia y conocimiento con la comunidad. Consulta nuestra [guía para ponentes](comunidad/ponentes.md) para más información.
+Comparte tu experiencia y conocimiento con la comunidad. Consulta nuestra [guía para ponentes](comunidad/ponentes/) para más información.
 
 ### <i class="fas fa-hands-helping"></i> Ser Voluntario
 
-Ayuda a organizar eventos, gestionar redes sociales o contribuir con el desarrollo del sitio web. Conoce más en [nuestra página de voluntarios](comunidad/voluntarios.md).
+Ayuda a organizar eventos, gestionar redes sociales o contribuir con el desarrollo del sitio web. Conoce más en [nuestra página de voluntarios](comunidad/voluntarios/).
 
 ### <i class="fas fa-calendar"></i> Asistir a Meetups
 

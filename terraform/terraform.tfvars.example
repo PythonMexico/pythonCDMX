@@ -1,0 +1,27 @@
+# Example Terraform variables file
+# Copy this file to terraform.tfvars and customize as needed
+
+# AWS Region
+aws_region = "us-east-1"
+
+# Environment
+environment = "production"
+
+# Domain configuration
+domain_name = "pythoncdmx.org"
+alternative_domain_names = [
+  "www.pythoncdmx.org"
+]
+staging_subdomain = "staging.pythoncdmx.org"
+
+# S3 bucket names
+bucket_name = "pythoncdmx-website"
+staging_bucket_name = "pythoncdmx-website-staging"
+terraform_state_bucket = "pythoncdmx-terraform-state"
+terraform_locks_table = "pythoncdmx-terraform-locks"
+
+# Additional tags
+tags = {
+  Team    = "Infrastructure"
+  Contact = "infra@pythoncdmx.org"
+}

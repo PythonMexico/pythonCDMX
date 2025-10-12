@@ -271,3 +271,6 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Generated files
+broken_links.json

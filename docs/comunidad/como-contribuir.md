@@ -28,13 +28,13 @@ Contribuir a Python CDMX te permite:
 
 Comparte tu conocimiento con la comunidad a través de charlas técnicas, casos de uso o introducciones a nuevas tecnologías.
 
-**Más información:** [Ser Ponente](ponentes.md)
+**Más información:** [Ser Ponente](ponentes/)
 
 ### <i class="fas fa-hands-helping"></i> Ser Voluntario
 
 Ayuda a organizar eventos, gestionar redes sociales, o contribuir con el desarrollo del sitio web.
 
-**Más información:** [Ser Voluntario](voluntarios.md)
+**Más información:** [Ser Voluntario](voluntarios/)
 
 ### <i class="fas fa-code"></i> Desarrollo Web
 
@@ -52,7 +52,7 @@ Escribe artículos, documentación, o crea contenido para nuestras redes sociale
 
 Ayuda a establecer y mantener relaciones con otras comunidades y empresas.
 
-**Más información:** [Alianzas](alianzas.md)
+**Más información:** [Alianzas](alianzas/)
 
 ---
 

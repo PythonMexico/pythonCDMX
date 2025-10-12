@@ -1,35 +1,36 @@
 {
   "summary": {
-    "total_files_scanned": 35,
-    "working_links": 79,
-    "broken_links": 0,
+    "total_files_scanned": 45,
+    "working_links": 80,
+    "broken_links": 2,
     "base_url": "http://127.0.0.1:8000"
   },
-  "broken_links": [],
+  "broken_links": [
+    {
+      "file": "blog/media/README.md",
+      "text": "alt text",
+      "url": "media/nombre-del-articulo/imagen.png",
+      "full_url": "http://127.0.0.1:8000/blog/media/media/nombre-del-articulo/imagen.png",
+      "status": "404 Not Found",
+      "line": 55,
+      "link_type": "markdown"
+    },
+    {
+      "file": "comunidad/como-contribuir.md",
+      "text": "formas de contribuir",
+      "url": "#formas-de-contribuir",
+      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir.html#formas-de-contribuir",
+      "status": "404 Not Found",
+      "line": 63,
+      "link_type": "markdown"
+    }
+  ],
   "working_links": [
-    {
-      "file": "about.md",
-      "text": "guía para ponentes",
-      "url": "comunidad/ponentes/",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/",
-      "status": "200 OK",
-      "line": 42,
-      "link_type": "markdown"
-    },
-    {
-      "file": "about.md",
-      "text": "nuestra página de voluntarios",
-      "url": "/comunidad/voluntarios/",
-      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios/",
-      "status": "200 OK",
-      "line": 46,
-      "link_type": "markdown"
-    },
     {
       "file": "index.md",
       "text": "Explorar charlas",
-      "url": "/meetups/",
-      "full_url": "http://127.0.0.1:8000/meetups/",
+      "url": "/meetups/index.md",
+      "full_url": "http://127.0.0.1:8000/meetups/index.html",
       "status": "200 OK",
       "line": 8,
       "link_type": "html"
@@ -82,71 +83,161 @@
     {
       "file": "index.md",
       "text": "Ver Eventos",
-      "url": "/meetups/",
-      "full_url": "http://127.0.0.1:8000/meetups/",
+      "url": "/meetups/index.md",
+      "full_url": "http://127.0.0.1:8000/meetups/index.html",
       "status": "200 OK",
       "line": 49,
       "link_type": "html"
     },
     {
-      "file": "meetups/2023/index.md",
+      "file": "about.md",
+      "text": "guía para ponentes",
+      "url": "comunidad/ponentes/",
+      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/",
+      "status": "200 OK",
+      "line": 42,
+      "link_type": "markdown"
+    },
+    {
+      "file": "about.md",
+      "text": "nuestra página de voluntarios",
+      "url": "comunidad/voluntarios/",
+      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios/",
+      "status": "200 OK",
+      "line": 46,
+      "link_type": "markdown"
+    },
+    {
+      "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202311-noviembre",
-      "full_url": "http://127.0.0.1:8000/202311-noviembre",
+      "url": "202508-agosto/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202508-agosto",
       "status": "200 OK",
       "line": 15,
       "link_type": "markdown"
     },
     {
-      "file": "meetups/2023/index.md",
+      "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202311-noviembre",
-      "full_url": "http://127.0.0.1:8000/202311-noviembre",
+      "url": "202507-julio/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202507-julio",
       "status": "200 OK",
       "line": 16,
       "link_type": "markdown"
     },
     {
-      "file": "meetups/2023/index.md",
+      "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202310-octubre",
-      "full_url": "http://127.0.0.1:8000/202310-octubre",
+      "url": "202506-junio/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202506-junio",
       "status": "200 OK",
       "line": 17,
       "link_type": "markdown"
     },
     {
-      "file": "meetups/2023/index.md",
+      "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202309-septiembre",
-      "full_url": "http://127.0.0.1:8000/202309-septiembre",
+      "url": "202505-mayo/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202505-mayo",
       "status": "200 OK",
       "line": 18,
       "link_type": "markdown"
     },
     {
-      "file": "meetups/2023/index.md",
+      "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202309-septiembre",
-      "full_url": "http://127.0.0.1:8000/202309-septiembre",
+      "url": "202504-unam/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202504-unam",
       "status": "200 OK",
       "line": 19,
       "link_type": "markdown"
     },
     {
-      "file": "meetups/2023/index.md",
+      "file": "meetups/2025/index.md",
+      "text": "Ver detalles",
+      "url": "202504-unam/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202504-unam",
+      "status": "200 OK",
+      "line": 20,
+      "link_type": "markdown"
+    },
+    {
+      "file": "meetups/2025/index.md",
+      "text": "Ver detalles",
+      "url": "202504-abril/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202504-abril",
+      "status": "200 OK",
+      "line": 21,
+      "link_type": "markdown"
+    },
+    {
+      "file": "meetups/2025/index.md",
+      "text": "Ver detalles",
+      "url": "202503-marzo/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202503-marzo",
+      "status": "200 OK",
+      "line": 22,
+      "link_type": "markdown"
+    },
+    {
+      "file": "meetups/2025/index.md",
+      "text": "Ver detalles",
+      "url": "202503-marzo/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202503-marzo",
+      "status": "200 OK",
+      "line": 23,
+      "link_type": "markdown"
+    },
+    {
+      "file": "meetups/2025/index.md",
+      "text": "Ver detalles",
+      "url": "202502-febrero/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202502-febrero",
+      "status": "200 OK",
+      "line": 24,
+      "link_type": "markdown"
+    },
+    {
+      "file": "meetups/2025/index.md",
+      "text": "Ver detalles",
+      "url": "202502-febrero/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202502-febrero",
+      "status": "200 OK",
+      "line": 25,
+      "link_type": "markdown"
+    },
+    {
+      "file": "meetups/2025/index.md",
+      "text": "Ver detalles",
+      "url": "202501-enero/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202501-enero",
+      "status": "200 OK",
+      "line": 26,
+      "link_type": "markdown"
+    },
+    {
+      "file": "meetups/2025/index.md",
+      "text": "Ver detalles",
+      "url": "202501-enero/",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202501-enero",
+      "status": "200 OK",
+      "line": 27,
+      "link_type": "markdown"
+    },
+    {
+      "file": "meetups/2025/index.md",
       "text": "ponentes y voluntarios reconocidos",
-      "url": "/comunidad/como-contribuir/",
-      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir/",
+      "url": "../../comunidad/como-contribuir/",
+      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir",
       "status": "200 OK",
-      "line": 59,
+      "line": 68,
       "link_type": "markdown"
     },
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202411-noviembre",
-      "full_url": "http://127.0.0.1:8000/202411-noviembre",
+      "url": "202411-noviembre/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202411-noviembre",
       "status": "200 OK",
       "line": 15,
       "link_type": "markdown"
@@ -154,8 +245,8 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202411-noviembre",
-      "full_url": "http://127.0.0.1:8000/202411-noviembre",
+      "url": "202411-noviembre/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202411-noviembre",
       "status": "200 OK",
       "line": 16,
       "link_type": "markdown"
@@ -163,8 +254,8 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202410-octubre",
-      "full_url": "http://127.0.0.1:8000/202410-octubre",
+      "url": "202410-octubre/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202410-octubre",
       "status": "200 OK",
       "line": 17,
       "link_type": "markdown"
@@ -172,8 +263,8 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202409-septiembre",
-      "full_url": "http://127.0.0.1:8000/202409-septiembre",
+      "url": "202409-septiembre/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202409-septiembre",
       "status": "200 OK",
       "line": 18,
       "link_type": "markdown"
@@ -181,8 +272,8 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202409-septiembre",
-      "full_url": "http://127.0.0.1:8000/202409-septiembre",
+      "url": "202409-septiembre/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202409-septiembre",
       "status": "200 OK",
       "line": 19,
       "link_type": "markdown"
@@ -190,8 +281,8 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202408-agosto",
-      "full_url": "http://127.0.0.1:8000/202408-agosto",
+      "url": "202408-agosto/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202408-agosto",
       "status": "200 OK",
       "line": 20,
       "link_type": "markdown"
@@ -199,8 +290,8 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202408-agosto",
-      "full_url": "http://127.0.0.1:8000/202408-agosto",
+      "url": "202408-agosto/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202408-agosto",
       "status": "200 OK",
       "line": 21,
       "link_type": "markdown"
@@ -208,8 +299,8 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202407-julio",
-      "full_url": "http://127.0.0.1:8000/202407-julio",
+      "url": "202407-julio/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202407-julio",
       "status": "200 OK",
       "line": 22,
       "link_type": "markdown"
@@ -217,8 +308,8 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202407-julio",
-      "full_url": "http://127.0.0.1:8000/202407-julio",
+      "url": "202407-julio/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202407-julio",
       "status": "200 OK",
       "line": 23,
       "link_type": "markdown"
@@ -226,8 +317,8 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202406-junio",
-      "full_url": "http://127.0.0.1:8000/202406-junio",
+      "url": "202406-junio/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202406-junio",
       "status": "200 OK",
       "line": 24,
       "link_type": "markdown"
@@ -235,8 +326,8 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202405-mayo",
-      "full_url": "http://127.0.0.1:8000/202405-mayo",
+      "url": "202405-mayo/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202405-mayo",
       "status": "200 OK",
       "line": 25,
       "link_type": "markdown"
@@ -244,8 +335,8 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202404-abril",
-      "full_url": "http://127.0.0.1:8000/202404-abril",
+      "url": "202404-abril/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202404-abril",
       "status": "200 OK",
       "line": 26,
       "link_type": "markdown"
@@ -253,8 +344,8 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202403-marzo",
-      "full_url": "http://127.0.0.1:8000/202403-marzo",
+      "url": "202403-marzo/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202403-marzo",
       "status": "200 OK",
       "line": 27,
       "link_type": "markdown"
@@ -262,8 +353,8 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202402-febrero",
-      "full_url": "http://127.0.0.1:8000/202402-febrero",
+      "url": "202402-febrero/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202402-febrero",
       "status": "200 OK",
       "line": 28,
       "link_type": "markdown"
@@ -271,8 +362,8 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202401-enero",
-      "full_url": "http://127.0.0.1:8000/202401-enero",
+      "url": "202401-enero/",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202401-enero",
       "status": "200 OK",
       "line": 29,
       "link_type": "markdown"
@@ -280,172 +371,64 @@
     {
       "file": "meetups/2024/index.md",
       "text": "ponentes y voluntarios reconocidos",
-      "url": "/comunidad/como-contribuir/",
-      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir/",
+      "url": "../../comunidad/como-contribuir/",
+      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir",
       "status": "200 OK",
       "line": 69,
       "link_type": "markdown"
     },
     {
-      "file": "meetups/2025/index.md",
+      "file": "meetups/2023/index.md",
       "text": "Ver detalles",
-      "url": "202507-julio",
-      "full_url": "http://127.0.0.1:8000/202507-julio",
+      "url": "202311-noviembre/",
+      "full_url": "http://127.0.0.1:8000/meetups/2023/202311-noviembre",
       "status": "200 OK",
       "line": 15,
       "link_type": "markdown"
     },
     {
-      "file": "meetups/2025/index.md",
+      "file": "meetups/2023/index.md",
       "text": "Ver detalles",
-      "url": "202506-junio",
-      "full_url": "http://127.0.0.1:8000/202506-junio",
+      "url": "202311-noviembre/",
+      "full_url": "http://127.0.0.1:8000/meetups/2023/202311-noviembre",
       "status": "200 OK",
       "line": 16,
       "link_type": "markdown"
     },
     {
-      "file": "meetups/2025/index.md",
+      "file": "meetups/2023/index.md",
       "text": "Ver detalles",
-      "url": "202505-mayo",
-      "full_url": "http://127.0.0.1:8000/202505-mayo",
+      "url": "202310-octubre/",
+      "full_url": "http://127.0.0.1:8000/meetups/2023/202310-octubre",
       "status": "200 OK",
       "line": 17,
       "link_type": "markdown"
     },
     {
-      "file": "meetups/2025/index.md",
+      "file": "meetups/2023/index.md",
       "text": "Ver detalles",
-      "url": "202504-abril",
-      "full_url": "http://127.0.0.1:8000/202504-abril",
+      "url": "202309-septiembre/",
+      "full_url": "http://127.0.0.1:8000/meetups/2023/202309-septiembre",
       "status": "200 OK",
       "line": 18,
       "link_type": "markdown"
     },
     {
-      "file": "meetups/2025/index.md",
+      "file": "meetups/2023/index.md",
       "text": "Ver detalles",
-      "url": "202504-abril",
-      "full_url": "http://127.0.0.1:8000/202504-abril",
+      "url": "202309-septiembre/",
+      "full_url": "http://127.0.0.1:8000/meetups/2023/202309-septiembre",
       "status": "200 OK",
       "line": 19,
       "link_type": "markdown"
     },
     {
-      "file": "meetups/2025/index.md",
-      "text": "Ver detalles",
-      "url": "202504-abril",
-      "full_url": "http://127.0.0.1:8000/202504-abril",
-      "status": "200 OK",
-      "line": 20,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2025/index.md",
-      "text": "Ver detalles",
-      "url": "202503-marzo",
-      "full_url": "http://127.0.0.1:8000/202503-marzo",
-      "status": "200 OK",
-      "line": 21,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2025/index.md",
-      "text": "Ver detalles",
-      "url": "202503-marzo",
-      "full_url": "http://127.0.0.1:8000/202503-marzo",
-      "status": "200 OK",
-      "line": 22,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2025/index.md",
-      "text": "Ver detalles",
-      "url": "202502-febrero",
-      "full_url": "http://127.0.0.1:8000/202502-febrero",
-      "status": "200 OK",
-      "line": 23,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2025/index.md",
-      "text": "Ver detalles",
-      "url": "202502-febrero",
-      "full_url": "http://127.0.0.1:8000/202502-febrero",
-      "status": "200 OK",
-      "line": 24,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2025/index.md",
-      "text": "Ver detalles",
-      "url": "202501-enero",
-      "full_url": "http://127.0.0.1:8000/202501-enero",
-      "status": "200 OK",
-      "line": 25,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2025/index.md",
-      "text": "Ver detalles",
-      "url": "202501-enero",
-      "full_url": "http://127.0.0.1:8000/202501-enero",
-      "status": "200 OK",
-      "line": 26,
-      "link_type": "markdown"
-    },
-    {
-      "file": "meetups/2025/index.md",
+      "file": "meetups/2023/index.md",
       "text": "ponentes y voluntarios reconocidos",
-      "url": "/comunidad/como-contribuir/",
-      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir/",
+      "url": "../../comunidad/como-contribuir/",
+      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir",
       "status": "200 OK",
-      "line": 67,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/como-contribuir.md",
-      "text": "Ser Ponente",
-      "url": "ponentes/",
-      "full_url": "http://127.0.0.1:8000/ponentes/",
-      "status": "200 OK",
-      "line": 31,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/como-contribuir.md",
-      "text": "Ser Voluntario",
-      "url": "voluntarios/",
-      "full_url": "http://127.0.0.1:8000/voluntarios/",
-      "status": "200 OK",
-      "line": 37,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/como-contribuir.md",
-      "text": "Alianzas",
-      "url": "alianzas/",
-      "full_url": "http://127.0.0.1:8000/alianzas/",
-      "status": "200 OK",
-      "line": 55,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/como-contribuir.md",
-      "text": "formas de contribuir",
-      "url": "#formas-de-contribuir",
-      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir/#formas-de-contribuir",
-      "status": "200 OK",
-      "line": 63,
-      "link_type": "markdown"
-    },
-    {
-      "file": "comunidad/como-contribuir.md",
-      "text": "nuestros meetups",
-      "url": "../meetups/",
-      "full_url": "http://127.0.0.1:8000/meetups/",
-      "status": "200 OK",
-      "line": 70,
+      "line": 59,
       "link_type": "markdown"
     },
     {
@@ -713,10 +696,55 @@
       "file": "comunidad/voluntarios.md",
       "text": "Más Información",
       "url": "como-contribuir/",
-      "full_url": "http://127.0.0.1:8000/como-contribuir/",
+      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir",
       "status": "200 OK",
       "line": 87,
       "link_type": "html"
+    },
+    {
+      "file": "comunidad/sedes_faq.md",
+      "text": "Ser Ponente",
+      "url": "ponentes/#por-que-ser-ponente",
+      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/#por-que-ser-ponente",
+      "status": "200 OK",
+      "line": 109,
+      "link_type": "markdown"
+    },
+    {
+      "file": "comunidad/como-contribuir.md",
+      "text": "Ser Ponente",
+      "url": "ponentes/",
+      "full_url": "http://127.0.0.1:8000/comunidad/ponentes",
+      "status": "200 OK",
+      "line": 31,
+      "link_type": "markdown"
+    },
+    {
+      "file": "comunidad/como-contribuir.md",
+      "text": "Ser Voluntario",
+      "url": "voluntarios/",
+      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios",
+      "status": "200 OK",
+      "line": 37,
+      "link_type": "markdown"
+    },
+    {
+      "file": "comunidad/como-contribuir.md",
+      "text": "Alianzas",
+      "url": "alianzas/",
+      "full_url": "http://127.0.0.1:8000/comunidad/alianzas",
+      "status": "200 OK",
+      "line": 55,
+      "link_type": "markdown"
+    },
+    {
+      "file": "comunidad/como-contribuir.md",
+      "text": "nuestros meetups",
+      "url": "../meetups/index.md",
+      "full_url": "http://127.0.0.1:8000/meetups/index.html",
+      "status": "200 OK",
+      "line": 70,
+      "link_type": "markdown"
     }
   ]
 }

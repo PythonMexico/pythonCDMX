@@ -1,0 +1,98 @@
+name: Deploy to Staging (AWS S3 + CloudFront)
+
+on:
+  push:
+    branches: [ develop, staging ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: read
+  id-token: write # Required for AWS OIDC authentication
+
+env:
+  AWS_REGION: us-east-1
+  S3_BUCKET: pythoncdmx-website-staging
+  CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID_STAGING }}
+
+jobs:
+  build-and-deploy-staging:
+    name: Build and Deploy to Staging
+    runs-on: ubuntu-latest
+    environment:
+      name: staging
+      url: https://staging.pythoncdmx.org
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build MkDocs site
+        run: mkdocs build --strict --use-directory-urls
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Add staging banner to site
+        run: |
+          # Add a staging environment banner to all HTML files
+          find site -name "*.html" -type f -exec sed -i.bak '/<body/a \
+          <div style="background:#ff9800;color:#000;text-align:center;padding:10px;font-weight:bold;">\
+          🚧 STAGING ENVIRONMENT - NOT FOR PRODUCTION USE 🚧\
+          </div>' {} \;
+          # Clean up backup files
+          find site -name "*.bak" -type f -delete
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Sync to S3 (Staging)
+        run: |
+          aws s3 sync site/ s3://${{ env.S3_BUCKET }}/ \
+            --delete \
+            --cache-control "public, max-age=300" \
+            --exclude "*.html" \
+            --exclude "sitemap.xml"
+
+          # Upload HTML files with shorter cache for staging
+          aws s3 sync site/ s3://${{ env.S3_BUCKET }}/ \
+            --cache-control "public, max-age=60, must-revalidate" \
+            --content-type "text/html; charset=utf-8" \
+            --exclude "*" \
+            --include "*.html"
+
+          # Upload sitemap with no cache
+          aws s3 sync site/ s3://${{ env.S3_BUCKET }}/ \
+            --cache-control "public, max-age=0, must-revalidate" \
+            --exclude "*" \
+            --include "sitemap.xml"
+
+      - name: Invalidate CloudFront cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ env.CLOUDFRONT_DISTRIBUTION_ID }} \
+            --paths "/*"
+
+      - name: Deployment summary
+        run: |
+          echo "✅ Staging website deployed successfully!"
+          echo "🌐 URL: https://staging.pythoncdmx.org"
+          echo "📦 S3 Bucket: ${{ env.S3_BUCKET }}"
+          echo "🚀 CloudFront Distribution: ${{ env.CLOUDFRONT_DISTRIBUTION_ID }}"
+          echo ""
+          echo "ℹ️  This is a STAGING environment for testing purposes."
