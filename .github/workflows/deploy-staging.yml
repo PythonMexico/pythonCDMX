@@ -75,12 +75,6 @@ jobs:
             --exclude "*" \
             --include "sitemap.xml"
 
-      - name: Invalidate CloudFront cache
-        run: |
-          aws cloudfront create-invalidation \
-            --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION }} \
-            --paths "/*"
-
       - name: Deployment summary
         run: |
           echo "✅ Staging website deployed successfully!"
