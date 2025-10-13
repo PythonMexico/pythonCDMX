@@ -4,8 +4,9 @@
 
 Sitio web oficial de la comunidad Python CDMX, construido con **MkDocs Material** y diseño **Material Design** optimizado. Documentamos todos nuestros meetups, charlas y eventos, conectando a la comunidad Python de la Ciudad de México.
 
-[![Despliegue automático](https://github.com/PythonMexico/pythonCDMX/actions/workflows/deploy.yml/badge.svg)](https://github.com/PythonMexico/pythonCDMX/actions/workflows/deploy.yml)
-[![Sitio Web](https://img.shields.io/badge/sitio-pythoncdmx.org-4CAF50)](https://pythonmexico.github.io/pythonCDMX/)
+[![Deploy AWS Production](https://github.com/PythonMexico/pythonCDMX/actions/workflows/deploy-aws.yml/badge.svg)](https://github.com/PythonMexico/pythonCDMX/actions/workflows/deploy-aws.yml)
+[![Deploy Staging](https://github.com/PythonMexico/pythonCDMX/actions/workflows/deploy-staging.yml/badge.svg)](https://github.com/PythonMexico/pythonCDMX/actions/workflows/deploy-staging.yml)
+[![Sitio Web](https://img.shields.io/badge/sitio-pythoncdmx.org-4CAF50)](https://pythoncdmx.org)
 
 ## Características Principales
 
@@ -114,20 +115,63 @@ El proyecto cuenta con documentación específica para diferentes audiencias:
 
 ¿Quieres contribuir al proyecto? ¡Excelente! 🎉
 
+### Formas de Contribuir
+
 - **Proponer una charla**: Abre un [issue](https://github.com/PythonMexico/pythonCDMX/issues/new) con la plantilla "💡 Propuesta de Charla"
 - **Publicar evento**: Usa la plantilla "Publicar evento en la página"
 - **Reportar problema**: Crea un issue con detalles del bug
-- **Mejorar documentación**: Los PRs son bienvenidos
+- **Mejorar código o documentación**: Crea un Pull Request siguiendo nuestro flujo de trabajo
 
-👉 **[Ver guía completa de contribución](CONTRIBUTING.md)** para proceso detallado, setup del entorno y guidelines.
+### ⚠️ Flujo de Contribución Obligatorio
+
+**IMPORTANTE**: Todos los Pull Requests deben seguir este flujo:
+
+```
+Tu rama → staging → main (producción)
+```
+
+1. **Crea tu rama** desde `staging`
+2. **Haz tus cambios** y commits usando [Conventional Commits](https://www.conventionalcommits.org/es/v1.0.0/)
+3. **Abre un PR hacia `staging`** (NO hacia `main`)
+4. **Completa el formulario del PR** explicando tus cambios
+5. **Validación automática** en https://staging.pythoncdmx.org
+6. **El equipo promoverá** los cambios a producción si todo está correcto
+
+**⛔ NO se aceptarán Pull Requests directos a `main`**
+
+👉 **[Ver guía completa de contribución](CONTRIBUTING.md)** para instrucciones detalladas paso a paso, setup del entorno y convenciones de código.
 
 ## Despliegue
 
-El sitio se despliega automáticamente a **GitHub Pages** en cada push a `main`:
+El sitio utiliza una arquitectura de **AWS S3 + CloudFront** con dos ambientes:
 
-- **URL de producción**: https://pythonmexico.github.io/pythonCDMX/
-- **Workflow**: `.github/workflows/deploy.yml`
-- **Rama de despliegue**: `gh-pages` (automática)
+### 🌐 Ambientes
+
+#### Producción
+- **URL**: https://pythoncdmx.org
+- **Branch**: `main`
+- **Workflow**: `.github/workflows/deploy-aws.yml`
+- **Infraestructura**: S3 + CloudFront + Route53
+- **Despliegue**: Automático en cada push a `main`
+
+#### Staging (Pruebas)
+- **URL**: https://staging.pythoncdmx.org
+- **Branch**: `staging`
+- **Workflow**: `.github/workflows/deploy-staging.yml`
+- **Banner visual**: Indica ambiente de pruebas
+- **Despliegue**: Automático en cada push a `staging`
+
+### 🏗️ Infraestructura
+
+La infraestructura está definida como código usando **Terraform**:
+
+- **S3 Buckets**: Almacenamiento de sitio estático (producción y staging)
+- **CloudFront**: CDN para distribución global
+- **Route53**: DNS management
+- **ACM**: Certificados SSL/TLS
+- **GitHub OIDC**: Autenticación segura sin API keys
+
+📁 Ver configuración completa en [`terraform/`](terraform/README.md)
 
 ## Enlaces de la Comunidad
 

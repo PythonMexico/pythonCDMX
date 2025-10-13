@@ -54,42 +54,160 @@ Para mejoras:
 
 ## Pull Requests
 
-### Antes de Enviar un PR
+### ⚠️ Flujo de Trabajo Obligatorio
+
+**IMPORTANTE**: Todos los Pull Requests deben seguir este flujo:
+
+```
+Tu rama → staging → main (producción)
+```
+
+**⛔ NO SE ACEPTARÁN Pull Requests directos a `main`**
+
+### Proceso de Contribución Paso a Paso
+
+#### 1. Antes de Enviar un PR
 
 1. Haz fork del repositorio
-2. Crea una rama para tu feature o fix
+2. Crea una rama descriptiva para tu feature o fix
 3. Realiza tus cambios siguiendo los estándares
-4. Prueba localmente antes de enviar
-5. Actualiza la documentación si es necesario
+4. **Asegúrate de usar Conventional Commits** (ver sección abajo)
+5. Prueba localmente antes de enviar
+6. Actualiza la documentación si es necesario
 
-### Proceso de PR
+#### 2. Crear Pull Request hacia `staging`
 
-1. Crea el PR con una descripción clara
+1. **Crea el PR apuntando a la rama `staging`** (NO a `main`)
 2. Usa las plantillas disponibles
-3. Vincula issues relacionados
-4. Responde a feedback de los revisores
-5. Mantén el PR actualizado con `main`
+3. **Completa TODA la información del formulario del PR**
+4. Vincula issues relacionados
+5. Incluye capturas de pantalla si hay cambios visuales
 
-### Estructura del PR
+#### 3. Revisión en Staging
+
+- Una vez aprobado tu PR, se hará merge a `staging`
+- Se desplegará automáticamente una **versión de prueba** en:
+  - 🔗 **https://staging.pythoncdmx.org**
+- Esta versión incluye un banner que indica "STAGING ENVIRONMENT"
+- Podrás **validar tus cambios en línea** antes de producción
+
+#### 4. Promoción a Producción
+
+- Si todo está correcto en staging, el equipo core:
+  - Creará un PR interno de `staging` → `main`
+  - Desplegará los cambios a producción (https://pythoncdmx.org)
+- **Tú NO necesitas hacer este paso**, el equipo lo manejará
+
+### Conventional Commits (Obligatorio)
+
+**Todos los commits deben seguir el estándar Conventional Commits:**
+
+📚 **Documentación oficial**: https://www.conventionalcommits.org/es/v1.0.0/
+
+#### Formato Base
+
+```
+<tipo>[ámbito opcional]: <descripción>
+
+[cuerpo opcional]
+
+[notas al pie opcionales]
+```
+
+#### Tipos Permitidos
+
+- **feat**: Nueva funcionalidad
+- **fix**: Corrección de bugs
+- **docs**: Cambios en documentación
+- **style**: Cambios de formato (espacios, puntos y comas, etc.)
+- **refactor**: Refactorización de código
+- **test**: Agregar o modificar tests
+- **chore**: Tareas de mantenimiento (dependencias, configuración, etc.)
+- **perf**: Mejoras de performance
+
+#### Ejemplos de Commits Válidos
+
+```bash
+# Nueva funcionalidad
+git commit -m "feat: agregar página de meetup marzo 2025"
+
+# Corrección de bug
+git commit -m "fix: corregir enlaces rotos en página de comunidad"
+
+# Documentación
+git commit -m "docs: actualizar guía de contribución con flujo staging"
+
+# Estilo/diseño
+git commit -m "style: mejorar responsive design en tarjetas de participación"
+
+# Refactorización
+git commit -m "refactor: optimizar código de generador de meetups"
+
+# Con ámbito
+git commit -m "feat(meetups): agregar filtro por dificultad"
+
+# Con cuerpo descriptivo
+git commit -m "feat: agregar sistema de búsqueda de charlas
+
+- Implementar búsqueda por título
+- Agregar filtro por ponente
+- Incluir índice de palabras clave
+
+Closes #123"
+```
+
+#### ⚠️ Validación Automática
+
+- El repositorio tiene **commit linting automático**
+- Si tus commits no siguen Conventional Commits, el CI **fallará**
+- Asegúrate de formatear correctamente tus mensajes
+
+### Estructura del PR (Plantilla)
+
+**Por favor, completa TODA esta información:**
 
 ```markdown
-## Descripción
-Breve descripción de los cambios
+## 📝 Descripción
+Breve descripción de los cambios realizados
 
-## Tipo de Cambio
-- [ ] Bug fix
-- [ ] Nueva característica
-- [ ] Mejora de documentación
-- [ ] Refactorización
+## 🏷️ Tipo de Cambio
+- [ ] 🐛 Bug fix (corrección de errores)
+- [ ] ✨ Nueva característica (feature)
+- [ ] 📚 Mejora de documentación
+- [ ] ♻️ Refactorización
+- [ ] 🎨 Cambios de diseño/estilo
+- [ ] 📅 Nuevo meetup/evento
 
-## Cambios Realizados
-- Lista de cambios específicos
+## 🔧 Cambios Realizados
+- Lista detallada de cambios específicos
+- Incluye archivos modificados si es relevante
+- Menciona componentes afectados
 
-## Pruebas
-- [ ] Pruebas locales ejecutadas
-- [ ] Documentación actualizada
+## ✅ Checklist de Verificación
+- [ ] He probado los cambios localmente (`mkdocs serve`)
+- [ ] Los commits siguen Conventional Commits
+- [ ] He actualizado la documentación (si aplica)
+- [ ] He probado en modo claro y oscuro
+- [ ] He probado en dispositivos móviles
+- [ ] Los enlaces funcionan correctamente
+- [ ] Las imágenes tienen texto alternativo
+- [ ] No hay errores en la consola del navegador
 
-## Capturas de Pantalla (si aplica)
+## 📸 Capturas de Pantalla (si aplica)
+Agrega screenshots si hay cambios visuales
+
+### Antes
+[Imagen del estado anterior]
+
+### Después
+[Imagen con los nuevos cambios]
+
+## 🔗 Issues Relacionados
+Closes #[número del issue]
+Relates to #[número del issue]
+
+## 📋 Notas Adicionales
+Cualquier información adicional relevante para los revisores
 ```
 
 ## Estándares de Código
@@ -111,22 +229,12 @@ Breve descripción de los cambios
 
 ### Git
 
-- Commits atómicos: un cambio lógico por commit
-- Mensajes descriptivos y claros
-- Ramas descriptivas y relacionadas con el cambio
+- **Commits atómicos**: Un cambio lógico por commit
+- **Conventional Commits obligatorio**: Todos los commits deben seguir el estándar
+- **Mensajes descriptivos**: Usa el formato `tipo(ámbito): descripción`
+- **Ramas descriptivas**: Nombres relacionados con el cambio (ej: `feat/nueva-busqueda`, `fix/enlaces-rotos`)
 
-### Ejemplo de Mensaje de Commit
-
-```
-feat: agregar página de meetup enero 2025
-
-- Crear archivo docs/meetups/2025/enero-2025.md
-- Agregar metadatos del evento
-- Incluir información del ponente
-- Actualizar índice de meetups 2025
-
-Closes #123
-```
+Ver la sección [Conventional Commits](#conventional-commits-obligatorio) para ejemplos detallados.
 
 ## Agregar Meetups
 
@@ -185,11 +293,11 @@ mkdocs serve
 #### 1. Crear Rama de Trabajo
 
 ```bash
-# Actualiza tu main local
-git checkout main
-git pull upstream main
+# Actualiza tu rama staging local desde upstream
+git checkout staging
+git pull upstream staging
 
-# Crea una nueva rama descriptiva
+# Crea una nueva rama descriptiva desde staging
 git checkout -b feature/nueva-funcionalidad
 # o
 git checkout -b fix/corregir-problema
@@ -205,21 +313,25 @@ git checkout -b meetup/agregar-evento-marzo-2025
 mkdocs serve
 
 # Verifica que todo funcione en:
-# - Modo claro y oscuro
-# - Móvil y escritorio
-# - Todos los enlaces
+# ✅ Modo claro y oscuro
+# ✅ Móvil y escritorio
+# ✅ Todos los enlaces funcionan
+# ✅ Imágenes se cargan correctamente
+# ✅ No hay errores en consola
 ```
 
-#### 3. Commit y Push
+#### 3. Commit y Push (usando Conventional Commits)
 
 ```bash
 # Añade los cambios
 git add .
 
-# Commit con mensaje descriptivo
+# Commit con mensaje siguiendo Conventional Commits
 git commit -m "feat: agregar meetup marzo 2025 con ponentes confirmados"
 # o
 git commit -m "fix: corregir enlaces rotos en página de comunidad"
+# o
+git commit -m "docs: actualizar guía de contribución"
 # o
 git commit -m "style: mejorar responsive design en tarjetas de participación"
 
@@ -227,23 +339,36 @@ git commit -m "style: mejorar responsive design en tarjetas de participación"
 git push origin nombre-de-tu-rama
 ```
 
-#### 4. Crear Pull Request
+#### 4. Crear Pull Request hacia `staging`
 
 1. Ve a tu fork en GitHub
 2. Click en "Compare & pull request"
-3. **Título descriptivo**: Ej. "Agregar meetup marzo 2025 - IA en producción"
-4. **Descripción detallada**:
-   - Qué cambios realizaste
-   - Por qué son necesarios
+3. **⚠️ IMPORTANTE**: Asegúrate que el PR apunte a `staging` (NO a `main`)
+4. **Título descriptivo**: Sigue Conventional Commits en el título
+   - Ejemplo: `feat: agregar meetup marzo 2025 - IA en producción`
+5. **Completa el formulario del PR** con TODA la información:
+   - Descripción de cambios
+   - Tipo de cambio (checkbox)
+   - Lista de cambios realizados
+   - Checklist de verificación completada
    - Screenshots si hay cambios visuales
-   - Checklist de verificación
-5. Etiqueta apropiada: `meetup`, `enhancement`, `bug`, etc.
+   - Issues relacionados
+6. Etiqueta apropiada: `meetup`, `enhancement`, `bug`, `documentation`, etc.
 
-#### 5. Revisión y Merge
+#### 5. Revisión en Staging
 
 - El equipo revisará tu PR
 - Responde a comentarios si los hay
-- Una vez aprobado, será merged al proyecto principal
+- Una vez aprobado, se hará **merge a `staging`**
+- El sitio se desplegará automáticamente en **https://staging.pythoncdmx.org**
+- Podrás ver tus cambios en línea y validarlos
+
+#### 6. Promoción a Producción (Automático)
+
+- Si todo está correcto en staging, el equipo core:
+  - Creará un PR de `staging` → `main`
+  - Tus cambios se desplegarán a producción
+- **No necesitas hacer nada más**, el equipo manejará este paso
 
 ### Comandos Útiles
 
