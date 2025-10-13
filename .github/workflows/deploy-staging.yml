@@ -3,7 +3,6 @@ name: Deploy to Staging (AWS S3 + CloudFront)
 on:
   push:
     branches: [ develop, staging ]
-  workflow_dispatch: # Allow manual trigger
 
 permissions:
   contents: read
@@ -11,8 +10,24 @@ permissions:
 
 
 jobs:
+
+  commit_lint:
+    name: Validate Commit Messages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 
+
+      - name: Validate PR Title
+        uses: wagoid/commitlint-github-action@v5 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          configFile: .commitlintrc.json
   build-and-deploy-staging:
     name: Build and Deploy to Staging
+    needs: commit_lint
     runs-on: ubuntu-latest
     environment:
       name: aws-stag
