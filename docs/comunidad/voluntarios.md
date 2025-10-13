@@ -84,7 +84,7 @@ Ser voluntario en Python CDMX te permite:
     <i class="fas fa-star"></i>
     Ver Voluntarios
   </a>
-  <a href="como-contribuir.md" class="btn-action outline">Más Información</a>
+  <a href="como-contribuir/">Más Información</a>
 </div>
 
 

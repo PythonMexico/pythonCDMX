@@ -1,0 +1,91 @@
+name: Deploy to Staging (AWS S3 + CloudFront)
+
+on:
+  push:
+    branches: [ staging ]
+
+permissions:
+  contents: read
+  id-token: write # Required for AWS OIDC authentication
+
+
+jobs:
+
+  commit_lint:
+    name: Validate Commit Messages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 
+
+      - name: Validate PR Title
+        uses: wagoid/commitlint-github-action@v5 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          configFile: .commitlintrc.json
+  build-and-deploy-staging:
+    name: Build and Deploy to Staging
+    needs: commit_lint
+    runs-on: ubuntu-latest
+    environment:
+      name: aws-stag
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build MkDocs site
+        run: mkdocs build --strict --use-directory-urls
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Add staging banner to site
+        run: |
+          # Add a staging environment banner to all HTML files
+          find site -name "*.html" -type f -exec sed -i.bak '/<body/a \
+          <div style="background:#ff9800;color:#000;text-align:center;padding:10px;font-weight:bold;">\
+          🚧 STAGING ENVIRONMENT - NOT FOR PRODUCTION USE 🚧\
+          </div>' {} \;
+          # Clean up backup files
+          find site -name "*.bak" -type f -delete
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Sync to S3 (Staging)
+        run: |
+          aws s3 sync site/ s3://${{ secrets.AWS_S3_BUCKET }}/ \
+            --delete \
+            --cache-control "public, max-age=300" \
+            --exclude "*.html" \
+            --exclude "sitemap.xml"
+
+          # Upload HTML files with shorter cache for staging
+          aws s3 sync site/ s3://${{ secrets.AWS_S3_BUCKET }}/ \
+            --cache-control "public, max-age=60, must-revalidate" \
+            --content-type "text/html; charset=utf-8" \
+            --exclude "*" \
+            --include "*.html"
+
+          # Upload sitemap with no cache
+          aws s3 sync site/ s3://${{ secrets.AWS_S3_BUCKET }}/ \
+            --cache-control "public, max-age=0, must-revalidate" \
+            --exclude "*" \
+            --include "sitemap.xml"
