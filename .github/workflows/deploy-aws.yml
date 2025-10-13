@@ -8,15 +8,29 @@ permissions:
   contents: read
   id-token: write # Required for AWS OIDC authentication
 
-env:
-  AWS_REGION: us-east-1
-  S3_BUCKET: pythoncdmx-website
-  CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
 
 jobs:
+  commit_lint:
+    name: Validate Commit Messages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 
+
+      - name: Validate PR Title
+        uses: wagoid/commitlint-github-action@v5 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          configFile: .commitlintrc.json
+
   build-and-deploy:
+    needs: commit_lint
     name: Build and Deploy to AWS
     runs-on: ubuntu-latest
+    environment:
+      name: aws-prod
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -43,38 +57,42 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
-          aws-region: ${{ env.AWS_REGION }}
+          aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Sync to S3
         run: |
-          aws s3 sync site/ s3://${{ env.S3_BUCKET }}/ \
+          aws s3 sync site/ s3://${{ secrets.AWS_S3_BUCKET }}/ \
             --delete \
             --cache-control "public, max-age=3600" \
             --exclude "*.html" \
             --exclude "sitemap.xml"
 
           # Upload HTML files with shorter cache
-          aws s3 sync site/ s3://${{ env.S3_BUCKET }}/ \
+          aws s3 sync site/ s3://${{ secrets.AWS_S3_BUCKET }}/ \
             --cache-control "public, max-age=600, must-revalidate" \
             --content-type "text/html; charset=utf-8" \
             --exclude "*" \
             --include "*.html"
 
           # Upload sitemap with no cache
-          aws s3 sync site/ s3://${{ env.S3_BUCKET }}/ \
+          aws s3 sync site/ s3://${{ secrets.AWS_S3_BUCKET }}/ \
             --cache-control "public, max-age=0, must-revalidate" \
             --exclude "*" \
             --include "sitemap.xml"
+      
+  cleanup-staging:
+    name: Stop Staging Site
+    needs: build-and-deploy
+    runs-on: ubuntu-latest
+    environment:
+          name: aws-stag
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
 
-      - name: Invalidate CloudFront cache
+      - name: Stop Staging Site
         run: |
-          aws cloudfront create-invalidation \
-            --distribution-id ${{ env.CLOUDFRONT_DISTRIBUTION_ID }} \
-            --paths "/*"
-
-      - name: Deployment summary
-        run: |
-          echo "✅ Website deployed successfully!"
-          echo "🌐 URL: https://pythoncdmx.org"
-          echo "📦 S3 Bucket: ${{ env.S3_BUCKET }}"
-          echo "🚀 CloudFront Distribution: ${{ env.CLOUDFRONT_DISTRIBUTION_ID }}"
+          aws s3 rm s3://${{ secrets.AWS_S3_BUCKET }}/staging/ --recursive
