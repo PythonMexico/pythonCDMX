@@ -2,7 +2,7 @@ name: Deploy to Staging (AWS S3 + CloudFront)
 
 on:
   push:
-    branches: [ develop, staging ]
+    branches: [ staging ]
 
 permissions:
   contents: read
