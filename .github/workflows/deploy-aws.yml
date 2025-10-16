@@ -16,10 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0 
+          fetch-depth: 0
 
       - name: Validate PR Title
-        uses: wagoid/commitlint-github-action@v5 
+        uses: wagoid/commitlint-github-action@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -79,7 +79,7 @@ jobs:
             --cache-control "public, max-age=0, must-revalidate" \
             --exclude "*" \
             --include "sitemap.xml"
-      
+
   cleanup-staging:
     name: Stop Staging Site
     needs: build-and-deploy
