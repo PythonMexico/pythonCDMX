@@ -2,7 +2,7 @@
 title: "GitOps 101 / Python: La Forja de un Lenguaje"
 ---
 
-# Meetup #PythonCDMX <i class="fab fa-python"></i> - Noviembre 2023
+# Meetup #PythonCDMX :fontawesome-brands-python: - Noviembre 2023
 
 <div class="meetup-hero">
     <h1>GitOps 101 / Python: La Forja de un Lenguaje</h1>

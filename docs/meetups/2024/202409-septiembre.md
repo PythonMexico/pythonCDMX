@@ -2,7 +2,7 @@
 title: "Representaciones Fonéticas / Rich & Textual"
 ---
 
-# Meetup #PythonCDMX <i class="fab fa-python"></i> - Septiembre 2024
+# Meetup #PythonCDMX :fontawesome-brands-python: - Septiembre 2024
 
 <div class="meetup-hero">
     <h1>Representaciones Fonéticas / Rich & Textual</h1>

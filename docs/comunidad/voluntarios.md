@@ -7,7 +7,7 @@
 ---
 
 
-## <i class="fas fa-heart"></i> ¿Por Qué Ser Voluntario?
+## :fontawesome-solid-heart: ¿Por Qué Ser Voluntario?
 
 Ser voluntario en Python CDMX te permite:
 
@@ -19,27 +19,27 @@ Ser voluntario en Python CDMX te permite:
 
 ---
 
-## <i class="fas fa-tasks"></i> Áreas de Participación
+## :fontawesome-solid-tasks: Áreas de Participación
 
-### <i class="fas fa-users"></i> Organización de Eventos
+### :fontawesome-solid-users: Organización de Eventos
 - **Coordinación de meetups** mensuales
 - **Gestión de espacios** y logística
 - **Coordinación con ponentes** y sponsors
 - **Organización de eventos especiales**
 
-### <i class="fas fa-tools"></i> Soporte Técnico
+### :fontawesome-solid-tools: Soporte Técnico
 - **Configuración de equipos** y sistemas
 - **Soporte durante eventos** (audio, video, streaming)
 - **Mantenimiento de plataformas** digitales
 - **Desarrollo de herramientas** para la comunidad
 
-### <i class="fas fa-bullhorn"></i> Comunicaciones
+### :fontawesome-solid-bullhorn: Comunicaciones
 - **Gestión de redes sociales** y canales digitales
 - **Creación de contenido** promocional
 - **Comunicación con miembros** y partners
 - **Marketing digital** y difusión
 
-### <i class="fas fa-chalkboard-teacher"></i> Mentoría y Educación
+### :fontawesome-solid-chalkboard-teacher: Mentoría y Educación
 - **Apoyo a nuevos miembros** de la comunidad
 - **Organización de workshops** y talleres
 - **Mentoría técnica** para desarrolladores
@@ -47,7 +47,7 @@ Ser voluntario en Python CDMX te permite:
 
 ---
 
-## <i class="fas fa-clipboard-list"></i> Proceso de Incorporación
+## :fontawesome-solid-clipboard-list: Proceso de Incorporación
 
 1. **Aplicación inicial** a través de nuestro formulario
 2. **Entrevista** con el equipo organizador
@@ -57,7 +57,7 @@ Ser voluntario en Python CDMX te permite:
 
 ---
 
-## <i class="fas fa-clock"></i> Compromiso de Tiempo
+## :fontawesome-solid-clock: Compromiso de Tiempo
 
 - **Mínimo:** 5-10 horas por mes
 - **Flexibilidad:** Horarios adaptables a tu disponibilidad
@@ -66,7 +66,7 @@ Ser voluntario en Python CDMX te permite:
 
 ---
 
-## <i class="fas fa-gift"></i> Beneficios
+## :fontawesome-solid-gift: Beneficios
 
 - **Networking** con profesionales del sector
 - **Desarrollo de habilidades** de liderazgo
@@ -75,20 +75,12 @@ Ser voluntario en Python CDMX te permite:
 - **Referencias** profesionales
 - **Experiencia** en gestión de comunidades
 
-<div class="action-buttons">
-  <a href="#contact" class="btn-action primary">
-    <i class="fas fa-paper-plane"></i>
-    Aplicar como Voluntario
-  </a>
-  <a href="/comunidad/voluntarios/" class="btn-action secondary">
-    <i class="fas fa-star"></i>
-    Ver Voluntarios
-  </a>
-  <a href="como-contribuir" class="btn-action outline">Más Información</a>
-</div>
+[:fontawesome-solid-paper-plane: Aplicar como Voluntario](#contact){ .btn-action .primary }
+[:fontawesome-solid-star: Ver Voluntarios](#voluntarios-de-python-cdmx){ .btn-action .secondary }
+[Más Información](/comunidad/como-contribuir){ .btn-action .outline }
+{.action-buttons }
 
-
-## <i class="fas fa-star"></i> Voluntarios de Python CDMX
+## :fontawesome-solid-star: Voluntarios de Python CDMX
 
 Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
 
@@ -528,20 +520,13 @@ Conoce a algunos de los voluntarios que hacen posible que Python CDMX funcione:
 
 ---
 
-## <i class="fas fa-plus-circle"></i> ¿Quieres Ser Parte de Nuestro Equipo?
+## :fontawesome-solid-plus-circle: ¿Quieres Ser Parte de Nuestro Equipo?
 
 Si te interesa contribuir al crecimiento de la comunidad Python CDMX, ¡únete a nuestro equipo de voluntarios!
 
-<div class="action-buttons">
-  <a href="https://github.com/PythonMexico/pythonCDMX/issues" class="btn-action primary">
-    <i class="fas fa-paper-plane"></i>
-    Aplicar como Voluntario
-  </a>
-  <a href="como-contribuir/" class="btn-action secondary">
-    <i class="fas fa-info-circle"></i>
-    Más Información
-    </a>
-</div>
+[:fontawesome-solid-paper-plane: Aplicar como Voluntario](https://github.com/PythonMexico/pythonCDMX/issues){ .btn-action .primary }
+[:fontawesome-solid-info-circle: Más Información](/comunidad/como-contribuir){ .btn-action .secondary }
+{ .action-buttons }
 
 ---
 

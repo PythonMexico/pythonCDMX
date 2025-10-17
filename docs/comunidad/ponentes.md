@@ -2,7 +2,7 @@
   <img src="/images/logo.png" alt="Python CDMX Logo">
 </div>
 
-# Ser Ponente <i class="fas fa-microphone"></i>
+# Ser Ponente :fontawesome-solid-microphone:
 
 ---
 
@@ -10,7 +10,7 @@
   <b>Comparte tu conocimiento con la comunidad Python CDMX</b>
 </div>
 
-## <i class="fas fa-heart"></i> ¿Por Qué Ser Ponente?
+## :fontawesome-solid-heart: ¿Por Qué Ser Ponente?
 
 Ser ponente en Python CDMX te ofrece una oportunidad única para:
 
@@ -22,21 +22,21 @@ Ser ponente en Python CDMX te ofrece una oportunidad única para:
 
 ---
 
-## <i class="fas fa-lightbulb"></i> Tipos de Charlas
+## :fontawesome-solid-lightbulb: Tipos de Charlas
 
-### <i class="fas fa-code"></i> Charlas Técnicas
+### :fontawesome-solid-code: Charlas Técnicas
 
 - **Duración**: 20-30 minutos
 - **Contenido**: Tecnologías Python, frameworks, librerías, mejores prácticas
 - **Ejemplos**: Django, Flask, FastAPI, Pandas, NumPy, Machine Learning
 
-### <i class="fas fa-chart-line"></i> Casos de Uso
+### :fontawesome-solid-chart-line: Casos de Uso
 
 - **Duración**: 25-35 minutos
 - **Contenido**: Proyectos reales, experiencias en producción, lecciones aprendidas
 - **Ejemplos**: Migración de sistemas, optimización de performance, arquitecturas
 
-### <i class="fas fa-rocket"></i> Charlas Introductorias
+### :fontawesome-solid-rocket: Charlas Introductorias
 
 - **Duración**: 15-25 minutos
 - **Contenido**: Conceptos básicos, introducción a nuevas tecnologías
@@ -44,27 +44,27 @@ Ser ponente en Python CDMX te ofrece una oportunidad única para:
 
 ---
 
-## <i class="fas fa-clipboard-list"></i> Proceso para Ser Ponente
+## :fontawesome-solid-clipboard-list: Proceso para Ser Ponente
 
-### 1. <i class="fas fa-pencil"></i> Propón tu Charla
+### 1. :fontawesome-solid-pencil: Propón tu Charla
 
 - Envía tu propuesta a través de nuestros canales de comunicación
 - Incluye título, descripción, duración y nivel de audiencia
 - Menciona cualquier requisito técnico especial
 
-### 2. <i class="fas fa-comments"></i> Revisión y Feedback
+### 2. :fontawesome-solid-comments: Revisión y Feedback
 
 - Nuestro equipo revisará tu propuesta
 - Te proporcionaremos feedback y sugerencias
 - Confirmaremos la fecha y logística
 
-### 3. <i class="fas fa-calendar"></i> Preparación
+### 3. :fontawesome-solid-calendar: Preparación
 
 - Recibirás recursos y guías para preparar tu presentación
 - Podrás hacer una prueba técnica si lo deseas
 - Te conectaremos con otros ponentes si es un evento múltiple
 
-### 4. <i class="fas fa-microphone"></i> Presentación
+### 4. :fontawesome-solid-microphone: Presentación
 
 - Llegada temprana para configuración técnica
 - Presentación en un ambiente acogedor y colaborativo
@@ -72,27 +72,27 @@ Ser ponente en Python CDMX te ofrece una oportunidad única para:
 
 ---
 
-## <i class="fas fa-gift"></i> Beneficios para Ponentes
+## :fontawesome-solid-gift: Beneficios para Ponentes
 
-### <i class="fas fa-certificate"></i> Reconocimiento
+### :fontawesome-solid-certificate: Reconocimiento
 
 - Certificado de participación como ponente
 - Mención especial en nuestras redes sociales
 - Inclusión en nuestro directorio de ponentes
 
-### <i class="fas fa-network-wired"></i> Networking
+### :fontawesome-solid-network-wired: Networking
 
 - Acceso prioritario a eventos especiales
 - Conexión directa con otros expertos del sector
 - Oportunidades de colaboración en proyectos
 
-### <i class="fas fa-book"></i> Recursos
+### :fontawesome-solid-book: Recursos
 
 - Acceso a materiales y recursos de presentación
 - Feedback detallado para mejorar futuras charlas
 - Posibilidad de grabar tu presentación
 
-## <i class="fas fa-star"></i> Ponentes de Python CDMX
+## :fontawesome-solid-star: Ponentes de Python CDMX
 
 Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra comunidad:
 
@@ -716,20 +716,13 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 
 ---
 
-## <i class="fas fa-plus-circle"></i> ¿Quieres Ser Parte de Esta Lista?
+## :fontawesome-solid-plus-circle: ¿Quieres Ser Parte de Esta Lista?
 
 Si te interesa compartir tu conocimiento con la comunidad Python CDMX, ¡no dudes en contactarnos!
 
-<div class="action-buttons">
-  <a href="https://github.com/PythonMexico/pythonCDMX/issues" class="btn-action primary">
-    <i class="fas fa-paper-plane"></i>
-    Enviar Propuesta de Charla
-  </a>
-  <a href="/comunidad/como-contribuir" class="btn-action secondary">
-    <i class="fas fa-info-circle"></i>
-    Más Información
-  </a>
-</div>
+[:fontawesome-solid-paper-plane: Enviar Propuesta de Charla](https://github.com/PythonMexico/pythonCDMX/issues){ .btn-action .primary }
+[:fontawesome-solid-info-circle: Más Información](/comunidad/como-contribuir){ .btn-action .secondary }
+{ .action-buttons }
 
 ---
 

@@ -2,7 +2,7 @@
 title: "Evita Anti-patrones en Python / ¿Qué y por qué ChatGPT?"
 ---
 
-# Meetup #PythonCDMX <i class="fab fa-python"></i> - Noviembre 2024
+# Meetup #PythonCDMX :fontawesome-brands-python: - Noviembre 2024
 
 <div class="meetup-hero">
     <h1>Evita Anti-patrones en Python / ¿Qué y por qué ChatGPT?</h1>

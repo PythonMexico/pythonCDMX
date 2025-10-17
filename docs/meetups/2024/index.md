@@ -2,7 +2,7 @@
   <img src="/images/logo.png" alt="Python CDMX Logo">
 </div>
 
-# Meetups 2024 <i class="fas fa-calendar-alt"></i>
+# Meetups 2024 :fontawesome-solid-calendar-alt:
 
 <div align="center">
   <b>Conectando desarrolladores Python en la Ciudad de México</b>
@@ -10,7 +10,7 @@
 
 ---
 
-| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-microphone"></i> **Charla** | <i class="fas fa-user"></i> **Ponente** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-link"></i> **Detalles** |
+| :fontawesome-solid-calendar: **Fecha** | :fontawesome-solid-microphone: **Charla** | :fontawesome-solid-user: **Ponente** | :fontawesome-solid-map-marker-alt: **Lugar** | :fontawesome-solid-link: **Detalles** |
 |:---|:---|:---|:---|:---|
 | **12 Noviembre 2024** | Mejora tu código: Evita anti-patrones en Python | Alejandro Lopez | Wizeline México | [Ver detalles](202411-noviembre) |
 | **12 Noviembre 2024** | Exactamente qué y (sobre todo) por qué ChatGPT | Hugo Ramírez | Wizeline México | [Ver detalles](202411-noviembre) |
@@ -30,7 +30,7 @@
 
 ---
 
-## <i class="fas fa-star"></i> Estadísticas 2024
+## :fontawesome-solid-star: Estadísticas 2024
 
 <div class="stats-grid">
 
