@@ -2,7 +2,7 @@
   <img src="/images/logo.png" alt="Python CDMX Logo">
 </div>
 
-# Ser Ponente <i class="fas fa-microphone"></i>
+# Ser Ponente :fontawesome-solid-microphone:
 
 ---
 
@@ -10,7 +10,7 @@
   <b>Comparte tu conocimiento con la comunidad Python CDMX</b>
 </div>
 
-## <i class="fas fa-heart"></i> ¿Por Qué Ser Ponente?
+## :fontawesome-solid-heart: ¿Por Qué Ser Ponente?
 
 Ser ponente en Python CDMX te ofrece una oportunidad única para:
 
@@ -22,21 +22,21 @@ Ser ponente en Python CDMX te ofrece una oportunidad única para:
 
 ---
 
-## <i class="fas fa-lightbulb"></i> Tipos de Charlas
+## :fontawesome-solid-lightbulb: Tipos de Charlas
 
-### <i class="fas fa-code"></i> Charlas Técnicas
+### :fontawesome-solid-code: Charlas Técnicas
 
 - **Duración**: 20-30 minutos
 - **Contenido**: Tecnologías Python, frameworks, librerías, mejores prácticas
 - **Ejemplos**: Django, Flask, FastAPI, Pandas, NumPy, Machine Learning
 
-### <i class="fas fa-chart-line"></i> Casos de Uso
+### :fontawesome-solid-chart-line: Casos de Uso
 
 - **Duración**: 25-35 minutos
 - **Contenido**: Proyectos reales, experiencias en producción, lecciones aprendidas
 - **Ejemplos**: Migración de sistemas, optimización de performance, arquitecturas
 
-### <i class="fas fa-rocket"></i> Charlas Introductorias
+### :fontawesome-solid-rocket: Charlas Introductorias
 
 - **Duración**: 15-25 minutos
 - **Contenido**: Conceptos básicos, introducción a nuevas tecnologías
@@ -44,27 +44,27 @@ Ser ponente en Python CDMX te ofrece una oportunidad única para:
 
 ---
 
-## <i class="fas fa-clipboard-list"></i> Proceso para Ser Ponente
+## :fontawesome-solid-clipboard-list: Proceso para Ser Ponente
 
-### 1. <i class="fas fa-pencil"></i> Propón tu Charla
+### 1. :fontawesome-solid-pencil: Propón tu Charla
 
 - Envía tu propuesta a través de nuestros canales de comunicación
 - Incluye título, descripción, duración y nivel de audiencia
 - Menciona cualquier requisito técnico especial
 
-### 2. <i class="fas fa-comments"></i> Revisión y Feedback
+### 2. :fontawesome-solid-comments: Revisión y Feedback
 
 - Nuestro equipo revisará tu propuesta
 - Te proporcionaremos feedback y sugerencias
 - Confirmaremos la fecha y logística
 
-### 3. <i class="fas fa-calendar"></i> Preparación
+### 3. :fontawesome-solid-calendar: Preparación
 
 - Recibirás recursos y guías para preparar tu presentación
 - Podrás hacer una prueba técnica si lo deseas
 - Te conectaremos con otros ponentes si es un evento múltiple
 
-### 4. <i class="fas fa-microphone"></i> Presentación
+### 4. :fontawesome-solid-microphone: Presentación
 
 - Llegada temprana para configuración técnica
 - Presentación en un ambiente acogedor y colaborativo
@@ -72,27 +72,27 @@ Ser ponente en Python CDMX te ofrece una oportunidad única para:
 
 ---
 
-## <i class="fas fa-gift"></i> Beneficios para Ponentes
+## :fontawesome-solid-gift: Beneficios para Ponentes
 
-### <i class="fas fa-certificate"></i> Reconocimiento
+### :fontawesome-solid-certificate: Reconocimiento
 
 - Certificado de participación como ponente
 - Mención especial en nuestras redes sociales
 - Inclusión en nuestro directorio de ponentes
 
-### <i class="fas fa-network-wired"></i> Networking
+### :fontawesome-solid-network-wired: Networking
 
 - Acceso prioritario a eventos especiales
 - Conexión directa con otros expertos del sector
 - Oportunidades de colaboración en proyectos
 
-### <i class="fas fa-book"></i> Recursos
+### :fontawesome-solid-book: Recursos
 
 - Acceso a materiales y recursos de presentación
 - Feedback detallado para mejorar futuras charlas
 - Posibilidad de grabar tu presentación
 
-## <i class="fas fa-star"></i> Ponentes de Python CDMX
+## :fontawesome-solid-star: Ponentes de Python CDMX
 
 Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra comunidad:
 
@@ -122,8 +122,8 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">Desarrollo de APIs, Frameworks Web, Buenas Prácticas</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2024/202411-noviembre/">"Mejora tu código: Evita anti-patrones en Python" (Noviembre 2024)</a></li>
-        <li><a href="/meetups/2024/202403-marzo/">"Desarrollo de APIs con Python" (Marzo 2024)</a></li>
+        <li><a href="/meetups/2024/202411-noviembre">"Mejora tu código: Evita anti-patrones en Python" (Noviembre 2024)</a></li>
+        <li><a href="/meetups/2024/202403-marzo">"Desarrollo de APIs con Python" (Marzo 2024)</a></li>
       </ul>
     </div>
   </div>
@@ -155,7 +155,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">OpenSource, Automatización, Hardening de Infraestructura</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2024/202410-octubre/">"Una ida y una vuelta: Cómo iniciar en el opensource" (Octubre 2024)</a></li>
+        <li><a href="/meetups/2024/202410-octubre">"Una ida y una vuelta: Cómo iniciar en el opensource" (Octubre 2024)</a></li>
       </ul>
     </div>
   </div>
@@ -187,7 +187,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">Inteligencia Artificial, Tecnologías de Código Abierto</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2025/202506-junio/">"Aplicaciones de IA en la nube" (Junio 2025)</a></li>
+        <li><a href="/meetups/2025/202506-junio">"Aplicaciones de IA en la nube" (Junio 2025)</a></li>
       </ul>
     </div>
   </div>
@@ -219,8 +219,8 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">Kubernetes, MLOps, GitOps, Cloud Native</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2025/202504-abril/">"Kubernetes y MLOps: Desplegando aplicaciones de IA" (Abril 2025)</a></li>
-        <li><a href="/meetups/2023/202311-noviembre/">"GitOps 101. Primeros pasos para desplegar aplicaciones en Kubernetes" (Noviembre 2023)</a></li>
+        <li><a href="/meetups/2025/202504-abril">"Kubernetes y MLOps: Desplegando aplicaciones de IA" (Abril 2025)</a></li>
+        <li><a href="/meetups/2023/202311-noviembre">"GitOps 101. Primeros pasos para desplegar aplicaciones en Kubernetes" (Noviembre 2023)</a></li>
       </ul>
     </div>
   </div>
@@ -252,8 +252,8 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">Validación de Datos, Mejores Prácticas, Nuevas Tecnologías</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2025/202504-unam/">"Programar en tiempos del Vibe-Coding" (Abril 2025 - UNAM)</a></li>
-        <li><a href="/meetups/2024/202405-mayo/">"Validación de datos con Python" (Mayo 2024)</a></li>
+        <li><a href="/meetups/2025/202504-unam">"Programar en tiempos del Vibe-Coding" (Abril 2025 - UNAM)</a></li>
+        <li><a href="/meetups/2024/202405-mayo">"Validación de datos con Python" (Mayo 2024)</a></li>
       </ul>
     </div>
   </div>
@@ -285,7 +285,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">Desarrollo Web, Portafolios, Python</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2025/202504-unam/">"portafolio.py: Como hacer un portafolio web sin saber diseño web" (Abril 2025 - UNAM)</a></li>
+        <li><a href="/meetups/2025/202504-unam">"portafolio.py: Como hacer un portafolio web sin saber diseño web" (Abril 2025 - UNAM)</a></li>
       </ul>
     </div>
   </div>
@@ -317,10 +317,10 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">DevOps, Docker, Kubernetes, CI/CD, AWS</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2025/202507-julio/">"Cómo preparar una ambiente de desarrollo con Python desde zero" (Julio 2025)</a></li>
-        <li><a href="/meetups/2025/202503-marzo/">"Interfaces gráficas con PySide6" (Marzo 2025)</a></li>
-        <li><a href="/meetups/2024/202409-septiembre/">"Rich y Textual: Haz tus aplicaciones en la consola visualmente atractivas" (Septiembre 2024)</a></li>
-        <li><a href="/meetups/2023/202309-septiembre/">"Utilizando Servicios Administrados de AI de AWS con Python y Boto3" (Septiembre 2023)</a></li>
+        <li><a href="/meetups/2025/202507-julio">"Cómo preparar una ambiente de desarrollo con Python desde zero" (Julio 2025)</a></li>
+        <li><a href="/meetups/2025/202503-marzo">"Interfaces gráficas con PySide6" (Marzo 2025)</a></li>
+        <li><a href="/meetups/2024/202409-septiembre">"Rich y Textual: Haz tus aplicaciones en la consola visualmente atractivas" (Septiembre 2024)</a></li>
+        <li><a href="/meetups/2023/202309-septiembre">"Utilizando Servicios Administrados de AI de AWS con Python y Boto3" (Septiembre 2023)</a></li>
       </ul>
     </div>
   </div>
@@ -352,7 +352,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">NLP, Lenguas Indígenas, MLOps, Cultura Libre</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2024/202409-septiembre/">"chit-chat: Representaciones fonéticas con python" (Septiembre 2024)</a></li>
+        <li><a href="/meetups/2024/202409-septiembre">"chit-chat: Representaciones fonéticas con python" (Septiembre 2024)</a></li>
       </ul>
     </div>
   </div>
@@ -384,7 +384,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">Agentes de IA, Machine Learning, LangGraph, LLMs</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2025/202503-marzo/">"Mi Primer Agente de Inteligencia Artificial con Python" (Marzo 2025)</a></li>
+        <li><a href="/meetups/2025/202503-marzo">"Mi Primer Agente de Inteligencia Artificial con Python" (Marzo 2025)</a></li>
       </ul>
     </div>
   </div>
@@ -416,7 +416,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">Open Source, Ruby, Contribución Comunitaria</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2024/202408-agosto/">"Guía Práctica para Convertirse en Contribuidor de Open Source en 10 Años (o más)" (Agosto 2024)</a></li>
+        <li><a href="/meetups/2024/202408-agosto">"Guía Práctica para Convertirse en Contribuidor de Open Source en 10 Años (o más)" (Agosto 2024)</a></li>
       </ul>
     </div>
   </div>
@@ -448,7 +448,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">Machine Learning, Análisis de Datos, Algoritmos Estadísticos</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2024/202406-junio/">"Matemáticas y Python: La Ciencia Detrás de la Regresión Lineal" (Junio 2024)</a></li>
+        <li><a href="/meetups/2024/202406-junio">"Matemáticas y Python: La Ciencia Detrás de la Regresión Lineal" (Junio 2024)</a></li>
       </ul>
     </div>
   </div>
@@ -480,10 +480,10 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">Desarrollo Python, Análisis de Datos, Metaprogramación</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2024/202408-agosto/">"Protocolos en Python: El poder del tipado estático avanzado" (Agosto 2024)</a></li>
-        <li><a href="/meetups/2023/202310-octubre/">"¡De Jupyter a Web en Minutos!" (Octubre 2023)</a></li>
-        <li><a href="/meetups/2023/202309-septiembre/">"Metaprogramación en Python" (Septiembre 2023)</a></li>
-        <li><a href="/meetups/2023/202311-noviembre/">"Python: La Forja de un Lenguaje" (Noviembre 2023)</a></li>
+        <li><a href="/meetups/2024/202408-agosto">"Protocolos en Python: El poder del tipado estático avanzado" (Agosto 2024)</a></li>
+        <li><a href="/meetups/2023/202310-octubre">"¡De Jupyter a Web en Minutos!" (Octubre 2023)</a></li>
+        <li><a href="/meetups/2023/202309-septiembre">"Metaprogramación en Python" (Septiembre 2023)</a></li>
+        <li><a href="/meetups/2023/202311-noviembre">"Python: La Forja de un Lenguaje" (Noviembre 2023)</a></li>
       </ul>
     </div>
   </div>
@@ -515,8 +515,8 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">Ingeniería de Datos, Procesamiento ETL, Big Data</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2024/202407-julio/">"Python y los esquemas ETLs" (Julio 2024)</a></li>
-        <li><a href="/meetups/2024/202411-noviembre/">"Título de la charla" (Noviembre 2024)</a></li>
+        <li><a href="/meetups/2024/202407-julio">"Python y los esquemas ETLs" (Julio 2024)</a></li>
+        <li><a href="/meetups/2024/202411-noviembre">"Título de la charla" (Noviembre 2024)</a></li>
       </ul>
     </div>
   </div>
@@ -548,7 +548,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">FinTech, Performance, DevOps, Software Libre</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2025/202505-mayo/">"Desarrollo de aplicaciones FinTech con Python" (Mayo 2025)</a></li>
+        <li><a href="/meetups/2025/202505-mayo">"Desarrollo de aplicaciones FinTech con Python" (Mayo 2025)</a></li>
       </ul>
     </div>
   </div>
@@ -580,7 +580,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">Inteligencia Artificial, Machine Learning, Embeddings, Google Developer Expert</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2025/202502-febrero/">"Embeddings - El lenguaje como las máquinas entienden el lenguaje humano" (Febrero 2025)</a></li>
+        <li><a href="/meetups/2025/202502-febrero">"Embeddings - El lenguaje como las máquinas entienden el lenguaje humano" (Febrero 2025)</a></li>
       </ul>
     </div>
   </div>
@@ -612,7 +612,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">Core Python, Optimización, Concurrencia, GIL</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2024/202407-julio/">"El futuro de Python sin GIL" (Julio 2024)</a></li>
+        <li><a href="/meetups/2024/202407-julio">"El futuro de Python sin GIL" (Julio 2024)</a></li>
       </ul>
     </div>
   </div>
@@ -644,7 +644,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">Ingeniería de Software, Algoritmos, Resolución de Problemas</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2025/202502-febrero/">"Lecciones del Advent of Code 2024" (Febrero 2025)</a></li>
+        <li><a href="/meetups/2025/202502-febrero">"Lecciones del Advent of Code 2024" (Febrero 2025)</a></li>
       </ul>
     </div>
   </div>
@@ -676,7 +676,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">Extensiones LibreOffice, Automatización de Oficina</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2025/202501-enero/">"Creando extensiones para LibreOffice, con Python" (Enero 2025)</a></li>
+        <li><a href="/meetups/2025/202501-enero">"Creando extensiones para LibreOffice, con Python" (Enero 2025)</a></li>
       </ul>
     </div>
   </div>
@@ -708,7 +708,7 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
       <span class="role-description">Seguridad Informática, PCI DSS, Cumplimiento Normativo</span>
       <strong>Charlas recientes:</strong>
       <ul>
-        <li><a href="/meetups/2025/202501-enero/">"Seguridad y cumplimiento de Python: Garantizar el cumplimiento de PCI DSS en un entorno Python" (Enero 2025)</a></li>
+        <li><a href="/meetups/2025/202501-enero">"Seguridad y cumplimiento de Python: Garantizar el cumplimiento de PCI DSS en un entorno Python" (Enero 2025)</a></li>
       </ul>
     </div>
   </div>
@@ -716,20 +716,13 @@ Conoce a algunos de los ponentes que han compartido su conocimiento con nuestra 
 
 ---
 
-## <i class="fas fa-plus-circle"></i> ¿Quieres Ser Parte de Esta Lista?
+## :fontawesome-solid-plus-circle: ¿Quieres Ser Parte de Esta Lista?
 
 Si te interesa compartir tu conocimiento con la comunidad Python CDMX, ¡no dudes en contactarnos!
 
-<div class="action-buttons">
-  <a href="https://github.com/PythonMexico/pythonCDMX/issues" class="btn-action primary">
-    <i class="fas fa-paper-plane"></i>
-    Enviar Propuesta de Charla
-  </a>
-  <a href="/comunidad/como-contribuir.md" class="btn-action secondary">
-    <i class="fas fa-info-circle"></i>
-    Más Información
-  </a>
-</div>
+[:fontawesome-solid-paper-plane: Enviar Propuesta de Charla](https://github.com/PythonMexico/pythonCDMX/issues){ .btn-action .primary }
+[:fontawesome-solid-info-circle: Más Información](/comunidad/como-contribuir){ .btn-action .secondary }
+{ .action-buttons }
 
 ---
 

@@ -2,7 +2,7 @@
 title: "¡De Jupyter a Web en Minutos!"
 ---
 
-# Meetup #PythonCDMX <i class="fab fa-python"></i> - Octubre 2023
+# Meetup #PythonCDMX :fontawesome-brands-python: - Octubre 2023
 
 <div class="meetup-hero">
     <h1>¡De Jupyter a Web en Minutos!</h1>

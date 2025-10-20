@@ -2,7 +2,7 @@
   <img src="/images/logo.png" alt="Python CDMX Logo">
 </div>
 
-# Meetups 2023 <i class="fas fa-calendar-alt"></i>
+# Meetups 2023 :fontawesome-solid-calendar-alt:
 
 <div align="center">
   <b>Nuestro primer año como comunidad Python CDMX</b>
@@ -10,17 +10,17 @@
 
 ---
 
-| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-microphone"></i> **Charla** | <i class="fas fa-user"></i> **Ponente** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-link"></i> **Detalles** |
+| :fontawesome-solid-calendar: **Fecha** | :fontawesome-solid-microphone: **Charla** | :fontawesome-solid-user: **Ponente** | :fontawesome-solid-map-marker-alt: **Lugar** | :fontawesome-solid-link: **Detalles** |
 |:---|:---|:---|:---|:---|
-| **14 Noviembre 2023** | GitOps: Automatizando el despliegue de aplicaciones | Carlos Reyes | Wizeline México | [Ver detalles](202311-noviembre/) |
-| **14 Noviembre 2023** | Historia de Python: De Guido van Rossum a la actualidad | Gustavo Vera | Wizeline México | [Ver detalles](202311-noviembre/) |
-| **10 Octubre 2023** | Jupyter a Web: De notebooks a aplicaciones web | Gustavo Vera | Wizeline México | [Ver detalles](202310-octubre/) |
-| **12 Septiembre 2023** | Metaprogramación en Python | David Sol | Wizeline México | [Ver detalles](202309-septiembre/) |
-| **12 Septiembre 2023** | AWS AI: Servicios de IA en la nube | Gustavo Vera | Wizeline México | [Ver detalles](202309-septiembre/) |
+| **14 Noviembre 2023** | GitOps: Automatizando el despliegue de aplicaciones | Carlos Reyes | Wizeline México | [Ver detalles](202311-noviembre) |
+| **14 Noviembre 2023** | Historia de Python: De Guido van Rossum a la actualidad | Gustavo Vera | Wizeline México | [Ver detalles](202311-noviembre) |
+| **10 Octubre 2023** | Jupyter a Web: De notebooks a aplicaciones web | Gustavo Vera | Wizeline México | [Ver detalles](202310-octubre) |
+| **12 Septiembre 2023** | Metaprogramación en Python | David Sol | Wizeline México | [Ver detalles](202309-septiembre) |
+| **12 Septiembre 2023** | AWS AI: Servicios de IA en la nube | Gustavo Vera | Wizeline México | [Ver detalles](202309-septiembre) |
 
 ---
 
-## <i class="fas fa-star"></i> Estadísticas 2023
+## :fontawesome-solid-star: Estadísticas 2023
 
 <div class="stats-grid">
 
@@ -56,4 +56,4 @@
 
 ---
 
-¿Te gustaría aparecer aquí? Conoce a nuestros [ponentes y voluntarios reconocidos](../../comunidad/como-contribuir/).
+¿Te gustaría aparecer aquí? Conoce a nuestros [ponentes y voluntarios reconocidos](../../comunidad/como-contribuir).

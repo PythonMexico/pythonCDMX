@@ -1,8 +1,8 @@
 {
   "summary": {
-    "total_files_scanned": 45,
-    "working_links": 80,
-    "broken_links": 2,
+    "total_files_scanned": 44,
+    "working_links": 81,
+    "broken_links": 0,
     "base_url": "http://127.0.0.1:8000"
   },
   "broken_links": [
@@ -29,8 +29,8 @@
     {
       "file": "index.md",
       "text": "Explorar charlas",
-      "url": "/meetups/index.md",
-      "full_url": "http://127.0.0.1:8000/meetups/index.html",
+      "url": "/meetups",
+      "full_url": "http://127.0.0.1:8000/meetups",
       "status": "200 OK",
       "line": 8,
       "link_type": "html"
@@ -38,8 +38,8 @@
     {
       "file": "index.md",
       "text": "Participa",
-      "url": "/comunidad/como-contribuir/",
-      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir/",
+      "url": "/comunidad/como-contribuir",
+      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir",
       "status": "200 OK",
       "line": 9,
       "link_type": "html"
@@ -47,8 +47,8 @@
     {
       "file": "index.md",
       "text": "Voluntarios",
-      "url": "/comunidad/voluntarios/#voluntarios-de-python-cdmx",
-      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios/#voluntarios-de-python-cdmx",
+      "url": "/comunidad/voluntarios#voluntarios-de-python-cdmx",
+      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios#voluntarios-de-python-cdmx",
       "status": "200 OK",
       "line": 21,
       "link_type": "html"
@@ -56,8 +56,8 @@
     {
       "file": "index.md",
       "text": "Ponentes",
-      "url": "/comunidad/ponentes/#ponentes-de-python-cdmx",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/#ponentes-de-python-cdmx",
+      "url": "/comunidad/ponentes#ponentes-de-python-cdmx",
+      "full_url": "http://127.0.0.1:8000/comunidad/ponentes#ponentes-de-python-cdmx",
       "status": "200 OK",
       "line": 22,
       "link_type": "html"
@@ -65,8 +65,8 @@
     {
       "file": "index.md",
       "text": "Conoce Más",
-      "url": "/comunidad/ponentes/",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/",
+      "url": "/comunidad/ponentes",
+      "full_url": "http://127.0.0.1:8000/comunidad/ponentes",
       "status": "200 OK",
       "line": 39,
       "link_type": "html"
@@ -74,8 +74,8 @@
     {
       "file": "index.md",
       "text": "Únete",
-      "url": "/comunidad/voluntarios/",
-      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios/",
+      "url": "/comunidad/voluntarios",
+      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios",
       "status": "200 OK",
       "line": 44,
       "link_type": "html"
@@ -83,8 +83,8 @@
     {
       "file": "index.md",
       "text": "Ver Eventos",
-      "url": "/meetups/index.md",
-      "full_url": "http://127.0.0.1:8000/meetups/index.html",
+      "url": "/meetups",
+      "full_url": "http://127.0.0.1:8000/meetups",
       "status": "200 OK",
       "line": 49,
       "link_type": "html"
@@ -92,8 +92,8 @@
     {
       "file": "about.md",
       "text": "guía para ponentes",
-      "url": "comunidad/ponentes/",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/",
+      "url": "comunidad/ponentes",
+      "full_url": "http://127.0.0.1:8000/comunidad/ponentes",
       "status": "200 OK",
       "line": 42,
       "link_type": "markdown"
@@ -101,8 +101,8 @@
     {
       "file": "about.md",
       "text": "nuestra página de voluntarios",
-      "url": "comunidad/voluntarios/",
-      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios/",
+      "url": "comunidad/voluntarios",
+      "full_url": "http://127.0.0.1:8000/comunidad/voluntarios",
       "status": "200 OK",
       "line": 46,
       "link_type": "markdown"
@@ -110,7 +110,7 @@
     {
       "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202508-agosto/",
+      "url": "202508-agosto",
       "full_url": "http://127.0.0.1:8000/meetups/2025/202508-agosto",
       "status": "200 OK",
       "line": 15,
@@ -119,7 +119,7 @@
     {
       "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202507-julio/",
+      "url": "202507-julio",
       "full_url": "http://127.0.0.1:8000/meetups/2025/202507-julio",
       "status": "200 OK",
       "line": 16,
@@ -128,7 +128,7 @@
     {
       "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202506-junio/",
+      "url": "202506-junio",
       "full_url": "http://127.0.0.1:8000/meetups/2025/202506-junio",
       "status": "200 OK",
       "line": 17,
@@ -137,7 +137,7 @@
     {
       "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202505-mayo/",
+      "url": "202505-mayo",
       "full_url": "http://127.0.0.1:8000/meetups/2025/202505-mayo",
       "status": "200 OK",
       "line": 18,
@@ -146,7 +146,7 @@
     {
       "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202504-unam/",
+      "url": "202504-unam",
       "full_url": "http://127.0.0.1:8000/meetups/2025/202504-unam",
       "status": "200 OK",
       "line": 19,
@@ -155,7 +155,7 @@
     {
       "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202504-unam/",
+      "url": "202504-unam",
       "full_url": "http://127.0.0.1:8000/meetups/2025/202504-unam",
       "status": "200 OK",
       "line": 20,
@@ -164,7 +164,7 @@
     {
       "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202504-abril/",
+      "url": "202504-abril",
       "full_url": "http://127.0.0.1:8000/meetups/2025/202504-abril",
       "status": "200 OK",
       "line": 21,
@@ -173,7 +173,7 @@
     {
       "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202503-marzo/",
+      "url": "202503-marzo",
       "full_url": "http://127.0.0.1:8000/meetups/2025/202503-marzo",
       "status": "200 OK",
       "line": 22,
@@ -182,7 +182,7 @@
     {
       "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202503-marzo/",
+      "url": "202503-marzo",
       "full_url": "http://127.0.0.1:8000/meetups/2025/202503-marzo",
       "status": "200 OK",
       "line": 23,
@@ -191,7 +191,7 @@
     {
       "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202502-febrero/",
+      "url": "202502-febrero",
       "full_url": "http://127.0.0.1:8000/meetups/2025/202502-febrero",
       "status": "200 OK",
       "line": 24,
@@ -200,7 +200,7 @@
     {
       "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202502-febrero/",
+      "url": "202502-febrero",
       "full_url": "http://127.0.0.1:8000/meetups/2025/202502-febrero",
       "status": "200 OK",
       "line": 25,
@@ -209,7 +209,7 @@
     {
       "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202501-enero/",
+      "url": "202501-enero",
       "full_url": "http://127.0.0.1:8000/meetups/2025/202501-enero",
       "status": "200 OK",
       "line": 26,
@@ -218,7 +218,7 @@
     {
       "file": "meetups/2025/index.md",
       "text": "Ver detalles",
-      "url": "202501-enero/",
+      "url": "202501-enero",
       "full_url": "http://127.0.0.1:8000/meetups/2025/202501-enero",
       "status": "200 OK",
       "line": 27,
@@ -227,7 +227,7 @@
     {
       "file": "meetups/2025/index.md",
       "text": "ponentes y voluntarios reconocidos",
-      "url": "../../comunidad/como-contribuir/",
+      "url": "../../comunidad/como-contribuir",
       "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir",
       "status": "200 OK",
       "line": 68,
@@ -236,7 +236,7 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202411-noviembre/",
+      "url": "202411-noviembre",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202411-noviembre",
       "status": "200 OK",
       "line": 15,
@@ -245,7 +245,7 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202411-noviembre/",
+      "url": "202411-noviembre",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202411-noviembre",
       "status": "200 OK",
       "line": 16,
@@ -254,7 +254,7 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202410-octubre/",
+      "url": "202410-octubre",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202410-octubre",
       "status": "200 OK",
       "line": 17,
@@ -263,7 +263,7 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202409-septiembre/",
+      "url": "202409-septiembre",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202409-septiembre",
       "status": "200 OK",
       "line": 18,
@@ -272,7 +272,7 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202409-septiembre/",
+      "url": "202409-septiembre",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202409-septiembre",
       "status": "200 OK",
       "line": 19,
@@ -281,7 +281,7 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202408-agosto/",
+      "url": "202408-agosto",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202408-agosto",
       "status": "200 OK",
       "line": 20,
@@ -290,7 +290,7 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202408-agosto/",
+      "url": "202408-agosto",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202408-agosto",
       "status": "200 OK",
       "line": 21,
@@ -299,7 +299,7 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202407-julio/",
+      "url": "202407-julio",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202407-julio",
       "status": "200 OK",
       "line": 22,
@@ -308,7 +308,7 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202407-julio/",
+      "url": "202407-julio",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202407-julio",
       "status": "200 OK",
       "line": 23,
@@ -317,7 +317,7 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202406-junio/",
+      "url": "202406-junio",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202406-junio",
       "status": "200 OK",
       "line": 24,
@@ -326,7 +326,7 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202405-mayo/",
+      "url": "202405-mayo",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202405-mayo",
       "status": "200 OK",
       "line": 25,
@@ -335,7 +335,7 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202404-abril/",
+      "url": "202404-abril",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202404-abril",
       "status": "200 OK",
       "line": 26,
@@ -344,7 +344,7 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202403-marzo/",
+      "url": "202403-marzo",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202403-marzo",
       "status": "200 OK",
       "line": 27,
@@ -353,7 +353,7 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202402-febrero/",
+      "url": "202402-febrero",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202402-febrero",
       "status": "200 OK",
       "line": 28,
@@ -362,7 +362,7 @@
     {
       "file": "meetups/2024/index.md",
       "text": "Ver detalles",
-      "url": "202401-enero/",
+      "url": "202401-enero",
       "full_url": "http://127.0.0.1:8000/meetups/2024/202401-enero",
       "status": "200 OK",
       "line": 29,
@@ -371,7 +371,7 @@
     {
       "file": "meetups/2024/index.md",
       "text": "ponentes y voluntarios reconocidos",
-      "url": "../../comunidad/como-contribuir/",
+      "url": "../../comunidad/como-contribuir",
       "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir",
       "status": "200 OK",
       "line": 69,
@@ -380,7 +380,7 @@
     {
       "file": "meetups/2023/index.md",
       "text": "Ver detalles",
-      "url": "202311-noviembre/",
+      "url": "202311-noviembre",
       "full_url": "http://127.0.0.1:8000/meetups/2023/202311-noviembre",
       "status": "200 OK",
       "line": 15,
@@ -389,7 +389,7 @@
     {
       "file": "meetups/2023/index.md",
       "text": "Ver detalles",
-      "url": "202311-noviembre/",
+      "url": "202311-noviembre",
       "full_url": "http://127.0.0.1:8000/meetups/2023/202311-noviembre",
       "status": "200 OK",
       "line": 16,
@@ -398,7 +398,7 @@
     {
       "file": "meetups/2023/index.md",
       "text": "Ver detalles",
-      "url": "202310-octubre/",
+      "url": "202310-octubre",
       "full_url": "http://127.0.0.1:8000/meetups/2023/202310-octubre",
       "status": "200 OK",
       "line": 17,
@@ -407,7 +407,7 @@
     {
       "file": "meetups/2023/index.md",
       "text": "Ver detalles",
-      "url": "202309-septiembre/",
+      "url": "202309-septiembre",
       "full_url": "http://127.0.0.1:8000/meetups/2023/202309-septiembre",
       "status": "200 OK",
       "line": 18,
@@ -416,7 +416,7 @@
     {
       "file": "meetups/2023/index.md",
       "text": "Ver detalles",
-      "url": "202309-septiembre/",
+      "url": "202309-septiembre",
       "full_url": "http://127.0.0.1:8000/meetups/2023/202309-septiembre",
       "status": "200 OK",
       "line": 19,
@@ -425,7 +425,7 @@
     {
       "file": "meetups/2023/index.md",
       "text": "ponentes y voluntarios reconocidos",
-      "url": "../../comunidad/como-contribuir/",
+      "url": "../../comunidad/como-contribuir",
       "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir",
       "status": "200 OK",
       "line": 59,
@@ -434,8 +434,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Mejora tu código: Evita anti-patrones en Python\" (Noviembre 2024)",
-      "url": "/meetups/2024/202411-noviembre/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/202411-noviembre/",
+      "url": "/meetups/2024/202411-noviembre",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202411-noviembre",
       "status": "200 OK",
       "line": 125,
       "link_type": "html"
@@ -443,8 +443,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Desarrollo de APIs con Python\" (Marzo 2024)",
-      "url": "/meetups/2024/202403-marzo/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/202403-marzo/",
+      "url": "/meetups/2024/202403-marzo",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202403-marzo",
       "status": "200 OK",
       "line": 126,
       "link_type": "html"
@@ -452,8 +452,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Una ida y una vuelta: Cómo iniciar en el opensource\" (Octubre 2024)",
-      "url": "/meetups/2024/202410-octubre/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/202410-octubre/",
+      "url": "/meetups/2024/202410-octubre",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202410-octubre",
       "status": "200 OK",
       "line": 158,
       "link_type": "html"
@@ -461,8 +461,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Aplicaciones de IA en la nube\" (Junio 2025)",
-      "url": "/meetups/2025/202506-junio/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202506-junio/",
+      "url": "/meetups/2025/202506-junio",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202506-junio",
       "status": "200 OK",
       "line": 190,
       "link_type": "html"
@@ -470,8 +470,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Kubernetes y MLOps: Desplegando aplicaciones de IA\" (Abril 2025)",
-      "url": "/meetups/2025/202504-abril/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202504-abril/",
+      "url": "/meetups/2025/202504-abril",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202504-abril",
       "status": "200 OK",
       "line": 222,
       "link_type": "html"
@@ -479,8 +479,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"GitOps 101. Primeros pasos para desplegar aplicaciones en Kubernetes\" (Noviembre 2023)",
-      "url": "/meetups/2023/202311-noviembre/",
-      "full_url": "http://127.0.0.1:8000/meetups/2023/202311-noviembre/",
+      "url": "/meetups/2023/202311-noviembre",
+      "full_url": "http://127.0.0.1:8000/meetups/2023/202311-noviembre",
       "status": "200 OK",
       "line": 223,
       "link_type": "html"
@@ -488,8 +488,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Programar en tiempos del Vibe-Coding\" (Abril 2025 - UNAM)",
-      "url": "/meetups/2025/202504-unam/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202504-unam/",
+      "url": "/meetups/2025/202504-unam",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202504-unam",
       "status": "200 OK",
       "line": 255,
       "link_type": "html"
@@ -497,8 +497,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Validación de datos con Python\" (Mayo 2024)",
-      "url": "/meetups/2024/202405-mayo/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/202405-mayo/",
+      "url": "/meetups/2024/202405-mayo",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202405-mayo",
       "status": "200 OK",
       "line": 256,
       "link_type": "html"
@@ -506,8 +506,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"portafolio.py: Como hacer un portafolio web sin saber diseño web\" (Abril 2025 - UNAM)",
-      "url": "/meetups/2025/202504-unam/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202504-unam/",
+      "url": "/meetups/2025/202504-unam",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202504-unam",
       "status": "200 OK",
       "line": 288,
       "link_type": "html"
@@ -515,8 +515,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Cómo preparar una ambiente de desarrollo con Python desde zero\" (Julio 2025)",
-      "url": "/meetups/2025/202507-julio/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202507-julio/",
+      "url": "/meetups/2025/202507-julio",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202507-julio",
       "status": "200 OK",
       "line": 320,
       "link_type": "html"
@@ -524,8 +524,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Interfaces gráficas con PySide6\" (Marzo 2025)",
-      "url": "/meetups/2025/202503-marzo/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202503-marzo/",
+      "url": "/meetups/2025/202503-marzo",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202503-marzo",
       "status": "200 OK",
       "line": 321,
       "link_type": "html"
@@ -533,8 +533,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Rich y Textual: Haz tus aplicaciones en la consola visualmente atractivas\" (Septiembre 2024)",
-      "url": "/meetups/2024/202409-septiembre/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/202409-septiembre/",
+      "url": "/meetups/2024/202409-septiembre",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202409-septiembre",
       "status": "200 OK",
       "line": 322,
       "link_type": "html"
@@ -542,8 +542,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Utilizando Servicios Administrados de AI de AWS con Python y Boto3\" (Septiembre 2023)",
-      "url": "/meetups/2023/202309-septiembre/",
-      "full_url": "http://127.0.0.1:8000/meetups/2023/202309-septiembre/",
+      "url": "/meetups/2023/202309-septiembre",
+      "full_url": "http://127.0.0.1:8000/meetups/2023/202309-septiembre",
       "status": "200 OK",
       "line": 323,
       "link_type": "html"
@@ -551,8 +551,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"chit-chat: Representaciones fonéticas con python\" (Septiembre 2024)",
-      "url": "/meetups/2024/202409-septiembre/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/202409-septiembre/",
+      "url": "/meetups/2024/202409-septiembre",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202409-septiembre",
       "status": "200 OK",
       "line": 355,
       "link_type": "html"
@@ -560,8 +560,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Mi Primer Agente de Inteligencia Artificial con Python\" (Marzo 2025)",
-      "url": "/meetups/2025/202503-marzo/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202503-marzo/",
+      "url": "/meetups/2025/202503-marzo",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202503-marzo",
       "status": "200 OK",
       "line": 387,
       "link_type": "html"
@@ -569,8 +569,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Guía Práctica para Convertirse en Contribuidor de Open Source en 10 Años (o más)\" (Agosto 2024)",
-      "url": "/meetups/2024/202408-agosto/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/202408-agosto/",
+      "url": "/meetups/2024/202408-agosto",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202408-agosto",
       "status": "200 OK",
       "line": 419,
       "link_type": "html"
@@ -578,8 +578,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Matemáticas y Python: La Ciencia Detrás de la Regresión Lineal\" (Junio 2024)",
-      "url": "/meetups/2024/202406-junio/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/202406-junio/",
+      "url": "/meetups/2024/202406-junio",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202406-junio",
       "status": "200 OK",
       "line": 451,
       "link_type": "html"
@@ -587,8 +587,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Protocolos en Python: El poder del tipado estático avanzado\" (Agosto 2024)",
-      "url": "/meetups/2024/202408-agosto/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/202408-agosto/",
+      "url": "/meetups/2024/202408-agosto",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202408-agosto",
       "status": "200 OK",
       "line": 483,
       "link_type": "html"
@@ -596,8 +596,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"¡De Jupyter a Web en Minutos!\" (Octubre 2023)",
-      "url": "/meetups/2023/202310-octubre/",
-      "full_url": "http://127.0.0.1:8000/meetups/2023/202310-octubre/",
+      "url": "/meetups/2023/202310-octubre",
+      "full_url": "http://127.0.0.1:8000/meetups/2023/202310-octubre",
       "status": "200 OK",
       "line": 484,
       "link_type": "html"
@@ -605,8 +605,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Metaprogramación en Python\" (Septiembre 2023)",
-      "url": "/meetups/2023/202309-septiembre/",
-      "full_url": "http://127.0.0.1:8000/meetups/2023/202309-septiembre/",
+      "url": "/meetups/2023/202309-septiembre",
+      "full_url": "http://127.0.0.1:8000/meetups/2023/202309-septiembre",
       "status": "200 OK",
       "line": 485,
       "link_type": "html"
@@ -614,8 +614,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Python: La Forja de un Lenguaje\" (Noviembre 2023)",
-      "url": "/meetups/2023/202311-noviembre/",
-      "full_url": "http://127.0.0.1:8000/meetups/2023/202311-noviembre/",
+      "url": "/meetups/2023/202311-noviembre",
+      "full_url": "http://127.0.0.1:8000/meetups/2023/202311-noviembre",
       "status": "200 OK",
       "line": 486,
       "link_type": "html"
@@ -623,8 +623,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Python y los esquemas ETLs\" (Julio 2024)",
-      "url": "/meetups/2024/202407-julio/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/202407-julio/",
+      "url": "/meetups/2024/202407-julio",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202407-julio",
       "status": "200 OK",
       "line": 518,
       "link_type": "html"
@@ -632,8 +632,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Título de la charla\" (Noviembre 2024)",
-      "url": "/meetups/2024/202411-noviembre/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/202411-noviembre/",
+      "url": "/meetups/2024/202411-noviembre",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202411-noviembre",
       "status": "200 OK",
       "line": 519,
       "link_type": "html"
@@ -641,8 +641,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Desarrollo de aplicaciones FinTech con Python\" (Mayo 2025)",
-      "url": "/meetups/2025/202505-mayo/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202505-mayo/",
+      "url": "/meetups/2025/202505-mayo",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202505-mayo",
       "status": "200 OK",
       "line": 551,
       "link_type": "html"
@@ -650,8 +650,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Embeddings - El lenguaje como las máquinas entienden el lenguaje humano\" (Febrero 2025)",
-      "url": "/meetups/2025/202502-febrero/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202502-febrero/",
+      "url": "/meetups/2025/202502-febrero",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202502-febrero",
       "status": "200 OK",
       "line": 583,
       "link_type": "html"
@@ -659,8 +659,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"El futuro de Python sin GIL\" (Julio 2024)",
-      "url": "/meetups/2024/202407-julio/",
-      "full_url": "http://127.0.0.1:8000/meetups/2024/202407-julio/",
+      "url": "/meetups/2024/202407-julio",
+      "full_url": "http://127.0.0.1:8000/meetups/2024/202407-julio",
       "status": "200 OK",
       "line": 615,
       "link_type": "html"
@@ -668,8 +668,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Lecciones del Advent of Code 2024\" (Febrero 2025)",
-      "url": "/meetups/2025/202502-febrero/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202502-febrero/",
+      "url": "/meetups/2025/202502-febrero",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202502-febrero",
       "status": "200 OK",
       "line": 647,
       "link_type": "html"
@@ -677,8 +677,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Creando extensiones para LibreOffice, con Python\" (Enero 2025)",
-      "url": "/meetups/2025/202501-enero/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202501-enero/",
+      "url": "/meetups/2025/202501-enero",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202501-enero",
       "status": "200 OK",
       "line": 679,
       "link_type": "html"
@@ -686,8 +686,8 @@
     {
       "file": "comunidad/ponentes.md",
       "text": "\"Seguridad y cumplimiento de Python: Garantizar el cumplimiento de PCI DSS en un entorno Python\" (Enero 2025)",
-      "url": "/meetups/2025/202501-enero/",
-      "full_url": "http://127.0.0.1:8000/meetups/2025/202501-enero/",
+      "url": "/meetups/2025/202501-enero",
+      "full_url": "http://127.0.0.1:8000/meetups/2025/202501-enero",
       "status": "200 OK",
       "line": 711,
       "link_type": "html"
@@ -695,7 +695,7 @@
     {
       "file": "comunidad/voluntarios.md",
       "text": "Más Información",
-      "url": "como-contribuir/",
+      "url": "como-contribuir",
       "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir",
       "status": "200 OK",
       "line": 87,
@@ -704,8 +704,8 @@
     {
       "file": "comunidad/sedes_faq.md",
       "text": "Ser Ponente",
-      "url": "ponentes/#por-que-ser-ponente",
-      "full_url": "http://127.0.0.1:8000/comunidad/ponentes/#por-que-ser-ponente",
+      "url": "ponentes#por-que-ser-ponente",
+      "full_url": "http://127.0.0.1:8000/comunidad/ponentes#por-que-ser-ponente",
       "status": "200 OK",
       "line": 109,
       "link_type": "markdown"
@@ -713,7 +713,7 @@
     {
       "file": "comunidad/como-contribuir.md",
       "text": "Ser Ponente",
-      "url": "ponentes/",
+      "url": "ponentes",
       "full_url": "http://127.0.0.1:8000/comunidad/ponentes",
       "status": "200 OK",
       "line": 31,
@@ -722,7 +722,7 @@
     {
       "file": "comunidad/como-contribuir.md",
       "text": "Ser Voluntario",
-      "url": "voluntarios/",
+      "url": "voluntarios",
       "full_url": "http://127.0.0.1:8000/comunidad/voluntarios",
       "status": "200 OK",
       "line": 37,
@@ -731,7 +731,7 @@
     {
       "file": "comunidad/como-contribuir.md",
       "text": "Alianzas",
-      "url": "alianzas/",
+      "url": "alianzas",
       "full_url": "http://127.0.0.1:8000/comunidad/alianzas",
       "status": "200 OK",
       "line": 55,
@@ -739,9 +739,18 @@
     },
     {
       "file": "comunidad/como-contribuir.md",
+      "text": "formas de contribuir",
+      "url": "como-contribuir#formas-de-contribuir",
+      "full_url": "http://127.0.0.1:8000/comunidad/como-contribuir#formas-de-contribuir",
+      "status": "200 OK",
+      "line": 63,
+      "link_type": "markdown"
+    },
+    {
+      "file": "comunidad/como-contribuir.md",
       "text": "nuestros meetups",
-      "url": "../meetups/index.md",
-      "full_url": "http://127.0.0.1:8000/meetups/index.html",
+      "url": "../meetups",
+      "full_url": "http://127.0.0.1:8000/meetups",
       "status": "200 OK",
       "line": 70,
       "link_type": "markdown"

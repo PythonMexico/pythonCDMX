@@ -2,7 +2,7 @@
 title: "Embeddings / Advent of Code"
 ---
 
-# Meetup #PythonCDMX <i class="fab fa-python"></i> - Febrero 2025
+# Meetup #PythonCDMX :fontawesome-brands-python: - Febrero 2025
 
 <div class="meetup-hero">
     <h1>Embeddings / Advent of Code</h1>

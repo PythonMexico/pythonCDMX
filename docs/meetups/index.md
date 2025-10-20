@@ -10,7 +10,7 @@
 
 ---
 
-## <i class="fas fa-calendar"></i> Años Disponibles
+## :fontawesome-solid-calendar: Años Disponibles
 
 <div class="year-cards">
 
@@ -39,7 +39,7 @@
 
 ---
 
-## <i class="fas fa-star"></i> Estadísticas Generales
+## :fontawesome-solid-star: Estadísticas Generales
 
 <div class="stats-grid">
 

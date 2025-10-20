@@ -2,7 +2,7 @@
   <img src="/images/logo.png" alt="Python CDMX Logo">
 </div>
 
-# FAQ Sedes <i class="fas fa-question-circle"></i>
+# FAQ Sedes :fontawesome-solid-question-circle:
 
 <div align="center">
   <b>Preguntas frecuentes sobre ser sede de Python CDMX</b>
@@ -10,7 +10,7 @@
 
 ---
 
-## <i class="fas fa-clock"></i> Logística del Evento
+## :fontawesome-solid-clock: Logística del Evento
 
 ### ¿Cuánto tiempo dura el evento?
 Entre 3 y 3.5 horas. Generalmente de **18:30 a 22:00 hrs**.
@@ -45,7 +45,7 @@ Sí, aquí un ejemplo típico:
 
 ---
 
-## <i class="fas fa-desktop"></i> Requerimientos Técnicos
+## :fontawesome-solid-desktop: Requerimientos Técnicos
 
 ### ¿Qué equipo A/V se necesita?
 **Esencial:**
@@ -71,7 +71,7 @@ Sí, aquí un ejemplo típico:
 
 ---
 
-## <i class="fas fa-users"></i> Gestión de Asistentes
+## :fontawesome-solid-users: Gestión de Asistentes
 
 ### ¿Quién maneja el registro de asistentes?
 **Nosotros** lo gestionamos desde [Meetup.com](https://www.meetup.com/python-mexico/).
@@ -90,7 +90,7 @@ Sí, aquí un ejemplo típico:
 
 ---
 
-## <i class="fas fa-handshake"></i> Participación de la Empresa Sede
+## :fontawesome-solid-handshake: Participación de la Empresa Sede
 
 ### ¿Debe seguirse alguna guía de branding?
 **No es obligatorio**. Si la empresa desea:
@@ -106,9 +106,9 @@ Lo coordinamos con gusto durante la planeación.
 
 **¡Sí!** Solo pedimos que sigan el mismo proceso que cualquier miembro de la comunidad:
 
-[Ser Ponente](ponentes/#por-que-ser-ponente)
+[Ser Ponente](ponentes#por-que-ser-ponente)
 
-<i class="fab fa-github"></i> **Registrar su propuesta** en [python-cdmx-charlas/issues](https://github.com/PythonMexico/python-cdmx-charlas/issues)
+:fontawesome-brands-github: **Registrar su propuesta** en [python-cdmx-charlas/issues](https://github.com/PythonMexico/python-cdmx-charlas/issues)
 para mantener el espíritu abierto y curado del contenido.
 
 ### ¿La empresa puede ofrecer snacks o bebidas?
@@ -120,7 +120,7 @@ para mantener el espíritu abierto y curado del contenido.
 
 ---
 
-## <i class="fas fa-tools"></i> Preparación del Espacio
+## :fontawesome-solid-tools: Preparación del Espacio
 
 ### ¿Cómo debe organizarse el espacio?
 **Recomendaciones basadas en experiencia:**
@@ -151,7 +151,7 @@ para mantener el espíritu abierto y curado del contenido.
 
 ---
 
-## <i class="fas fa-calendar-check"></i> Timeline y Coordinación
+## :fontawesome-solid-calendar-check: Timeline y Coordinación
 
 ### ¿Cuándo se define todo?
 **3-4 semanas antes:**
@@ -174,7 +174,7 @@ para mantener el espíritu abierto y curado del contenido.
 
 - Lista final de asistentes
 - Setup del espacio y equipo
-- ¡Evento! <i class="fab fa-python"></i>
+- ¡Evento! :fontawesome-brands-python:
 
 ### ¿Qué pasa después del evento?
 
@@ -185,7 +185,7 @@ para mantener el espíritu abierto y curado del contenido.
 
 ---
 
-## <i class="fas fa-question"></i> Otras Preguntas Comunes
+## :fontawesome-solid-question: Otras Preguntas Comunes
 
 ### ¿Hay restricciones de horario?
 Somos flexibles, pero el formato típico es **martes de 18:30 a 22:00**.
@@ -205,7 +205,7 @@ Podemos ajustarnos a las necesidades del venue.
 - **Oportunidad** de participar en el crecimiento del ecosistema tech mexicano
 
 ### ¿Cómo contactarlos para ser sede?
-<i class="fas fa-envelope"></i> [info@pythoncdmx.org](mailto:info@pythoncdmx.org)
+:fontawesome-solid-envelope: [info@pythoncdmx.org](mailto:info@pythoncdmx.org)
 
 También puedes comentar en nuestras publicaciones o enviarnos DM en redes sociales.
 

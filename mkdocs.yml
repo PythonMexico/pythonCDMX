@@ -60,10 +60,6 @@ theme:
     - search.suggest
     - toc.follow
 
-  # Icons
-  icon:
-    repo: fontawesome/brands/github
-
 # Plugins
 plugins:
   - search:

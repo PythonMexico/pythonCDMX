@@ -165,6 +165,8 @@ def main():
 
     # Find all markdown files
     for md_file in docs_dir.rglob("*.md"):
+        if "README.md" in md_file.name:
+            continue
         try:
             with open(md_file, "r", encoding="utf-8") as f:
                 content = f.read()

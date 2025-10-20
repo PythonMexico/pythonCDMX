@@ -2,7 +2,7 @@
 title: "Utilizando Servicios AI de AWS y Metaprogramación en Python"
 ---
 
-# Meetup #PythonCDMX <i class="fab fa-python"></i> - Septiembre 2023
+# Meetup #PythonCDMX :fontawesome-brands-python: - Septiembre 2023
 
 <div class="meetup-hero">
     <h1>Utilizando Servicios AI de AWS y Metaprogramación en Python</h1>
