@@ -4,9 +4,9 @@
 
 ---
 
-## <i class="fas fa-users"></i> Comunidades Amigas
+## :fontawesome-solid-users: Comunidades Amigas
 
-### <i class="fas fa-star"></i> Comunidades Python en México
+### :fontawesome-solid-star: Comunidades Python en México
 
 <div class="communities-grid">
 
@@ -48,7 +48,7 @@
 
 </div>
 
-### <i class="fas fa-code"></i> Otras Comunidades
+### :fontawesome-solid-code: Otras Comunidades
 
 <div class="communities-grid">
 
@@ -127,13 +127,13 @@
 
 ---
 
-## <i class="fas fa-building"></i> Empresas anfitrionas
+## :fontawesome-solid-building: Empresas anfitrionas
 
 <div align="center">
   <b>Estas empresas han abierto sus puertas para que la comunidad Python CDMX crezca</b>
 </div>
 
-### <i class="fas fa-star"></i> Gracias por ser sede
+### :fontawesome-solid-star: Gracias por ser sede
 
 <div class="communities-grid">
 

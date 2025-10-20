@@ -241,7 +241,7 @@ extra_css:
   <div class="participation-card participation-ponente">
     <h3><i class="fas fa-microphone"></i> Ser Ponente</h3>
     <p>Comparte tu conocimiento con la comunidad Python CDMX...</p>
-    <a href="/comunidad/ponentes/" class="btn-primary">Proponer Charla</a>
+    <a href="/comunidad/ponentes" class="btn-primary">Proponer Charla</a>
   </div>
   <div class="participation-card participation-voluntario">
     <h3><i class="fas fa-hands-helping"></i> Ser Voluntario</h3>

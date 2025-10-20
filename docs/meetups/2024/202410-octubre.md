@@ -2,7 +2,7 @@
 title: "Una ida y una vuelta: Cómo iniciar en el opensource"
 ---
 
-# Meetup #PythonCDMX <i class="fab fa-python"></i> - Octubre 2024
+# Meetup #PythonCDMX :fontawesome-brands-python: - Octubre 2024
 
 <div class="meetup-hero">
     <h1>Una ida y una vuelta: Cómo iniciar en el opensource</h1>

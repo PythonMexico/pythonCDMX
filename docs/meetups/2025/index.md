@@ -2,7 +2,7 @@
   <img src="/images/logo.png" alt="Python CDMX Logo">
 </div>
 
-# Meetups 2025 <i class="fas fa-calendar-alt"></i>
+# Meetups 2025 :fontawesome-solid-calendar-alt:
 
 <div align="center">
   <b>Conectando desarrolladores Python en la Ciudad de México</b>
@@ -10,7 +10,7 @@
 
 ---
 
-| <i class="fas fa-calendar"></i> **Fecha** | <i class="fas fa-microphone"></i> **Charla** | <i class="fas fa-user"></i> **Ponente** | <i class="fas fa-map-marker-alt"></i> **Lugar** | <i class="fas fa-link"></i> **Detalles** |
+| :fontawesome-solid-calendar: **Fecha** | :fontawesome-solid-microphone: **Charla** | :fontawesome-solid-user: **Ponente** | :fontawesome-solid-map-marker-alt: **Lugar** | :fontawesome-solid-link: **Detalles** |
 |:---|:---|:---|:---|:---|
 | **12 Agosto 2025** | Cómo preparar una ambiente de desarrollo con Python desde zero | Juan Guillermo Gómez | Jardin Chapultepec | [Ver detalles](202508-agosto) |
 | **08 Julio 2025** | Cómo preparar una ambiente de desarrollo con Python desde zero | David Sol | Clara | [Ver detalles](202507-julio) |
@@ -28,7 +28,7 @@
 
 ---
 
-## <i class="fas fa-star"></i> Estadísticas 2025
+## :fontawesome-solid-star: Estadísticas 2025
 
 <div class="stats-grid">
 

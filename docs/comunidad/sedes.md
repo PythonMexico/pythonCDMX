@@ -1,4 +1,4 @@
-# Sedes <i class="fas fa-map-marker-alt"></i>
+# Sedes :fontawesome-solid-map-marker-alt:
 
 <div align="center">
   <img src="/images/comunidades/pythoncdmx_buscamos_sede.jpg" alt="Buscamos SEDE pythonCDMX">
@@ -12,11 +12,11 @@
 ¿Trabajas en una empresa tech, un coworking o tienes acceso a un espacio donde podríamos reunir a la comunidad Python CDMX?
 
 En 2025 seguimos creciendo y queremos llevar nuestros meetups a nuevos espacios que compartan el entusiasmo
-por el conocimiento abierto, la innovación y el poder de Python <i class="fab fa-python"></i>.
+por el conocimiento abierto, la innovación y el poder de Python :fontawesome-brands-python:.
 
 ---
 
-## <i class="fas fa-lightbulb"></i> ¿Por qué ser sede?
+## :fontawesome-solid-lightbulb: ¿Por qué ser sede?
 
 Organizar un meetup de Python CDMX en tu espacio es una gran oportunidad para:
 
@@ -27,7 +27,7 @@ Organizar un meetup de Python CDMX en tu espacio es una gran oportunidad para:
 
 ---
 
-## <i class="fas fa-handshake"></i> ¿Qué necesitas para ser sede?
+## :fontawesome-solid-handshake: ¿Qué necesitas para ser sede?
 
 - Espacio para 40 a 60 personas
 - Proyector o pantalla con entrada HDMI
@@ -39,7 +39,7 @@ Opcionalmente puedes ofrecer snacks, bebidas, o sumarte con trivias, regalos o s
 
 ---
 
-## <i class="fas fa-calendar-alt"></i> ¿Cómo es un meetup típico?
+## :fontawesome-solid-calendar-alt: ¿Cómo es un meetup típico?
 
 Duración: 3 a 3.5 horas
 Inicio: 18:30 hrs
@@ -56,7 +56,7 @@ Fin: 21:30–22:00 hrs
 
 ---
 
-## <i class="fas fa-calendar-check"></i> ¿Qué fechas tenemos disponibles?
+## :fontawesome-solid-calendar-check: ¿Qué fechas tenemos disponibles?
 
 Organizamos nuestros meetups el **segundo martes de cada mes**.
 
@@ -85,12 +85,12 @@ Organizamos nuestros meetups el **segundo martes de cada mes**.
 
 ---
 
-## <i class="fas fa-comments"></i> ¿Y si quiero participar?
+## :fontawesome-solid-comments: ¿Y si quiero participar?
 
 ¡Nos encantaría contar contigo!
 Puedes escribirnos a:
 
-<i class="fas fa-envelope"></i> [info@pythoncdmx.org](mailto:info@pythoncdmx.org)
+:fontawesome-solid-envelope: [info@pythoncdmx.org](mailto:info@pythoncdmx.org)
 
 También puedes comentar en nuestras publicaciones o enviarnos DM si viste la convocatoria en redes.
 
@@ -99,7 +99,7 @@ También puedes comentar en nuestras publicaciones o enviarnos DM si viste la co
 > Ser sede de un meetup es más que prestar un espacio. Es apoyar la construcción de comunidad,
 > compartir conocimiento y sumar al crecimiento tech en México.
 
-¡Gracias por considerar ser parte de esta aventura Pythonista! <i class="fab fa-python"></i><i class="fas fa-star"></i>
+¡Gracias por considerar ser parte de esta aventura Pythonista! :fontawesome-brands-python::fontawesome-solid-star:
 
 
 ---
