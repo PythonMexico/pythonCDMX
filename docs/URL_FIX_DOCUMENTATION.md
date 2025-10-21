@@ -43,9 +43,12 @@ La función se asoció con todos los cache behaviors de CloudFront para asegurar
 ## Archivos Modificados
 
 1. **mkdocs.yml**: Agregada configuración `use_directory_urls: true`
-2. **terraform/cloudfront.tf**:
+2. **terraform/cloudfront.tf**: 
    - Agregada CloudFront Function `url_rewrite`
    - Asociada la función con todos los cache behaviors
+3. **terraform/cloudfront-staging.tf**:
+   - Aplicada la misma CloudFront Function a staging
+   - Asociada la función con todos los cache behaviors de staging
 
 ## Despliegue
 
@@ -67,10 +70,18 @@ Para aplicar estos cambios:
 ## Verificación
 
 Después del despliegue, verificar que funcionen:
+
+### Producción
 - ✅ `https://pythoncdmx.org/meetups/`
 - ✅ `https://pythoncdmx.org/meetups/index.html`
 - ✅ `https://pythoncdmx.org/about/`
 - ✅ `https://pythoncdmx.org/about/index.html`
+
+### Staging
+- ✅ `https://staging.pythoncdmx.org/meetups/`
+- ✅ `https://staging.pythoncdmx.org/meetups/index.html`
+- ✅ `https://staging.pythoncdmx.org/about/`
+- ✅ `https://staging.pythoncdmx.org/about/index.html`
 
 ## Notas Técnicas
 
