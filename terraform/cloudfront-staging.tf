@@ -39,9 +39,15 @@ resource "aws_cloudfront_distribution" "website_staging" {
 
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
-    default_ttl            = 300     # 5 minutes - shorter cache for staging
-    max_ttl                = 3600    # 1 hour - shorter cache for staging
+    default_ttl            = 300  # 5 minutes - shorter cache for staging
+    max_ttl                = 3600 # 1 hour - shorter cache for staging
     compress               = true
+
+    # Associate CloudFront Function for directory index rewriting
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.directory_index_staging.arn
+    }
   }
 
   # Cache behavior for static assets (CSS) - shorter cache for staging
@@ -60,8 +66,8 @@ resource "aws_cloudfront_distribution" "website_staging" {
 
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
-    default_ttl            = 1800    # 30 minutes
-    max_ttl                = 7200    # 2 hours
+    default_ttl            = 1800 # 30 minutes
+    max_ttl                = 7200 # 2 hours
     compress               = true
   }
 
@@ -81,8 +87,8 @@ resource "aws_cloudfront_distribution" "website_staging" {
 
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
-    default_ttl            = 1800    # 30 minutes
-    max_ttl                = 7200    # 2 hours
+    default_ttl            = 1800 # 30 minutes
+    max_ttl                = 7200 # 2 hours
     compress               = true
   }
 
@@ -102,8 +108,8 @@ resource "aws_cloudfront_distribution" "website_staging" {
 
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
-    default_ttl            = 3600    # 1 hour
-    max_ttl                = 86400   # 24 hours
+    default_ttl            = 3600  # 1 hour
+    max_ttl                = 86400 # 24 hours
     compress               = true
   }
 

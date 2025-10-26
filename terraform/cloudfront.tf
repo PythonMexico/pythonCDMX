@@ -39,9 +39,15 @@ resource "aws_cloudfront_distribution" "website" {
 
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
-    default_ttl            = 3600    # 1 hour
-    max_ttl                = 86400   # 24 hours
+    default_ttl            = 3600  # 1 hour
+    max_ttl                = 86400 # 24 hours
     compress               = true
+
+    # Associate CloudFront Function for directory index rewriting
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.directory_index.arn
+    }
   }
 
   # Cache behavior for static assets (images, CSS, JS)
@@ -60,7 +66,7 @@ resource "aws_cloudfront_distribution" "website" {
 
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
-    default_ttl            = 86400   # 24 hours
+    default_ttl            = 86400    # 24 hours
     max_ttl                = 31536000 # 1 year
     compress               = true
   }
@@ -80,7 +86,7 @@ resource "aws_cloudfront_distribution" "website" {
 
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
-    default_ttl            = 86400   # 24 hours
+    default_ttl            = 86400    # 24 hours
     max_ttl                = 31536000 # 1 year
     compress               = true
   }
@@ -100,7 +106,7 @@ resource "aws_cloudfront_distribution" "website" {
 
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
-    default_ttl            = 604800  # 7 days
+    default_ttl            = 604800   # 7 days
     max_ttl                = 31536000 # 1 year
     compress               = true
   }
