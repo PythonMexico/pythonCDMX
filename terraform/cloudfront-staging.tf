@@ -7,6 +7,9 @@ resource "aws_cloudfront_origin_access_control" "website_staging" {
   signing_protocol                  = "sigv4"
 }
 
+# CloudFront Function for staging (reuse the same function as production)
+# Note: CloudFront Functions are global, so we can reference the same function
+
 # CloudFront distribution for staging
 resource "aws_cloudfront_distribution" "website_staging" {
   enabled             = true
@@ -39,14 +42,14 @@ resource "aws_cloudfront_distribution" "website_staging" {
 
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
-    default_ttl            = 300  # 5 minutes - shorter cache for staging
-    max_ttl                = 3600 # 1 hour - shorter cache for staging
+    default_ttl            = 300     # 5 minutes - shorter cache for staging
+    max_ttl                = 3600    # 1 hour - shorter cache for staging
     compress               = true
 
-    # Associate CloudFront Function for directory index rewriting
+    # Associate CloudFront Function for URL rewriting (same as production)
     function_association {
       event_type   = "viewer-request"
-      function_arn = aws_cloudfront_function.directory_index_staging.arn
+      function_arn = aws_cloudfront_function.url_rewrite.arn
     }
   }
 
@@ -66,9 +69,15 @@ resource "aws_cloudfront_distribution" "website_staging" {
 
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
-    default_ttl            = 1800 # 30 minutes
-    max_ttl                = 7200 # 2 hours
+    default_ttl            = 1800    # 30 minutes
+    max_ttl                = 7200    # 2 hours
     compress               = true
+
+    # Associate CloudFront Function for URL rewriting
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.url_rewrite.arn
+    }
   }
 
   # Cache behavior for static assets (JS) - shorter cache for staging
@@ -87,9 +96,15 @@ resource "aws_cloudfront_distribution" "website_staging" {
 
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
-    default_ttl            = 1800 # 30 minutes
-    max_ttl                = 7200 # 2 hours
+    default_ttl            = 1800    # 30 minutes
+    max_ttl                = 7200    # 2 hours
     compress               = true
+
+    # Associate CloudFront Function for URL rewriting
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.url_rewrite.arn
+    }
   }
 
   # Cache behavior for images - shorter cache for staging
@@ -108,9 +123,15 @@ resource "aws_cloudfront_distribution" "website_staging" {
 
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
-    default_ttl            = 3600  # 1 hour
-    max_ttl                = 86400 # 24 hours
+    default_ttl            = 3600    # 1 hour
+    max_ttl                = 86400   # 24 hours
     compress               = true
+
+    # Associate CloudFront Function for URL rewriting
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.url_rewrite.arn
+    }
   }
 
   # Custom error responses for SPA-like behavior
