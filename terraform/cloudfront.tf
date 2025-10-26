@@ -7,24 +7,24 @@ resource "aws_cloudfront_origin_access_control" "website" {
   signing_protocol                  = "sigv4"
 }
 
-# CloudFront Function to handle URLs without .html extension
+# CloudFront Function to handle directory URLs for MkDocs
 resource "aws_cloudfront_function" "url_rewrite" {
   name    = "pythoncdmx-url-rewrite"
   runtime = "cloudfront-js-1.0"
-  comment = "Rewrite URLs without .html extension"
+  comment = "Rewrite directory URLs to include index.html for MkDocs"
   publish = true
   code    = <<-EOT
 function handler(event) {
     var request = event.request;
     var uri = request.uri;
 
-    // If the URI ends with a slash, try to serve index.html
+    // If the URI ends with a slash, append index.html
     if (uri.endsWith('/')) {
         request.uri = uri + 'index.html';
     }
-    // If the URI doesn't have an extension, try to add .html
+    // If the URI doesn't have an extension, append /index.html
     else if (!uri.includes('.') && !uri.endsWith('/')) {
-        request.uri = uri + '.html';
+        request.uri = uri + '/index.html';
     }
 
     return request;

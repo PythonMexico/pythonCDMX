@@ -24,13 +24,13 @@ function handler(event) {
     var request = event.request;
     var uri = request.uri;
 
-    // If the URI ends with a slash, try to serve index.html
+    // If the URI ends with a slash, append index.html
     if (uri.endsWith('/')) {
         request.uri = uri + 'index.html';
     }
-    // If the URI doesn't have an extension, try to add .html
+    // If the URI doesn't have an extension, append /index.html
     else if (!uri.includes('.') && !uri.endsWith('/')) {
-        request.uri = uri + '.html';
+        request.uri = uri + '/index.html';
     }
 
     return request;
