@@ -11,6 +11,9 @@ repo_url: https://github.com/PythonMexico/pythonCDMX/
 # Copyright
 copyright: Copyright &copy; 2025 Python CDMX
 
+# URL configuration
+use_directory_urls: true
+
 # Theme configuration
 theme:
   name: material

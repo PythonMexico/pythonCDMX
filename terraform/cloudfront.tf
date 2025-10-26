@@ -7,6 +7,31 @@ resource "aws_cloudfront_origin_access_control" "website" {
   signing_protocol                  = "sigv4"
 }
 
+# CloudFront Function to handle directory URLs for MkDocs
+resource "aws_cloudfront_function" "url_rewrite" {
+  name    = "pythoncdmx-url-rewrite"
+  runtime = "cloudfront-js-1.0"
+  comment = "Rewrite directory URLs to include index.html for MkDocs"
+  publish = true
+  code    = <<-EOT
+function handler(event) {
+    var request = event.request;
+    var uri = request.uri;
+
+    // If the URI ends with a slash, append index.html
+    if (uri.endsWith('/')) {
+        request.uri = uri + 'index.html';
+    }
+    // If the URI doesn't have an extension, append /index.html
+    else if (!uri.includes('.') && !uri.endsWith('/')) {
+        request.uri = uri + '/index.html';
+    }
+
+    return request;
+}
+EOT
+}
+
 # CloudFront distribution
 resource "aws_cloudfront_distribution" "website" {
   enabled             = true
@@ -42,6 +67,12 @@ resource "aws_cloudfront_distribution" "website" {
     default_ttl            = 3600    # 1 hour
     max_ttl                = 86400   # 24 hours
     compress               = true
+
+    # Associate CloudFront Function for URL rewriting
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.url_rewrite.arn
+    }
   }
 
   # Cache behavior for static assets (images, CSS, JS)
@@ -63,6 +94,12 @@ resource "aws_cloudfront_distribution" "website" {
     default_ttl            = 86400   # 24 hours
     max_ttl                = 31536000 # 1 year
     compress               = true
+
+    # Associate CloudFront Function for URL rewriting
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.url_rewrite.arn
+    }
   }
 
   ordered_cache_behavior {
@@ -83,6 +120,12 @@ resource "aws_cloudfront_distribution" "website" {
     default_ttl            = 86400   # 24 hours
     max_ttl                = 31536000 # 1 year
     compress               = true
+
+    # Associate CloudFront Function for URL rewriting
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.url_rewrite.arn
+    }
   }
 
   ordered_cache_behavior {
@@ -103,6 +146,12 @@ resource "aws_cloudfront_distribution" "website" {
     default_ttl            = 604800  # 7 days
     max_ttl                = 31536000 # 1 year
     compress               = true
+
+    # Associate CloudFront Function for URL rewriting
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.url_rewrite.arn
+    }
   }
 
   # Custom error responses for SPA-like behavior
