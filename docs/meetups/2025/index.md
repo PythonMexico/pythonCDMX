@@ -12,6 +12,7 @@
 
 | :fontawesome-solid-calendar: **Fecha** | :fontawesome-solid-microphone: **Charla** | :fontawesome-solid-user: **Ponente** | :fontawesome-solid-map-marker-alt: **Lugar** | :fontawesome-solid-link: **Detalles** |
 |:---|:---|:---|:---|:---|
+| **11 Noviembre 2025** | Historias de TECHrror - SysAdmin Horror Story | Alex Callejas | Clara | [Ver detalles](202511-noviembre) |  
 | **12 Agosto 2025** | Cómo preparar una ambiente de desarrollo con Python desde zero | Juan Guillermo Gómez | Jardin Chapultepec | [Ver detalles](202508-agosto) |
 | **08 Julio 2025** | Cómo preparar una ambiente de desarrollo con Python desde zero | David Sol | Clara | [Ver detalles](202507-julio) |
 | **10 Junio 2025** | Usando Python y software libre para crear nuevas herramientas: Traductor de voz español-inglés | Carlos Cesar Caballero | Wizeline México | [Ver detalles](202506-junio) |
