@@ -1,0 +1,135 @@
+---
+title: "{{ title }}"
+---
+
+# Meetup #PythonCDMX :fontawesome-brands-python: - {{ start_date.strftime('%B %Y') | capitalize }}
+
+<div class="meetup-hero">
+    <h1>{{ title }}</h1>
+    {% if subtitle %}
+    <p class="meetup-subtitle">{{ subtitle }}</p>
+    {% endif %}
+</div>
+
+## Información del evento
+
+<div class="event-details">
+    <div class="detail-card date-card">
+        <h3><i class="fas fa-calendar-alt"></i> Fecha</h3>
+        <p>{{ start_date.strftime('%A %-d de %B, %Y') | title }}</p>
+    </div>
+    <div class="detail-card time-card">
+        <h3><i class="fas fa-clock"></i> Hora</h3>
+        <p>{{ start_date.strftime('%H:%M') + ' - ' + end_date.strftime('%H:%M') }}</p>
+    </div>
+    <div class="detail-card location-card">
+        <h3><i class="fas fa-map-marker-alt"></i> Lugar</h3>
+        <p>{{ location.venue }}</p>
+    </div>
+    <div class="detail-card free-card">
+        <h3><i class="fas fa-gift"></i> ¡GRATIS!</h3>
+        <p>Entrada completamente gratuita</p>
+    </div>
+    <div class="detail-card rsvp-card">
+        <h3><i class="fas fa-ticket-alt"></i> RSVP</h3>
+        <p><a href="{{ rsvp_link }}">¡Regístrate aquí!</a></p>
+    </div>
+</div>
+
+{% if talks|length > 1 %}
+## Charlas!
+{% for talk in talks %}
+
+### Ponente
+
+<div class="speaker-section">
+  <div class="speaker-photo">
+    <img src="{{ talk.speaker.photo }}">
+  </div>
+  <div class="speaker-info">
+    <h2>{{ talk.speaker.name }}</h2>
+    <p class="speaker-role">{{ talk.speaker.job_title }}</p>
+    <p class="speaker-bio">{{ talk.speaker.bio }}</p>
+  </div>
+</div>
+ 
+### Descripción de la Charla
+
+<div class="talk-description">
+    <h3><i class="fas fa-rocket"></i> {{ talk.title }} </h3>
+    <p>{{ talk.description }}</p>
+</div>
+ 
+{% endfor %}
+{% else %}
+## Ponente
+
+<div class="speaker-section">
+  <div class="speaker-photo">
+    <img src="{{ talks[0].speaker.photo }}">
+  </div>
+  <div class="speaker-info">
+    <h2>{{ talks[0].speaker.name }}</h2>
+    <p class="speaker-role">{{ talks[0].speaker.job_title }}</p>
+    <p class="speaker-bio">{{ talks[0].speaker.bio }}</p>
+  </div>
+</div>
+  
+## Descripción de la Charla
+
+<div class="talk-description">
+  {% if talks[0].description.header %}
+    <h3><i class="fas fa-rocket"></i> {{ talks[0].description.header }} </h3>
+  {% endif %}
+  {% for p in talks[0].description.content %}
+    <p>{{ p }}</p>
+  {% endfor %}
+  {% if talks[0].description.footnotes %}
+    {% for note in talks[0].description.footnotes %}
+      
+    {% endfor %}  
+  {% endif %}
+</div>
+{% endif %}
+
+## Así vivimos el Meetup PythonCDMX de {{ start_date.strftime('%B') | capitalize }}
+
+{% for paragraph in storytelling %}
+{{ paragraph }}
+{% endfor %}  
+
+## ¡Mira la charla completa!
+
+<div class="video-section">
+  <div class="video-container">
+    <div class="video-wrapper">
+      <iframe src="{{ video_url }}"
+              title="Meetup PythonCDMX {{ start_date.strftime('%B %Y') | capitalize }} - {{ title }}"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+
+
+## Únete a #PythonCDMX
+
+💌 Si alguna duda, sugerencia o chispa de colaboración surge en tu mente, escríbenos a **[info@pythoncdmx.org](mailto:info@pythoncdmx.org)**.
+¡Nos hará inmensamente felices saber de ti!
+
+---
+
+💛 **Gracias por tejer comunidad con nosotros.**
+Porque *cada historia compartida*, *cada línea de código* y *cada risa*, nos acerca un poco más a ese universo que construimos **juntos**.
+
+---
+
+--8<-- "components/community-links.md"
+
+---
+
+--8<-- "components/quick-navigation.md"
+
+---
