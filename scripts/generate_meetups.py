@@ -1,152 +1,186 @@
-#!/usr/bin/env python3
 import json
-import os
-import sys
+import locale
 
+from pathlib import Path
+from datetime import datetime
+from tqdm import tqdm
+from dataclasses import asdict, dataclass
+
+from argparse import ArgumentParser
+from typing import Any, Callable, TypeVar
 from jinja2 import Environment, FileSystemLoader
 
+locale.setlocale(locale.LC_ALL, 'es_MX.UTF-8')
 
-def create_meetup_file(json_file):
-    """Crea un archivo markdown para un meetup desde JSON usando templates Jinja2."""
+@dataclass
+class Speaker:
+    name: str
+    job_title: str
+    company: str | None
+    bio: str
+    photo: str | None
 
-    # Configurar Jinja2
-    env = Environment(loader=FileSystemLoader("templates"))
+@dataclass
+class TalkDescription:
+    header: str | None
+    content: list[str]
+    footnotes: list[str]
+    
+@dataclass
+class Talk:
+    title: str
+    subtitle: str | None
+    description: TalkDescription
+    speaker: Speaker
+    video_url: str | None 
 
-    # Cargar datos
-    with open(json_file, "r", encoding="utf-8") as f:
-        data = json.load(f)
+@dataclass
+class MeetupLocation:
+    venue: str
+    address: str
 
-    # Crear directorio
-    year = data["id"][:4]
-    output_dir = f"../docs/meetups/{year}"
-    os.makedirs(output_dir, exist_ok=True)
+@dataclass
+class MeetupMetadata:
+    id: str
+    start_date: datetime
+    end_date: datetime
+    title: str
+    subtitle: str | None
+    location: MeetupLocation
+    talks: list[Talk]
+    tags: list[str]
+    storytelling: list[str] # Cada linea es un parrafo en el render final (Soporta Markdown)
 
-    # Generar archivo
-    filename = f"{data['id']}.md"
-    output_path = os.path.join(output_dir, filename)
+def parse_speaker(speaker: dict[str, Any]) -> Speaker:
+    return Speaker(
+        name=speaker['name'],
+        job_title=speaker['title'],
+        company=speaker.get('company'),
+        bio=speaker['bio'],
+        photo=speaker.get('photo', '/images/ponentes/default.jpg')
+    )
 
-    # Determinar qué template usar basado en el número de charlas
-    if len(data.get("talks", [])) > 1:
-        template = env.get_template("meetup-template-multiple-talks.md.j2")
-    else:
-        template = env.get_template("meetup-template.md.j2")
+def parse_description(description: dict[str, Any]) -> TalkDescription:
+    print(f'{description=}')
+    return TalkDescription(
+        header=description.get('header'),
+        content=description['content'],
+        footnotes=description.get('footnotes', [])
+    )
 
-    # Preparar datos para el template
-    template_data = {
-        "event_title": data["event_title"],
-        "event_subtitle": data["event_subtitle"],
-        "event_date": data["event_date"],
-        "event_time": data["event_time"],
-        "event_location": data["event_location"],
-        "event_rsvp_link": data.get("event_rsvp_link", "#"),
-        "event_banner_image": data.get(
-            "event_banner_image", "/assets/images/default-banner.jpg"
-        ),
-        "event_month_year": data.get("event_month_year", ""),
-        "tags": data["tags"],
-        "last_update": data.get("last_update", "Generado automáticamente"),
-    }
+def parse_talk(talk: dict[str, Any]) -> Talk:
+    return Talk(
+        title=talk['title'],
+        subtitle=talk.get('subtitle', ''),
+        description=parse_description(talk['description']),
+        speaker=parse_speaker(talk['speaker']),
+        video_url=talk.get('video_url')
+    )
 
-    # Agregar datos específicos según el tipo de template
-    if len(data.get("talks", [])) > 1:
-        template_data["talks"] = data["talks"]
-    else:
-        # Para template de una sola charla
-        if data.get("talks"):
-            talk = data["talks"][0]
-            template_data["talk"] = talk
-            template_data["speaker"] = talk.get("speaker", {})
-        else:
-            # Fallback si no hay charlas definidas
-            template_data["talk"] = {
-                "title": data["event_title"],
-                "description": data["event_subtitle"],
-                "conclusion": "Más detalles próximamente...",
-                "tech_stack": [],
-            }
-            template_data["speaker"] = {
-                "name": "Ponente por confirmar",
-                "title": "TBD",
-                "bio": "Información del ponente próximamente...",
-                "photo": "/assets/images/default-speaker.jpg",
-            }
+def parse_location(location: dict[str, Any]) -> MeetupLocation:
+    return MeetupLocation(
+        venue=location['venue'],
+        address=location.get('address', ''),
+    )
+    
+def metadata_parser(metadata: dict[str, Any]) -> MeetupMetadata:
+    print(f'New Parser {metadata}')
+    id = metadata['id']
+    start_date = datetime.strptime(metadata['start_date'], '%Y-%m-%d %H:%M')
+    end_date = datetime.strptime(metadata['end_date'], '%Y-%m-%d %H:%M')
+    location = parse_location(metadata['location'])
+    tags = metadata.get('tags', [])
+    # Si talks no está definido, el parser fallará con KeyException
+    talks = [parse_talk(talk) for talk in metadata['talks']]
+    print(f'Procesando {len(talks)} charlas')
+    first_talk = talks[0]
+    storytelling = metadata.get('storytelling', [])
+    # Si solo hay una charla, podemos heredar los campos de su metadata,
+    # si hay más de una charla, es mandatorio definir los campos en raiz.
+    if len(talks) == 1:
+        title = metadata.get('title', first_talk.title)
+        subtitle = metadata.get('subtitle', first_talk.subtitle)
 
-    # Agregar video si existe
-    if data.get("video"):
-        template_data["video"] = data["video"]
-
-    # Renderizar template
-    content = template.render(**template_data)
-
-    # Escribir archivo
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write(content)
-
-    print(f"✅ {output_path}")
-    return output_path
-
-
-def main():
-    """Genera meetups específicos pasados como parámetros."""
-
-    if len(sys.argv) < 2:
-        print("🚀 Generador de Meetups PythonCDMX")
-        print("\nUso:")
-        print("  python generate_meetups.py <archivo1.json> [archivo2.json] ...")
-        print("  python generate_meetups.py --all")
-        print("\nEjemplos:")
-        print("  python generate_meetups.py metadata_json/meetup-202407.json")
-        print(
-            "  python generate_meetups.py metadata_json/meetup-202407.json metadata_json/meetup-202408.json"
+        return MeetupMetadata(
+            id=id,
+            start_date=start_date,
+            end_date=end_date,
+            title=title,
+            subtitle=subtitle,
+            location=location,
+            talks=talks,
+            tags=tags,
+            storytelling=storytelling
         )
-        print("  python generate_meetups.py --all")
-        print("\nArchivos JSON disponibles:")
-
-        # Listar archivos JSON disponibles
-        import glob
-
-        json_files = glob.glob("metadata_json/meetup-*.json")
-        json_files.sort()
-
-        for json_file in json_files:
-            print(f"  - {json_file}")
-
-        sys.exit(1)
-
-    # Verificar si se quiere generar todos
-    if sys.argv[1] == "--all":
-        print("🚀 Generando todos los meetups...")
-        import glob
-
-        json_files = glob.glob("metadata_json/meetup-*.json")
-        json_files.sort()
     else:
-        json_files = sys.argv[1:]
+        title = metadata['title']
+        subtitle = metadata.get('subtitle', '')
 
-    print(f"📁 Procesando {len(json_files)} archivos...")
+        return MeetupMetadata(
+            id=id,
+            start_date=start_date,
+            end_date=end_date,
+            title=title,
+            subtitle=subtitle,
+            location=location,
+            talks=talks,
+            tags=tags,
+            storytelling=storytelling
+        )
 
-    count = 0
-    errors = 0
+T = TypeVar('T')
+def parse_json(filename: str, parser: Callable[[dict[str, Any]], T]) -> T:
+    with open(filename, 'r') as file:
+        file_content = json.load(file)
+        return parser(file_content)
 
-    for json_file in json_files:
-        try:
-            # Verificar que el archivo existe
-            if not os.path.exists(json_file):
-                print(f"❌ Archivo no encontrado: {json_file}")
-                errors += 1
-                continue
-
-            create_meetup_file(json_file)
-            count += 1
-        except Exception as e:
-            print(f"❌ Error en {json_file}: {e}")
-            errors += 1
-
-    print(f"\n🎉 Resultado:")
-    print(f"  ✅ Exitosos: {count}")
-    if errors > 0:
-        print(f"  ❌ Errores: {errors}")
-
+def confirm_action(message: str) -> bool:
+    confirmation = input(message + ' [Y/n]')
+    if confirmation not in ('y', 'n', 'Y', 'N'):
+        print('El valor ingresado no es válido, intente nuevamente.')
+        return confirm_action(message)
+    return confirmation in ('y', 'Y')
+        
+def parse_path(filename: str) -> Path | None:
+    path_obj = Path(filename)
+    if path_obj.exists():
+        return path_obj
+    
+    confirmation = confirm_action('La ruta especificada no existe, deseas crearla?')
+    if confirmation:
+        path_obj.mkdir()
+        return path_obj
+    return None
+    
+        
+def main(metadata: MeetupMetadata, templates_dir: Path, template_name: str, output_dir: Path):
+    print(metadata)
+    jinja_env = Environment(loader=FileSystemLoader(templates_dir))
+    template = jinja_env.get_template(template_name)
+    output = template.render(**asdict(metadata))
+    output_filename = f'{output_dir}/{metadata.start_date:%Y}/{metadata.id}.md'
+    with open(output_filename, 'w') as rendered_markdown:
+        rendered_markdown.writelines(output)
 
 if __name__ == "__main__":
-    main()
+    parser = ArgumentParser(description='Este script transforma un archivo de metadata (JSON) a un archivo Markdown listo para ser desplegado en nuestro sitio.')
+    parser.add_argument('--metadata', '-m', type=str, required=True, nargs='+', help='Archivos de metadata con la configuración del evento.')
+    parser.add_argument('--output-dir', '-o', default='docs/meetups', help='Directorio de salida donde se guardará el Markdown generado. Si el valor se omite, estará bajo el directorio meetups')
+    parser.add_argument('--templates-dir', '-t', default='templates', help='Directorio de plantillas donde se lee la plantilla base usada para renderizar las páginas.')
+
+    args = parser.parse_args()
+    print(args.metadata)
+
+    templates_dir = parse_path(args.templates_dir)
+    if not templates_dir:
+        raise FileNotFoundError('El directorio de plantillas no existe!')
+    output_dir = parse_path(args.output_dir)
+    if not output_dir:
+        raise FileNotFoundError('El directorio de salida no existe!')
+
+    template = 'meetup.md.j2'
+
+    for metadata_json in tqdm(args.metadata):
+        parsed_metadata = parse_json(metadata_json, metadata_parser)
+        main(parsed_metadata, templates_dir, template, output_dir)
+       
