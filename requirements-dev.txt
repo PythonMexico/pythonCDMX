@@ -10,3 +10,5 @@ pytest>=7.0.0
 
 # Dependencias para validación de links
 requests>=2.25.0
+
+tqdm

@@ -1,0 +1,48 @@
+{
+  "id": "202511-noviembre",
+  "start_date": "2025-11-11 18:30",
+  "end_date": "2025-11-11 21:00",
+  "location": {
+    "venue": "Clara"
+  },
+  "rsvp_link": "https://luma.com/ena2z4t0",
+  "event_banner_image": "/images/meetup/202511-pythoncdmx-noviembre.jpg",
+  "video_url": "https://www.youtube.com/embed/FSWqeOCTJFg",
+  "talks": [
+    {
+      "title": "SysAdmin Horror Story",
+      "subtitle": "Historias de TECHrror",
+      "description": {
+        "content": [
+          "En está ocasión nuestro ponente, Alex Callejas, nos dará una adaptación libre de historias de terror clásicas (Edgar Allan Poe, Neil Gaiman) sobre las historias más terroríficas vividas en la administración de sistemas."
+        ]
+      },
+      "speaker": {
+        "name": "Alex Callejas",
+        "title": "Content Architect",
+        "bio": "Content Architect en Red Hat con más de 25 años de experiencia como SysAdmin, fuerte experiencia en el endurecimiento de la infraestructura y la automatización. Entusiasta del código abierto. Apoya a la comunidad compartiendo su conocimiento en diferentes eventos de acceso público y universidades. Autor del libro \"Fedora Linux System Administrator\" publicado en PacktPub.",
+        "photo": "/images/ponentes/alex-callejas.png"
+      }
+    }
+  ],
+  "storytelling": [
+    "El martes llegó con ese olor a polvo antiguo que sólo exhalan los días condenados a repetirse. Y como cada mes, descendimos a nuestro pequeño santuario de penumbra, convocados por un hambre insaciable: _no de carne, sino de cerebros rebosantes de conocimiento prohibido_.",
+    "Allí, entre sombras que parecían respirar, nos aguardaban pesaddillas dispuestas a arrancarle el sueño **incluso al más valiente**; anécdotas tan inquietantes que los recién llegados se aferraban a sus asientos _como niños escuchando cuentos del más allá_.",
+    "Y al centro de todo, **Alex Callejas**, con una interpretación tan densa y lúgubre que ni Edgar Allan Poe ni Neil Gaiman se habrían atrevido a permanecer sin cubrirse con una sábana, **deseando jamás haber escuchado lo que allí se narró.**",
+    "![Foto 1 - Meetup Noviembre](/images/meetup/202511/01.jpg)",
+    "Cada historia que escapaba de su voz era como un golpe de aldaba en la ventana de un mausoleo: un portal que se abría para que los murciélagos entraran en bandadas, para que las arañas descorrieran su paciencia y tejieran redes nuevas, para que desde los rincones más fríos se escucharan las risas huecas de brujas celebrando las travesuras que cada revelación desataba.",
+    "![Foto 2 - Meetup Noviembre](/images/meetup/202511/02.jpg)",
+    "Pero aquella noche no reservaba su oscuridad sólo para el espectáculo principal. Hubo almas intrépidas que, como zombies emergiendo de tumbas recién profanadas, subieron al escenario arrastrando historias de ultratumba. Una a una, _sus voces llenaron el recinto_, provocando escalofríos que se deslizaban por la nuca, _haciendo que más de uno buscara con los ojos la salida..._ o quizá el heroísmo inesperado que pudiera salvarlos de lo que escuchaban.",
+    "![Foto 3 - Meetup Noviembre](/images/meetup/202511/03.jpg)",
+    "Y aún así, entre sobresaltos y respiraciones contenidas, hubo una belleza extraña: **la de sabernos reunidos en torno al miedo**, como si cada trauma compartido fuese un faro en medio de un cementerio interminable.",
+    "A todos los que acudieron a este _meetup de horror_, gracias por entregarse a la oscuridad con nosotros; por caminar entre historias que huelen a espanto, a memoria y a verdad.",
+    "De igual forma, **un agradecimiento a Clara**, por ser la sede para este evento que reune gente con hambre de más conocimiento, **así como a JetBrains** por las licencias que brinda a nuestra comunidad.",
+    "_Quizá esas sombras que escucharon vuelvan a ustedes...o quizá, sin darse cuenta, ya las estaban viviendo desde antes._",
+    "![Foto Grupal - Meetup Noviembre](/images/meetup/202511/04.jpg)"
+  ],
+  "tags": [
+    "DevOps",
+    "SysAdmin",
+    "Terror"
+  ]
+}

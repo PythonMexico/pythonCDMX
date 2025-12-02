@@ -32,7 +32,6 @@ class Talk:
     subtitle: str | None
     description: TalkDescription
     speaker: Speaker
-    video_url: str | None 
 
 @dataclass
 class MeetupLocation:
@@ -49,6 +48,7 @@ class MeetupMetadata:
     location: MeetupLocation
     talks: list[Talk]
     tags: list[str]
+    video_url: str | None
     storytelling: list[str] # Cada linea es un parrafo en el render final (Soporta Markdown)
 
 def parse_speaker(speaker: dict[str, Any]) -> Speaker:
@@ -74,7 +74,6 @@ def parse_talk(talk: dict[str, Any]) -> Talk:
         subtitle=talk.get('subtitle', ''),
         description=parse_description(talk['description']),
         speaker=parse_speaker(talk['speaker']),
-        video_url=talk.get('video_url')
     )
 
 def parse_location(location: dict[str, Any]) -> MeetupLocation:
@@ -95,6 +94,7 @@ def metadata_parser(metadata: dict[str, Any]) -> MeetupMetadata:
     print(f'Procesando {len(talks)} charlas')
     first_talk = talks[0]
     storytelling = metadata.get('storytelling', [])
+    video_url = metadata.get('video_url')
     # Si solo hay una charla, podemos heredar los campos de su metadata,
     # si hay más de una charla, es mandatorio definir los campos en raiz.
     if len(talks) == 1:
@@ -110,7 +110,8 @@ def metadata_parser(metadata: dict[str, Any]) -> MeetupMetadata:
             location=location,
             talks=talks,
             tags=tags,
-            storytelling=storytelling
+            storytelling=storytelling,
+            video_url=video_url
         )
     else:
         title = metadata['title']
@@ -125,7 +126,8 @@ def metadata_parser(metadata: dict[str, Any]) -> MeetupMetadata:
             location=location,
             talks=talks,
             tags=tags,
-            storytelling=storytelling
+            storytelling=storytelling,
+            video_url=video_url
         )
 
 T = TypeVar('T')
