@@ -10,22 +10,23 @@
 
 ---
 
-| :fontawesome-solid-calendar: **Fecha** | :fontawesome-solid-microphone: **Charla** | :fontawesome-solid-user: **Ponente** | :fontawesome-solid-map-marker-alt: **Lugar** | :fontawesome-solid-link: **Detalles** |
-|:---|:---|:---|:---|:---|
-| **11 Noviembre 2025** | Historias de TECHrror - SysAdmin Horror Story | Alex Callejas | Clara | [Ver detalles](202511-noviembre) |  
-| **12 Agosto 2025** | Cómo preparar una ambiente de desarrollo con Python desde zero | Juan Guillermo Gómez | Jardin Chapultepec | [Ver detalles](202508-agosto) |
-| **08 Julio 2025** | Cómo preparar una ambiente de desarrollo con Python desde zero | David Sol | Clara | [Ver detalles](202507-julio) |
-| **10 Junio 2025** | Usando Python y software libre para crear nuevas herramientas: Traductor de voz español-inglés | Carlos Cesar Caballero | Wizeline México | [Ver detalles](202506-junio) |
-| **13 Mayo 2025** | Construyendo un paquete en Python y publicándolo en PyPI | Javier Novoa | Wizeline México | [Ver detalles](202505-mayo) |
-| **25 Abril 2025** | portafolio.py: Como hacer un portafolio web sin saber diseño web | Daniel Paredes | UNAM Facultad de Ciencias | [Ver detalles](202504-unam) |
-| **25 Abril 2025** | Programar en tiempos del Vibe-Coding | Charly Roman | UNAM Facultad de Ciencias | [Ver detalles](202504-unam) |
-| **08 Abril 2025** | El para que cosa de Quien. Kubernetes y AI | Carlos Reyes | Wizeline México | [Ver detalles](202504-abril) |
-| **11 Marzo 2025** | Mi Primer Agente de Inteligencia Artificial con Python | Erik Rivera | Wizeline México | [Ver detalles](202503-marzo) |
-| **11 Maro 2025** | Interfases gráficas con Pyside6 | David Sol | Wizeline México | [Ver detalles](202503-marzo) |
-| **11 Febrero 2025** | Lecciones del Advent of Code 2024 | Manuel Rábade | Wizeline México | [Ver detalles](202502-febrero) |
-| **11 Febrero 2025** | Embeddings: El lenguaje como las máquinas entienden el lenguaje humano | Juan Guillermo Gómez | Wizeline México | [Ver detalles](202502-febrero) |
-| **14 Enero 2025** | Crea extensiones para LibreOffice con Python | elMau (Mauricio B.) | Wizeline México | [Ver detalles](202501-enero) |
-| **14 Enero 2025** | Seguridad y cumplimiento de Python: Garantizar el cumplimiento de PCI DSS | Mauro Parra | Wizeline México | [Ver detalles](202501-enero) |
+| :fontawesome-solid-calendar: **Fecha** | :fontawesome-solid-microphone: **Charla**                                                      | :fontawesome-solid-user: **Ponente** | :fontawesome-solid-map-marker-alt: **Lugar** | :fontawesome-solid-link: **Detalles** |
+|:---------------------------------------|:-----------------------------------------------------------------------------------------------|:-------------------------------------|:---------------------------------------------|:--------------------------------------|
+| **11 Noviembre 2025**                  | Historias de TECHrror - SysAdmin Horror Story                                                  | Alex Callejas                        | Clara                                        | [Ver detalles](202511-noviembre)      |
+| **14 Octubre 2025**                    | Explorando productos satelitales con Python: de Sentinel-2 al mapeo                            | Alejandro López                      | Lyft                                         | [Ver detalles](202510-octubre)        |
+| **12 Agosto 2025**                     | Cómo preparar una ambiente de desarrollo con Python desde zero                                 | Juan Guillermo Gómez                 | Jardin Chapultepec                           | [Ver detalles](202508-agosto)         |
+| **08 Julio 2025**                      | Cómo preparar una ambiente de desarrollo con Python desde zero                                 | David Sol                            | Clara                                        | [Ver detalles](202507-julio)          |
+| **10 Junio 2025**                      | Usando Python y software libre para crear nuevas herramientas: Traductor de voz español-inglés | Carlos Cesar Caballero               | Wizeline México                              | [Ver detalles](202506-junio)          |
+| **13 Mayo 2025**                       | Construyendo un paquete en Python y publicándolo en PyPI                                       | Javier Novoa                         | Wizeline México                              | [Ver detalles](202505-mayo)           |
+| **25 Abril 2025**                      | portafolio.py: Como hacer un portafolio web sin saber diseño web                               | Daniel Paredes                       | UNAM Facultad de Ciencias                    | [Ver detalles](202504-unam)           |
+| **25 Abril 2025**                      | Programar en tiempos del Vibe-Coding                                                           | Charly Roman                         | UNAM Facultad de Ciencias                    | [Ver detalles](202504-unam)           |
+| **08 Abril 2025**                      | El para que cosa de Quien. Kubernetes y AI                                                     | Carlos Reyes                         | Wizeline México                              | [Ver detalles](202504-abril)          |
+| **11 Marzo 2025**                      | Mi Primer Agente de Inteligencia Artificial con Python                                         | Erik Rivera                          | Wizeline México                              | [Ver detalles](202503-marzo)          |
+| **11 Maro 2025**                       | Interfases gráficas con Pyside6                                                                | David Sol                            | Wizeline México                              | [Ver detalles](202503-marzo)          |
+| **11 Febrero 2025**                    | Lecciones del Advent of Code 2024                                                              | Manuel Rábade                        | Wizeline México                              | [Ver detalles](202502-febrero)        |
+| **11 Febrero 2025**                    | Embeddings: El lenguaje como las máquinas entienden el lenguaje humano                         | Juan Guillermo Gómez                 | Wizeline México                              | [Ver detalles](202502-febrero)        |
+| **14 Enero 2025**                      | Crea extensiones para LibreOffice con Python                                                   | elMau (Mauricio B.)                  | Wizeline México                              | [Ver detalles](202501-enero)          |
+| **14 Enero 2025**                      | Seguridad y cumplimiento de Python: Garantizar el cumplimiento de PCI DSS                      | Mauro Parra                          | Wizeline México                              | [Ver detalles](202501-enero)          |
 
 ---
 
