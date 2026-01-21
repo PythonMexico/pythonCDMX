@@ -262,29 +262,36 @@ Crea archivos en `docs/meetups/YYYY/mes-YYYY.md` siguiendo la plantilla y metada
 
 ### Prerrequisitos
 
-- Python 3.8+
+- Python 3.11+
 - Git
+- [uv](https://docs.astral.sh/uv/) (gestor de paquetes y proyectos Python - recomendado) o pip
 - Editor de código (VS Code, PyCharm, etc.)
 
 ### Fork y Setup Inicial
 
+1. Haz un fork del repositorio en Github
+2. Clona tu fork usando `git clone https://github.com/${TU_USUARIO}/pythonCDMX.git`, haciéndolo de esta manera, se registrarán automáticamente `origin` y `upstream` 
+
+#### Ejecutar usando UV (Recomendado)
+
 ```bash
-# 1. Haz fork del repositorio en GitHub
-# 2. Clona tu fork
-git clone https://github.com/TU-USUARIO/pythonCDMX.git
-cd pythonCDMX
+# Para instalar las dependencias
+uv sync
+# Ejecuta el programa con
+uv run mkdocs serve
+```
 
-# 3. Configura el repositorio original como upstream
-git remote add upstream https://github.com/PythonMexico/pythonCDMX.git
+#### Ejecutar usando Pip+Venv (Tradicional)
 
-# 4. Crear entorno virtual
+```bash
+# Crea el entorno virtual
 python -m venv .venv
 source .venv/bin/activate  # En Windows: .venv\Scripts\activate
 
-# 5. Instalar dependencias
+# Instalar dependencias
 pip install -r requirements.txt
 
-# 6. Ejecutar servidor de desarrollo
+# Ejecutar servidor de desarrollo
 mkdocs serve
 ```
 
@@ -374,13 +381,13 @@ git push origin nombre-de-tu-rama
 
 ```bash
 # Construir sitio
-mkdocs build
+uv run mkdocs build
 
 # Servir sitio localmente
-mkdocs serve
+uv run mkdocs serve
 
 # Validar configuración
-mkdocs build --strict
+uv run mkdocs build --strict
 
 # Limpiar build
 rm -rf site/

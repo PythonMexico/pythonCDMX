@@ -2,12 +2,11 @@ name: Deploy to AWS S3 + CloudFront
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 permissions:
   contents: read
   id-token: write # Required for AWS OIDC authentication
-
 
 jobs:
   commit_lint:
@@ -37,19 +36,19 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Python and UV
+        uses: astral-sh/setup-uv@v7
         with:
-          python-version: '3.11'
-          cache: 'pip'
+          version: latest
+          enable-cache: true
+          activate-environment: true
+          python-version: "3.13"
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+        run: uv sync --all-extras
 
       - name: Build MkDocs site
-        run: mkdocs build --strict --use-directory-urls
+        run: uv run mkdocs build --strict --use-directory-urls
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -85,7 +84,7 @@ jobs:
     needs: build-and-deploy
     runs-on: ubuntu-latest
     environment:
-          name: aws-stag
+      name: aws-stag
     steps:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4

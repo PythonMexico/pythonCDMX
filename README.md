@@ -34,25 +34,21 @@ git clone https://github.com/PythonMexico/pythonCDMX.git
 cd pythonCDMX
 
 # Instalar dependencias
-pip install -r requirements.txt
+uv sync
 ```
 
 ### Desarrollo Local
 
 ```bash
 # Servidor de desarrollo con recarga automática
-mkdocs serve
-
-# El sitio estará disponible en:
-# http://localhost:8000
+uv run mkdocs serve
 ```
 
 ### Construcción para Producción
 
 ```bash
 # Generar sitio estático
-mkdocs build
-
+uv run mkdocs build
 # Los archivos se generan en la carpeta site/
 ```
 
@@ -82,7 +78,7 @@ python-cdmx-charlas/
 │   └── metadata_json/           # Datos de meetups
 ├── .github/workflows/           # CI/CD con GitHub Actions
 ├── mkdocs.yml                   # Configuración de MkDocs
-├── requirements.txt             # Dependencias Python
+├── pyproject.toml               # Dependencias Python
 └── README.md                    # Este archivo
 ```
 

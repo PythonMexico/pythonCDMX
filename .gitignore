@@ -274,3 +274,5 @@ Thumbs.db
 
 # Generated files
 broken_links.json
+
+.python-version

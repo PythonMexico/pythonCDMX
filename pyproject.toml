@@ -1,0 +1,24 @@
+[project]
+name = "python-cdmx"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jinja2>=3.1.6",
+    "mkdocs>=1.6.1",
+    "mkdocs-awesome-nav>=3.3.0",
+    "mkdocs-git-revision-date-localized-plugin>=1.5.0",
+    "mkdocs-material>=9.7.1",
+    "mkdocs-minify-plugin>=0.8.0",
+    "pymdown-extensions>=10.19.1",
+    "requests>=2.32.5",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.5.1",
+    "pytest>=9.0.2",
+    "ruff>=0.14.10",
+    "tqdm>=4.67.1",
+]

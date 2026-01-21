@@ -1,21 +1,22 @@
 # Dockerfile para Python CDMX Charlas
 # Basado en Python 3.11 slim para optimizar el tamaño
 
-FROM python:3.11-slim
+FROM python:3.13-slim
 
 # Establecer variables de entorno
 ENV PYTHONUNBUFFERED=1 \
-    PYTHONDONTWRITEBYTECODE=1 \
-    PIP_NO_CACHE_DIR=1 \
-    PIP_DISABLE_PIP_VERSION_CHECK=1
+  PYTHONDONTWRITEBYTECODE=1 \
+  UV_COMPILE_BYTECODE=1 \
+  UV_LINK_MODE=copy \
+  UV_PROJECT_ENVIRONMENT=/app/.venv
 
 # Instalar dependencias del sistema
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends \
-        git \
-        curl \
-        build-essential \
-    && rm -rf /var/lib/apt/lists/*
+  && apt-get install -y --no-install-recommends \
+  git \
+  curl \
+  ca-certificates \
+  && rm -rf /var/lib/apt/lists/*
 
 # Crear usuario no-root para seguridad
 RUN groupadd -r mkdocs && useradd -r -g mkdocs mkdocs
@@ -24,10 +25,11 @@ RUN groupadd -r mkdocs && useradd -r -g mkdocs mkdocs
 WORKDIR /app
 
 # Copiar archivos de dependencias
-COPY requirements.txt .
+COPY pyproject.toml uv.lock ./
 
 # Instalar dependencias de Python
-RUN pip install --no-cache-dir -r requirements.txt
+RUN --mount=type=cache,target=/root/.cache/uv \
+  uv sync --frozen --no-dev
 
 # Copiar código fuente
 COPY . .
@@ -43,13 +45,13 @@ EXPOSE 8000
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
-    CMD curl -f http://localhost:8000/ || exit 1
+  CMD curl -f http://localhost:8000/ || exit 1
 
 # Comando por defecto
-CMD ["mkdocs", "serve", "--dev-addr=0.0.0.0:8000"]
+CMD ["uv", "run", "mkdocs", "serve", "--dev-addr=0.0.0.0:8000"]
 
 # Etiquetas de metadatos
 LABEL maintainer="Python CDMX <info@pythoncdmx.org>" \
-      description="Sitio web oficial de Python CDMX Charlas" \
-      version="1.0.0" \
-      org.opencontainers.image.source="https://github.com/PythonMexico/pythonCDMX"
+  description="Sitio web oficial de Python CDMX Charlas" \
+  version="1.0.0" \
+  org.opencontainers.image.source="https://github.com/PythonMexico/pythonCDMX"
